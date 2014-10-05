@@ -1,0 +1,5 @@
+Site: Off Broadway Dance Studio
+Url: offbroadwaydance.com
+Author: Matt Trask github.com/rocketpastsix
+Copyright: 2014
+Frameworks: Twitter Bootstrap https://github.com/twbs/bootstrap

@@ -6,6 +6,9 @@
 		<div class="row">
 			<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
 				<h1 class="text-center">FAQs/Notes for Parents | Questions about Registration</h1>
+				<p class="text-center">We've tried to think of every question possible to make it easy on you!</p>
+				<p class="text-center">Click on a topic and the answer appears, almost like magic!</p>
+				<p class="text-center">If you cant find the answer you want, email us <a href="mailto:offbroadway@msn.com?subject=I have a question about OBD!">here</a>
 			</di>
 		</div>
 	</div><hr />

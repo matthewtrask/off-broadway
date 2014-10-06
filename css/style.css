@@ -27,6 +27,7 @@ body, html {
 
 main {
 	margin-bottom: 20px;
+	/*background-color: #FFFF66;*/
 }
 
 
@@ -233,8 +234,8 @@ footer {
 }
 
 .red {
-	background: red;
-	color: white;
+/*	background: #F7CA18;*/
+	color: black;
 	width: 100%;
 }
 
@@ -255,14 +256,47 @@ footer {
 	display: none;
 }
 
+/**************************
+
+	SHOW PAGES STYLES
+
+**************************/
+
+img#current_show {
+	margin-top: -60px;
+}
+
+img#cinderella_setup {
+	margin-bottom: 20px;
+}
 
 
+/**************************
 
+	REG PAGE STYLES
 
+**************************/
 
+.signup {
+	border: 2px solid black;
+}
 
+.signup:hover {
+	background-color: red;
+	color: white;
+}
 
+.signup a {
+	color: black;
+}
 
+.signup a:hover {
+	color: white;
+}
+
+#reg_pic {
+	margin-top: 20px;
+}
 
 
 

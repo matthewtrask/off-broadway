@@ -53,10 +53,26 @@
 		                </ul>
 		            </li>
 	                <li><a href="shows.php">Shows</a></li>
-	                <li><a href="registration.php">Registration</a></li>
+	                <li><a href="#" data-toggle="dropdown" class="dropdown-toggle">Registration<b class="caret"></b></a>
+						<ul class="dropdown-menu" id="dropdown">
+							<li><a href="registration.php">Register</a></li>
+							<li><a href="schedule.php">Schedule</a></li>
+						</ul>
+	                </li>
 	                <li><a href="boxoffice.php">Box Office</a></li>
 	            </ul>
 	        </div>
 	    </div>
 	</nav>
 	<!-- /Nav Bar -->
+
+
+
+
+
+
+
+
+
+
+

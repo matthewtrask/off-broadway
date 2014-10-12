@@ -1,5 +1,17 @@
-Site: Off Broadway Dance Studio
-Url: offbroadwaydance.com
-Author: Matt Trask github.com/rocketpastsix
-Copyright: 2014
-Frameworks: Twitter Bootstrap https://github.com/twbs/bootstrap
+# humanstxt.org/
+# The humans responsible & technology colophon
+
+# TEAM
+
+    <name> -- <role> -- <twitter>
+    Matt Trask - Developer - @matthewtrask
+
+# THANKS
+
+    <name>
+
+# TECHNOLOGY COLOPHON
+
+    HTML5, CSS3
+    Normalize.css, jQuery, Modernizr, Bootstrap
+    Google Analytics

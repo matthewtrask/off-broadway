@@ -101,10 +101,26 @@ background-color: #fff;
 footer {
 	background-color: red;
 	color: #FFF;
-	height: 150px;
+/*	height: 150px;*/
 	width: 100%;
 	position: absolute;
 }
+
+#socialmedia ul li {
+	list-style-type: none;
+	margin-left: 10px;
+}
+
+#socialmedia ul li {
+	margin-bottom: 10px;
+}
+
+#socialmedia ul li a {
+	color: white;
+	text-decoration: none;
+	margin-bottom: 10px;
+}
+
 
 /**************************
 

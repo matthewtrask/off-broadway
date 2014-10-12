@@ -18,6 +18,7 @@
 	<!-- Javacript CDN -->
 	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
 	<script src="js/bootstrap.min.js"></script>
+	<script src="js/modernizr-2.8.0.min.js"></script>
 	<script src="js/main.js"></script>
 
 </head>
@@ -38,6 +39,7 @@
 	        <!-- Collection of nav links and other content for toggling -->
 	        <div id="navbarCollapse" class="collapse navbar-collapse navbar-right">
 	            <ul class="nav navbar-nav navbar-right">
+	            	<li><a href="atthestudio.php">Whats New</a></li>
 	                <li><a href="#" data-toggle="dropdown" class="dropdown-toggle">About Us<b class="caret"></b></a>
 						<ul class="dropdown-menu"  id="dropdown">
 							<li><a href="about.php">The Studio</a></li>
@@ -52,7 +54,13 @@
 		                	<li><a href="faq.php">FAQs</a></li>
 		                </ul>
 		            </li>
-	                <li><a href="shows.php">Shows</a></li>
+	                <li><a href="#" data-toggle="dropdown" class="dropdown-toggle">Shows<b class="caret"></b></a>
+	                	<ul class="dropdown-menu" id="dropdown">
+	                		<li><a href="shows.php">Current Production</a></li>
+	                		<li><a href="upcoming.php">Upcoming Shows</a></li>
+	                		<li><a href="auditions.php">Auditions</a></li>
+	                	</ul>
+	                </li>
 	                <li><a href="#" data-toggle="dropdown" class="dropdown-toggle">Registration<b class="caret"></b></a>
 						<ul class="dropdown-menu" id="dropdown">
 							<li><a href="registration.php">Register</a></li>

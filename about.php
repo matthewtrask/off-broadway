@@ -6,12 +6,34 @@
 	<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
 		<div class="container">
 			<div class="row">
-				<h1 class="text-center">Welcome to Off Broadway Dance Studio!</h1>
-				<h4 class="text-center">Roswell's Premier Dance Studio for Children!</h4>
+				<h1 class="text-center">Welcome to Off Broadway Dance Theatre!</h1>
+				<h4 class="text-center">Roswell's Premier Dance Studio &amp; Theatre for Children!</h4>
 			</div>
 		</div>
 	</div>
 
+	<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+		<div class="container">
+			<div class="row">
+				<h4 class="text-center">Learn more about us!</h4>
+			</div>
+			<div class="row" id="quicklinks">
+				<a href="#about_obd"><p class="text-center">About Us</p></a>
+				<a href="#reasons_obd"><p class="text-center">A few reasons to choose us</p></a>
+				<a href="#top_ten_reasons"><p class="text-center">Top Ten Reasons</p></a>
+			</div>
+		</div>
+	</div>
+
+	<!-- <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 scroll">
+		<div class="container">
+			<div class="row">
+				<h5>State of the art studios</h5>
+				<h5>Large variety of dance styles to choose from ages 3 to 18</h5>
+			</div>
+		</div>
+	</div>
+ -->
 
 	<div class="col-sm-12 col-md-12 col-lg-12">
 		<div class="container">
@@ -62,7 +84,7 @@
 	</div> -->
 	<hr />
 
-	<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+	<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12" id="about_obd">
 		<div class="container">
 			<hr class="caro_divide" />
 			<div class="row">
@@ -75,11 +97,11 @@
 		<hr />
 	</div>
 	
-	<div class="container" id="reasons_obd">
+	<div class="container">
 		<div class="row">
 			<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
 				<div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
-					<h3 class="text-center">Why Choose Off Broadway?</h3>
+					<h3 class="text-center"  id="reasons_obd">Why Choose Off Broadway?</h3>
 					<p class="text-center">Since 2000, Off Broadway has welcomed hundreds of students that have taken dance classes at our school in Alpharetta, GA. We started out very small, but have become the fast growing performing arts school in the area!</p>
 					<p class="text-center">We offer dance classes in ballet, jazz, tap, hip hop, preschool dance classes and other dance styles, a full children’s theatre and private music lessons. We have a year end recital that is broken up over 3 shows we are able to make the shows a comfortable length for parents, grandparents and young children.</p>
 					<p class="text-center">All studios are not the same. As a parent, we realize you have a choice between several different dance schools, which is why we try to update and improve our facilities. In addition, we provide ongoing training to our staff to ensure we are always providing our students and parents with the best experience possible.</p>
@@ -87,7 +109,7 @@
 				</div>
 				<div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
 					<h3 class="text-center">Top 10 reasons to choose Off Broadway Dance</h3>
-						<ul class="text-center" id="obd-reasons">
+						<ul class="text-center" id="top_ten_reasons">
 							<li>Large variety of dance styles to choose from ages 3 to 18</li><br />
 							<li>State of the art studios</li><br />
 							<li>Limited class sizes for more one-on-one attention</li><br />
@@ -132,6 +154,12 @@
 
 
 </main>
+<script>
+
+
+
+
+</script>
 
 <?php include('inc/footer.php'); ?>
 

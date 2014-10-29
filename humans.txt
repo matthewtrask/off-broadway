@@ -4,14 +4,14 @@
 # TEAM
 
     <name> -- <role> -- <twitter>
-    Matt Trask - Developer - @matthewtrask
+    Matt Trask - Developer/Designer - @matthewtrask
 
 # THANKS
 
-    <name>
+
 
 # TECHNOLOGY COLOPHON
 
-    HTML5, CSS3
+    HTML5, CSS3, PHP
     Normalize.css, jQuery, Modernizr, Bootstrap
     Google Analytics

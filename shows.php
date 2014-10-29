@@ -18,9 +18,9 @@
 			</div>
 			<div class="col-xs-12 col-sm-7 col-md-8 col-lg-8">
 				<h2 class="text-center">Current Production</h2>
-				<p class="text-center">We are proud to present the OBD Childrens Theatre in "Cinderella Kids".</p>
+				<p class="text-center">We are proud to present the OBD Childrens Theatre in "Annie Jr".</p>
 				<p class="text-center">Shows are running October 3rd through October 10th.</p>
-				<p class="text-center">Click <a href="http://offbroadwaydance.ticketleap.com/cinderella-kids/">here</a> to buy tickets!</p>
+				<p class="text-center">Click <a href="http://offbroadwaydance.ticketleap.com/cinderella-kids/">here</a> to buy tickets, or visit <a href="boxoffice.php">Our Box Office Page</a></p>
 				<p class="text-center">We are currently gearing up for our next show, Annie!</p>
 			</div>
 		</div>

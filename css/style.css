@@ -179,12 +179,28 @@ footer {
 
 }
 
+#quicklinks a {
+	font-size: 1.5em;
+	display: inline-block;
+	margin-left: 180px;
+	margin-top: 20px;
+	text-decoration: none;
+	color: red;
+}
+
+#quicklinks a:hover {
+	background-color: red;
+	color: white;
+}
+
+
 #aboutbody h1 {
 	margin-top: 50px;
 }
 
 #carousel {
 	width: 100%;
+	margin-top: 60px;
 }
 
 #carousel img {
@@ -214,10 +230,12 @@ footer {
 	margin-bottom: 30px;
 }
 
-#obd-reasons {
+#top_ten_reasons {
 	list-style-type: none;
 }
 
+
+​
 /**************************
 
 	TEACHER PAGE STYLES
@@ -314,6 +332,17 @@ img#cinderella_setup {
 	margin-top: 20px;
 }
 
+/**************************
+
+	FAQ and AUDITION HIDE DIV STYLES
+
+**************************/
+
+
+.click_me:hover{
+	color: #fff;
+	background-color: red;
+}
 
 
 

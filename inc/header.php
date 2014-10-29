@@ -44,6 +44,7 @@
 						<ul class="dropdown-menu"  id="dropdown">
 							<li><a href="about.php">The Studio</a></li>
 							<li><a href="teachers.php">Teachers</a></li>
+							<li><a href="school.php">The School</a></li>
 						</ul>
 	                </li>
 	                <li><a href="#" data-toggle="dropdown" class="dropdown-toggle">Classes<b class="caret"></b></a>

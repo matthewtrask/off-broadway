@@ -1,9 +1,9 @@
 off-broadway
 ============
 
-project for a childrens studio in roswell
+Project for a childrens studio in roswell
 
-taking existing site, offbroadwaydance.com, and moving it to a mobile friendly updated site.
+Taking existing site, offbroadwaydance.com, and moving it to a mobile friendly updated site. It will now reside at offbroadwaykids.net
 
 This will be open for other developers to help out. 
 

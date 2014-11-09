@@ -14,7 +14,7 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-xs-12 col-sm-5 col-md-4 col-lg-4">
-				<img src="img/cinderella.png" alt="" width="100%">
+				<img src="img/anniejr.jpg" alt="" width="100%">
 			</div>
 			<div class="col-xs-12 col-sm-7 col-md-8 col-lg-8">
 				<h2 class="text-center">Current Production</h2>

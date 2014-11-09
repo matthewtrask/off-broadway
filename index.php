@@ -5,8 +5,8 @@
 	<div class="home" id="home">
 
 		<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-			<h1 class="text-center">Off Broadway Dance Studio</h1>
-			<p class="text-center">An Award Winning Children's Dance Studio</p>
+			<h1 class="text-center">Off Broadway Performing Arts Center</h1>
+			<p class="text-center">Where Every Child Shines</p>
 			<p class="text-center">Right in the heart of Roswell</p>
 		</div>
 

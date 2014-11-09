@@ -345,5 +345,15 @@ img#cinderella_setup {
 }
 
 
+/**************************
+
+	CAST STYLES
+
+**************************/
+
+#cast_list ul li {
+	list-style-type: none;
+}
+
 
 

@@ -22,7 +22,7 @@
 	<div class="container" style="margin-top: 20px;">
 		<div class="row">
 			<div class="col-xs-12 col-sm-6 col-md-6 col-lg-5">
-				<img src="img/anniejr.jpg">
+				<img src="img/anniejr.jpg" width="100%">
 			</div>
 			<div class="col-xs-12 col-sm-6 col-md-6 col-lg-7">
 				<p class="text-center">With audtions concluded, we are now in the middle of preparing for our next preformance, Annie Jr!</p>
@@ -30,18 +30,19 @@
 				<p class="text-center">It makes for a perfect holiday date night!</p>
 				<p class="text-center">Tickets on sale November 15th!</p>
 			</div>
-		</div>
+		</div><hr />
 	</div>
 
 	<div class="container" style="margin-top: 20px;">
 		<div class="row">
 			<div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
-				<p class="text-center">Check out our Sweet Apple Elementary School Friends perform The Jungle Book!</p>
-				<p class="text-center">November 7th and November 8th, only at Off Broadway Theatre!</p>
+				<h2 class="text-center">A special datyime performance!</h2>
+				<p class="text-center">Check out our special Daytime matinees of Annie Jr!</p>
+				<p class="text-center">Dec 11, 12, 18 and 19!</p>
 				<p class="text-center">Tickets on sale now!</p>
 			</div>
 			<div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
-				<img src="img/junglebook.jpg">
+				<img src="img/annie-flyer.pdf" width="100%">
 			</div>
 		</div>
 	</div>

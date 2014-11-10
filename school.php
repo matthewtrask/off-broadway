@@ -8,7 +8,7 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-				<h1 class="text-center">Our Homeschool</h1>
+				<h1 class="text-center">Our Academy</h1>
 				<h3 class="text-center">We offer a special time for kids who are homeschooled.</h3>
 			</div>
 		</div>

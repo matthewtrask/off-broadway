@@ -1,12 +1,12 @@
-<?php $studio = "Off Broadway Children's Dance Studio"; ?>
-<?php $title = "Off Broadway Dance"; ?>
+<?php $studio = "Off Broadway Children's Theatre"; ?>
+<!--<?php $title = "Off Broadway"; ?>-->
 
 <!doctype html>
 <html>
 <head>	
 	<meta charset="utf-8">
 	<meta name=​"Keywords" content=​"Off Broadway Dance, Children's Theater, Children's Theatre, dance, acting, music,  musical theater, musical theatre, classes, Alpharetta, Roswell, Milton, Crabapple GA, dance studio, dance school, dance instruction, acting classes, voice lessons, music instruction, dance studios in GA, Georgia dance studios, dance lessons in Georgia, dance lessons in Alpharetta, dance classes in Alpharetta, music lessons, dance studios, children's dancing classes, children's acting classes, children's music classes, children's dance classes,  dancing, tap lessons, ballet lessons, jazz lessons, performance, performing arts, theatre, theater, recital, studio, summer classes, summer camp, music studio, music school, acting school, homeschool, OBD, 30004">​
-	<title><?php echo $title; ?> | Childrens Dance Studio in Roswell</title>
+	<title><?php echo $title; ?> | Childrens Theatre in Roswell</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 	<!-- Fonts -->
 	<link href="http://fonts.googleapis.com/css?family=Lato:300,400,700" rel="stylesheet" type="text/css">
@@ -44,7 +44,7 @@
 						<ul class="dropdown-menu"  id="dropdown">
 							<li><a href="about.php">The Studio</a></li>
 							<li><a href="teachers.php">Teachers</a></li>
-							<li><a href="school.php">The School</a></li>
+							<!--<li><a href="school.php">The School</a></li>-->
 						</ul>
 	                </li>
 	                <li><a href="#" data-toggle="dropdown" class="dropdown-toggle">Classes<b class="caret"></b></a>
@@ -58,6 +58,7 @@
 	                <li><a href="#" data-toggle="dropdown" class="dropdown-toggle">Shows<b class="caret"></b></a>
 	                	<ul class="dropdown-menu" id="dropdown">
 	                		<li><a href="shows.php">Current Production</a></li>
+	                		<li><a href="cast.php">Cast</a></li>
 	                		<li><a href="upcoming.php">Upcoming Shows</a></li>
 	                		<li><a href="auditions.php">Auditions</a></li>
 	                	</ul>

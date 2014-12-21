@@ -35,7 +35,7 @@
 				<p class="text-center"><a href="boxoffice.php">Click here</a> to buy tickets!</p>
 			</div>
 			<div class="col-xs-12 col-sm-5 col-md-4 col-lg-4">
-				<img src="img/annie-flyer.pdf" alt="" width="100%">
+				<img src="img/Annie-flyer.pdf" alt="" width="100%">
 			</div>
 		</div>
 	</div>

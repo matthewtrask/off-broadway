@@ -23,16 +23,7 @@
 		</div>
 	</div>
 
-	<div class="container">
-		<div class="row">
-			<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-				<h1 class="text-center">Counter</h1>
-				<p class="text-center">This will echo the counter once its built.</p>
-				<?php include ('counter.php'); ?>
-			</div>
-		</div>
-	</div>
-
+	
 
 
 

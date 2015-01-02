@@ -25,6 +25,7 @@
 			<div class="row">
 				<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
 					<p class="text-center" id="copy">&copy; <?php echo date("Y"); ?> <?php echo $studio; ?></p>
+					<p class="text-center">Site Visitors: <?php include('counter.php'); ?></p>
 				</div>
 			</div>
 		</div>

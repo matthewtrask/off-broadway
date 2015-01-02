@@ -2,8 +2,8 @@
 
 $countMyPage = ("hitcounter.txt");
 $myHits = file($countMyPage);
-$hits[0] ++;
+$myHits[0] ++;
 $fileOpen = fopen($countMyPage, "w");
-fputs($fileOpen, "$hits[0]");
+fputs($fileOpen, "$myHits[0]");
 fclose($fileOpen);
-echo $hits[0];
+echo $myHits[0];

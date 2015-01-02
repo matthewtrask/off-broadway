@@ -7,17 +7,17 @@
 			<div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
 				<h1 class="text-center">Things to Add</h1>
 					<ul>
-						<li></li>
-						<li></li>
-						<li></li>
+						<li>Remove Image on Landing Page</li>
+						<li>Counter</li>
+						<li>Find Google Analytics Password</li>
+						<li>Troupe Page</li>
+
 					</ul>
 			</div>
 			<div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
 				<h1 class="text-center">Change Log</h1>
 					<ul>
-						<li></li>
-						<li></li>
-						<li></li>
+						<li>Initial Build of Hit counter script</li>
 					</ul>
 			</div>
 		</div>
@@ -28,6 +28,7 @@
 			<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
 				<h1 class="text-center">Counter</h1>
 				<p class="text-center">This will echo the counter once its built.</p>
+				<?php include ('counter.php'); ?>
 			</div>
 		</div>
 	</div>

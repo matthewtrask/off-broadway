@@ -25,8 +25,8 @@ body, html {
 	margin-top: 30px 0;
 }
 
-main {
-	margin-bottom: 20px;
+main #body {
+	margin-bottom: 165px;
 	/*background-color: #FFFF66;*/
 }
 
@@ -104,6 +104,7 @@ footer {
 /*	height: 150px;*/
 	width: 100%;
 	position: absolute;
+	margin-top: -20px;
 }
 
 #socialmedia ul li {
@@ -128,7 +129,12 @@ footer {
 
 **************************/
 
-#home {
+main #home {
+	height: 100%;
+	margin-bottom: 50px;
+}
+
+/*#home {
 	background: url(../img/broadway.jpg); no-repeat center center fixed;
 	height: 100%;
 	width: 100%;
@@ -137,35 +143,51 @@ footer {
 	-moz-background-size: cover;
 	-o-background-size: cover;
     background-size: cover;
-}
+}*/
 
 #home h1{
-	margin-top: 160px;
-	color: #fff;
-	font-size: 5em;
-	text-shadow: 0 0 3px black, 0 0 3px black, 0 0 3px black, 0 0 3px black, 0 0 3px black, 0 0 3px black, 0 0 3px black, 0 0 3px black, 0 0 3px black, 0 0 3px black, 0 0 3px black, 0 0 3px black, 0 0 3px black, 0 0 3px black, 0 0 3px black, 0 0 3px black, 0 0 3px black, 0 0 3px black, 0 0 3px black, 0 0 3px black;
+	margin-top: 70px;
+	color: red;
+	font-size: 4em;
+	text-shadow: 0 0 3px white, 0 0 3px white, 0 0 3px white, 0 0 3px white, 0 0 3px black, 0 0 3px black, 0 0 3px black, 0 0 3px black, 0 0 3px black, 0 0 3px black, 0 0 3px black, 0 0 3px black, 0 0 3px black, 0 0 3px black, 0 0 3px black, 0 0 3px black, 0 0 3px white, 0 0 3px white, 0 0 3px white, 0 0 3px white;
 
 }
 
 #home p {
-	color: #fff;
-	font-size: 2.5em;
-	text-shadow: 0 0 3px black, 0 0 3px black, 0 0 3px black, 0 0 3px black, 0 0 3px black, 0 0 3px black, 0 0 3px black, 0 0 3px black, 0 0 3px black, 0 0 3px black, 0 0 3px black, 0 0 3px black, 0 0 3px black, 0 0 3px black, 0 0 3px black, 0 0 3px black, 0 0 3px black, 0 0 3px black, 0 0 3px black, 0 0 3px black;
+	color: red;
+	font-size: 2em;
+	text-shadow: 0 0 3px white, 0 0 3px white, 0 0 3px white, 0 0 3px white, 0 0 3px black, 0 0 3px black, 0 0 3px black, 0 0 3px black, 0 0 3px black, 0 0 3px black, 0 0 3px black, 0 0 3px black, 0 0 3px black, 0 0 3px black, 0 0 3px black, 0 0 3px black, 0 0 3px white, 0 0 3px white, 0 0 3px white, 0 0 3px white;
 
 }
 
-#btn {
-  margin:0px auto; 
-  width: 12em;
+#mainCarousel {
+	width: 100%;
+	margin-top: 60px;
+	margin-bottom: 50px;
 }
 
-
-
-#btn:hover {
-	background-color: red;
-	color: white;
+#mainCarousel img {
+	height: 680px;
+	width: 1200px;
 }
 
+#mainCarousel > .carousel-inner {
+	margin-left: 5px;
+}
+
+#mainCarousel > .carousel-inner > .item > img {
+    margin: 0 auto;
+}
+
+#mainCarousel > .carousel-control.left, .carousel-control.right{ 
+	background: none !important; 
+	filter: progid:none !important; 
+}
+
+.image-small {
+	height: 60%;
+	width: 70%;
+}
 
 /**************************
 
@@ -355,5 +377,16 @@ img#cinderella_setup {
 	list-style-type: none;
 }
 
+/**************************
 
+	CLASS SCHEDULE STYLES
 
+**************************/
+
+.danceClasses ul li {
+	list-style-type: none;
+}
+
+#schedule {
+	margin-bottom: 150px;
+}

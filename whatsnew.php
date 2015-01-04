@@ -33,7 +33,7 @@
 		</div><hr />
 	</div>
 
-	<div class="container" style="margin-top: 20px;">
+	<!-- <div class="container" style="margin-top: 20px;">
 		<div class="row">
 			<div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
 				<h2 class="text-center">A special datyime performance!</h2>
@@ -42,10 +42,10 @@
 				<p class="text-center">Tickets on sale now!</p>
 			</div>
 			<div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
-				<img src="img/annie-flyer.pdf" width="100%">
+				<img src="img/Annie-flyer.pdf" width="100%">
 			</div>
 		</div>
-	</div>
+	</div> -->
 </main>
 
 <?php include('inc/footer.php'); ?>

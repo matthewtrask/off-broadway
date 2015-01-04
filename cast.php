@@ -1,6 +1,7 @@
 <?php $current_show = 'Annie Jr.'; ?>
 <?php $title = 'Cast'; ?>
 <?php include('inc/header.php'); ?>
+
 <main class="body">
 	<div class="container">
 		<div class="row">

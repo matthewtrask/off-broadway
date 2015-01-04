@@ -2,19 +2,60 @@
 
 	
 	<!-- Main Body -->
-	<div class="home" id="home">
-
-		<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-			<h1 class="text-center">Off Broadway Performing Arts Center</h1>
-			<p class="text-center">Where Every Child Shines</p>
-			<p class="text-center">Right in the heart of Roswell</p>
+	<main class="body" id="home">
+		<div class="container">
+			<div class="row">
+				<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+					<h1 class="text-center">Off Broadway Performing Arts</h1>
+					<p class="text-center">Where Every Child Shines, right in the heart of Roswell</p>
+				</div>
+			</div>
 		</div>
 
-		<div class="text-center col-xs-12 col-sm-12 col-md-12 col-lg-12">
-			<button type="button" class="btn btn-default btn-lg" id="btn"><a href="about.php">Action!</a></button>
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-12 col-md-12 col-lg-12">
+		
+	
+				<!--  Carousel -->
+				<div id="mainCarousel" class="carousel slide" data-ride="carousel">
+			    	<!-- Menu -->
+				    <ol class="carousel-indicators">
+				        <li data-target="#carousel" data-slide-to="0" class="active"></li>
+				        <li data-target="#carousel" data-slide-to="1"></li>
+				        <li data-target="#carousel" data-slide-to="2"></li>
+				        <li data-target="#carousel" data-slide-to="3"></li>
+				    </ol>
+			    
+			    	<!-- Items -->
+				    <div class="carousel-inner">
+				        
+				        <div class="item active">
+				            <img src="img/pulsedance.jpg" alt="Slide 1" />
+				        </div>
+				        <div class="item">
+				            <img src="img/reunion.jpg" alt="Slide 2" />
+				        </div>
+				        <div class="item">
+				            <img src="img/groupshot2.jpg" alt="Slide 3" />
+				        </div>
+				        <div class="item">
+				        	<img src="img/cat_face.jpg" alt="Slide 4" />
+				        </div>
+				    </div> 
+				    <a href="#mainCarousel" class="left carousel-control" data-slide="prev">
+				        <span class="glyphicon glyphicon-chevron-left"></span>
+				    </a>
+				    <a href="#mainCarousel" class="right carousel-control" data-slide="next">
+				        <span class="glyphicon glyphicon-chevron-right"></span>
+				    </a>
+				</div>
+
+			</div>
+
 		</div>
 
-	</div>
+	</main>
 	<!-- /Main Body -->
 
 <?php include('inc/footer.php'); ?>

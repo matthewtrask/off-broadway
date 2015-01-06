@@ -3,7 +3,7 @@
 	
 	<!-- Main Body -->
 	<main class="body" id="home">
-		<div class="container" style="margin-top: 30px;">
+		<div class="container" >
 			<div class="row">
 				<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
 					<a href="//offbroadwaydance.com/about.php"><img src="img/newlogo.jpg" alt="" class="img-responsive center-block"></a>
@@ -16,7 +16,7 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-sm-12 col-md-12 col-lg-12">
-		
+				<img id="small_screen" class="img-responsive center-block" src="img/groupshot3.jpg" alt="">
 	
 				<!--  Carousel -->
 				<div id="mainCarousel" class="carousel slide" data-ride="carousel">

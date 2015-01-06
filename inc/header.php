@@ -85,7 +85,7 @@
 				<a href="//www.facebook.com/offbroadwaydancetheater"><li><img src="socialmedia/facebook.png"></li></a>
 				<a href="//twitter.com/offbroadwayga"><li><img src="socialmedia/twitter.png"></li></a>
 				<a href="//offbroadway.wordpress.com"><li><img src="socialmedia/wordpress.png"></li></a>
-				<a href="//www.youtube.com/channel/UCCqDdlVrQu0sMOspypLRY4w"><li><img src="socialmedia/youtube.png"></li>
+				<a href="//www.youtube.com/channel/UCCqDdlVrQu0sMOspypLRY4w"><li><img src="socialmedia/youtube.png"></li></a>
 			</ul>
 		</div>
 	</div>

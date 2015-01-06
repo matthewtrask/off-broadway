@@ -21,14 +21,8 @@
 
 	<div class="container" style="margin-top: 20px;">
 		<div class="row">
-			<div class="col-xs-12 col-sm-6 col-md-6 col-lg-5">
-				<img src="img/anniejr.jpg" width="100%">
-			</div>
-			<div class="col-xs-12 col-sm-6 col-md-6 col-lg-7">
-				<p class="text-center">With audtions concluded, we are now in the middle of preparing for our next preformance, Annie Jr!</p>
-				<p class="text-center">Please call, email or stop by the theatre to get tickets to one of our shows. December 12-21</p>
-				<p class="text-center">It makes for a perfect holiday date night!</p>
-				<p class="text-center">Tickets on sale November 15th!</p>
+			<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+				<h1 class="text-center">Coming Soon!</h1><hr />
 			</div>
 		</div><hr />
 	</div>

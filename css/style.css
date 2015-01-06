@@ -93,7 +93,14 @@ background-color: #fff;
 #sm_icons {
 	margin-top: 50px;
 }
- #sm
+ #sm_icons ul {
+	list-style: none;
+	display: inline-block;
+ }
+
+ #sm_icons ul li {
+ 	display: inline-block;
+ }
 
 /**************************
 

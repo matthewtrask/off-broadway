@@ -89,10 +89,7 @@
 			<hr class="caro_divide" />
 			<div class="row">
 				<h2 class="text-center">About Off Broadway Dance Studio</h2>
-				<p class="text-center">At Off Broadway, we believe all students should have a chance to “shine.” Our students are encouraged to explore singing, dancing and acting and experience all facets of the performing arts.
-									   With an emphasis on Musical Theatre, Off Broadway  not only offers traditional dance instruction, but we also offer Acting, Musical Theatre, Broadway Movement and other theatre based classes. This helps each student be the best performer he or she can be whether it is in a school drama or professional theatre.
-									   Our studio prides itself on being a place where every child gets an equal chance. No parts are given based on seniority or how many classes a child takes - performing opportunities are given to everyone who shows an interest. Every student is a STAR in our studio.</p>
-			</div>
+				<p class="text-center">Off Broadway Performing Arts and the Off Broadway Children’s Theatre were established in 1999, based on a lifelong passion for theater and a love for teaching young people to find their self worth and confidence. Christian and Shannon Mayer followed this dream, and have watched Off Broadway grow into a successful company that has worked with hundreds of young performers for many years.  We believe every child can shine if given the chance and confidence to do so.</div>
 		</div>
 		<hr />
 	</div>

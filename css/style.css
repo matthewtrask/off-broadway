@@ -90,7 +90,10 @@ background-color: transparent;
 background-color: #fff;
 }*/
 
-
+#sm_icons {
+	margin-top: 50px;
+}
+ #sm
 
 /**************************
 
@@ -167,8 +170,8 @@ main #home {
 }
 
 #mainCarousel img {
-	height: 680px;
-	width: 1200px;
+	height: 650px;
+	width: 1000px;
 }
 
 #mainCarousel > .carousel-inner {
@@ -390,3 +393,26 @@ img#cinderella_setup {
 #schedule {
 	margin-bottom: 150px;
 }
+
+/**************************
+
+	TROUPE STYLES
+
+**************************/
+
+.headshots {
+	height: 250px;
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+

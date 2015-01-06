@@ -13,12 +13,14 @@
 
 	<!-- Styles -->
 	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link href="//cdn.rawgit.com/noelboss/featherlight/1.0.3/release/featherlight.min.css" type="text/css" rel="stylesheet" title="Featherlight Styles" />
 	<link rel="stylesheet" type="text/css" href="css/media.css">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 	<link rel="icon" type="image/png" href="offbroadwaydance.com/star.ico">
 	<!-- Javacript CDN -->
 	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
 	<script src="js/bootstrap.min.js"></script>
+	<script src="//cdn.rawgit.com/noelboss/featherlight/1.0.3/release/featherlight.min.js" type="text/javascript" charset="utf-8"></script>
 	<script src="js/modernizr-2.8.0.min.js"></script>
 	<script src="js/main.js"></script>
 
@@ -45,6 +47,7 @@
 						<ul class="dropdown-menu"  id="dropdown">
 							<li><a href="about.php">The Studio</a></li>
 							<li><a href="teachers.php">Teachers</a></li>
+							<li><a href="troupe.php">OBD Troupe</a></li>
 							<!--<li><a href="school.php">The School</a></li>-->
 						</ul>
 	                </li>
@@ -76,7 +79,16 @@
 	    </div>
 	</nav>
 	<!-- /Nav Bar -->
-
+	<div class="container" id="sm_icons">
+		<div class="row">
+			<ul>
+				<li>Facebook</li>
+				<li>Twitter</li>
+				<li>Tumblr</li>
+				<li>YouTube</li>
+			</ul>
+		</div>
+	</div>
 
 
 

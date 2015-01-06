@@ -3,12 +3,13 @@
 	
 	<!-- Main Body -->
 	<main class="body" id="home">
-		<div class="container">
+		<div class="container" style="margin-top: 30px;">
 			<div class="row">
 				<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-					<h1 class="text-center">Off Broadway Performing Arts</h1>
+					<a href="//offbroadwaydance.com/about.php"><img src="img/newlogo.jpg" alt="" class="img-responsive center-block"></a>
+					<!-- <h1 class="text-center">Off Broadway Performing Arts</h1>
 					<p class="text-center">Where Every Child Shines, right in the heart of Roswell</p>
-				</div>
+				 --></div>
 			</div>
 		</div>
 
@@ -31,7 +32,7 @@
 				    <div class="carousel-inner">
 				        
 				        <div class="item active">
-				            <img src="img/pulsedance.jpg" alt="Slide 1" />
+				            <img src="img/groupshot3.jpg" alt="Slide 1" />
 				        </div>
 				        <div class="item">
 				            <img src="img/reunion.jpg" alt="Slide 2" />

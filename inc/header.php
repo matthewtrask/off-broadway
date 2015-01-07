@@ -53,6 +53,7 @@
 	                </li>
 	                <li><a href="#" data-toggle="dropdown" class="dropdown-toggle">Classes<b class="caret"></b></a>
 		                <ul class="dropdown-menu"  id="dropdown">
+		                	<li><a href="classes.php">Classes</a></li>
 		                	<li><a href="danceclasses.php">Dance Classes</a></li>
 		                	<li><a href="actingclasses.php">Acting Classes</a></li>
 		                	<li><a href="pulsedance.php">ODB Pulse Dance Company</a></li>

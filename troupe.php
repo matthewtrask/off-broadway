@@ -19,7 +19,7 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-xs-6 col-sm-2 col-md-2 col-lg-2">
-				<img src="img/headshot1.jpg" data-featherlight="img/headshot1.jpg" class="headshots img-responsive center-block" alt="">
+				<img class="headshots img-responsive center-block"  data-featherlight="img/headshot1.jpg" src="img/headshot1.jpg" alt="">
 			</div>
 			<div class="col-xs-6 col-sm-2 col-md-2 col-lg-2">
 				<img class="headshots img-responsive center-block" data-featherlight="img/headshot2.jpg" src="img/headshot2.jpg" alt="">
@@ -34,7 +34,7 @@
 				<img class="headshots img-responsive center-block" data-featherlight="img/headshot5.jpg" src="img/headshot5.jpg" alt="">
 			</div>
 			<div class="col-xs-6 col-sm-2 col-md-2 col-lg-2">
-				<img class="headshots img-responsive center-block" data-featherlight="img/headshot5.jpg" src="img/headshot6.jpg" alt="">
+				<img class="headshots img-responsive center-block" data-featherlight="img/headshot6.jpg" src="img/headshot6.jpg" alt="">
 			</div>
 		</div>
 	</div>
@@ -42,28 +42,46 @@
 	<div class="container">
 		<div class="row">
 			
-			<div class="col-xs-6 col-sm-3 col-md-3 col-lg-3">
-				<img class="headshots img-responsive center-block" src="img/headshot7.jpg" alt="">
+			<div class="col-xs-6 col-sm-2 col-md-2 col-lg-2">
+				<img class="headshots img-responsive center-block" data-featherlight="img/headshot7.jpg" src="img/headshot7.jpg" alt="">
 			</div>
-			<div class="col-xs-6 col-sm-3 col-md-3 col-lg-3">
-				<img class="headshots img-responsive center-block" src="img/headshot8.jpg" alt="">
+			<div class="col-xs-6 col-sm-2 col-md-2 col-lg-2">
+				<img class="headshots img-responsive center-block" data-featherlight="img/headshot8.jpg" src="img/headshot8.jpg" alt="">
+			</div>
+			<div class="col-xs-6 col-sm-2 col-md-2 col-lg-2">
+				<img class="headshots img-responsive center-block" data-featherlight="img/headshot9.jpg" src="img/headshot9.jpg" alt="">
+			</div>
+			<div class="col-xs-6 col-sm-2 col-md-2 col-lg-2">
+				<img class="headshots img-responsive center-block" data-featherlight="img/headshot10.jpg" src="img/headshot10.jpg" alt="">
+			</div>
+			<div class="col-xs-6 col-sm-2 col-md-2 col-lg-2">
+				<img class="headshots img-responsive center-block" data-featherlight="img/headshot11.jpg" src="img/headshot11.jpg" alt="">
+			</div>
+			<div class="col-xs-6 col-sm-2 col-md-2 col-lg-2">
+				<img class="headshots img-responsive center-block" data-featherlight="img/headshot12.jpg" src="img/headshot12.jpg" alt="">
 			</div>
 		</div>
 	</div>
 
 	<div class="container">
 		<div class="row">
-			<div class="col-xs-6 col-sm-3 col-md-3 col-lg-3">
-				<img class="headshots img-responsive center-block" src="img/headshot9.jpg" alt="">
+			<div class="col-xs-6 col-sm-2 col-md-2 col-lg-2">
+				<img class="headshots img-responsive center-block" data-featherlight="img/headshot13.jpg" src="img/headshot13.jpg" alt="">
 			</div>
-			<div class="col-xs-6 col-sm-3 col-md-3 col-lg-3">
-				<img class="headshots img-responsive center-block" src="img/headshot10.jpg" alt="">
+			<div class="col-xs-6 col-sm-2 col-md-2 col-lg-2">
+				<img class="headshots img-responsive center-block" data-featherlight="img/headshot14.jpg" src="img/headshot14.jpg" alt="">
 			</div>
-			<div class="col-xs-6 col-sm-3 col-md-3 col-lg-3">
-				<img class="headshots img-responsive center-block" src="img/headshot11.jpg" alt="">
+			<div class="col-xs-6 col-sm-2 col-md-2 col-lg-2">
+				<img class="headshots img-responsive center-block" data-featherlight="img/headshot15.jpg" src="img/headshot15.jpg" alt="">
 			</div>
-			<div class="col-xs-6 col-sm-3 col-md-3 col-lg-3">
-				<img class="headshots img-responsive center-block" src="img/headshot12.jpg" alt="">
+			<div class="col-xs-6 col-sm-2 col-md-2 col-lg-2">
+				<img class="headshots img-responsive center-block" data-featherlight="img/headshot16.jpg" src="img/headshot16.jpg" alt="">
+			</div>
+			<div class="col-xs-6 col-sm-2 col-md-2 col-lg-2">
+				<img class="headshots img-responsive center-block" data-featherlight="img/headshot17.jpg" src="img/headshot17.jpg" alt="">
+			</div>
+			<div class="col-xs-6 col-sm-2 col-md-2 col-lg-2">
+				<img class="headshots img-responsive center-block" data-featherlight="img/headshot18.jpg" src="img/headshot18.jpg" alt="">
 			</div>
 		</div>
 	</div>
@@ -71,61 +89,30 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-xs-6 col-sm-3 col-md-3 col-lg-3">
-				<img class="headshots img-responsive center-block" src="img/headshot13.jpg" alt="">
+				<img class="headshots img-responsive center-block"  data-featherlight="img/headshot19.jpg"src="img/headshot19.jpg" alt="">
 			</div>
 			<div class="col-xs-6 col-sm-3 col-md-3 col-lg-3">
-				<img class="headshots img-responsive center-block" src="img/headshot14.jpg" alt="">
+				<img class="headshots img-responsive center-block" data-featherlight="img/headshot20.jpg" src="img/headshot20.jpg" alt="">
 			</div>
 			<div class="col-xs-6 col-sm-3 col-md-3 col-lg-3">
-				<img class="headshots img-responsive center-block" src="img/headshot15.jpg" alt="">
+				<img class="headshots img-responsive center-block" data-featherlight="img/headshot21.jpg" src="img/headshot21.jpg" alt="">
 			</div>
 			<div class="col-xs-6 col-sm-3 col-md-3 col-lg-3">
-				<img class="headshots img-responsive center-block" src="img/headshot16.jpg" alt="">
+				<img class="headshots img-responsive center-block" data-featherlight="img/headshot22.jpg" src="img/headshot22.jpg" alt="">
 			</div>
 		</div>
 	</div>
 
 	<div class="container">
 		<div class="row">
-			<div class="col-xs-6 col-sm-3 col-md-3 col-lg-3">
-				<img class="headshots img-responsive center-block" src="img/headshot17.jpg" alt="">
+			<div class="col-xs-6 col-sm-4 col-md-4 col-lg-4">
+				<img class="headshots img-responsive center-block" data-featherlight="img/headshot23.jpg" src="img/headshot23.jpg" alt="">
 			</div>
-			<div class="col-xs-6 col-sm-3 col-md-3 col-lg-3">
-				<img class="headshots img-responsive center-block" src="img/headshot18.jpg" alt="">
+			<div class="col-xs-6 col-sm-4 col-md-4 col-lg-4">
+				<img class="headshots img-responsive center-block" data-featherlight="img/headshot24.jpg" src="img/headshot24.jpg" alt="">
 			</div>
-			<div class="col-xs-6 col-sm-3 col-md-3 col-lg-3">
-				<img class="headshots img-responsive center-block" src="img/headshot19.jpg" alt="">
-			</div>
-			<div class="col-xs-6 col-sm-3 col-md-3 col-lg-3">
-				<img class="headshots img-responsive center-block" src="img/headshot20.jpg" alt="">
-			</div>
-		</div>
-	</div>
-
-	<div class="container">
-		<div class="row">
-			<div class="col-xs-6 col-sm-2 col-md-2 col-lg-2">
-				<img class="headshots img-responsive center-block" src="img/headshot21.jpg" alt="">
-			</div>
-			<div class="col-xs-6 col-sm-2 col-md-2 col-lg-2">
-				<img class="headshots img-responsive center-block" src="img/headshot22.jpg" alt="">
-			</div>
-			<div class="col-xs-6 col-sm-2 col-md-2 col-lg-2">
-				<img class="headshots img-responsive center-block" src="img/headshot23.jpg" alt="">
-			</div>
-			<div class="col-xs-6 col-sm-2 col-md-2 col-lg-2">
-				<img class="headshots img-responsive center-block" src="img/headshot24.jpg" alt="">
-			</div>
-			<div class="col-xs-6 col-sm-2 col-md-2 col-lg-2">
-				<img class="headshots img-responsive center-block" src="img/headshot25.jpg" alt="">
-			</div>
-		</div>
-	</div>
-	
-	<div class="container">
-		<div class="row">
-			<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-				<img class="headshots img-responsive center-block" src="img/headshot25.jpg" alt="">
+			<div class="col-xs-6 col-sm-4 col-md-4 col-lg-4">
+				<img class="headshots img-responsive center-block" data-featherlight="img/headshot25.jpg" src="img/headshot25.jpg" alt="">
 			</div>
 		</div>
 	</div>

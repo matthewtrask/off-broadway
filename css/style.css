@@ -163,13 +163,13 @@ main #home {
 
 }
 
-#home p {
+/*#home p {
 	color: red;
 	font-size: 2em;
 	text-shadow: 0 0 3px white, 0 0 3px white, 0 0 3px white, 0 0 3px white, 0 0 3px black, 0 0 3px black, 0 0 3px black, 0 0 3px black, 0 0 3px black, 0 0 3px black, 0 0 3px black, 0 0 3px black, 0 0 3px black, 0 0 3px black, 0 0 3px black, 0 0 3px black, 0 0 3px white, 0 0 3px white, 0 0 3px white, 0 0 3px white;
 
 }
-
+*/
 #mainCarousel {
 	width: 100%;
 	margin-top: 30px;
@@ -320,6 +320,11 @@ main #home {
 
 .hide_div {
 	display: none;
+}
+
+.classes-offered ul{
+	list-style-type: none;
+
 }
 
 /**************************

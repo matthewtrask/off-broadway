@@ -13,7 +13,7 @@
 			</div>
 		</div>
 
-		<div class="container">
+		<!-- <div class="container">
 			<div class="row">
 				<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 signup">
 					<h3 class="text-center">Are you a new to Off Broadway Dance Theatre?</h3>
@@ -24,7 +24,7 @@
 					<p class="text-center">Click <a href="https://app.jackrabbitclass.com/portal/ppLogin.asp?id=277946">here</a> to review your classes and register for more classes</p>
 				</div>
 			</div>
-		</div>
+		</div> -->
 
 		<div class="container">
 			<div class="row">
@@ -67,6 +67,14 @@
 
 			</div>
 
+		</div>
+
+		<div class="container">
+			<div class="row">
+				<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+					<!--Mission Statement -->
+				</div>
+			</div>
 		</div>
 
 	</main>

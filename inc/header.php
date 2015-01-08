@@ -13,7 +13,6 @@
 
 	<!-- Styles -->
 	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
-	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
 	<link href="//cdn.rawgit.com/noelboss/featherlight/1.0.3/release/featherlight.min.css" type="text/css" rel="stylesheet" title="Featherlight Styles" />
 	<link rel="stylesheet" type="text/css" href="css/media.css">
 	<link rel="stylesheet" type="text/css" href="css/style.css">

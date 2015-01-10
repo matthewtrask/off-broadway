@@ -18,9 +18,12 @@
 				<h4 class="text-center">Learn more about us!</h4>
 			</div>
 			<div class="row" id="quicklinks">
-				<a href="#about_obd"><p class="text-center">About Us</p></a>
-				<a href="#reasons_obd"><p class="text-center">A few reasons to choose us</p></a>
-				<a href="#top_ten_reasons"><p class="text-center">Top Ten Reasons</p></a>
+				<div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+					<a href="#about_obd"><p class="text-center">About Us</p></a>
+				</div>
+				<div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+					<a href="#reasons_obd"><p class="text-center">A few reasons to choose us</p></a>
+				</div>
 			</div>
 		</div>
 	</div>
@@ -52,13 +55,13 @@
 				    <div class="carousel-inner">
 				        
 				        <div class="item active">
-				            <img src="img/newobdshow1.jpg" alt="Slide 1" />
+				            <img src="img/NewOBDShow1.jpg" alt="Slide 1" />
 				        </div>
 				        <div class="item">
-				            <img src="img/obdshow2.jpg" alt="Slide 2" />
+				            <img src="img/OBDShow2.jpg" alt="Slide 2" />
 				        </div>
 				        <div class="item">
-				            <img src="img/obdshow3.jpg" alt="Slide 3" />
+				            <img src="img/OBDShow3.jpg" alt="Slide 3" />
 				        </div>
 				    </div> 
 				    <a href="#carousel" class="left carousel-control" data-slide="prev">
@@ -97,30 +100,17 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-				<div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+				<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
 					<h3 class="text-center"  id="reasons_obd">Why Choose Off Broadway?</h3>
 					<p class="text-center">Since 2000, Off Broadway has welcomed hundreds of students that have taken dance classes at our school in Alpharetta, GA. We started out very small, but have become the fast growing performing arts school in the area!</p>
 					<p class="text-center">We offer dance classes in ballet, jazz, tap, hip hop, preschool dance classes and other dance styles, a full children’s theatre and private music lessons. We have a year end recital that is broken up over 3 shows we are able to make the shows a comfortable length for parents, grandparents and young children.</p>
 					<p class="text-center">All studios are not the same. As a parent, we realize you have a choice between several different dance schools, which is why we try to update and improve our facilities. In addition, we provide ongoing training to our staff to ensure we are always providing our students and parents with the best experience possible.</p>
 					<p class="text-center">Call us today or drop by and you will see why more families trust us for dance, theatre and music each year more than any other studio.</p>
 				</div>
-				<div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
-					<h3 class="text-center">Top 10 reasons to choose Off Broadway Dance</h3>
-						<ul class="text-center" id="top_ten_reasons">
-							<li>Large variety of dance styles to choose from ages 3 to 18</li><br />
-							<li>State of the art studios</li><br />
-							<li>Limited class sizes for more one-on-one attention</li><br />
-							<li>Fun and enthusiastic learning environment</li><br />
-							<li>Multiple instructors that care about YOU and YOUR child</li><br />
-							<li>Highly qualified, professional, and experienced instructors</li><br />
-							<li>Convenient Automatic Payment</li><br />
-							<li>Stress free recital</li><br />
-							<li>Age appropriate costumes, music, and choreography</li><br />
-							<li>Friendly office staff available to answer questions</li>
-						</ul>
-				</div>
 			</div>
 		</div>
+	</div>
+	<div id="height" style="height: 40px;">
 	</div>
 
 	<!-- <div class="container" id="bios">

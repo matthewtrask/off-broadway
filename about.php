@@ -87,7 +87,7 @@
 	</div> -->
 	<hr />
 
-	<!-- <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12" id="about_obd">
+	<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12" id="about_obd">
 		<div class="container">
 			<hr class="caro_divide" />
 			<div class="row">
@@ -95,9 +95,9 @@
 				<p class="text-center">Off Broadway Performing Arts and the Off Broadway Children’s Theatre were established in 1999, based on a lifelong passion for theater and a love for teaching young people to find their self worth and confidence. Christian and Shannon Mayer followed this dream, and have watched Off Broadway grow into a successful company that has worked with hundreds of young performers for many years.  We believe every child can shine if given the chance and confidence to do so.</div>
 		</div>
 		<hr />
-	</div> -->
+	</div>
 
-	<div class="container">
+	<!-- <div class="container">
 		<div class="row">
 			<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
 				<h2 class="text-center">About Us</h2>
@@ -106,7 +106,7 @@
 				<p class="text-center">This troupe travels to The National Performing Arts Festival in Walt Disney World each year to compete against theatres from around the nation. Call today to schedule an audition appointment at 770-664-2410</p><hr />
 			</div>
 		</div>
-	</div>
+	</div> -->
 	
 	<div class="container">
 		<div class="row">

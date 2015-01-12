@@ -73,8 +73,12 @@
 			<div class="row">
 				<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
 					<!--Mission Statement -->
+					<h2 class="text-center"><i>We believe every child can shine if given the chance and confidence to do so.</i></h2>
 				</div>
 			</div>
+		</div>
+
+		<div style="height: 40px;">
 		</div>
 
 	</main>

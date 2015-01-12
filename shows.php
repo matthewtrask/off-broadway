@@ -14,31 +14,18 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-xs-12 col-sm-5 col-md-4 col-lg-4">
-				<img src="img/anniejr.jpg" alt="" width="100%">
+				<img src="img/seuss.jpg" alt="" width="100%">
 			</div>
 			<div class="col-xs-12 col-sm-7 col-md-8 col-lg-8">
 				<h2 class="text-center">Current Production</h2>
-				<p class="text-center">We are proud to present the OBD Childrens Theatre in "Annie Jr".</p>
-				<p class="text-center">Shows are running October 3rd through October 10th.</p>
-				<p class="text-center">Click <a href="http://offbroadwaydance.ticketleap.com/cinderella-kids/">here</a> to buy tickets, or visit <a href="boxoffice.php">Our Box Office Page</a></p>
-				<p class="text-center">We are currently gearing up for our next show, Annie!</p>
+				<p class="text-center">We are proud to present the OBD Childrens Theatre in "Seussical Jr."!</p>
+				<p class="text-center">Shows are running January 30th through February 8th.</p>
+				<p class="text-center">Click <a href="http://offbroadwaydance.ticketleap.com/suessical-jr/">here</a> to buy tickets, or visit <a href="boxoffice.php">Our Box Office Page</a></p>
 			</div>
 		</div>
 	</div>
 	
-	<div class="container">
-		<div class="row">
-			<div class="col-xs-12 col-sm-7 col-md-8 col-lg-8">
-				<h2 class="text-center">We are proud to annouce a limited run of daytime shows of Annie Jr!</h2>
-				<p class="text-center">Perfect for students or senior groups out for some holiday shopping!</p>
-				<p class="text-center">Limited seating, make sure you get your tickets today!</p>
-				<p class="text-center"><a href="boxoffice.php">Click here</a> to buy tickets!</p>
-			</div>
-			<div class="col-xs-12 col-sm-5 col-md-4 col-lg-4">
-				<img src="img/Annie-flyer.pdf" alt="" width="100%">
-			</div>
-		</div>
-	</div>
+
 
 
 	<div class="container">
@@ -116,7 +103,7 @@
 				</div>
 			</div>
 			<div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
-				<img src="img/cinderella_setup.jpg" id="cinderella_setup" height="100%" width="100%">
+				<img src="img/cinderella_setup.jpg" id="cinderella_setup" height="50%" width="100%">
 			</div>
 		</div>
 	</div>

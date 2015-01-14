@@ -7,7 +7,7 @@
 		<div class="row">
 			<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
 				<h1 class="text-center">We are pleased to annouce the cast of our current show "<?php echo $current_show; ?>"!</h2>
-				<img src="img/anniejr.jpg" alt="" class="img-responsive center-block" alt="Responsive Image">
+				<img src="img/sleepingkids.jpg" alt="" class="img-responsive center-block" alt="Responsive Image">
 			</div>
 		</div>
 	</div>
@@ -16,91 +16,88 @@
 			<div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
 				<h3 class="text-center">Cast A</h3><hr />
 				<ul class="text-center">
-					<li><b>Annie</b>: Caroline Carter</li>
-					<li><b>Warbucks</b>: Derek Bass</li>
-					<li><b>Grace</b>: Jordan Paige Sudduth</li>
-					<li><b>Hannigan</b>: Savannah Manos</li>
-					<li><b>Rooster</b>: Michael Keaton</li>
-					<li><b>Lily</b>: Cat Bracker</li>
+					<li><b>King Stefan</b>: Madeline Parker</li>
+					<li><b>Queen Stefanie</b>: Victoria Andryehuk</li>
+					<li><b>King Hubert/Chorus of Fairies</b>: Riley Luther</li>
+					<li><b>Young Prince Phillip/Animal Chorus</b>: William Sternot</li>
+					<li><b>Flora</b>: Austyn Deakins</li>
+					<li><b>Fauna</b>: Tara Venkataraman</li>
+					<li><b>Merryweather</b>: Ali Wiley</li>
+					<li><b>Maleficent</b>: Lauren Riddle</li>
+					<li><b>Princess Aurora (Briar Rose)</b>: Emma Stratman</li>
+					<li><b>Prince Phillip</b>: Ella O'Brien</li>
 				</ul>
-				<h4 class="text-center">Ensemble Cast</h4><hr />
+				<h4 class="text-center">Ensemble</h4><hr />
 				<ul class="text-center">
-					<li><b>Bert Healy</b>: Chase Harrington</li>
-					<li><b>Bundles</b>: Chase Harrington</li>
-					<li><b>Apple Seller</b>: Samantha Azua</li>
-					<li><b>Lt. Ward/Policeman</b>: Noah Clary</li>
-					<li><b>Drake</b>: Jessica Thomas</li>
-					<li><b>Cecile</b>: Samantha Azua</li>
-					<li><b>Annette</b>: Maria Samaan</li>
-					<li><b>Mrs. Greer</b>: Cassie Ratner</li>
-					<li><b>Mrs. Pugh</b>: Laura Nicolosi</li>
-					<li><b>Star to Be</b>: Maria Samaan</li>
-				</ul>
-				<h4 class="text-center">Orphans</h4><hr />
-				<ul class="text-center">
-					<li><b>Molly</b>: Dakota Youngblood</li>
-					<li><b>Pepper</b>: Margaret Gibson</li>
-					<li><b>Duffy</b>: Jillian Tetrich</li>
-					<li><b>Kate</b>: Riayn Townsend</li>
-					<li><b>Tessie</b>: Paige Buckley</li>
-					<li><b>July</b>: Emma Nicolosi</li>
-				</ul>
-				<h4 class="text-center">Orphan Ensemble</h4><hr />
-				<ul class="text-center">
-					<li><b>Orphan</b>: Abigail Baumblatt</li>
-					<li><b>Orphan</b>: Riley Moore</li>
-					<li><b>Orphan</b>: Jordan Eck</li>
-					<li><b>Orphan</b>: Julianna Carter</li>
-					<li><b>Orphan</b>: Heidi Dryer</li>
-					<li><b>Orphan</b>: Cecilia Clark</li>
-					<li><b>Orphan</b>: Katherine Smith</li>
-					<li><b>Orphan</b>: Tiarra Hall</li>
+					<li><b>Guard/Fairy Chorus</b>: Julianna Carter</li>
+					<li><b>Guard/Fairy Chorus</b>: Diya Kumar</li>
+					<li><b>Guard/Fairy Chorus</b>: Emily Nix</li>
+					<li><b>Guard/Fairy Chorus</b>: Dakota Youngblood</li>
+					<br />
+					<li><b>Chorus of Fairies</b>: Isabelle Kelso</li>
+					<li><b>Chorus of Fairies</b>: Madison Levine</li>
+					<li><b>Chorus of Fairies</b>: Grace Kelso</li>
+					<li><b>Chorus of Fairies</b>: Grace Ferrell</li>
+					<li><b>Chorus of Fairies</b>: Gabrielle Andrin</li>
+					<li><b>Chorus of Fairies</b>: Ashley Stratman</li>
+					<br />
+					<li><b>Chorus of Goons/Loyal Subjects - Fumpfel</b>: Heidi Cay Selby</li>
+					<li><b>Chorus of Goons/Loyal Subjects - Pest</b>: Vibha Venkataraman </li>
+					<li><b>Chorus of Goons/Loyal Subjects - Blather</b>: Shalom Montgomery</li>
+					<li><b>Chorus of Goons/Loyal Subjects - Stench</b>: Riayn Townsend</li>
+					<br />
+					<li><b>Animal Chorus</b>: Amelia Franks</li>
+					<li><b>Animal Chorus</b>: Sanaya Patel</li>
+					<li><b>Animal Chorus</b>: Ishaan Rajdeo</li>
+					<li><b>Animal Chorus</b>: Heidi Dreyer</li>
+					<li><b>Animal Chorus</b>: Holden Slette</li>
+					<li><b>Animal Chorus</b>: Megan Sternot</li>
 				</ul>
 			</div>
 			<div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
 				<h3 class="text-center">Cast B</h3><hr />
 				<ul class="text-center">
-					<li><b>Annie</b>: Lily Brookshire</li>
-					<li><b>Warbucks</b>: Derek Bass</li>
-					<li><b>Grace</b>: Addison Bendall</li>
-					<li><b>Hannigan</b>: Carly Anderson</li>
-					<li><b>Rooster</b>: Jordan Tisdale</li>
-					<li><b>Lily</b>: Emma Edwards</li>
+					<li><b>King Stefan</b>: Stella Pietro</li>
+					<li><b>Queen Stefanie</b>: Madison Anoton</li>
+					<li><b>King Hubert/Chorus of Fairies</b>: Tori Mellinger</li>
+					<li><b>Young Prince Phillip/Animal Chorus</b>: Jack Peznola</li>
+					<li><b>Flora</b>: Paige Buckley</li>
+					<li><b>Fauna</b>: Isabella Marero</li>
+					<li><b>Merryweather</b>: Aubrey Lassetter</li>
+					<li><b>Maleficent</b>: Samantha Azua</li>
+					<li><b>Princess Aurora (Briar Rose)</b>: Addison Bendall</li>
+					<li><b>Prince Phillip</b>: Avery Soto</li>
 				</ul>
-				<h4 class="text-center">Ensemble Cast</h4><hr />
+				<h4 class="text-center">Ensemble</h4><hr />
 				<ul class="text-center">
-					<li><b>Bert Healy</b>: Owen Horton</li>
-					<li><b>Bundles</b>: Daniel Wilson</li>
-					<li><b>Apple Seller</b>: Malea Trask</li>
-					<li><b>Lt. Ward/Policeman</b>: Owen Clary</li>
-					<li><b>Drake</b>: Lauren Brooks</li>
-					<li><b>Cecile</b>: Andie Countryman</li>
-					<li><b>Annette</b>: Jadyn Regenstreif</li>
-					<li><b>Mrs. Greer</b>: Chloe Enderle</li>
-					<li><b>Mrs. Pugh</b>: Malea Trask</li>
-					<li><b>Star to Be</b>: Maria Samaan</li>
-				</ul>
-				<h4 class="text-center">Orphans</h4><hr />
-				<ul class="text-center">
-					<li><b>Molly</b>: Lexie Brooks</li>
-					<li><b>Pepper</b>: Selah Regenstreif</li>
-					<li><b>Duffy</b>: Tatiana Robinson</li>
-					<li><b>Kate</b>: Annie Siegel</li>
-					<li><b>Tessie</b>: Jillian Tetrich</li>
-					<li><b>July</b>: Ella Goodwin</li>
-				</ul>
-				<h4 class="text-center">Orphan Ensemble</h4><hr />
-					<ul class="text-center">
-					<li><b>Orphan</b>: Lucy Siegel</li>
-					<li><b>Orphan</b>: Kiana Trask</li>
-					<li><b>Orphan</b>: Nanea Trask</li>
-					<li><b>Orphan</b>: Caroline Shouldice</li>
-					<li><b>Orphan</b>: Julianna Carter</li>
-					<li><b>Orphan</b>: Canaan Goodwin</li>
-					<li><b>Orphan</b>: Penelope Johnson</li>
+					<li><b>Guard/Fairy Chorus</b>: Saddie Feddersen</li>
+					<li><b>Guard/Fairy Chorus</b>: Sabrina Rex</li>
+					<li><b>Guard/Fairy Chorus</b>: Lily Clare Moore</li>
+					<li><b>Guard/Fairy Chorus</b>: Marin McCrossan</li>
+					<br />
+					<li><b>Chorus of Fairies</b>: Cassie Ratner</li>
+					<li><b>Chorus of Fairies</b>: Cameron Baker</li>
+					<li><b>Chorus of Fairies</b>: Ashley Boomhouwer</li>
+					<li><b>Chorus of Fairies</b>: Emily Feddersen</li>
+					<li><b>Chorus of Fairies</b>: Olivia Kendig</li>
+					<li><b>Chorus of Fairies</b>: Kylie Lynch</li>
+					<br />
+					<li><b>Chorus of Goons/Loyal Subjects - Fumpfel</b>: Ella Lomas</li>
+					<li><b>Chorus of Goons/Loyal Subjects - Pest</b>: Hannah Law</li>
+					<li><b>Chorus of Goons/Loyal Subjects - Blather</b>: Bess Needle</li>
+					<li><b>Chorus of Goons/Loyal Subjects - Stench</b>: Cat Bracker</li>
+					<br />
+					<li><b>Animal Chorus</b>: Jace Smith</li>
+					<li><b>Animal Chorus</b>: Canaan Goodwin</li>
+					<li><b>Animal Chorus</b>: Amelia Baker</li>
+					<li><b>Animal Chorus</b>: Hattie Feddersen</li>
+					<li><b>Animal Chorus</b>: Matthew Bracker</li>
+					<li><b>Animal Chorus</b>: Hunter Nobile</li>
 				</ul>
 			</div>
 		</div>
+	</div>
+	<div style="height: 30px;">
 	</div>
 </main>
 

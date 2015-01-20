@@ -2,7 +2,7 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
-					<p class="text-center">Off Broadway Dance Studio</p>
+					<p class="text-center" style="color: #000">Off Broadway Dance Studio</p>
 					<p class="text-center">12350 Crabapple Rd, Ste. 122</p>
 					<p class="text-center">Alpharetta GA, 30049</p>
 					<p class="text-center">770-664-2410</p>

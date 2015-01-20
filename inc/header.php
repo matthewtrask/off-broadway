@@ -43,6 +43,8 @@
 	        <div id="navbarCollapse" class="collapse navbar-collapse navbar-right">
 	            <ul class="nav navbar-nav navbar-right">
 	            	<li><a href="whatsnew.php">Whats New</a></li>
+	            	<li><a href="camp.php">Summer Camp</a></li>
+	            	<li><a href="schools.php">School</a></li>
 	                <li><a href="#" data-toggle="dropdown" class="dropdown-toggle">About Us<b class="caret"></b></a>
 						<ul class="dropdown-menu"  id="dropdown">
 							<li><a href="about.php">The Studio</a></li>

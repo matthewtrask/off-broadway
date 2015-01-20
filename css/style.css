@@ -92,6 +92,7 @@ background-color: #fff;
 
 #sm_icons {
 	margin-top: 50px;
+	margin-left: -25px;
 }
  #sm_icons ul {
 	list-style: none;
@@ -100,7 +101,12 @@ background-color: #fff;
 
  #sm_icons ul li {
  	display: inline-block;
+
  }
+
+/* #sm_icons:first-child {
+ 	margin-right: 4000px;
+ }*/
 
 /**************************
 

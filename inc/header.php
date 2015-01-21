@@ -1,5 +1,5 @@
 <?php $studio = "Off Broadway Children's Theatre"; ?>
-<!--<?php $title = "Off Broadway"; ?>-->
+<?php $title = "Off Broadway"; ?>
 
 <!doctype html5>
 <html>
@@ -43,8 +43,8 @@
 	        <div id="navbarCollapse" class="collapse navbar-collapse navbar-right">
 	            <ul class="nav navbar-nav navbar-right">
 	            	<li><a href="whatsnew.php">Whats New</a></li>
-	            	<li><a href="camp.php">Summer Camp</a></li>
-	            	<li><a href="schools.php">School</a></li>
+	            	<!-- <li><a href="camp.php">Summer Camp</a></li> 
+	            	<li><a href="schools.php">School</a></li> -->
 	                <li><a href="#" data-toggle="dropdown" class="dropdown-toggle">About Us<b class="caret"></b></a>
 						<ul class="dropdown-menu"  id="dropdown">
 							<li><a href="about.php">The Studio</a></li>
@@ -81,13 +81,15 @@
 	</nav>
 	<!-- /Nav Bar -->
 	<div class="container" id="sm_icons">
-		<div class="row left">
-			<ul>
+		<div class="row">
+			<ul class="left">
 				<a href="//www.facebook.com/offbroadwaydancetheater"><li><img src="socialmedia/facebook.png"></li></a>
 				<a href="//twitter.com/offbroadwayga"><li><img src="socialmedia/twitter.png"></li></a>
 				<a href="//offbroadway.wordpress.com"><li><img src="socialmedia/wordpress.png"></li></a>
 				<a href="//www.youtube.com/channel/UCCqDdlVrQu0sMOspypLRY4w"><li><img src="socialmedia/youtube.png"></li></a>
 			</ul>
+
+			<img class="right img-responsive center-block" id="headerImage" src="img/newlogo.jpg" height="30%" width="60%">
 		</div>
 	</div>
 

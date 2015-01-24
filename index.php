@@ -3,15 +3,15 @@
 	
 	<!-- Main Body -->
 	<main class="body" id="home">
-		<div class="container" >
+		<!-- <div class="container" >
 			<div class="row">
 				<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
 					<a href="//offbroadwaydance.com/about.php"><img src="img/newlogo.jpg" alt="" class="img-responsive center-block"></a>
-					<!-- <h1 class="text-center">Off Broadway Performing Arts</h1>
+				    <h1 class="text-center">Off Broadway Performing Arts</h1>
 					<p class="text-center">Where Every Child Shines, right in the heart of Roswell</p>
 				 --></div>
 			</div>
-		</div>
+		</div> 
 
 		<!-- <div class="container">
 			<div class="row">

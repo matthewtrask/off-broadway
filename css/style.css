@@ -92,6 +92,7 @@ background-color: #fff;
 
 #sm_icons {
 	margin-top: 50px;
+	margin-left: -25px;
 }
  #sm_icons ul {
 	list-style: none;
@@ -100,7 +101,17 @@ background-color: #fff;
 
  #sm_icons ul li {
  	display: inline-block;
+
  }
+
+ #headerImage {
+ 	margin-right: 30px;
+ 	margin-top: -70px;
+ }
+
+/* #sm_icons:first-child {
+ 	margin-right: 4000px;
+ }*/
 
 /**************************
 
@@ -111,10 +122,9 @@ background-color: #fff;
 footer {
 	background-color: red;
 	color: #FFF;
-/*	height: 150px;*/
 	width: 100%;
 	position: absolute;
-	margin-top: -20px;
+
 }
 
 #socialmedia ul li {
@@ -130,6 +140,10 @@ footer {
 	color: white;
 	text-decoration: none;
 	margin-bottom: 10px;
+}
+
+footer p, a {
+	text-align: left;
 }
 
 

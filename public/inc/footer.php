@@ -14,10 +14,10 @@
 				<div class="col-xs-4 col-sm-4 col-md-4 col-lg-4" id="socialmedia">
 					<p class="text-center">Where we are on the web:</p>
 					<ul class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-						<li class="text-center" id="1"><a href="https://www.facebook.com/offbroadwaydancetheater">Off Broadway Facebook</a></li>
-						<li class="text-center" id="2"><a href="https://twitter.com/offbroadwayga">@Offbroadway</a></li>
-						<li class="text-center" id="3"><a href="https://offbroadwaydance.wordpress.com">Shannon's Blog</a></li>
-						<li class="text-center" id="4"><a href="mailto:offbroadway@msn.com?subject=Dance Classes!">Email us!</a></li>
+						<li class="text-left" id="1"><a href="https://www.facebook.com/offbroadwaydancetheater">Off Broadway Facebook</a></li>
+						<li class="text-left" id="2"><a href="https://twitter.com/offbroadwayga">@Offbroadway</a></li>
+						<li class="text-left" id="3"><a href="https://offbroadwaydance.wordpress.com">Shannon's Blog</a></li>
+						<li class="text-left" id="4"><a href="mailto:offbroadway@msn.com?subject=Dance Classes!">Email us!</a></li>
 					</ul>
 				</div>
 			</div>

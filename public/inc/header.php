@@ -43,16 +43,16 @@
 	        <div id="navbarCollapse" class="collapse navbar-collapse navbar-right">
 	            <ul class="nav navbar-nav navbar-right">
 	            	<li><a href="whatsnew.php">Whats New</a></li>
-	            	<!-- <li><a href="camp.php">Summer Camp</a></li> 
-	            	<li><a href="schools.php">School</a></li> -->
+					<li><a href="camp.php">Summer Camp</a></li>
+	            	<!--<li><a href="schools.php">School</a></li> -->
 	                <li><a href="#" data-toggle="dropdown" class="dropdown-toggle">About Us<b class="caret"></b></a>
 						<ul class="dropdown-menu"  id="dropdown">
 							<li><a href="about.php">The Studio</a></li>
 							<li><a href="teachers.php">Teachers</a></li>
-							<li><a href="troupe.php">OBD Troupe</a></li>
 							<!--<li><a href="school.php">The School</a></li>-->
 						</ul>
 	                </li>
+					<li><a href="troupe.php">OBD Troupe</a></li>
 	                <li><a href="#" data-toggle="dropdown" class="dropdown-toggle">Classes<b class="caret"></b></a>
 		                <ul class="dropdown-menu"  id="dropdown">
 		                	<li><a href="classes.php">Classes</a></li>
@@ -82,14 +82,17 @@
 	<!-- /Nav Bar -->
 	<div class="container" id="sm_icons">
 		<div class="row">
-			<ul class="left">
-				<a href="//www.facebook.com/offbroadwaydancetheater"><li><img src="socialmedia/facebook.png"></li></a>
-				<a href="//twitter.com/offbroadwayga"><li><img src="socialmedia/twitter.png"></li></a>
-				<a href="//offbroadway.wordpress.com"><li><img src="socialmedia/wordpress.png"></li></a>
-				<a href="//www.youtube.com/channel/UCCqDdlVrQu0sMOspypLRY4w"><li><img src="socialmedia/youtube.png"></li></a>
-			</ul>
-
-			<img class="right img-responsive center-block" id="headerImage" src="img/newlogo.jpg" height="30%" width="60%">
+			<div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+				<ul class="left">
+					<a href="//www.facebook.com/offbroadwaydancetheater"><li><img src="socialmedia/facebook.png" class="img-responsive" id="SMicons"></li></a>
+					<a href="//twitter.com/offbroadwayga"><li><img src="socialmedia/twitter.png" class="img-responsive" id="SMicons"></li></a>
+					<a href="//offbroadway.wordpress.com"><li><img src="socialmedia/wordpress.png" class="img-responsive" id="SMicons"></li></a>
+					<a href="//www.youtube.com/channel/UCCqDdlVrQu0sMOspypLRY4w"><li><img src="socialmedia/youtube.png" class="img-responsive" id="SMicons"></li></a>
+				</ul>
+			</div>
+			<div class="col-xs-8 col-sm-8 col-md-8 col-lg-8">
+				<img class="img-responsive center-block" id="headerImage" src="img/newlogo.jpg" height="50%" width="60%">
+			</div>
 		</div>
 	</div>
 

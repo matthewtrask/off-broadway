@@ -1,4 +1,4 @@
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 451px) {
 	#btn {
 		display: none;
 	}
@@ -10,16 +10,17 @@
 	.caro_divide {
 		display: none;
 	}
-}
 
-@media screen and (max-width: 750px) {
-	/*.carousel {
+	#headerImage {
 		display: none;
 	}
 
-	.caro_divide {
-		display: none;
-	}*/
+	#sm_icons ul a li{
+		display: inline !important;
+	}
+}
+
+@media screen and (max-width: 750px) {
 
 	.hide_text {
 		display: none;
@@ -84,6 +85,7 @@
 		height: 50%;
 		width: 50%;
 	}
+
 }
 
 @media only screen and (min-width: 766px) {

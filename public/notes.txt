@@ -1,13 +1,13 @@
 home page:
 shrink everything down. 
-smaller icons
-left justify footer foont
-smaller footer
+smaller icons - done
+left justify footer font
+smaller footer - partially done
 
 shrink slideshows
 
 parent portal for troupe - research
-troupe tab
+troupe tab - done
 
 register now buttons on each class
 

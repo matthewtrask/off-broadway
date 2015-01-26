@@ -104,9 +104,13 @@ background-color: #fff;
 
  }
 
+#SMIcons {
+	height: 40px;
+	width: 40px;
+}
+
  #headerImage {
  	margin-right: 30px;
- 	margin-top: -70px;
  }
 
 /* #sm_icons:first-child {
@@ -121,9 +125,12 @@ background-color: #fff;
 
 footer {
 	background-color: red;
+	font-size: 10px;
 	color: #FFF;
 	width: 100%;
 	position: absolute;
+	height: 100px;
+	margin-tiop: 100%;
 
 }
 
@@ -339,6 +346,14 @@ main #home {
 .classes-offered ul{
 	list-style-type: none;
 
+}
+
+.classes-offered button {
+	margin-bottom: 40px;
+}
+
+.classes-offered button a {
+	color: #FFF;
 }
 
 /**************************

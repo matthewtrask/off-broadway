@@ -348,6 +348,14 @@ main #home {
 
 }
 
+.classes-offered button {
+	margin-bottom: 40px;
+}
+
+.classes-offered button a {
+	color: #FFF;
+}
+
 /**************************
 
 	SHOW PAGES STYLES

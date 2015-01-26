@@ -9,10 +9,10 @@ shrink slideshows
 parent portal for troupe - research
 troupe tab - done
 
-register now buttons on each class
+register now buttons on each class - done
 
-class descriptions drop under title
-left justify
+class descriptions drop under title - done
+left justify - dome
 
 troupe and pulse company on one page
 

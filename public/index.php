@@ -32,7 +32,7 @@
 				<img id="small_screen" class="img-responsive center-block" src="img/groupshot3.jpg" alt="">
 	
 				<!--  Carousel -->
-				<div id="mainCarousel" class="carousel slide" data-ride="carousel">
+				<div id="mainCarousel" class="carousel slide" data-ride="carousel" width="300px" height="300px">
 			    	<!-- Menu -->
 				    <ol class="carousel-indicators">
 				        <li data-target="#carousel" data-slide-to="0" class="active"></li>

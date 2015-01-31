@@ -105,8 +105,8 @@ background-color: #fff;
  }
 
 #SMIcons {
-	height: 40px;
-	width: 40px;
+	height: 50px;
+	width: 50px;
 }
 
  #headerImage {
@@ -198,8 +198,8 @@ main #home {
 }
 
 #mainCarousel img {
-	height: 550px;
-	width: 850px;
+	height: 450px;
+	width: 750px;
 }
 
 #mainCarousel > .carousel-inner {
@@ -212,7 +212,23 @@ main #home {
 
 #mainCarousel > .carousel-control.left, .carousel-control.right{ 
 	background: none !important; 
-	filter: progid:none !important; 
+	filter: progid:none !important;
+}
+
+.carousel-control.left {
+	margin-left: 120px;
+}
+
+/*.carousel-control.right{
+	margin-right: 120px;
+}
+*/
+.glyphicon-chevron-left{
+	margin-left: 140px;
+}
+
+.glyphicon-chevron-right{
+	margin-right: 120px;
 }
 
 .image-small {

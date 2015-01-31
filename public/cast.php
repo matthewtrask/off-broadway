@@ -1,4 +1,4 @@
-<?php $current_show = 'Annie Jr.'; ?>
+<?php $current_show = 'Sleeping Beauty'; ?>
 <?php $title = 'Cast'; ?>
 <?php include('inc/header.php'); ?>
 

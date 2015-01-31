@@ -13,20 +13,7 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-				<h2 class="text-center">We are proud to announce our next 4 productions!</h2>
-			</div>
-		</div>
-	</div>
-
-	<div class="container" style="margin-top: 30px;">
-		<div class="row">
-			<div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
-				<h2 class="text-center">Annie Jr</h2>
-				<p class="text-center">December 12th-21st</p>
-				<p class="text-center">Tickets on sale November 15!</p>
-			</div>
-			<div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
-				<img src="img/anniejr.jpg">
+				<h2 class="text-center">We are proud to announce our next 3 productions!</h2>
 			</div>
 		</div>
 	</div>

@@ -23,6 +23,21 @@
 		</div>
 	</div>
 
+	<div style="height: 50px">
+	</div>
+
+	<div class="container">
+		<div class="row">
+			<div class="col-xs-12 col-sm-7 col-md-8 col-lg-8">
+				<h2 class="text-center">Summer Camps!</h2>
+				<p class="text-center">Come on over to the <a href="camp.php">Summer Camp</a> page and sign up now for our summer camps!</p>
+			</div>
+			<div class="col-xs-12 col-sm-5 col-md-4 col-lg-4">
+				<img src="img/summercamp.jpg" height="50%" width="50%" class="img-responsive center-block">
+			</div>
+		</div>
+	</div>
+
 	<div id="space" style="height: 320px;">
 	</div>
 

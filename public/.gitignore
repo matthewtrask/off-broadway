@@ -18,4 +18,6 @@ sftp-config.json
 
 
 # files for project
-/hitcounter.txt/
+hitcounter.txt
+vagrantfile
+.vagrant/*

@@ -38,7 +38,7 @@
 			</div>
 
 			<div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
-				<img src="img/Honk_jr_summer.jpg" alt="" class="img-responsive center-block" style="margin-bottom: 70px">
+				<img src="img/Honk_jr_summer.jpg" alt="" class="img-responsive center-block" style="margin-bottom: 96px">
 				<h4 class="text-center">Honk Jr.</h4>
 				<h6 class="text-center">Ages 7-16</h6>
 				<h6 class="text-center">June 22- June 26</h6>
@@ -48,6 +48,36 @@
 				<p>Ugly looks quite a bit different from his darling duckling brothers and sisters. The other animals on the farm are quick to notice and point this out, despite his mother's protective flapping. Feeling rather foul about himself, the little fowl finds himself on adventure of self discovery all the while unknowingly outwitting a very hungry Cat. Along the way Ugly meets a whole flock of unique characters and finds out being different is not a bad thing to be.</p>
 			</div>
 		</div>
+	</div>
+
+	<div class="container">
+		<div class="row">
+			<div class="col-xs-12 col-sm-12 col-md-12 col-12">
+				<h3 class="text-center"><b>Preschool Drama Makers Camp</b></h3>
+				<h5 class="text-center">Ages 3-5</h5>
+				<h5 class="text-center">Camp Times: 9:30am - 12pm</h5>
+				<h5 class="text-center">Cost: $100</h5>
+				<p>You might think your 3, 4 or 5 year-old makes enough of their own drama, but in Preschool Drama Makers they’ll use their creative energy for good. This camp allows students the opportunity to play with their favorite stories and picture books through theatre, crafts, song, and dance. Growing artistically and socially in an independent environment, campers are encouraged to let their imaginations go wild and harness their creativity to collaborate with others. This camp concludes with an informal open classroom show for parents and friends.
+				   (Snack is provided)</p>
+				   <div class="row">
+				   		<div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+				   			<h4 class="text-center">Session 1: June 1 - June 5</h4>
+				   			<h4 class="text-center">Frozen And Friends</h4>
+				   		</div>
+				   		<div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+				   			<h4 class="text-center">Session 2: June 8 - June 11</h4>
+				   			<h4 class="text-center">Disney Mania</h4>
+				   		</div>
+				   		<div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+				   			<h4 class="text-center">Session 3: June 15 - June 19</h4>
+				   			<h4 class="text-center">Priates And Pixies</h4>
+				   		</div>
+				   </div>
+			</div>
+		</div>
+	</div>
+
+	<div style="height:40px">
 	</div>
 
 </main>

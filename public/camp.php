@@ -44,9 +44,8 @@
 				<h6 class="text-center">June 22- June 26</h6>
 				<h6 class="text-center">Camp Times: 10am-2pm</h6>
 				<h6 class="text-center">Cost: $185</h6>
-				<h6 class="text-center">Shows on June 26,27 TBD</h6>
-				<p>For veteran actors and newbies alike, this camp is an exciting way to spend the summer being friends and making memories. Children will rehearse this show for the two weeks leading up to performance time. Children are asked to bring a snack lunch. They will also help create the scenery, create costumes and props. They will learn all facets of the show productions. Auditions will be held on day 1. Please have them prepare a 30 second song to sing at auditions.</p><br />
-				<p>Ugly looks quite a bit different from his darling duckling brothers and sisters. The other animals on the farm are quick to notice and point this out, despite his mother's protective flapping. Feeling rather foul about himself, the little fowl finds himself on adventure of self discovery all the while unknowingly outwitting a very hungry Cat. Along the way Ugly meets a whole flock of unique characters and finds out being different is not a bad thing to be</p>
+				<p>For veteran actors and newbies alike, this camp is an exciting way to spend the summer being friends and making memories. Children will rehearse excerpts from this show for 1 week leading up to performance time. Children are asked to bring a snack lunch. They will also help create the scenery, create costumes and props. They will learn all facets of the show productions. Auditions will be held on day 1. Please have them prepare a 30 second song to sing at auditions.</p><br />
+				<p>Ugly looks quite a bit different from his darling duckling brothers and sisters. The other animals on the farm are quick to notice and point this out, despite his mother's protective flapping. Feeling rather foul about himself, the little fowl finds himself on adventure of self discovery all the while unknowingly outwitting a very hungry Cat. Along the way Ugly meets a whole flock of unique characters and finds out being different is not a bad thing to be.</p>
 			</div>
 		</div>
 	</div>

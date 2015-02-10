@@ -26,7 +26,7 @@
 	<div class="container" id="reg_pic">
 		<div class="row">
 			<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-				<img src="img/seussopening.jpg" alt="" width="100%" height="">
+				<img src="img/play3.jpg" alt="" width="100%" height="">
 			</div>
 		</div>
 	</div>

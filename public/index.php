@@ -45,7 +45,7 @@
 				    <div class="carousel-inner">
 				        
 				        <div class="item active">
-				            <img src="img/groupshot3.jpg" alt="Slide 1" />
+				            <img src="img/play3.jpg" alt="Slide 1" />
 				        </div>
 				        <div class="item">
 				            <img src="img/reunion.jpg" alt="Slide 2" />
@@ -54,7 +54,7 @@
 				            <img src="img/groupshot2.jpg" alt="Slide 3" />
 				        </div>
 				        <div class="item">
-				        	<img src="img/cat_face.jpg" alt="Slide 4" />
+				        	<img src="img/play5.jpg" alt="Slide 4" />
 				        </div>
 				    </div> 
 				    <a href="#mainCarousel" class="left carousel-control" data-slide="prev">

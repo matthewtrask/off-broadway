@@ -38,7 +38,15 @@
 		</div>
 	</div>
 
-	<div id="space" style="height: 320px;">
+	<div class="container" style="margin-top: 30px">
+		<div class="row">
+			<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+				<img class="img-responsive center-block" src="img/play9.jpg">
+			</div>
+		</div>
+	</div>
+
+	<div id="space" style="height: 120px;">
 	</div>
 
 	<!-- <div class="container" style="margin-top: 20px;">

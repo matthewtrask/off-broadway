@@ -84,7 +84,7 @@
 	<!-- /Nav Bar -->
 	<div class="container" id="sm_icons">
 		<div class="row">
-			<div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+			<div class="col-xs-4 col-sm-4 col-md-4 col-lg-3">
 				<ul class="left">
 					<a href="//www.facebook.com/offbroadwaydancetheater"><li><img src="socialmedia/facebook.png" class="img-responsive" id="SMicons"></li></a>
 					<a href="//twitter.com/offbroadwayga"><li><img src="socialmedia/twitter.png" class="img-responsive" id="SMicons"></li></a>
@@ -92,8 +92,8 @@
 					<a href="//www.youtube.com/channel/UCCqDdlVrQu0sMOspypLRY4w"><li><img src="socialmedia/youtube.png" class="img-responsive" id="SMicons"></li></a>
 				</ul>
 			</div>
-			<div class="col-xs-8 col-sm-8 col-md-8 col-lg-8">
-				<img class="img-responsive center-block" id="headerImage" src="img/newlogo.jpg" height="50%" width="60%">
+			<div class="col-xs-8 col-sm-8 col-md-8 col-lg-9">
+				<img class="img-responsive center-block" id="headerImage" src="img/newlogo.jpg" height="50%" width="70%">
 			</div>
 		</div>
 	</div>

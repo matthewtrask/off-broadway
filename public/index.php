@@ -48,7 +48,7 @@
 				            <img src="img/play3.jpg" alt="Slide 1" />
 				        </div>
 				        <div class="item">
-				            <img src="img/reunion.jpg" alt="Slide 2" />
+				            <img src="img/wickswerehere.jpg" alt="Slide 2" />
 				        </div>
 				        <div class="item">
 				            <img src="img/groupshot2.jpg" alt="Slide 3" />

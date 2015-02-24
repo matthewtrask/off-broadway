@@ -17,19 +17,7 @@
 			</div>
 		</div>
 	</div>
-
-	<div class="container" style="margin-top: 30px;">
-		<div class="row">
-			<div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
-				<h2 class="text-center">Suessical Jr</h2>
-				<p class="text-center">January 30th-February 8th</p>
-			</div>
-			<div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
-				<img src="img/suessmusical.jpg">
-			</div>
-		</div>
-	</div>
-
+	
 	<div class="container" style="margin-top: 30px;">
 		<div class="row">
 			<div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">

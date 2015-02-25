@@ -93,7 +93,7 @@
 				</ul>
 			</div>
 			<div class="col-xs-8 col-sm-8 col-md-8 col-lg-9">
-				<img class="img-responsive center-block" id="headerImage" src="img/newlogo.jpg" height="50%" width="70%">
+				<img class="img-responsive center-block" id="headerImage" src="img/newlogo.jpg" height="50%" width="60%">
 			</div>
 		</div>
 	</div>

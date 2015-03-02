@@ -27,8 +27,14 @@
 
 </head>
 <body>
+
+	<div class="container">
+		<div class="row">
+			<img src="img/newlogo.jpg" class="img-responsive center-block">
+		</div>
+	</div>
 	<!-- Nav Bar -->
-	<nav role="navigation" class="navbar navbar-default navbar-fixed-top" id="navbar">
+	<nav role="navigation" class="navbar navbar-default navbar-static-top" id="navbar">
 	    <div class="container-fluid">
 	        <!-- Brand and toggle get grouped for better mobile display -->
 	        <div class="navbar-header" id="header">
@@ -92,9 +98,9 @@
 					<a href="//www.youtube.com/channel/UCCqDdlVrQu0sMOspypLRY4w"><li><img src="socialmedia/youtube.png" class="img-responsive" id="SMicons"></li></a>
 				</ul>
 			</div>
-			<div class="col-xs-8 col-sm-8 col-md-8 col-lg-9">
+			<!-- <div class="col-xs-8 col-sm-8 col-md-8 col-lg-9">
 				<img class="img-responsive center-block" id="headerImage" src="img/newlogo.jpg" height="50%" width="60%">
-			</div>
+			</div> -->
 		</div>
 	</div>
 

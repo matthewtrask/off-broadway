@@ -14,11 +14,11 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-xs-12 col-sm-5 col-md-4 col-lg-4">
-				<img src="img/seuss.jpg" alt="" width="100%">
+				<img src="img/sleepingkids.jpg" alt="" width="100%">
 			</div>
 			<div class="col-xs-12 col-sm-7 col-md-8 col-lg-8">
 				<h2 class="text-center">Current Production</h2>
-				<p class="text-center">We are proud to present the OBD Childrens Theatre in "Seussical Jr."!</p>
+				<p class="text-center">We are proud to present the OBD Childrens Theatre in "Sleeping Beauty Kids"!</p>
 				<p class="text-center">Shows are running January 30th through February 8th.</p>
 				<p class="text-center">Click <a href="http://offbroadwaydance.ticketleap.com/suessical-jr/">here</a> to buy tickets, or visit <a href="boxoffice.php">Our Box Office Page</a></p>
 			</div>

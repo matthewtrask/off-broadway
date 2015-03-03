@@ -30,7 +30,7 @@
 
 	<div class="container">
 		<div class="row">
-			<img src="img/newlogo.jpg" class="img-responsive center-block">
+			<img src="img/newlogo_obd.png" class="img-responsive center-block">
 		</div>
 	</div>
 	<!-- Nav Bar -->
@@ -44,11 +44,12 @@
 	                <span class="icon-bar"></span>
 	                <span class="icon-bar"></span>
 	            </button>
-	            <a href="index.php" class="navbar-brand"><img src="img/newlogo2.png"><!-- Off Broadway Dance Studio--></a>
+<!--  	            <a href="index.php" class="navbar-brand">Home --><!-- <img src="img/newlogo2.png"> --><!-- Off Broadway Dance Studio</a>
 	        </div>
 	        <!-- Collection of nav links and other content for toggling -->
-	        <div id="navbarCollapse" class="collapse navbar-collapse navbar-right">
-	            <ul class="nav navbar-nav navbar-right">
+	        <div id="navbarCollapse" class="collapse navbar-collapse navbar-justified">
+	            <ul class="nav navbar-nav nav-justified">
+	            	<li><a href="index.php">Home</a></li>
 	            	<li><a href="whatsnew.php">Whats New</a></li>
 	            	<li><a href="school.php">Schools</a></li>
 					<li><a href="camp.php">Summer Camp</a></li>

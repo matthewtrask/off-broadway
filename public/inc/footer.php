@@ -1,5 +1,5 @@
 	<footer>
-		<div class="container">
+		<!-- <div class="container">
 			<div class="row">
 				<div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
 					<p class="text-left">Off Broadway Dance Studio</p>
@@ -21,6 +21,18 @@
 					</ul>
 				</div>
 			</div>
+		</div> -->
+		<div class="container">
+			<div class="row">
+				<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+					<p>12365 Crabapple Rd | Roswell, GA |</p>
+				</div>
+			</div>
+		</div>
+
+		<div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+			<p class="text-center" id="copy">&copy; <?php echo date("Y"); ?> <?php echo $studio; ?></p>
+			<p class="text-center">Site Visitors: <?php include('counter.php'); ?></p>
 		</div>
 
 	</footer>

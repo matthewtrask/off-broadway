@@ -44,6 +44,8 @@
 			</div>
 		</div>
 	</div>
+	<div style="height: 20px">
+	</div>
 </main>
 
 <?php include('inc/footer.php'); ?>

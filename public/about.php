@@ -78,27 +78,21 @@
 
 		</div>
 	</div>
-	<!-- <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-		<div class="container">
-			<div class="image-small">
-				<img src="img/newobdshow1.jpg" alt="" class="thumbnail"/>
-			</div>
-		</div>
-	</div> -->
+
 	<hr />
 
-	<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12" id="about_obd">
-		<div class="container">
+	<div class="container" id="about_obd">
+		<div class="row">
 			<hr class="caro_divide" />
-			<div class="row">
+			<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
 				<h2 class="text-center">About Off Broadway Children’s Theatre</h2>
 				<p class="text-left"><b>WHO</b>: Shannon and Christian Mayer a husband and wife team that have an extensive background in Theater, Dance and Music. Together, they have been working with young people for over 20 years</p>
 				<p class="text-left"><b>WHAT</b>: A Children's Theater that focuses on youth between the ages of 4-16.</p>
 				<p class="text-left"><b>WHEN</b>: We have ongoing classes that support Musical Theater, Acting and Dance and we produce 8 Broadway, Jr. and Broadway kids shows a year in our 90 seat black box theater.</p>
 				<p class="text-left"><b>WHERE</b>: Located in downtown Crabapple we are in the same Silos North Shopping Center with Alpine Bakery and Atlanta Fitness.</p>
 				<p class="text-left">WHY: Off Broadway feels that each child deserves special attention to nurture, inspire, mentor and challenge them on their individual journey in the performing arts .</p>
-			</div><hr />
-		</div>
+			</div>		
+		</div><hr />
 	</div>
 
 	

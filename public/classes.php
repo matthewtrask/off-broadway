@@ -15,7 +15,7 @@
 			<div class="col-cs-6 col-sm-6 col-md-6 col-lg-6">
 				<h4 class="text-center"><b>Preschool Classes</b></h4><hr />
 				<p class="text-center"><b>Preschool Combo - Ages 3-5.</b></p>
-				<p class=""text-left>This beginning dance class is perfect for young children who love to move to music and have an interest in learning the basics of dance technique. Class has a strong focus on proper Ballet and Tap instruction, classroom etiquette, movement, comprehension, and fun. Must be potty trained. Pink Ballet Shoes, black tap shoes, Light blue or pink  leotard and pink tights are required.</p>
+				<p class="text-left">This beginning dance class is perfect for young children who love to move to music and have an interest in learning the basics of dance technique. Class has a strong focus on proper Ballet and Tap instruction, classroom etiquette, movement, comprehension, and fun. Must be potty trained. Pink Ballet Shoes, black tap shoes, Light blue or pink  leotard and pink tights are required.</p>
 				<button class="btn btn-block btn-primary"><a href="https://app.jackrabbitclass.com/reg.asp?id=277946">Register for this class</a></button>
 			</div>
 			<div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">

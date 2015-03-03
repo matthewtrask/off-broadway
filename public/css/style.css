@@ -18,15 +18,12 @@ body, html {
 	margin: 0;
 	padding: 0;
 	width: 100%;
-	background-color: #979FA6
+	background-color: #979FA6;
+	color: white;
 }
 
 .pad-section {
 	margin-top: 30px 0;
-}
-
-main #body {
-
 }
 
 
@@ -61,10 +58,10 @@ main #body {
 	height: 55px;
 }
 
-/*#dropdown {
-	background-color: red;
-	color: white;
-}*/
+.navbar-nav.nav-justified > li{
+    float:none;
+}
+
 
 button.navbar-toggle {
 	background-color: white;
@@ -75,19 +72,9 @@ color: #333;
 background-color: transparent;
 }
 
-
-/*.navbar-default .navbar-toggle {
-	border-color: #fff;
-}*/
-
-/*.navbar-default .navbar-toggle .icon-bar {
-	background-color: red;
-}*/
-
-
-/*.navbar-default .navbar-toggle .icon-bar {
-background-color: #fff;
-}*/
+#navbar ul li a, #navbar a {
+	font-size: 1.4rem;
+}
 
 #sm_icons {
 	margin-top: 50px;
@@ -124,7 +111,7 @@ background-color: #fff;
 
 footer {
 	background-color: red;
-	font-size: 10px;
+/*	font-size: 10px;*/
 	color: #FFF;
 	height: 150px;
 	width: 100%;
@@ -133,7 +120,7 @@ footer {
 
 }
 
-#socialmedia ul li {
+/*#socialmedia ul li {
 	list-style-type: none;
 	margin-left: 10px;
 }
@@ -146,7 +133,7 @@ footer {
 	color: white;
 	text-decoration: none;
 	margin-bottom: 10px;
-}
+}*/
 
 footer p, a {
 	text-align: left;

@@ -5,13 +5,15 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-				<h1 class="text-center">OBD Kids Troupe</h1>
+				<h1 class="text-center">Off Broadway Kids Musical Theatre Troupe</h1>
 			</div>
 		</div>
 		<div class="row">
 			<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-				<p class="text-center">Directed by Christian Mayer, "The OBD Kids" is our award-winning musical theatre competition troupe designed for serious "triple threat" performers who live and breathe the theatre. Each year a small cast of performers, ranging in age from 8 - 18, are chosen to be members of the Troupe. After a lengthy audition process, the OBD Kids rehearse their show an average of 4 hours a week over a 7 month period, in addition to polishing their acting, dance and vocal skills via weekly lessons. Most troupe members put in an average of 8-10 hours in training each week, but their hard work pays off in terms of a wonderful camaraderie among cast members, an exciting full production in our blackbox theatre, performances at local festivals and charity events, and the thrill of competing with other theatre and drama teams across the United States. Alumni of the 12 year program, can be found appearing as the top performers at Milton High School, West Forsyth High School, Pebblebrook Performing Arts High School, North Springs Performing Arts High School as well as many prestigious Theatre programs in Universities throughout the United States.</p>
-				<p class="text-center">This troupe travels to The National Performing Arts Festival in Walt Disney World each year to compete against theatres from around the nation.</p>
+				<p class="text-left">Directed by Christian Mayer, "The OBD Kids" is our award-winning musical theatre competition troupe designed for serious "triple threat" performers who live and breathe the theatre. Each year a small cast of performers, ranging in age from 8 - 18, are chosen to be members of the Troupe. After a lengthy audition process in mid August, the OBD Kids rehearse their show an average of 5 hours a week over a 7 month period, in addition to polishing their acting, dance and vocal skills via weekly lessons.</p>
+				<p class="text-left">Their hard work pays off in terms of a wonderful camaraderie among cast members, an exciting full production in our blackbox theatre, performances at local festivals and charity events, and the thrill of competing with other theatre and drama teams across the United States. Alumni of the 12 year program, can be found appearing as the top performers at Milton High School, West Forsyth High School, Pebblebrook Performing Arts High School, North Springs Performing Arts High School as well as many prestigious Theatre programs in Universities such as Emerson, Oklahoma University, Elon, Auburn, Cincinnati Conservatory and Pace as well as many others  throughout the United States. This troupe travels to The National Performing Arts Festival in Walt Disney World each year to compete against theatres from around the nation.</p>
+				<br />
+				<p class="text-left">In 2015, we will debut our Off Broadway Kids Apprentice Company for ages 6-11 which is an opportunity for younger performers to gain the knowledge and skills needed to be in the main troupe. This company will compete at the Junior Theatre Festival in Atlanta in January 2016.</p>
 			</div>
 		</div>
 	</div>

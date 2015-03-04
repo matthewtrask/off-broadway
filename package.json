@@ -1,0 +1,27 @@
+{
+  "name": "off-broadway",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "\"hello world'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rocketpastsix/off-broadway.git"
+  },
+  "keywords": [
+    "off-broadway",
+    "php",
+    "javascript"
+  ],
+  "author": "matthew trask",
+  "license": "mit",
+  "bugs": {
+    "url": "https://github.com/rocketpastsix/off-broadway/issues"
+  },
+  "homepage": "https://github.com/rocketpastsix/off-broadway",
+  "devDependencies": {
+    "gulp": "^3.8.11"
+  }
+}

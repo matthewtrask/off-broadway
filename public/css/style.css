@@ -110,35 +110,43 @@ background-color: transparent;
 **************************/
 
 footer {
-	background-color: red;
-/*	font-size: 10px;*/
 	color: #FFF;
-	height: 150px;
 	width: 100%;
-
-/*	margin-tiop: 100%;*/
-
 }
 
-/*#socialmedia ul li {
-	list-style-type: none;
-	margin-left: 10px;
+#footerSM ul li {
+	list-style: none;
+	display: inline-block;
+	margin-right: 5px;
 }
 
-#socialmedia ul li {
-	margin-bottom: 10px;
+#footerSM li:first-child {
+	margin-left: 5px;
 }
 
-#socialmedia ul li a {
+footer a {
 	color: white;
-	text-decoration: none;
-	margin-bottom: 10px;
-}*/
-
-footer p, a {
-	text-align: left;
 }
 
+footer a:hover {
+	color: red;
+}
+
+footer .fa-facebook-official:hover {
+	color: #3b6998;
+}
+
+footer .fa-twitter-square:hover {
+	color: #4099ff;
+}
+
+footer .fa-wordpress:hover {
+	color: #21759b;
+}
+
+footer .fa-youtube:hover {
+	color: #e52d27;
+}
 
 /**************************
 
@@ -146,21 +154,10 @@ footer p, a {
 
 **************************/
 
-main #home {
+#home {
 	/*height: 100%;*/
 	margin-bottom: 50px;
 }
-
-/*#home {
-	background: url(../img/broadway.jpg); no-repeat center center fixed;
-	height: 100%;
-	width: 100%;
-	position: relative;
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
-    background-size: cover;
-}*/
 
 #mainCarousel {
 	width: 100%;

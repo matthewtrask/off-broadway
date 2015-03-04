@@ -1,40 +1,23 @@
 	<footer>
-		<!-- <div class="container">
+		<div class="container">
 			<div class="row">
-				<div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
-					<p class="text-left">Off Broadway Dance Studio</p>
-					<p class="text-left">12350 Crabapple Rd, Ste. 122</p>
-					<p class="text-left">Alpharetta GA, 30049</p>
-					<p class="text-left">770-664-2410</p>
+				<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12"><hr />
+					<p class="text-center">12365 Crabapple Rd | Roswell, GA | 770-664-2410 | <a href="mailto:offbroadway@msn.com">offbroadway@msn.com</a></p>
 				</div>
-				<div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+				<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12" id="footerSM">
+					<ul class="text-center">
+						<li><a href="#"><i class="fa fa-facebook-official fa-2x"></i></a></li>
+						<li><a href="#"><i class="fa fa-twitter-square fa-2x"></i></a></li>
+						<li><a href="#"><i class="fa fa-wordpress fa-2x"></i></a></li>
+						<li><a href="#"><i class="fa fa-youtube-square fa-2x"></i></a></li>
+					</ul>
+				</div>
+				<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
 					<p class="text-center" id="copy">&copy; <?php echo date("Y"); ?> <?php echo $studio; ?></p>
 					<p class="text-center">Site Visitors: <?php include('counter.php'); ?></p>
 				</div>
-				<div class="col-xs-4 col-sm-4 col-md-4 col-lg-4" id="socialmedia">
-				<p class="text-center">Where we are on the web:</p>
-				<ul class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-						<li class="text-left" id="1"><a href="https://www.facebook.com/offbroadwaydancetheater">Off Broadway Facebook</a></li>
-						<li class="text-left" id="2"><a href="https://twitter.com/offbroadwayga">@Offbroadway</a></li>
-						<li class="text-left" id="3"><a href="https://offbroadwaydance.wordpress.com">Shannon's Blog</a></li>
-						<li class="text-left" id="4"><a href="mailto:offbroadway@msn.com?subject=Dance Classes!">Email us!</a></li>
-					</ul>
-				</div>
-			</div>
-		</div> -->
-		<div class="container">
-			<div class="row">
-				<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-					<p>12365 Crabapple Rd | Roswell, GA |</p>
-				</div>
 			</div>
 		</div>
-
-		<div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
-			<p class="text-center" id="copy">&copy; <?php echo date("Y"); ?> <?php echo $studio; ?></p>
-			<p class="text-center">Site Visitors: <?php include('counter.php'); ?></p>
-		</div>
-
 	</footer>
 
 <script type="text/javascript">

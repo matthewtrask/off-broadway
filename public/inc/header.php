@@ -89,7 +89,7 @@
 	    </div>
 	</nav>
 	<!-- /Nav Bar -->
-	<div class="container" id="sm_icons">
+<!-- 	<div class="container" id="sm_icons">
 		<div class="row">
 			<div class="col-xs-4 col-sm-4 col-md-4 col-lg-3">
 				<ul class="left">
@@ -102,8 +102,8 @@
 			<!-- <div class="col-xs-8 col-sm-8 col-md-8 col-lg-9">
 				<img class="img-responsive center-block" id="headerImage" src="img/newlogo.jpg" height="50%" width="60%">
 			</div> -->
-		</div>
-	</div>
+<!-- 		</div>
+	</div> --> -->
 
 
 

@@ -63,14 +63,17 @@
 				   		<div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
 				   			<h4 class="text-center">Session 1: June 1 - June 5</h4>
 				   			<h4 class="text-center">Frozen And Friends</h4>
+				   			<img class="img-responsive center-block" src="img/frozen.jpg">
 				   		</div>
 				   		<div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
 				   			<h4 class="text-center">Session 2: June 8 - June 11</h4>
 				   			<h4 class="text-center">Disney Mania</h4>
+				   			<img class="img-responsive center-block" src="img/princessfriends.jpg">
 				   		</div>
 				   		<div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
 				   			<h4 class="text-center">Session 3: June 15 - June 19</h4>
-				   			<h4 class="text-center">Priates And Pixies</h4>
+				   			<h4 class="text-center">Pirates And Pixies</h4>
+				   			<img class="img-responsive center-block" src="img/piratesandpixies.jpg">
 				   		</div>
 				   </div>
 			</div>

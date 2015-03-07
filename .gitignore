@@ -18,8 +18,5 @@ sftp-config.json
 
 
 # files for project
-<<<<<<< HEAD
 /hitcounter.txt/
-=======
->>>>>>> origin/master
-public/hitcounter.txt
+

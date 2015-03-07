@@ -6,10 +6,10 @@
 				</div>
 				<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12" id="footerSM">
 					<ul class="text-center">
-						<li><a href="#"><i class="fa fa-facebook-official fa-2x"></i></a></li>
-						<li><a href="#"><i class="fa fa-twitter-square fa-2x"></i></a></li>
-						<li><a href="#"><i class="fa fa-wordpress fa-2x"></i></a></li>
-						<li><a href="#"><i class="fa fa-youtube-square fa-2x"></i></a></li>
+						<li><a href="https://www.facebook.com/offbroadwaydancetheater"><i class="fa fa-facebook-official fa-2x"></i></a></li>
+						<li><a href="https://twitter.com/offbroadwayga"><i class="fa fa-twitter-square fa-2x"></i></a></li>
+						<li><a href="https://offbroadwaydance.wordpress.com/"><i class="fa fa-wordpress fa-2x"></i></a></li>
+						<li><a href="https://www.youtube.com/channel/UCYE5UAeKu42oT4NNTOH6YMQ"><i class="fa fa-youtube-square fa-2x"></i></a></li>
 					</ul>
 				</div>
 				<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">

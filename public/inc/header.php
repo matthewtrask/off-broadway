@@ -103,7 +103,7 @@
 				<img class="img-responsive center-block" id="headerImage" src="img/newlogo.jpg" height="50%" width="60%">
 			</div> -->
 <!-- 		</div>
-	</div> --> -->
+	</div> --> 
 
 
 

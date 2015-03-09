@@ -12,32 +12,6 @@
 		</div>
 	</div>
 
-	<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-		<div class="container">
-			<div class="row">
-				<h4 class="text-center">Learn more about us!</h4>
-			</div>
-			<div class="row" id="quicklinks">
-				<div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
-					<a href="#about_obd"><p class="text-center">About Us</p></a>
-				</div>
-				<div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
-					<a href="#reasons_obd"><p class="text-center">A few reasons to choose us</p></a>
-				</div>
-			</div>
-		</div>
-	</div>
-
-	<!-- <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 scroll">
-		<div class="container">
-			<div class="row">
-				<h5>State of the art studios</h5>
-				<h5>Large variety of dance styles to choose from ages 3 to 18</h5>
-			</div>
-		</div>
-	</div>
- -->
-
 	<div class="col-sm-12 col-md-12 col-lg-12">
 		<div class="container">
 			<div class="row">

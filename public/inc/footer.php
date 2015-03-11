@@ -2,7 +2,7 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12"><hr />
-					<p class="text-center">12365 Crabapple Rd | Roswell, GA | 770-664-2410 | <a href="mailto:offbroadway@msn.com">offbroadway@msn.com</a></p>
+					<p class="text-center">12315 Crabapple Rd | Roswell, GA | 770-664-2410 | <a href="mailto:offbroadway@msn.com">offbroadway@msn.com</a></p>
 				</div>
 				<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12" id="footerSM">
 					<ul class="text-center">

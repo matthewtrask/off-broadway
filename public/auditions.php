@@ -26,6 +26,20 @@
 
 	<div class="container">
 		<div class="row">
+			<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+				<div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+					<h2 class="text-center">Little Mermaid Jr. Auditions!</h2>
+					<p class="text-left"> Off Broadway Children's Theatre is pleased to announce auditions for its summer show, Disney's "Little Mermaid Jr." Auditions will be held at the Studio Theatre of Off Broadway, May 17 at 2pm-5pm, and 19th from 6pm-8pm for ages 8-16. Auditionees should prepare 30 seconds of a musical selection to sing, come dressed to move and be prepared to cold read from the script. If cast, there is a 200.00 production fee to participate. Rehearsals will be twice a week but will be flexible with summer schedule. The shows will be 6 performances over two weekends spanning July 31 thru August 9th. To schedule an audition, please call 770-664-2410 or you may send video submissions to <a href="mailton:offBroadway@msn.com&subject=Little Mermain Jr. Auditions">offBroadway@msn.com</a>.</p>
+				</div>
+				<div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+					<img src="img/littlemermaid.jpg" height="300px" width="300px" class="center-block img-responsive">
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="container">
+		<div class="row">
 			<div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
 				<h2 class="text-center">Frequently asked questions about the audition process</h2><hr />
 				<h3 class="text-center click_me">Are actors paid?</h3>

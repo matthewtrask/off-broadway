@@ -23,8 +23,6 @@
 			<div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
 				<h2 class="text-center">Sleeping Beauty Kids</h2>
 				<p class="text-center">March 20th - March 29th</p>
-				<p class="text-center">Auditions being held: January 10th, 2pm - 5pm</p>
-				<p class="text-center">Homeschool Auditions held: January 12th, 2pm - 5pm</p>
 			</div>
 			<div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
 				<img src="img/sleepingkids.jpg">
@@ -37,10 +35,21 @@
 			<div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
 				<h2 class="text-center">Aladdin Jr</h2>
 				<p class="text-center">April 24th - May 3rd</p>
-				<p class="text-center">Auditions being held: February 7th, 2pm - 5pm</p>
 			</div>
 			<div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
 				<img src="img/aladdinkids.jpg">
+			</div>
+		</div>
+	</div>
+
+	<div class="container" style="margin-top: 30px">
+		<div class="row">
+			<div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+				<h2 class="text-center">Little Mermaid Jr.</h2>
+				<p class="text-center">July 31st - August 9th</p>
+			</div>
+			<div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+				<img src="img/littlemermaid.jpg" height="300px" width="300px">
 			</div>
 		</div>
 	</div>

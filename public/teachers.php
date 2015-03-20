@@ -23,16 +23,21 @@
 	</div>
 	<div class="container" id="bios">
 		<div class="row">
-			<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+			<div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
 				<img src="img/erin_obd.jpg" alt="" class="img-responsive center-block">
 				<h4 class="text-center">Erin Greenway</h4>
 				<p class="text-center">Erin Greenway studied acting, dance, choreography, and photography in the States and abroad. While in London, she had an apprenticeship with the English National Ballet.  While with the Ballet she participated in the Community Education program exposing elementary schools, elderly groups, and children's hospitals to the world of ballet.  After moving back to the states, she helped to set up Greensboro, North Carolina's first Arts Advocacy Council, and taught dance to elementary school children with learning disabilities.  Companies that Erin has worked with include Spitzer Dance Company, Offshoot Productions, Lee Harper and Dancers, Stage Door Players, Ansley Park Playhouse, Jib Jam Productions, Odd Man Out Theatre, Rosewater Theatre, Performing Arts North Theatre Decatur, Academy Theatre, and extensively with Savage Tree Arts Project.  Erin is also the Chair of Fine Arts department at the Brandon Hall School and is an company member of Performing Arts North Repertory Company.</p>
 			</div>
-			<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+			<div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
 				<img src="img/lauren.jpg" alt="" class="img-responsive center-block">
 				<h4 class="text-center">Lauren Overstreet</h4>
 				<p class="text-center">Lauren studied and trained in dance from age 3 at Susan Chamber School of Dance in Alpharetta, GA. She attended numerous conventions and competitions growing up and has trained with numerous established instructors such as Mia Michaels, Mike Minery, Kris Cangelosi, Ellen Tshudy, Susan Anderson, and Michael Garrison. She has been  a member and choreographer of Xtensity Atlanta, Dancefx Concert Dance Company, and Pamoja Dance Company at UGA for several years.</p>
 				<p class="text-center hide_text">Lauren is currently a member of Project 7 Dance Company in Roswell, GA. More recently, she has been the music video choreographer for both Emergent Heart's "Top Shelf" and Pacific UV's "Funny Girl", and she was a choreographer for Dancefx Concert Dance Company's "Alice : Lessons in Wonderland". She also recently choreographed and staged the opening number for the annual Flagpole awards in Athens, GA.  In 2012, she graduated from the University of Georgia with a Bachelors of Science degree in Geology.</p>
+			</div>
+			<div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+				<img src="img/AmyNoelWelch.jpg" class="img-responsive center-block">
+				<h4 class="text-center">Amy Noel Welch</h4>
+				<p class="text-center">Amy has been teaching and playing in the Atlanta area for many years. She attended Georgia State University, majoring in music education and is proficient on trumpet and piano, as well as voice. Being the music director for Elm Street Cultural Arts Village in Woodstock since 2009, she has worked on over 30 shows and is in high demand as an accompanist in Cherokee County schools and the community.</p>
 			</div>
 		</div>
 	</div>

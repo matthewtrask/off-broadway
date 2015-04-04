@@ -5,7 +5,7 @@
 	<div class="container" id="bios">
 		<div class="row">
 			<hr />
-			<h1 class="text-center">Our Teachers</h1>
+			<h1 class="text-center">Our Connectors</h1>
 			<hr/>
 			<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
 				<img src="img/shannon_mayer.jpg" alt="" class="img-responsive center-block">

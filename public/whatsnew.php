@@ -4,7 +4,7 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-				<h1 class="text-center">What's new at the theatre!</h1><hr />
+				<h1 class="text-center">What's being connected at the Theatre!</h1><hr />
 			</div>
 		</div>
 	</div>
@@ -16,7 +16,7 @@
 			</div>
 			<div class="col-xs-12 col-sm-7 col-md-8 col-lg-8">
 				<h2 class="text-center">Current Production</h2>
-				<p class="text-center">We are proud to present the OBD Childrens Theatre in "Sleeping Beauty Kids"!</p>
+				<p class="text-center">We are proud to present the OBD Childrens Theatre in "Aladdin Jr"!</p>
 				<p class="text-center">Shows are running March 20th through March 29th.</p>
 				<p class="text-center">Tickets on sale soon!</p>
 			</div>
@@ -38,18 +38,6 @@
 	</div>
 
 	<div style="height: 50px">
-	</div>
-
-	<div class="container">
-		<div class="row">
-			<div class="col-xs-12 col-sm-5 col-md-4 col-lg-4">
-				<img src="img/suessmusical.jpg" class="img-responsive center-block">
-			</div>
-			<div class="col-xs-12 col-sm-7 col-md-8 col-lg-8">
-				<h2 class="text-center">Time to go to Walt Disney World!</h2>
-				<p class="text-center">The Off Broadway Kids Musical Theatre Troupe will travel to Walt Disney World February 19-23 to compete in the National Performing Arts Festival with their production of "Seussical Jr." These troupe of 25 members has been working on this show since August. They will compete against 13 other schools and children's theatres from around the nation. We wish the well on their journey!</p>
-			</div>
-		</div><hr />
 	</div>
 
 	<div style="height: 50px">

@@ -396,9 +396,10 @@ img#cinderella_setup {
 **************************/
 
 
-.click_me:hover{
+.click_me:hover {
 	color: #fff;
-	background-color: red;
+	background-color: #2ecc71;
+	border-radius: 15px;
 }
 
 

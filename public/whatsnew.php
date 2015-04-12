@@ -12,12 +12,12 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-xs-12 col-sm-5 col-md-4 col-lg-4">
-				<img src="img/sleepingkids.jpg" alt="" width="100%">
+				<img src="img/aladdin_kids.jpg" alt="" width="100%">
 			</div>
 			<div class="col-xs-12 col-sm-7 col-md-8 col-lg-8">
 				<h2 class="text-center">Current Production</h2>
 				<p class="text-center">We are proud to present the OBD Childrens Theatre in "Aladdin Jr"!</p>
-				<p class="text-center">Shows are running March 20th through March 29th.</p>
+				<p class="text-center">Shows are running April 24th through May 3rd.</p>
 				<p class="text-center">Tickets on sale soon!</p>
 			</div>
 		</div><hr />

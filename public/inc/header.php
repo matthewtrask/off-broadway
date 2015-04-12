@@ -46,7 +46,7 @@
 	            </button>
 <!--  	            <a href="index.php" class="navbar-brand">Home --><!-- <img src="img/newlogo2.png"> --><!-- Off Broadway Dance Studio</a>
 	        </div>
-	        <!-- Collection of nav links and other content for toggling -->
+		    Collection of nav links and other content for toggling -->
 	        <div id="navbarCollapse" class="collapse navbar-collapse navbar-justified">
 	            <ul class="nav navbar-nav nav-justified">
 	            	<li><a href="index.php">Home</a></li>
@@ -62,9 +62,9 @@
 						</ul>
 	                </li>
 					<li><a href="troupe.php">OBD Troupe</a></li>
-	                <li><a href="#" data-toggle="dropdown" class="dropdown-toggle">Classes<b class="caret"></b></a>
+	                <li><a href="#" data-toggle="dropdown" class="dropdown-toggle">Connections<b class="caret"></b></a>
 		                <ul class="dropdown-menu"  id="dropdown">
-		                	<li><a href="classes.php">Classes</a></li>
+		                	<li><a href="classes.php">Connections</a></li>
 		                	<li><a href="pulsedance.php">ODB Pulse Dance Company</a></li>
 		                	<li><a href="faq.php">FAQs</a></li>
 		                </ul>

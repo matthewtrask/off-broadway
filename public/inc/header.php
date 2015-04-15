@@ -62,7 +62,7 @@
 						</ul>
 	                </li>
 					<li><a href="troupe.php">OBD Troupe</a></li>
-	                <li><a href="#" data-toggle="dropdown" class="dropdown-toggle">Connections<b class="caret"></b></a>
+	                <li><a href="#" data-toggle="dropdown" class="dropdown-toggle">Classes<b class="caret"></b></a>
 		                <ul class="dropdown-menu"  id="dropdown">
 		                	<li><a href="classes.php">Connections</a></li>
 		                	<li><a href="pulsedance.php">ODB Pulse Dance Company</a></li>

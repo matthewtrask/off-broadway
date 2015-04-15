@@ -7,7 +7,7 @@
 		<div class="container">
 			<div class="row">
 				<h1 class="text-center">Welcome to Off Broadway Children’s Theatre!</h1>
-				<h4 class="text-center">Alpharetta’s Theatre for Families</h4>
+				<h4 class="text-center"><em>Connecting kids with their passion and each other.</em></h4>
 			</div>
 		</div>
 	</div>

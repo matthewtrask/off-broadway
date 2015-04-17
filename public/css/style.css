@@ -13,19 +13,29 @@ Copyright 2014
 
 **************************/
 
-body, html {
+body {
 	font-family: 'Lato', sans-serif;
 	margin: 0;
 	padding: 0;
 	width: 100%;
-	background-color: #979FA6;
-	color: white;
+	background: url(../img/grey.jpg) no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-o-background-size: cover;
+	-moz-background-size: cover;
+	background-size: cover;
+	opacity: 0.8;
+	/*background-color: #979FA6;*/
+	color: black;
 }
 
 .pad-section {
-	margin-top: 30px 0;
+	margin-top: 30px;
 }
 
+hr {
+	border: 1px solid #000;
+	color: #000;
+}
 
 /**************************
 
@@ -117,7 +127,7 @@ background-color: transparent;
 **************************/
 
 footer {
-	color: #FFF;
+	color: #000;
 	width: 100%;
 }
 
@@ -131,12 +141,20 @@ footer {
 	margin-left: 5px;
 }
 
-footer a {
-	color: white;
+footer {
+
 }
 
-footer a:hover {
-	color: red;
+footer a {
+	color: black;
+}
+
+footer .fa-youtube-square:hover {
+	color: #e52d27;
+}
+
+#footerEmail a:hover {
+	color: #2ecc71;
 }
 
 footer .fa-facebook-official:hover {

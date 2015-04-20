@@ -23,9 +23,9 @@ body {
 	-o-background-size: cover;
 	-moz-background-size: cover;
 	background-size: cover;
-	opacity: 0.8;
 	/*background-color: #979FA6;*/
 	color: black;
+	linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7));
 }
 
 .pad-section {
@@ -44,14 +44,20 @@ hr {
 **************************/
 
 #navbar {
-	background-color: #2ecc71;
+	/*background-color: #2ecc71;*/
 	height: 50px;
 	margin-bottom: 20px;
 	padding-bottom: 50px;
+	background: url(../img/grey.jpg) no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-o-background-size: cover;
+	-moz-background-size: cover;
+	background-size: cover;
+	opacity: 0.8;
 }
 
 #navbar ul a, #header a {
-	color: white;
+	color: black;
 }
 
 #navbar li a {

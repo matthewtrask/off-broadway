@@ -18,7 +18,7 @@
 				<h2 class="text-center">Current Production</h2>
 				<p class="text-center">We are proud to present the OBD Childrens Theatre in "Aladdin Jr"!</p>
 				<p class="text-center">Shows are running April 24th through May 3rd.</p>
-				<p class="text-center">Tickets on sale soon!</p>
+				<p class="text-center">Tickets on sale <a href="http://offbroadwaydance.ticketleap.com/aladdin-jr/">here</a>!</p>
 			</div>
 		</div><hr />
 	</div>

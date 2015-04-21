@@ -12,7 +12,7 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-xs-12 col-sm-5 col-md-4 col-lg-4">
-				<img src="img/aladdin_kids.jpg" alt="" width="100%">
+				<img src="img/aladdin.jpg" alt="" width="100%">
 			</div>
 			<div class="col-xs-12 col-sm-7 col-md-8 col-lg-8">
 				<h2 class="text-center">Current Production</h2>

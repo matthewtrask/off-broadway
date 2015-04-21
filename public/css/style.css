@@ -23,6 +23,7 @@ body {
 	-o-background-size: cover;
 	-moz-background-size: cover;
 	background-size: cover;
+
 	/*background-color: #979FA6;*/
 	color: black;
 	linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7));
@@ -90,8 +91,8 @@ background-color: transparent;
 
 @media only screen and (min-width: 100px){
 	#dropdown {
-  		background-color: #2ecc71;
-  		color: white;
+  		background-color: white;
+  		color: #2ecc71;
 	}
 }
 
@@ -449,6 +450,11 @@ img#cinderella_setup {
 
 #schedule {
 	margin-bottom: 150px;
+}
+
+#btn {
+	background-color: #2ecc71;
+	color: white;
 }
 
 /**************************

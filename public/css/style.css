@@ -44,6 +44,11 @@ hr {
 
 **************************/
 
+#logo img {
+	height: 40%;
+}
+
+
 #navbar {
 	/*background-color: #2ecc71;*/
 	height: 50px;
@@ -318,7 +323,6 @@ footer .fa-youtube:hover {
 #bios img {
 	height: 200px;
 	width: 200px;
-	border-radius: 50%;
 }
 
 /**************************

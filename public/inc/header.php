@@ -6,8 +6,12 @@
 <head>
 	<meta charset="utf-8">
 	<meta name=​"Keywords" content=​"Off Broadway Dance, Children's Theater, Children's Theatre, dance, acting, music,  musical theater, musical theatre, classes, Alpharetta, Roswell, Milton, Crabapple GA, dance studio, dance school, dance instruction, acting classes, voice lessons, music instruction, dance studios in GA, Georgia dance studios, dance lessons in Georgia, dance lessons in Alpharetta, dance classes in Alpharetta, music lessons, dance studios, children's dancing classes, children's acting classes, children's music classes, children's dance classes,  dancing, tap lessons, ballet lessons, jazz lessons, performance, performing arts, theatre, theater, recital, studio, summer classes, summer camp, music studio, music school, acting school, homeschool, OBD, 30004">​
+	<meta name="Description" content="Off Broadway Children's Theater. Connecting children with others in pursuit of their favorite acting and improv classes"
 	<title><?php echo $title; ?> | Childrens Theatre in Roswell</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+	<meta robots="Index,Follow">
+	<meta property="og:title" content="Off Broadway Children's Theatre">
+	<meta property="og:url" content="http://offbroadwaykids.net">
 	<!-- Fonts -->
 	<link href="http://fonts.googleapis.com/css?family=Lato:300,400,700" rel="stylesheet" type="text/css">
 

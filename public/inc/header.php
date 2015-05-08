@@ -28,9 +28,9 @@
 </head>
 <body>
 
-	<div class="container">
-		<div class="row">
-			<img src="img/newlogo_obd.png" class="img-responsive center-block">
+	<div class="container" id="logo">
+		<div class="row" style="margin-bottom: 20px">
+			<img src="img/green-logo.png" class="img-responsive center-block" id="logo">
 		</div>
 	</div>
 	<!-- Nav Bar -->
@@ -65,7 +65,7 @@
 	                <li><a href="#" data-toggle="dropdown" class="dropdown-toggle">Classes<b class="caret"></b></a>
 		                <ul class="dropdown-menu"  id="dropdown">
 		                	<li><a href="classes.php">Classes</a></li>
-		                	<li><a href="pulsedance.php">ODB Pulse Dance Company</a></li>
+<!--		                	<li><a href="pulsedance.php">ODB Pulse Dance Company</a></li>-->
 		                	<li><a href="faq.php">FAQs</a></li>
 		                </ul>
 		            </li>

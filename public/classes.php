@@ -69,8 +69,8 @@
 	<div class="container classes-offered">
 		<div class="row">
 			<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
-				<h2>Beginning Improv Acting Ages 7-9</h2>
-				<p>Mr. Chris will help your young performer connect with their inner passion for storytelling.  Each class is  high energy, non stop fun exploring the basics of acting through Improv. We will  create spontaneous scenes with unique characters that are humorous and memorable. We challenge the young performer to use their imagination, think outside the box and help establish the who -what- where- when and why of the scene. They will grow in confidence and have a greater understanding of themselves and connect with the other performers in the class. We will have periodic showcases through the year to showcase their growth and passion.</p>
+				<h2>Beginning Improv/Acting Ages 10-16</h2>
+				<p>Mr. Chris will help your young performer connect with their inner passion for storytelling. Each class is high energy, non stop fun exploring the basics of acting and Improv. We will create spontaneous scenes with unique characters that are humorous and memorable. We challenge the young performer to use their imagination, think outside the box and help establish the who -what- where- when and why of the scene. We will touch on the terminology of stage, work on scenes from plays and understand text of what the playwright is trying to convey. They will grow in confidence and have a greater understanding of themselves and connect with the other performers in the class.We will have periodic showcases through the year to showcase their growth and passion.</p>
 				<p>Mondays 5:00-6:00 PM | Thursdays 5:00-6:00 PM</p>
 				<p>Tuition: $55.00</p>
 				<button class="btn btn-block btn-primary" id="btn"><a href="https://app.jackrabbitclass.com/reg.asp?id=277946">Register for this class</a></button>

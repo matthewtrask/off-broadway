@@ -31,7 +31,7 @@
 				<h6 class="text-center">Ages 5-12</h6>
 				<h6 class="text-center">July 6-July 17</h6>
 				<h6 class="text-center">Camp Times: 10am-3pm</h6>
-				<h6 class="text-center">Cost: $285</h6>
+				<h6 class="text-center"><span class="soldOut">Sold Out!</span></h6>
 				<h6 class="text-center">Shows on July 17,18 and 19th TBD</h6>
 				<p>For veteran actors and newbies alike, this camp is an exciting way to spend the summer being friends and making memories. Children will rehearse this show for the two weeks leading up to performance time. Children are asked to bring a snack lunch. They will also help create the scenery, create costumes and props. They will learn all facets of the show productions. Auditions will be held on day 1. Please have them prepare a 30 second song to sing at auditions.</p><br />
 				<p>On the run from Shere Khan, a ferocious tiger who has banished him from the jungle, a human boy named Mowgli is aided by an agile panther named Bagheera. Along the way, the two meet a sinister snake named Kaa, a herd of elephants, and a giant bear named Baloo, who teaches them the swingin’ musical rhythms of the jungle. After surviving a dangerous encounter with a band of monkeys led by King Louie, Mowgli and Bagheera are forced to run for their lives. Shere Khan returns, leading our protagonists to rally their follow jungle creatures into battle and restore peace to the jungle. </p>

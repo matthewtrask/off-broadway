@@ -1,6 +1,6 @@
 /*
 
-Off Broadway Dance Studio 
+Off Broadway Dance Studio
 Author: Matt Trask
 Copyright 2014
 
@@ -36,6 +36,10 @@ body {
 hr {
 	border: 1px solid #000;
 	color: #000;
+}
+
+.soldOut {
+	color: red;
 }
 
 /**************************
@@ -215,8 +219,8 @@ footer .fa-youtube:hover {
     margin: 0 auto;
 }
 
-#mainCarousel > .carousel-control.left, .carousel-control.right{ 
-	background: none !important; 
+#mainCarousel > .carousel-control.left, .carousel-control.right{
+	background: none !important;
 	filter: progid:none !important;
 }
 
@@ -290,9 +294,9 @@ footer .fa-youtube:hover {
     margin: 0 auto;
 }
 
-.carousel-control.left, .carousel-control.right{ 
-	background: none !important; 
-	filter: progid:none !important; 
+.carousel-control.left, .carousel-control.right{
+	background: none !important;
+	filter: progid:none !important;
 }
 
 .image-small {
@@ -472,14 +476,3 @@ img#cinderella_setup {
 	margin-top: 15px;
 	margin-bottom: 15px;
 }
-
-
-
-
-
-
-
-
-
-
-

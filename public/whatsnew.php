@@ -25,6 +25,24 @@
 
 	<div class="container">
 		<div class="row">
+			<div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+				<img class="img-responsive center-block" src="img/legallyblonde.jpg" style="margin-top: 40px;">
+			</div>
+			<div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+				<h2 class="text-center">Our upcoming productions</h2>
+				<p class="text-center">Legally Blonde Jr. | June 12th - June 13th</p>
+				<p class="text-center">Jungle Book Kids   | July 17th - July 18th</p>
+				<p class="text-center">Little Mermaid Jr. | July 31st - August 9th</p>
+				<h3 class="text-center">Click <a href="/boxoffice.php">here</a> to buy tickets!</h3>
+			</div>
+			<div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+				<img class="img-responsive center-block" src="img/littlemermaid.jpg">
+			</div>
+		</div><hr />
+	</div>
+
+	<div class="container">
+		<div class="row">
 			<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
 				<h2 class="text-center">OBCT Apprentice Theater Troupe 2015-2016</h2>
 				<p class="text-left"><b>What</b>: A group of 20-25  selected by audition performers between the ages of 6-12 that are dedicated and want to take their theater experience to the next level.</p>

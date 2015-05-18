@@ -26,8 +26,8 @@
 			</div>
 			<div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
 				<h2 class="text-center"><strong>How To Buy Tickets</strong></h2><hr />
-					<ul>
-						<li>Our online box office <a href="http://offbroadwaydance.ticketleap.com/aladdin-jr/">here</a></li>
+					<ul id="buy">
+						<li>Our online box office <button class="btn buybtn" id="btn"><a href="http://offbroadwaydance.ticketleap.com/aladdin-jr/">here</a></button></li>
 						<li>By phone: 770-664-2410</li>
 						<li>By Email:</li>
 					</ul>

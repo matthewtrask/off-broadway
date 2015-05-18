@@ -64,7 +64,7 @@
 				<p class="text-left"><b>WHAT</b>: A Children's Theater that focuses on youth between the ages of 4-16.</p>
 				<p class="text-left"><b>WHEN</b>: We have ongoing classes that support Musical Theater, Acting and Dance and we produce 8 Broadway, Jr. and Broadway kids shows a year in our 90 seat black box theater.</p>
 				<p class="text-left"><b>WHERE</b>: Located in downtown Crabapple we are in the same Silos North Shopping Center with Alpine Bakery and Atlanta Fitness.</p>
-				<p class="text-left">WHY: Off Broadway feels that each child deserves special attention to nurture, inspire, mentor and challenge them on their individual journey in the performing arts .</p>
+				<p class="text-left">WHY: Off Broadway feels that each child deserves special attention to nurture, inspire, mentor and challenge them on their individual journey in the performing arts.</p>
 			</div>		
 		</div><hr />
 	</div>

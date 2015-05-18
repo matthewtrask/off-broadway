@@ -6,8 +6,8 @@
 <head>
 	<meta charset="utf-8">
 	<meta name=​"Keywords" content=​"Off Broadway Dance, Children's Theater, Children's Theatre, dance, acting, music,  musical theater, musical theatre, classes, Alpharetta, Roswell, Milton, Crabapple GA, dance studio, dance school, dance instruction, acting classes, voice lessons, music instruction, dance studios in GA, Georgia dance studios, dance lessons in Georgia, dance lessons in Alpharetta, dance classes in Alpharetta, music lessons, dance studios, children's dancing classes, children's acting classes, children's music classes, children's dance classes,  dancing, tap lessons, ballet lessons, jazz lessons, performance, performing arts, theatre, theater, recital, studio, summer classes, summer camp, music studio, music school, acting school, homeschool, OBD, 30004">​
-	<meta name="Description" content="Off Broadway Children's Theater. Connecting children with others in pursuit of their favorite acting and improv classes"
-	<title><?php echo $title; ?> | Childrens Theatre in Roswell</title>
+	<meta name="Description" content="Off Broadway Children's Theater. Connecting children with others in pursuit of their favorite acting and improv classes">
+	<title>Off Broadway | Childrens Theatre in Roswell</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 	<meta robots="Index,Follow">
 	<meta property="og:title" content="Off Broadway Children's Theatre">
@@ -51,8 +51,8 @@
 <!--  	            <a href="index.php" class="navbar-brand">Home --><!-- <img src="img/newlogo2.png"> --><!-- Off Broadway Dance Studio</a>
 	        </div>
 		    Collection of nav links and other content for toggling -->
-	        <div id="navbarCollapse" class="collapse navbar-collapse navbar-justified">
-	            <ul class="nav navbar-nav nav-justified">
+	        <div id="navbarCollapse" class="collapse navbar-collapse">
+	            <ul class="nav navbar-nav">
 	            	<li><a href="index.php">Home</a></li>
 	            	<li><a href="whatsnew.php">Whats New</a></li>
 	            	<li><a href="school.php">Schools</a></li>
@@ -81,12 +81,12 @@
 	                		<li><a href="auditions.php">Auditions</a></li>
 	                	</ul>
 	                </li>
-	                <li><a href="#" data-toggle="dropdown" class="dropdown-toggle">Registration<b class="caret"></b></a>
-						<ul class="dropdown-menu" id="dropdown">
-							<li><a href="registration.php">Register</a></li>
-							<li><a href="schedule.php">Schedule</a></li>
-						</ul>
-	                </li>
+					<li><a href="registration.php">Register</a></li>
+<!--	                <li><a href="#" data-toggle="dropdown" class="dropdown-toggle">Registration<b class="caret"></b></a>-->
+<!--						<ul class="dropdown-menu" id="dropdown">-->
+<!--							<li><a href="registration.php">Register</a></li>-->
+<!--						</ul>-->
+<!--	                </li>-->
 	                <li><a href="boxoffice.php">Box Office</a></li>
 	            </ul>
 	        </div>

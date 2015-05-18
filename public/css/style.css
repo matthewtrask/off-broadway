@@ -70,6 +70,10 @@ hr {
 	color: black;
 }
 
+#navbar ul li {
+	margin-left: 22px;
+}
+
 #navbar li a {
 	font-size: 1.5em;
 }
@@ -96,6 +100,15 @@ button.navbar-toggle {
 .navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li>a:focus {
 color: #333;
 background-color: transparent;
+}
+
+.navbar-brand
+{
+	position: absolute;
+	width: 100%;
+	left: 0;
+	text-align: center;
+	margin: auto;
 }
 
 @media only screen and (min-width: 100px){
@@ -476,3 +489,15 @@ img#cinderella_setup {
 	margin-top: 15px;
 	margin-bottom: 15px;
 }
+
+/**************************
+
+	BOX OFFICE STYLES
+
+**************************/
+
+#buy li a {
+	font-size: 1.75rem;
+	color: white;
+}
+

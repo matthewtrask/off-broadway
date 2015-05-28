@@ -16,10 +16,11 @@
 			<div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
 				<img src="img/legallyblonde.jpg" alt="" class="img-responsive center-block" style="margin-bottom: 30px">
 				<h4 class="text-center">Legally Blonde Jr.</h4>
+				<h4 class="text-center"><span class="soldOut">Sold Out!</span></h4>
+				<h4 class=text-center>If you would like to get on the waiting list for the camp, please email us <br /><a style="margin-top: 10px;" class="btn btn-info" href="mailto:offbroadway@msn.com?subject=Legally Blonde Camp Waitlist">here</a></h4>
 				<h6 class="text-center">Ages: 9-17</h6>
 				<h6 class="text-center">June 1 - June 13</h6>
 				<h6 class="text-center">Camp Times: 10am-4pm</h6>
-				<h6 class="text-center">Cost: $335</h6>
 				<h6 class="text-center">Shows on June 12,13 and 14th TBD</h6>
 				<p>This is a great camp to hone those acting skills this summer and get on stage. Everyone has a place where we will help them shine. Learn from industry professionals the life skills theatre can teach all while making friends and memories that will last forever. Children will rehearse this show for the two weeks leading up to performance time. Children are asked to bring a snack lunch. They will also help create the scenery, create costumes and props. They will learn all facets of the show productions. Auditions will be held on day 1. Please have them prepare a 30 second song to sing at auditions.</p><br />
 				<p>When Elle's high school boyfriend Warner dumps her and heads to Harvard, claiming she's not "serious" enough, Elle takes matters into her own hands, crafting a showy song-and-dance personal essay and charming her way into law school. Befriending classmate Emmett and spunky hairdresser Paulette along the way, Elle finds that books and looks aren't mutually exclusive - in fact, law may be her natural calling after all as she quickly begins outsmarting her peers</p>

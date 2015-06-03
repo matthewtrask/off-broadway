@@ -13,18 +13,21 @@
 
 	<div class="container">
 		<div class="row">
-			<div class="col-xs-12 col-sm-5 col-md-4 col-lg-4">
-				<img src="img/aladdinkids.jpg" alt="" width="100%">
+			<div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+				<img class="img-responsive center-block" src="img/legallyblonde.jpg" style="margin-top: 40px;">
 			</div>
-			<div class="col-xs-12 col-sm-7 col-md-8 col-lg-8">
-				<h2 class="text-center">Current Production</h2>
-				<p class="text-center">We are proud to present the OBD Childrens Theatre in "Aladdin Jr"!</p>
-				<p class="text-center">Shows are running April 24th through May 3rd.</p>
-				<p class="text-center">Click <a href="http://offbroadwaydance.ticketleap.com/">here</a> to buy tickets, or visit <a href="boxoffice.php">Our Box Office Page</a></p>
+			<div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+				<h2 class="text-center">Our upcoming productions</h2>
+				<p class="text-center">Legally Blonde Jr. | June 12th - June 13th</p>
+				<p class="text-center">Jungle Book Kids   | July 17th - July 18th</p>
+				<p class="text-center">Little Mermaid Jr. | July 31st - August 9th</p>
+				<h3 class="text-center">Click <a href="/boxoffice.php">here</a> to buy tickets!</h3>
 			</div>
-		</div>
+			<div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+				<img class="img-responsive center-block" src="img/littlemermaid.jpg">
+			</div>
+		</div><hr />
 	</div>
-	
 
 
 

@@ -10,7 +10,7 @@
 		</div>
 	</div>
 
-	<div class="container">
+	<div class="container" style="margin-top: -200px">
 		<div class="row">
 			<div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
 				<h2 class="text-center"><strong>Ticket Prices</strong></h2><hr />
@@ -27,7 +27,7 @@
 			<div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
 				<h2 class="text-center"><strong>How To Buy Tickets</strong></h2><hr />
 					<ul id="buy">
-						<li>Our online box office <a href="http://www.offbroadwaydance.ticketleap.com/"><button class="btn buybtn" id="btn">here</button></a></li>
+						<li>Our online box office <a href="https://obct.yapsody.com/event/index/13134/legally-blonde-jr"><button class="btn buybtn" id="btn">here</button></a></li>
 						<li>By phone: 770-664-2410</li>
 						<li>By Email:</li>
 					</ul>

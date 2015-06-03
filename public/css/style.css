@@ -66,13 +66,24 @@ hr {
 	opacity: 0.8;
 }
 
+/*.container > .navbar-header, .container-fluid > .navbar-header, .container > .navbar-collapse, .container-fluid > .navbar-collapse {
+    margin-right: 0px;
+    margin-left: 250px;
+}*/
+/*
+div#navbar.navbar-header {
+	width: 100%;
+	margin-right: auto;
+	margin-left: 200px;
+}*/
+
 #navbar ul a, #header a {
 	color: black;
 }
 
-#navbar ul li {
+/*#navbar ul li {
 	margin-left: 22px;
-}
+}*/
 
 #navbar li a {
 	font-size: 1.5em;
@@ -88,9 +99,9 @@ hr {
 	height: 55px;
 }
 
-.navbar-nav.nav-justified > li{
+/*.navbar-nav.nav-justified > li{
     float:none;
-}
+}*/
 
 
 button.navbar-toggle {
@@ -102,14 +113,14 @@ color: #333;
 background-color: transparent;
 }
 
-.navbar-brand
+/*.navbar-brand
 {
 	position: absolute;
 	width: 100%;
 	left: 0;
 	text-align: center;
 	margin: auto;
-}
+}*/
 
 @media only screen and (min-width: 100px){
 	#dropdown {
@@ -118,27 +129,12 @@ background-color: transparent;
 	}
 }
 
+.navbar-nav>li {
+        float: none;
+}
+
 #navbar ul li a, #navbar a {
 	font-size: 1.5rem;
-}
-
-#sm_icons {
-	margin-top: 50px;
-	margin-left: -25px;
-}
- #sm_icons ul {
-	list-style: none;
-	display: inline-block;
- }
-
- #sm_icons ul li {
- 	display: inline-block;
-
- }
-
-#SMIcons {
-	height: 50px;
-	width: 50px;
 }
 
  #headerImage {
@@ -500,4 +496,3 @@ img#cinderella_setup {
 	font-size: 1.75rem;
 	color: white;
 }
-

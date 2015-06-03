@@ -27,10 +27,8 @@
 			<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
 				<h2 class="text-center">Sweet Apple Elementary - Roswell Georgia</h2>
 				<p class="text-left">Off Broadway Childrens Theater has been connecting with SAE for the last 5 years and have produced <b>Schoolhouse Rock Live, Jr</b>, <b>Annie Kids</b>, <b>Winnie the Pooh Kids</b>, <b>Willy Wonka Kids</b> and <b>Jungle Book Kids</b>.</p>
-				<p class="text-left"><b>Current Production</b>: Aladdin Kids</p>
-				<p class="text-left"><b>Dates</b>: April 4/17/2015-4/18/2015</p>
+				<p class="text-left"><b>Current Production</b>: 2015-2016 Season to be announced after 7/1/2015</p>
 				<p class="text-left"><b>Where</b>: The Studio Theatre at Off Broadway Children's Theatre-12315 Crabapple Road Suite 122, Alpharetta GA 30004-6331</p>
-				<p class="text-left"><b>Tickets</b>: All Tickets $6.00 and can be bought under Box Office</p>
 			</div>
 		</div>
 	</div>

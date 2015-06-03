@@ -21,6 +21,13 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+				<h2>We will be updating this will details about our Senior Troupe Audition details!</h2>
+			</div>
+		</div>
+	</div>
+	<!-- <div class="container">
+		<div class="row">
+			<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
 				<h2 class="text-center">OBCT Apprentice Theater Troupe 2015-2016</h2>
 				<p class="text-left"><b>What</b>: A group of 20-25  selected by audition performers between the ages of 6-12 that are dedicated and want to take their theater experience to the next level.</p>
 				<p class="text-left"><b>Where</b>: The Off Broadway Childrens Theater in Alpharetta, Georgia</p>
@@ -30,7 +37,7 @@
 				<p class="text-left">**Admission into the Off Broadway Kids Senior Troupe is open to kids by invited audition only for anyone ages 8 - 10, and 11 and older by general open audition. The number of open slots for younger Senior Troupe members this year will be very limited.</p>
 			</div>
 		</div><hr />
-	</div>
+	</div> -->
 
 	<div class="container">
 		<div class="row">
@@ -57,7 +64,7 @@
 
 	<div class="container">
 		<div class="row">
-			
+
 			<div class="col-xs-6 col-sm-2 col-md-2 col-lg-2">
 				<img class="headshots img-responsive center-block" data-featherlight="img/headshot7.jpg" src="img/headshot7.jpg" alt="">
 			</div>
@@ -101,7 +108,7 @@
 			</div>
 		</div>
 	</div>
-	
+
 	<div class="container">
 		<div class="row">
 			<div class="col-xs-6 col-sm-3 col-md-3 col-lg-3">

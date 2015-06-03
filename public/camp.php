@@ -61,23 +61,13 @@
 				<p>You might think your 3, 4 or 5 year-old makes enough of their own drama, but in Preschool Drama Makers they’ll use their creative energy for good. This camp allows students the opportunity to play with their favorite stories and picture books through theatre, crafts, song, and dance. Growing artistically and socially in an independent environment, campers are encouraged to let their imaginations go wild and harness their creativity to collaborate with others. This camp concludes with an informal open classroom show for parents and friends.
 				   (Snack is provided)</p>
 				   <div class="row">
-				   		<div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+				   		<div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
 				   			<h4 class="text-center">Session 1: June 1 - June 5</h4>
 				   			<h4 class="text-center">Frozen And Friends</h4>
 				   			<img class="img-responsive center-block" src="img/frozen.jpg">
 				   		</div>
-				   		<div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
-				   			<h4 class="text-center">Session 2: June 8 - June 11</h4>
-				   			<h4 class="text-center">Disney Mania</h4>
-				   			<img class="img-responsive center-block" src="img/princessfriends.jpg">
-				   		</div>
-				   		<div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
-				   			<h4 class="text-center">Session 3: June 15 - June 19</h4>
-				   			<h4 class="text-center">Pirates And Pixies</h4>
-				   			<img class="img-responsive center-block" src="img/piratesandpixies.jpg">
-				   		</div>
-				   		<div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
-				   			<h4 class="text-center">Session 4: July 13 - July 17</h4>
+				   		<div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+				   			<h4 class="text-center">Session 2: July 13 - July 17</h4>
 				   			<h4 class="text-center">Frozen And Friends</h4>
 				   			<img class="img-responsive center-block" src="img/frozen.jpg">
 				   		</div>

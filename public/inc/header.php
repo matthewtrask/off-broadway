@@ -41,7 +41,7 @@
 	<nav role="navigation" class="navbar navbar-default navbar-static-top" id="navbar">
 	    <div class="container-fluid">
 	        <!-- Brand and toggle get grouped for better mobile display -->
-	        <div class="navbar-header" id="header">
+	        <div class="navbar-header justified" id="header">
 	            <button type="button" data-target="#navbarCollapse" data-toggle="collapse" class="navbar-toggle">
 	                <span class="sr-only">Toggle navigation</span>
 	                <span class="icon-bar"></span>
@@ -76,7 +76,7 @@
 	                <li><a href="#" data-toggle="dropdown" class="dropdown-toggle">Shows<b class="caret"></b></a>
 	                	<ul class="dropdown-menu" id="dropdown">
 	                		<li><a href="shows.php">Current Production</a></li>
-	                		<li><a href="cast.php">Cast</a></li>
+	                		<!-- <li><a href="cast.php">Cast</a></li> -->
 	                		<li><a href="upcoming.php">Upcoming Shows</a></li>
 	                		<li><a href="auditions.php">Auditions</a></li>
 	                	</ul>

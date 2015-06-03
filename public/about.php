@@ -15,7 +15,7 @@
 	<div class="col-sm-12 col-md-12 col-lg-12">
 		<div class="container">
 			<div class="row">
-	
+
 				<!--  Carousel -->
 				<div id="carousel" class="carousel slide" data-ride="carousel">
 			    	<!-- Menu -->
@@ -24,10 +24,10 @@
 				        <li data-target="#carousel" data-slide-to="1"></li>
 				        <li data-target="#carousel" data-slide-to="2"></li>
 				    </ol>
-			    
+
 			    	<!-- Items -->
 				    <div class="carousel-inner">
-				        
+
 				        <div class="item active">
 				            <img src="img/mulan.jpg" alt="Slide 1" />
 				        </div>
@@ -37,7 +37,7 @@
 				        <div class="item">
 				            <img src="img/OBDShow3.jpg" alt="Slide 3" />
 				        </div>
-				    </div> 
+				    </div>
 				    <a href="#carousel" class="left carousel-control" data-slide="prev">
 				        <span class="glyphicon glyphicon-chevron-left"></span>
 				    </a>
@@ -48,7 +48,7 @@
 
 			</div>
 
-			
+
 
 		</div>
 	</div>
@@ -64,12 +64,12 @@
 				<p class="text-left"><b>WHAT</b>: A Children's Theater that focuses on youth between the ages of 4-16.</p>
 				<p class="text-left"><b>WHEN</b>: We have ongoing classes that support Musical Theater, Acting and Dance and we produce 8 Broadway, Jr. and Broadway kids shows a year in our 90 seat black box theater.</p>
 				<p class="text-left"><b>WHERE</b>: Located in downtown Crabapple we are in the same Silos North Shopping Center with Alpine Bakery and Atlanta Fitness.</p>
-				<p class="text-left">WHY: Off Broadway feels that each child deserves special attention to nurture, inspire, mentor and challenge them on their individual journey in the performing arts.</p>
-			</div>		
+				<p class="text-left"><b>WHY</b>: Off Broadway feels that each child deserves special attention to nurture, inspire, mentor and challenge them on their individual journey in the performing arts.</p>
+			</div>
 		</div><hr />
 	</div>
 
-	
+
 	<div class="container">
 		<div class="row">
 			<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
@@ -93,30 +93,3 @@
 </script>
 
 <?php include('inc/footer.php'); ?>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

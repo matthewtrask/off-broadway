@@ -21,7 +21,7 @@ class OBD extends Controller{
 
     View::rendertemplate('header', $data);
     View::rendertemplate('whatsnew');
-    View::rendertemplate('')
+    View::rendertemplate('footer');
 
   }
 

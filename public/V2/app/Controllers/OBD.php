@@ -17,6 +17,11 @@ class OBD extends Controller{
   }
 
   public function WhatsNew() {
+    $data['title'] = 'What\'s New';
+
+    View::rendertemplate('header', $data);
+    View::rendertemplate('whatsnew');
+    View::rendertemplate('')
 
   }
 

@@ -21,7 +21,7 @@ class Config
         ob_start();
 
         //site address
-        define('DIR', '');
+        define('DIR', 'http://192.168.33.10/V2/');
 
         //set default controller and method for legacy calls
         define('DEFAULT_CONTROLLER', 'welcome');
@@ -31,7 +31,7 @@ class Config
         define('TEMPLATE', 'default');
 
         //set the default image path
-        define('IMG', 'templates/default/img');
+        define('IMGDIR',DIR.'app/templates/default/img/');
 
         //set a default language
         define('LANGUAGE_CODE', 'en');

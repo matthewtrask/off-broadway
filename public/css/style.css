@@ -18,11 +18,12 @@ body {
 	margin: 0;
 	padding: 0;
 	width: 100%;
-	background: url(../img/grey.jpg) no-repeat center center fixed;
+	background-color: #5d5d5d;
+	/*background: url(../img/grey.jpg) no-repeat center center fixed;
 	-webkit-background-size: cover;
 	-o-background-size: cover;
 	-moz-background-size: cover;
-	background-size: cover;
+	background-size: cover;*/
 
 	/*background-color: #979FA6;*/
 	color: black;
@@ -52,38 +53,27 @@ hr {
 	height: 40%;
 }
 
+.navbar {
+    margin-bottom: 0;
+		margin-top: -250px;
+}
 
 #navbar {
 	/*background-color: #2ecc71;*/
 	height: 50px;
 	margin-bottom: 20px;
 	padding-bottom: 50px;
-	background: url(../img/grey.jpg) no-repeat center center fixed;
+	background-color: #5d5d5d;
+	/*background: url(../img/grey.jpg) no-repeat center center fixed;
 	-webkit-background-size: cover;
 	-o-background-size: cover;
-	-moz-background-size: cover;
-	background-size: cover;
-	opacity: 0.8;
+	-moz-background-size: cover;*/
 }
 
-/*.container > .navbar-header, .container-fluid > .navbar-header, .container > .navbar-collapse, .container-fluid > .navbar-collapse {
-    margin-right: 0px;
-    margin-left: 250px;
-}*/
-/*
-div#navbar.navbar-header {
-	width: 100%;
-	margin-right: auto;
-	margin-left: 200px;
-}*/
 
 #navbar ul a, #header a {
 	color: black;
 }
-
-/*#navbar ul li {
-	margin-left: 22px;
-}*/
 
 #navbar li a {
 	font-size: 1.5em;
@@ -92,6 +82,7 @@ div#navbar.navbar-header {
 #navbar li a:hover {
 	background: white;
 	color: #006400;
+	z-index: 10;
 }
 
 #navbar img {

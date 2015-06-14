@@ -33,7 +33,7 @@
 <body>
 
 	<div class="container" id="logo">
-		<div class="row" style="margin-bottom: 20px">
+		<div class="row">
 			<img src="img/green-logo.png" class="img-responsive center-block" id="logo">
 		</div>
 	</div>
@@ -51,7 +51,7 @@
 <!--  	            <a href="index.php" class="navbar-brand">Home --><!-- <img src="img/newlogo2.png"> --><!-- Off Broadway Dance Studio</a>
 	        </div>
 		    Collection of nav links and other content for toggling -->
-	        <div id="navbarCollapse" class="collapse navbar-collapse">
+	        <div id="navbarCollapse" class="col-xs-6 col-sm-3 sidebar-offcanvas" id="sidebar" role="navigation">
 	            <ul class="nav navbar-nav">
 	            	<li><a href="index.php">Home</a></li>
 	            	<li><a href="whatsnew.php">Whats New</a></li>
@@ -81,30 +81,16 @@
 	                		<li><a href="auditions.php">Auditions</a></li>
 	                	</ul>
 	                </li>
-					<li><a href="registration.php">Register</a></li>
-<!--	                <li><a href="#" data-toggle="dropdown" class="dropdown-toggle">Registration<b class="caret"></b></a>-->
-<!--						<ul class="dropdown-menu" id="dropdown">-->
-<!--							<li><a href="registration.php">Register</a></li>-->
-<!--						</ul>-->
-<!--	                </li>-->
+									<li><a href="registration.php">Register</a></li>
 	                <li><a href="boxoffice.php">Box Office</a></li>
 	            </ul>
 	        </div>
 	    </div>
 	</nav>
-	<!-- /Nav Bar -->
-<!-- 	<div class="container" id="sm_icons">
-		<div class="row">
-			<div class="col-xs-4 col-sm-4 col-md-4 col-lg-3">
-				<ul class="left">
-					<a href="//www.facebook.com/offbroadwaydancetheater"><li><img src="socialmedia/facebook.png" class="img-responsive" id="SMicons"></li></a>
-					<a href="//twitter.com/offbroadwayga"><li><img src="socialmedia/twitter.png" class="img-responsive" id="SMicons"></li></a>
-					<a href="//offbroadwaydance.wordpress.com"><li><img src="socialmedia/wordpress.png" class="img-responsive" id="SMicons"></li></a>
-					<a href="//www.youtube.com/channel/UCCqDdlVrQu0sMOspypLRY4w"><li><img src="socialmedia/youtube.png" class="img-responsive" id="SMicons"></li></a>
-				</ul>
-			</div>
-			<!-- <div class="col-xs-8 col-sm-8 col-md-8 col-lg-9">
-				<img class="img-responsive center-block" id="headerImage" src="img/newlogo.jpg" height="50%" width="60%">
-			</div> -->
-<!-- 		</div>
-	</div> -->
+	<script type="text/javascript">
+	$(document).ready(function() {
+  	$('[data-toggle=offcanvas]').click(function() {
+    	$('.row-offcanvas').toggleClass('active');
+  	});
+	});
+	</script>

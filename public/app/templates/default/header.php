@@ -90,7 +90,7 @@ $hooks->run('afterBody');
                     <li><a href="troupe">OBD Troupe</a></li>
                     <li><a href="#" data-toggle="dropdown" class="dropdown-toggle">Classes<b class="caret"></b></a>
                         <ul class="dropdown-menu menuDrop">
-                          <li><a href="classses">Classes</a></li>
+                          <li><a href="classes">Classes</a></li>
                           <li><a href="faq">Questions</a></li>
                         </ul>
                     </li>

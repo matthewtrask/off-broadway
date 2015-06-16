@@ -75,7 +75,7 @@ $hooks->run('afterBody');
         <div class="row row-offcanvas row-offcanvas-left">
 
             <!-- sidebar -->
-            <div class="col-xs-6 col-sm-3 sidebar-offcanvas" id="sidebar" role="navigation">
+            <div class="col-xs-3 col-sm-2 sidebar-offcanvas" id="sidebar" role="navigation">
                 <ul class="nav">
                     <li class="active"><a href="home">Home</a></li>
                     <li><a href="happenings">What's New</a></li>
@@ -108,7 +108,7 @@ $hooks->run('afterBody');
             </div>
             <!-- main area -->
             <div class="row">
-                <div class="col-xs-6 col-sm-9">
+                <div class="col-xs-9 col-sm-10">
                     <img src="<?php echo IMGDIR; ?>green-logo.png" id="logo" class="img-responsive center-block">
                 </div><!-- /.col-xs-12 main -->
             </div>

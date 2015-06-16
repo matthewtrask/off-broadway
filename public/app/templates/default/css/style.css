@@ -55,8 +55,7 @@ p, a, li {
 #logo {
   height: 50%;
   width: 50%;
-  z-index: 2;
-  margin-right: 17%;
+  margin-right: 45%;
 }
 
 /* END LOGO */
@@ -147,20 +146,15 @@ ul.menuDrop li a:hover {
 
 /* CAROUSEL */
 
-
-.controls {
-  height: 100px;
-}
-
-.carousel {
-  width: 1040px;
-
-}
-
 div.carousel-inner img {
-  height: 705px !important;
+  height: 70% !important;
   width: 100%;
 }
+
+.carousel-inner > .item > img {
+    margin: 0 auto;
+}
+
 
 
 /* END CAROUSEL */

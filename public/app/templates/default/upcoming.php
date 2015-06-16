@@ -32,7 +32,7 @@
   <div class="row">
     <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
       <h2 class="text-center">Little Mermaid Jr.</h2>
-      <p class="text-center">July 31st - August 9th</p>
+      <p class="text-center">August 8th - August 16th</p>
     </div>
     <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
       <img src="<?php echo IMGDIR; ?>littlemermaid.jpg" height="300px" width="300px">

@@ -15,9 +15,8 @@
         </div>
         <div class="col-xs-6 col-sm-4">
             <h2 class="text-center">Our upcoming productions</h2>
-            <p class="text-center">Legally Blonde Jr. | June 12th - June 13th</p>
             <p class="text-center">Jungle Book Kids   | July 17th - July 18th</p>
-            <p class="text-center">Little Mermaid Jr. | July 31st - August 9th</p>
+            <p class="text-center">Little Mermaid Jr. | August 7th - August 16th</p>
             <h3 class="text-center">Click <a href="#">here</a> to buy tickets!</h3>
         </div>
         <div class="col-xs-3 col-sm-4">

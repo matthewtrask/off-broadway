@@ -146,6 +146,22 @@ ul.menuDrop li a:hover {
 
 /* CAROUSEL */
 
+#buynow  {
+  margin-bottom: 25px;
+}
+
+#buynow button {
+  background-color: #D1FF47;
+}
+
+#buynow button a {
+  color: #000;
+}
+
+button.btn.btn-large.text-center {
+  padding-bottom: 20px;
+}
+
 div.carousel-inner img {
   height: 70% !important;
   width: 100%;
@@ -264,11 +280,16 @@ footer .fa-youtube:hover {
 /* END TEACHERS */
 
 /* TROUPE */
-.headshots {
+
+span.bold b {
+    color: #D1FF47;
+}
+
+/*.headshots {
 	height: 250px;
 	margin-top: 15px;
 	margin-bottom: 15px;
-}
+}*/
 /* END TROUPE */
 
 /* CLASSES */

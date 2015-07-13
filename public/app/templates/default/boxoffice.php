@@ -1,8 +1,7 @@
 <div class="container">
   <div class="row">
     <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-      <h1 class="text-center">Our Box Office</h1>
-      <h3 class="text-center"></h3>
+      <h1 class="text-center" style="margin-bottom: 200px;">Our Box Office</h1>
     </div>
   </div>
 </div>
@@ -24,7 +23,7 @@
     <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
       <h2 class="text-center"><strong>How To Buy Tickets</strong></h2><hr />
         <ul class="buy">
-          <li>Our online box office <a href="https://obct.yapsody.com/event/index/13134/legally-blonde-jr">here</a></li>
+          <li>Our online box office <a href="https://obct.yapsody.com/event/index/14487/little-mermaid">here</a></li>
           <li>By phone: 770-664-2410</li>
           <li>By Email:</li>
         </ul>

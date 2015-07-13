@@ -10,11 +10,10 @@
 <div class="container">
   <div class="row">
     <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 upcoming">
-      <img class="img-responsive center-block" src="<?php echo IMGDIR; ?>legallyblonde.jpg" style="margin-top: 40px;">
+      <img class="img-responsive center-block" src="<?php echo IMGDIR; ?>jb.jpg" style="margin-top: 40px;">
     </div>
     <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
       <h2 class="text-center">Our upcoming productions</h2>
-      <p class="text-center">Legally Blonde Jr. | June 12th - June 13th</p>
       <p class="text-center">Jungle Book Kids   | July 17th - July 18th</p>
       <p class="text-center">Little Mermaid Jr. | July 31st - August 9th</p>
       <h3 class="text-center">Click <a href="boxoffice">here</a> to buy tickets!</h3>

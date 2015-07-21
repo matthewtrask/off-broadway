@@ -29,10 +29,12 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Dosis', sans-serif;
+  line-height: 1.6;
 }
 
 p, a, li {
   font-family: 'Open Sans', sans-serif;
+  line-height: 1.5;
 }
 
 .row {
@@ -55,7 +57,7 @@ p, a, li {
 #logo {
   height: 50%;
   width: 50%;
-  margin-right: 45%;
+  margin-right: 35%;
 }
 
 /* END LOGO */
@@ -171,7 +173,10 @@ div.carousel-inner img {
     margin: 0 auto;
 }
 
-
+div#carousel.carousel.slide {
+  margin-right: 10%;
+  margin-left: -10%;
+}
 
 /* END CAROUSEL */
 

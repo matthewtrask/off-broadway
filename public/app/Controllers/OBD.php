@@ -4,6 +4,8 @@ namespace Controllers;
 
 use Core\View;
 use Core\Controller;
+use helpers\form;
+use helpers\phpmailer\mail;
 
 
 class OBD extends Controller{
@@ -119,7 +121,42 @@ class OBD extends Controller{
   }
 
   public function Contact(){
+    $data['title'] = 'Contact';
 
+
+    $data['form_start'] = form::open($params = array('method'=>'POST', 'class'=>'form'));
+    $data['form_close'] = form::close();
+
+    $data['form_name'] = form::input($params = array('name' => 'name', 'type' => 'text', 'id' => 'formName', 'class' => 'form-control', 'placeholder' => 'Name'));
+    $data['form_email'] = form::input($params = array('name' => 'email', 'type' => 'email', 'id' => 'formEmail', 'class' => 'form-control', 'placeholder' => 'Email Address'));
+    $data['form_message'] = Form::textbox($params = array('id'=>'message', 'class'=>'form-control', 'cols'=>'85', 'rows'=>'5', 'placeholder'=>'Ask a question, or leave a comment'));
+    $data['form_submit']   = Form::input($params = array('type'=>'submit', 'name'=>'submit', 'id'=>'submit', 'value'=>'Submit', 'class'=>'btn btn-lg btn-block btn-info pull-right'));
+ 
+    $name = $_POST['name'];
+    $email = $_POST['email'];
+    $message = $_POST['message'];
+
+    $cleanName = filter_var($name, FILTER_SANTIZE_STRING);
+    $cleanEmail = filter_var($email, FILTER_SANTIZE_EMAIL);
+    $cleanMessage = filter_var($message, FILTER_SANTIZE_STRING);
+
+    $mail = new \helpers\phpmailer\mail();
+
+    if(!empty($cleanName) && !empty($cleanEmail) && !empty($cleanMessage)){
+        $mail->setFrom($cleanEmail);
+        $mail->addAddress('offbroadway@msn.com');
+        $mail->subject("A message for Off Broadway Children's Theatre");
+        $mail->body("Name: ".$cleanName ."<br>Email: ".$cleanEmail."<br>Message: ".$cleanMessagenNumOfPpl."<br>Message: ".$cleanApptMsg."<br>Review Message: ".$cleanReview."<br>Question: ".$cleanQuestion);
+        $mail->send();
+    }
+
+    
+
+    
+
+    View::rendertemplate('header', $data);
+    View::rendertemplate('contact', $data);
+    View::rendertemplate('footer');
   }
 }
 ?>

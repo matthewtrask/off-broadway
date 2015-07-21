@@ -10,6 +10,7 @@
       <div class="text-center" id="buynow">
         <button class="btn btn-large text-center"><a href="https://obct.yapsody.com/event/index/14487/little-mermaid">Tickets Here!</a></button>
       </div>
+      <div class="container"> 
       <div class="carousel slide" id="carousel" data-ride="carousel">
       <!-- Indicators for Slides -->
         <ol class="carousel-indicators">
@@ -42,7 +43,7 @@
     </div>
     <div class="col-md-2 col-lg-2">
     </div>
-</div>
+  </div>
 <div class="container" style="margin-top: 40px;">
     <div class="row">
         <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
@@ -50,4 +51,14 @@
             <h3>For more information, please call 770-664-2410 or email us at <a href="mailto:offbroadway@msn.com">offbroadway@msn.com</a>!</h3>
         </div>
     </div>
-</div>
+    <div class="row">
+        <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+          <h2 class="text-center">We are currently auditioning for Cinderella Kids!</h2>
+          <h4 class="text-center">For more information or email us at <a href="mailto:offbroadway@msn.com">offbroadway@msn.com</a> for more details!</h4>
+        </div>
+        <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+          <img src="<?php echo IMGDIR; ?>cinderella.jpg" alt="Cinderella Kids" class="img-responsive center-block">
+        </div>
+      </div>
+    </div>
+  </div>

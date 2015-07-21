@@ -103,7 +103,7 @@ $hooks->run('afterBody');
                     </li>
                     <li><a href="register">Register</a></li>
                     <li><a href="boxoffice">Box Office</a></li>
-                    <li class="hidden"><a href="contact">Contact</a></li>
+                    <li><a href="contact">Contact</a></li>
                 </ul>
             </div>
             <!-- main area -->

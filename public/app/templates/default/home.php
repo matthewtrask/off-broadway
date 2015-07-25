@@ -10,7 +10,7 @@
       <div class="text-center" id="buynow">
         <button class="btn btn-large text-center"><a href="https://obct.yapsody.com/event/index/14487/little-mermaid">Tickets Here!</a></button>
       </div>
-      <div class="container"> 
+      <div class="container">
       <div class="carousel slide" id="carousel" data-ride="carousel">
       <!-- Indicators for Slides -->
         <ol class="carousel-indicators">
@@ -47,7 +47,7 @@
 <div class="container" style="margin-top: 40px;">
     <div class="row">
         <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-            <h3>The Off Broadway Children's Theatre is pleased to announce auditions for its Fall production of "Winnie the Pooh Kids." The auditions are open to any child between the ages of 5 and 12 years old and will be held on Saturday, August 1st at 2pm-4pm. Auditionees should prepare 30 seconds of a song of their choice to sing, come dressed to learn a short dance and older children may be asked to read from the script.</h3>
+            <h3>The Off Broadway Children's Theatre is pleased to announce auditions for its Fall production of "Cinderella Kids"! The auditions are open to any child between the ages of 5 and 12 years old and will be held on Saturday, August 1st at 2pm-4pm. Auditionees should prepare 30 seconds of a song of their choice to sing, come dressed to learn a short dance and older children may be asked to read from the script.</h3>
             <h3>For more information, please call 770-664-2410 or email us at <a href="mailto:offbroadway@msn.com">offbroadway@msn.com</a>!</h3>
         </div>
     </div>

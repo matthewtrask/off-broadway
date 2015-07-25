@@ -46,9 +46,6 @@ p, a, li {
   padding-top: 20px;
 }
 
-.module {
-  margin-top: 20px;
-}
 
 /* END GLOBAL */
 
@@ -58,6 +55,7 @@ p, a, li {
   height: 50%;
   width: 50%;
   margin-right: 35%;
+  margin-bottom: 15%;
 }
 
 /* END LOGO */

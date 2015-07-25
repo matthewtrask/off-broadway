@@ -10,11 +10,11 @@
 <div class="container">
   <div class="row">
     <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
-      <h2 class="text-center">The Off Broadway Children's Theatre is pleased to announce auditions for its Fall production of "Winnie the Pooh Kids." The auditions are open to any child between the ages of 5 and 12 years old and will be held on Saturday, August 1st at 2pm-4pm. Auditionees should prepare 30 seconds of a song of their choice to sing, come dressed to learn a short dance and older children may be asked to read from the script</h2>
+      <h2 class="text-center">The Off Broadway Children's Theatre is pleased to announce auditions for its Fall production of Cinderella Kids." The auditions are open to any child between the ages of 5 and 12 years old and will be held on Saturday, August 1st at 2pm-4pm. Auditionees should prepare 30 seconds of a song of their choice to sing, come dressed to learn a short dance and older children may be asked to read from the script</h2>
       <h2 class="text-center">If cast, their is a 200.00 production fee and the show will rehearse on Monday and Wednesday evenings from 6pm to 8pm. The show will be performed in late Sep early Oct. To schedule an audition apt., please call 770-664-2410770-664-2410 or email us at <a href="mailto:offBroadway@msn.com">offbroadway@msn.com</a>.</h2>
     </div>
     <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
-      <img src="<?php echo IMGDIR; ?>pooh.jpg" alt="Winnie the Pooh Kids Off Broadway Kids Theatre" class="img-responsive center-block">
+      <img src="<?php echo IMGDIR; ?>cinderella.jpg" alt="Cinderella Kids OBCT" class="img-responsive center-block">
     </div>
   </div>
 </div>

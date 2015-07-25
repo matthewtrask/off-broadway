@@ -87,7 +87,7 @@ $hooks->run('afterBody');
                             <li class="hidden"><a href="#">Gallery</a></li>
                         </ul>
                     </li>
-                    <li><a href="troupe">OBD Troupe</a></li>
+                    <li><a href="troupe">OBCT Troupe</a></li>
                     <li><a href="#" data-toggle="dropdown" class="dropdown-toggle">Classes<b class="caret"></b></a>
                         <ul class="dropdown-menu menuDrop">
                           <li><a href="classes">Classes</a></li>

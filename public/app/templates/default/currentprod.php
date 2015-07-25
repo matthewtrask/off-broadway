@@ -9,15 +9,12 @@
 
 <div class="container">
   <div class="row">
-    <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 upcoming">
-      <img class="img-responsive center-block" src="<?php echo IMGDIR; ?>jb.jpg" style="margin-top: 40px;">
-    </div>
-    <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+    <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
       <h2 class="text-center">Our upcoming productions</h2>
       <p class="text-center">Little Mermaid Jr. | July 31st - August 9th</p>
       <h3 class="text-center">Click <a href="boxoffice">here</a> to buy tickets!</h3>
     </div>
-    <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 upcoming">
+    <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 upcoming">
       <img class="img-responsive center-block" style="margin-top: 10%" src="<?php echo IMGDIR; ?>littlemermaid.jpg">
     </div>
   </div><hr />

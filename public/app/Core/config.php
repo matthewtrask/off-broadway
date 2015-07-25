@@ -21,7 +21,7 @@ class Config
         ob_start();
 
         //site address
-        define('DIR', 'http://192.168.33.10/');
+        define('DIR', 'http://offbroadwaykids.net/');
 
         //set default controller and method for legacy calls
         define('DEFAULT_CONTROLLER', 'welcome');
@@ -61,6 +61,6 @@ class Config
         date_default_timezone_set('America/New York');
 
         //start sessions
-        Session::init();
+        //Session::init();
     }
 }

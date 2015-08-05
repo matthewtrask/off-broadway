@@ -97,7 +97,7 @@
       </div>
     </div>
     <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
-      <img src="<?php echo IMGDIR; ?>cinderella_setup.jpg" id="cinderella_setup" height="50%" width="100%">
+      <img src="<?php echo IMGDIR; ?>opening-night.jpg" id="cinderella_setup" height="50%" width="100%">
     </div>
   </div>
 </div>

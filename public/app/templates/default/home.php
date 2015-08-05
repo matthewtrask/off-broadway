@@ -21,13 +21,13 @@
         <!-- Wrapper for Carousel -->
         <div class="carousel-inner" role="listbox">
           <div class="item active">
-            <img src="<?php echo IMGDIR;?>play3.jpg" class="img-responsive center-block">
+            <img src="<?php echo IMGDIR;?>hsm-obct.jpg" class="img-responsive center-block">
           </div>
           <div class="item">
-            <img src="<?php echo IMGDIR;?>groupshot2.jpg" class="img-responsive center-block">
+            <img src="<?php echo IMGDIR;?>opening-night.jpg" class="img-responsive center-block">
           </div>
           <div class="item">
-            <img src="<?php echo IMGDIR;?>wickswerehere.jpg" class="img-responsive center-block">
+            <img src="<?php echo IMGDIR;?>island-show.jpg" class="img-responsive center-block">
           </div>
         </div>
         <!-- Controls -->
@@ -43,6 +43,7 @@
     </div>
     <div class="col-md-2 col-lg-2">
     </div>
+  </div>
   </div>
 <div class="container" style="margin-top: 40px;">
     <div class="row">

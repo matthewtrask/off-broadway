@@ -22,6 +22,13 @@
 <div class="container">
     <div class="row">
         <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+            <img src="<?php echo IMGDIR; ?>suess-alum.jpg" alt="OBCT Suess Alum" class="center-block img-responsive">
+        </div>
+    </div>
+</div>
+<div class="container">
+    <div class="row">
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
             <h2 class="text-center"  id="reasons_obd">Why Choose Off Broadway</h2>
             <p class="text-left">Back in 2000, Chris and Shannon Mayer had a desire to open up a performing arts center that was focused on celebrating the unique personalities of kids. We envisioned a place where kids felt confident and could be themselves and share their love for the arts. We wanted to create an environment that was so irresistable, kids could not imagine being any place else. With an array of classes in Musical Theatre, Acting and dance classes that support our theatre curriculum, we help kids ages 4-18 discover their passion for the performing arts.</p>
             <p class="text-left">In addition, we have a fully operational children’s theatre which produces 7 professional theatrical productions a year by kids for kids in our 90 seat blackbox theatre. Our facility features a flexible 90 seat blackbox theatre with professional stage lighting, an 1200 square foot rehearsal hall, a private music studio and a costume department. We would love for you to stop by, come see a show and come see the environment we have built for kids. Welcome home.</p>

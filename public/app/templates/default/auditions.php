@@ -9,11 +9,32 @@
 
 <div class="container">
   <div class="row">
-    <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
-      <h2 class="text-center">The Off Broadway Children's Theatre is pleased to announce auditions for its Fall production of Cinderella Kids." The auditions are open to any child between the ages of 5 and 12 years old and will be held on Saturday, August 1st at 2pm-4pm. Auditionees should prepare 30 seconds of a song of their choice to sing, come dressed to learn a short dance and older children may be asked to read from the script</h2>
-      <h2 class="text-center">If cast, their is a 200.00 production fee and the show will rehearse on Monday and Wednesday evenings from 6pm to 8pm. The show will be performed in late Sep early Oct. To schedule an audition apt., please call 770-664-2410770-664-2410 or email us at <a href="mailto:offBroadway@msn.com">offbroadway@msn.com</a>.</h2>
+    <div class="col-xs-12 col-sm-12 col-md-8 col-lg-8">
+      <h3>Cinderella Cast List</h3>
+      <ul>
+        <li><b>Cinderella</b>: Samantha Azua</li>
+        <li><b>Fairy Godmother</b>: Isabella Marrero</li>
+        <li><b>Step Mother</b>: Ali Wiley</li>
+        <li><b>Anastasia</b>: Macie Ann</li>
+        <li><b>Drizella</b>:  Jules Turknett</li>
+        <li><b>Prince</b>: Rafaela Bomk</li>
+        <li><b>King</b>: TBD</li>
+        <li><b>Grand Duke</b>: Grant Brunning</li>
+        <li><b>Narrator/Young Ladies</b>: Leah Brown, Isabelle Kelso, Katelyn Thai</li>
+        <li><b>Herald</b>: Jonathan Thai</li>
+        <li><b>Town Crier</b>: Nathan Krapft, McKinley Brunning</li>
+        <li><b>Town Crier/Young Lady</b>: Riley Luther</li>
+        <br />
+        <h5>Mouse Family</h5>
+        <li><b>Jacques</b>: Grace Kelso</li>
+        <li><b>Gus</b>: Cameron Baker</li>
+        <li><b>Perla</b>: Olivia Kendig</li>
+        <li><b>Luke</b>: Amelia Baker</li>
+        <li><b>Mice</b>: Katie Pearce, Cara Tenhundfeld, McKenzie Smith, Naiomi Caran, Ellie Wilson, Andrea Cueny</li>
+
+      </ul>
     </div>
-    <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+    <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
       <img src="<?php echo IMGDIR; ?>cinderella.jpg" alt="Cinderella Kids OBCT" class="img-responsive center-block">
     </div>
   </div>

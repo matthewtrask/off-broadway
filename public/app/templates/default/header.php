@@ -26,90 +26,73 @@ $hooks = Hooks::get();
     <title><?php echo $data['title'].' - '.SITETITLE; //SITETITLE defined in app/Core/Config.php ?></title>
 
     <!-- CSS -->
-    <link href='http://fonts.googleapis.com/css?family=Dosis:400,200,600' rel='stylesheet' type='text/css'>
-    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Bitter' rel='stylesheet' type='text/css'> 
+    <link href='http://fonts.googleapis.com/css?family=Raleway:400,200,600' rel='stylesheet' type='text/css'>    
+    <script src="bower_components/jquery/dist/jquery.js"></script>
     <?php
     Assets::css(array(
         '//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css',
-        '//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css',
-        '//cdn.rawgit.com/noelboss/featherlight/1.0.3/release/featherlight.min.css',
-        Url::templatePath() . 'css/style.css',
+        '/bower_components/bootstrap/dist/css/bootstrap.css',
+        //'https://cdnjs.cloudflare.com/ajax/libs/foundation/5.5.2/css/foundation.min.css',
+        Url::templatePath() . 'css/style.css'
     ));
 
     //hook for plugging in css
     $hooks->run('css');
 
-
     Assets::js(array(
         Url::templatePath() . 'js/jquery.js',
-        '//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js',
-        '//cdn.rawgit.com/noelboss/featherlight/1.0.3/release/featherlight.min.js',
         '//cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js',
-        Url::templatePath() . 'js/main.js'
     ));
     ?>
 
 </head>
 <body>
+
+
 <?php
 //hook for running code after body tag
 $hooks->run('afterBody');
 ?>
+<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+   <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" 
+         data-target="#example-navbar-collapse">
+         <span class="sr-only">Toggle navigation</span>
+         <span class="icon-bar"></span>
+         <span class="icon-bar"></span>
+         <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#"><i class="fa fa-home"></i> Off Broadway Children's Theatre</a>
+   </div>
+   <div class="collapse navbar-collapse" id="example-navbar-collapse">
+      <ul class="nav navbar-nav pull-right">
+         <li class="active"><a href="#">About</a></li>
+         <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Studio <b class="caret"></b></a>
+            <ul class="dropdown-menu">
+                <li><a href="classes"><i class="fa fa-calendar"></i> Classes</a></li>
+                <li><a href="teachers">Teachers</a></li>
+                <li class="divider"></li>
+                <li><a href="gallery"><i class="fa fa-camera"></i> Gallery</a></li>
+                <li class="divider"></li>
+                <li><a href="faq">Questions</a></li>
+            </ul>
+         </li>
+         <li><a href="troupe">OBCT Troupe</a></li>
+         <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Production <b class="caret"></b></a>
+            <ul class="dropdown-menu">
+                <li><a href="currentprod"><i class="fa fa-star-o"></i> Current Show</a></li>
+                <li class="divider"></li>
+                <li><a href="upcoming">Upcoming</a></li>
+                <li class="divider"></li>
+                <li><a href="auditions"><i class="fa fa-music"></i> Auditions</a></li>
+            </ul>
+         </li>
+         <li><a href="contact"><i class="fa fa-envelope-o"></i> Contact</a></li>
+      </ul>
+   </div>
+</nav>
+<main class="page-container">
 
-<div class="page-container">
 
-    <!-- top navbar -->
-    <div class="navbar navbar-default" role="navigation">
-        <div class="container">
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="offcanvas" data-target=".sidebar-nav">
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-            </div>
-        </div>
-    </div>
-
-
-        <div class="row row-offcanvas row-offcanvas-left">
-
-            <!-- sidebar -->
-            <div class="col-xs-3 col-sm-2 sidebar-offcanvas" id="sidebar" role="navigation">
-                <ul class="nav">
-                    <li class="active"><a href="home">Home</a></li>
-                    <li><a href="happenings">What's New</a></li>
-                    <li><a href="schools">Schools</a></li>
-                    <li><a href="#" data-toggle="dropdown" class="dropdown-toggle">About Us<b class="caret"></b></a>
-                        <ul class="dropdown-menu menuDrop">
-                            <li><a href="aboutus">The Studio</a></li>
-                            <li><a href="teachers">Teachers</a></li>
-                            <li class="hidden"><a href="#">Gallery</a></li>
-                        </ul>
-                    </li>
-                    <li><a href="troupe">OBCT Troupe</a></li>
-                    <li><a href="#" data-toggle="dropdown" class="dropdown-toggle">Classes<b class="caret"></b></a>
-                        <ul class="dropdown-menu menuDrop">
-                          <li><a href="classes">Classes</a></li>
-                          <li><a href="faq">Questions</a></li>
-                        </ul>
-                    </li>
-                    <li><a href="#" data-toggle="dropdown" class="dropdown-toggle">Shows<b class="caret"></b></a>
-                        <ul class="dropdown-menu menuDrop">
-                          <li><a href="currentprod">Current Show</a></li>
-                          <li><a href="upcoming">Upcoming</a></li>
-                          <li><a href="auditions">Auditions</a></li>
-                        </ul>
-                    </li>
-                    <li><a href="register">Register</a></li>
-                    <li><a href="boxoffice">Box Office</a></li>
-                    <li><a href="contact">Contact</a></li>
-                </ul>
-            </div>
-            <!-- main area -->
-            <div class="row">
-                <div class="col-xs-9 col-sm-10">
-                    <img src="<?php echo IMGDIR; ?>green-logo.png" id="logo" class="img-responsive center-block">
-                </div><!-- /.col-xs-12 main -->
-            </div>
-        </div><!--/.row-->

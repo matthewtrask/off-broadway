@@ -12,12 +12,11 @@
     <div class="row upcoming">
         <div class="col-xs-6 col-sm-6">
             <h2 class="text-center">Our upcoming productions</h2>
-            <p class="text-center">Jungle Book Kids   | July 17th - July 18th</p>
-            <p class="text-center">Little Mermaid Jr. | August 7th - August 16th</p>
+            <p class="text-center">Cinderella Jr.</p>
             <h3 class="text-center">Click <a href="#">here</a> to buy tickets!</h3>
         </div>
         <div class="col-xs-6 col-sm-6">
-            <img src="<?php echo IMGDIR; ?>littlemermaid.jpg" class="img-responsive center-block"
+            <img src="<?php echo IMGDIR; ?>Cinderella.jpg" class="img-responsive center-block"
         </div>
     </div>
 </div><hr />

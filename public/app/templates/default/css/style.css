@@ -28,12 +28,12 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: 'Dosis', sans-serif;
+  font-family: 'Bitter', serif;
   line-height: 1.6;
 }
 
 p, a, li {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Raleway', sans-serif;
   line-height: 1.5;
 }
 
@@ -46,144 +46,31 @@ p, a, li {
   padding-top: 20px;
 }
 
+main {
+  padding-top: 60px;
+}
 
 /* END GLOBAL */
 
 /* LOGO */
 
-#logo {
-  height: 50%;
-  width: 50%;
-  margin-right: 35%;
-  margin-bottom: 15%;
-}
-
-/* END LOGO */
+/* END GLOBAL */
 
 /* NAV BAR */
-.navbar {
-  margin-top: -30px;
-  background-color: #5d5d5d;
-  border: 0px;
-}
 
-#sidebar {
-  height: 100%;
-  padding-right: 0;
-  padding-top: 20px;
-}
-#sidebar .nav {
-  width: 95%;
-}
 
-div#sidebar.col-xs-6.col-sm-3.sidebar-offcanvas {
-  width: 150px;
-}
 
-#sidebar li a {
-  color: #D1FF47;
-}
-
-#sidebar li a:hover {
-  color: #000 !important;
-  background-color: #D1FF47 !important;
-}
-
-ul.menuDrop  {
-  padding-top: 0px;
-  padding-bottom: 0px;
-}
-
-ul.dropdown-menu.menuDrop > li a{
-  background-color: #D1FF47 !important;
-  color: #000 !important;
-}
-
-ul.menuDrop li a {
-  color: #000 !important;
-  background-color: #D1FF47 !important;
-}
-
-ul.menuDrop li a:hover {
-  color: #fff !important;
-  background-color: #D1FF47 !important;
-}
-
-/* collapsed sidebar styles */
-@media screen and (max-width: 767px) {
-  .row-offcanvas {
-    position: relative;
-    -webkit-transition: all 0.25s ease-out;
-    -moz-transition: all 0.25s ease-out;
-    transition: all 0.25s ease-out;
-  }
-  .row-offcanvas-right
-  .sidebar-offcanvas {
-    right: -41.6%;
-  }
-
-  .row-offcanvas-left
-  .sidebar-offcanvas {
-    left: -41.6%;
-  }
-  .row-offcanvas-right.active {
-    right: 41.6%;
-  }
-  .row-offcanvas-left.active {
-    left: 41.6%;
-  }
-  .sidebar-offcanvas {
-    position: absolute;
-    top: 0;
-    width: 41.6%;
-  }
-  #sidebar {
-    padding-top:0;
-  }
-}
 
 /* END NAV BAR */
 
 /* CAROUSEL */
 
-#buynow  {
-  margin-bottom: 25px;
-}
-
-#buynow button {
-  background-color: #D1FF47;
-}
-
-#buynow button a {
-  color: #000;
-}
-
-button.btn.btn-large.text-center {
-  padding-bottom: 20px;
-}
-
-div.carousel-inner img {
-  height: 70% !important;
-  width: 100%;
-}
-
-.carousel-inner > .item > img {
-    margin: 0 auto;
-}
-
-div#carousel.carousel.slide {
-  margin-right: 10%;
-  margin-left: -10%;
-}
 
 /* END CAROUSEL */
 
 /* HAPPENINGS */
 
-.upcoming img {
-  height: 250px;
 
-}
 
 /* END HAPPENINGS */
 
@@ -270,23 +157,13 @@ footer .fa-youtube:hover {
 /* END BTT ARROW */
 
 /* TEACHERS */
-#bios {
-  margin-bottom:30px;
-}
 
-#bios img {
-  height: 200px;
-  width: 200px;
-  border: 1px solid #D1FF47;
-}
 
 /* END TEACHERS */
 
 /* TROUPE */
 
-span.bold b {
-    color: #D1FF47;
-}
+
 
 /*.headshots {
 	height: 250px;
@@ -296,73 +173,18 @@ span.bold b {
 /* END TROUPE */
 
 /* CLASSES */
-.body h1, .classes h1 {
-	margin-top: 50px;
-	margin-bottom: 20px;
-}
 
-.classes h3 {
-	margin-bottom: 25px;
-}
-
-.red {
-/*	background: #F7CA18;*/
-	color: black;
-	width: 100%;
-}
-
-#pulsebody {
-	margin-top: 30px;
-	margin-bottom: 40px;
-}
-
-#pulsebody h1 {
-	margin-bottom: 20px;
-}
-
-#pulsebody img {
-	margin-bottom: 30px;
-}
-
-.hide_div {
-	display: none;
-}
-
-.classes-offered ul{
-	list-style-type: none;
-}
-
-.classes-offered button {
-	margin-bottom: 40px;
-}
-
-.classes-offered button a {
-	color: #FFF;
 }
 /* END CLASSES */
 
 /* QUESTIONS */
 
-a#faq  {
-  color: #D1FF47;
-}
 
-h3:hover {
-  color: #D1FF47;
-  cursor: pointer;
-
-}
 
 /* END QUESTIONS */
 
 /* SHOWS */
-#current_show img {
-	margin-top: 25px;
-}
 
-img#cinderella_setup {
-  margin-top: 20px;
-}
 
 
 /* END SHOWS */
@@ -376,40 +198,11 @@ img#cinderella_setup {
 /* END AUDITIONS */
 
 /* REGISTER */
-.signup a {
-  color:#d1ff47;
-  text-decoration: none;
-}
-
-.signup a:hover {
-  border: 1px solid #d1ff47;
-  border-radius: 10px;
-  width: 50%;
-  padding-left: 10px;
-  padding-right: 10px;
-  color: #000;
-  background-color: #d1ff47;
-  text-decoration: none;
-}
 
 /* END REGISTER */
 
 /* BOX OFFICE */
-.buy a {
-  color:#d1ff47;
-  text-decoration: none;
-}
 
-.buy a:hover {
-  border: 1px solid #d1ff47;
-  border-radius: 10px;
-  width: 50%;
-  padding-left: 10px;
-  padding-right: 10px;
-  color: #000;
-  background-color: #d1ff47;
-  text-decoration: none;
-}
 /* END BOX OFFICE */
 
 /* CONTACT */

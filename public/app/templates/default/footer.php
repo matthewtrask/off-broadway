@@ -8,10 +8,16 @@ use Helpers\Hooks;
 $hooks = Hooks::get();
 ?>
 
-</div>
+</main>
 
 <!-- JS -->
+
 <?php
+    Assets::js(array(
+        '//cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js',
+        '/bower_components/bootstrap/dist/js/bootstrap.js',
+        Url::templatePath() . 'js/main.js'
+    ));
 //hook for plugging in javascript
 $hooks->run('js');
 
@@ -19,8 +25,6 @@ $hooks->run('js');
 $hooks->run('footer');
 ?>
 
-    </div>
-</div><!--/.page-container-->
 <footer>
     <div class="container">
         <div class="row">

@@ -1,20 +1,13 @@
-<div class="container">
-  <div class="row">
-    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-      <h1 class="text-center">Do you want to be in a show?</h1>
-      <h3 class="text-center">Check back here often for our audition schedules!</h3>
-    </div>
-  </div>
-</div>
+
 
 <div class="container">
   <div class="row">
     <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
-      <h2 class="text-center">The Off Broadway Children's Theatre is pleased to announce auditions for its Fall production of Cinderella Kids." The auditions are open to any child between the ages of 5 and 12 years old and will be held on Saturday, August 1st at 2pm-4pm. Auditionees should prepare 30 seconds of a song of their choice to sing, come dressed to learn a short dance and older children may be asked to read from the script</h2>
-      <h2 class="text-center">If cast, their is a 200.00 production fee and the show will rehearse on Monday and Wednesday evenings from 6pm to 8pm. The show will be performed in late Sep early Oct. To schedule an audition apt., please call 770-664-2410770-664-2410 or email us at <a href="mailto:offBroadway@msn.com">offbroadway@msn.com</a>.</h2>
+      <h2 class="text-center">The Off Broadway Children's Theatre is pleased to announce auditions for it's 2015 production of "Annie JR." Auditions are open to kids ages 8-17 and will be held at the Studio Theatre on Saturday, September 19th 2pm-5pm. Candidates will need to prepare 30 seconds of a musical theatre song to sing, will learn a short dance and will be asked to cold read.</h2>
+      <h2 class="text-center">If cast, there is a 200.00 production fee and the rehearsals will be held on Wednesday evenings and Sunday afternoons. Performances are held at the Studio Theatre at OBCT December 11-20. To schedule an audition, please call 770-664-2410770-664-2410 or email us at <a href="mailto:offBroadway@msn.com">offbroadway@msn.com</a>!</h2>
     </div>
     <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
-      <img src="<?php echo IMGDIR; ?>cinderella.jpg" alt="Cinderella Kids OBCT" class="img-responsive center-block">
+      <img src="<?php echo IMGDIR; ?>anniejr.jpg" alt="Annie Jr OBCT" class="img-responsive center-block">
     </div>
   </div>
 </div>

@@ -10,7 +10,7 @@
 <div class="container">
     <div class="row">
         <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-            <h2 class="text-center">Schools that Off Broadway connects with</h2>
+            <h2 class="text-center">Schools that Off Broadway connects With</h2>
         </div>
     </div><hr />
 </div>

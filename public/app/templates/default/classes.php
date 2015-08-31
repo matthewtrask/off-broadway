@@ -47,7 +47,7 @@
     <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6 OBDClass">
       <h2>Musical Theatre Dance Ages 8-14 Level 1</h2>
       <p>Come join Erin Greenway as she inspires you to connect to the basics of Musical Theater Dance. We will build on the core basics of dance combinations, and required technique that will  help to prepare you for auditions and feel comfortable when learning dance routines for shows. We will focus on classic shows like Guys and Dolls, Mary Poppins, as well as today’s shows like Hairspray, Shrek, Newsies and Aladdin and many more.</p>
-      <p>Mondays 5:30-6:30 PM | Wednesday 5:30-6:30 PM</p>
+      <p>Mondays 6:00-7:00 PM | Wednesday 5:30-6:30 PM</p>
       <p>Tuition: $55.00</p>
       <button class="btn btn-block btn-primary" id="btn"><a href="https://app.jackrabbitclass.com/reg.asp?id=277946">Register for this class</a></button>
     </div>
@@ -60,17 +60,19 @@
         <div class="OBDClass">
           <h2>Beginning Improv/Acting Ages 8-12</h2>
           <p>Mr. Chris will help your young performer connect with their inner passion for storytelling. Each class is high energy, non stop fun exploring the basics of acting and Improv. We will create spontaneous scenes with unique characters that are humorous and memorable. We challenge the young performer to use their imagination, think outside the box and help establish the who -what- where- when and why of the scene. We will touch on the terminology of stage, work on scenes from plays and understand text of what the playwright is trying to convey. They will grow in confidence and have a greater understanding of themselves and connect with the other performers in the class.We will have periodic showcases through the year to showcase their growth and passion.</p>
-          <p>Mondays 4:30-5:30 PM | Thursdays 5:00-6:00 PM</p>
+          <p>Mondays 5:00-6:00 PM</p>
           <p>Tuition: $55.00</p>
           <button class="btn btn-block btn-primary" id="btn"><a href="https://app.jackrabbitclass.com/reg.asp?id=277946">Register for this class</a></button>
       </div>
     </div>
     <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6 OBDClass">
-      <h2>Intro to Musical Theatre Ages 8-14</h2>
-      <p>Come take a journey with Ms. Shannon and her infectious teaching style as she helps your young performer connect with the song to tell the story. This is a great way for the young performer to get the basics of all the elements of what Musical Theater is: song- dance and acting. We will attack stage basics, auditions, building a character that conveys a story through song and working as an ensemble to bring those moments to life.  We will cover selections from Annie, Peter Pan, Seussical, Honk and many more to help keep the class fresh and challenging. We will have periodic showcases through the year to showcase their growth and passion.</p>
-      <p>Thursdays 5:00-6:00 PM</p>
-      <p>Tuition: $55.00</p>
-      <button class="btn btn-block btn-primary" id="btn"><a href="https://app.jackrabbitclass.com/reg.asp?id=277946">Register for this class</a></button>
+        <div class="OBDClass">
+            <h2>Intro to Musical Theatre Ages 8-14</h2>
+            <p>Come take a journey with Ms. Shannon and her infectious teaching style as she helps your young performer connect with the song to tell the story. This is a great way for the young performer to get the basics of all the elements of what Musical Theater is: song- dance and acting. We will attack stage basics, auditions, building a character that conveys a story through song and working as an ensemble to bring those moments to life.  We will cover selections from Annie, Peter Pan, Seussical, Honk and many more to help keep the class fresh and challenging. We will have periodic showcases through the year to showcase their growth and passion.</p>
+            <p>Thursdays 5:00-6:00 PM</p>
+            <p>Tuition: $55.00</p>
+            <button class="btn btn-block btn-primary" id="btn"><a href="https://app.jackrabbitclass.com/reg.asp?id=277946">Register for this class</a></button>
+        </div>
     </div>
   </div><hr/>
 </div>
@@ -86,17 +88,10 @@
 
 <div class="container classes-offered">
   <div class="row">
-    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6 OBDClass">
-      <h2>Musical Theatre Dance Ages 10-16 <br>Level 2</h2>
-      <p>Come join Erin Greenway as she inspires you to connect to the advanced combinations of Musical Theater Dance. Each class will  challenge the dancer with  high energy combinations that performers will encounter in real show experiences.  Come ready to perform in this intense dance opportunity. We will focus on classic shows like Chicago, Pippin, as well as todays shows like In the Heights, Newsies and Bring it on and so many more.</p>
-      <p style="margin-top: 17px">Mondays 6:30-7:30pm | Wednesday 6:30-7:30pm</p>
-      <p>Tuition: $55.00</p>
-      <button class="btn btn-block btn-primary" id="btn"><a href="https://app.jackrabbitclass.com/reg.asp?id=277946">Register for this class</a></button>
-    </div>
-    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6 OBDClass">
+    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 OBDClass">
       <h2>Beginning Improv/Acting Ages 10-16</h2>
       <p>Mr. Chris will help your young performer connect with their inner passion for storytelling.  Each class is  high energy, non stop fun exploring the basics of improv and acting. We will  create spontaneous scenes with unique characters that are humorous and memorable. We challenge the young performer to use their imagination, think outside the box and help establish the who -what- where- when and why of the scene. We will touch on the terminology of stage, work  on scenes from plays and understand text of what the playwright is trying to convey. They will grow in confidence and have a greater understanding of themselves and connect with the other performers in the class.We will have periodic showcases through the year to showcase their growth and passion.</p><br/>
-      <p>Mondays 5:30-6:30 PM | Thursdays 6:00-7:00 PM</p>
+      <p>Mondays 5:00-6:00 PM</p>
       <p>Tuition: $55.00</p>
       <button class="btn btn-block btn-primary" id="btn"><a href="https://app.jackrabbitclass.com/reg.asp?id=277946">Register for this class</a></button>
     </div>
@@ -106,10 +101,10 @@
 <div class="container classes-offered">
   <div class="row">
     <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6 OBDClass">
-      <h2>Advanced  Acting Ages 10-16</h2>
+      <h2>Advanced Acting Ages 10-16</h2>
       <p>This class will connect the serious actor to challenge themselves and reach inside to convey the story though the honesty of the character.  We will use scene study- monologues- based on Stanislavski method acting and explore the 5 W’s and the obstacle and resolution of the character. We will also use improv games to stretch the actor to break down walls and place them in vulnerable situations.  We will have guest instructors and outside excursions to round out the program. We will have multiple showcases to allow the performer to perfect their craft. This  class will help those students wishing to work with OBCT troupe and ultimately in their high school theater programs.</p>
       <p><b>Class is limited to 10 and is by interview/audition only.</b></p>
-      <p><b>Thursdays 7:00-8:30 PM</b></p>
+      <p><b>Thursdays 6:00-7:30 PM</b></p>
       <p>Tuition: $70.00</p>
       <button class="btn btn-block btn-primary" id="btn"><a href="https://app.jackrabbitclass.com/reg.asp?id=277946">Register for this class</a></button>
     </div>

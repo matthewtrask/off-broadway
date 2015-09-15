@@ -4,12 +4,13 @@
     <div class="col-md-2 col-lg-2">
     </div>
     <div class="col-xs-12 col-sm-12 col-md-8 col-lg-8">
-<!--       <h1 class="text-center" style="margin-bottom: 2%; margin-right: 5%">Connecting kids with their passion and each other</h1>
-      <h2 class="text-center">Little Mermaid Tickets are now on sale!</h2>
-      <h4 class="text-center">August 7th - August 16th</h4>
+      <h1 class="text-center" style="margin-bottom: 2%; margin-right: 5%">Connecting kids with their passion and each other</h1>
+      <h2 class="text-center">Cinderella Kids tickets are now on sale!</h2>
+      <img src="<?php echo IMGDIR ?>cinderella.jpg" class="img-responsive center-block" alt="Cinderella Kids OBCT">
+      <h4 class="text-center">October 2nd - 4th</h4>
       <div class="text-center" id="buynow">
-        <button class="btn btn-large text-center"><a href="https://obct.yapsody.com/event/index/14487/little-mermaid">Tickets Here!</a></button>
-      </div> -->
+        <button class="btn btn-large text-center"><a href="https://obct.yapsody.com/event/index/18005/cinderella-kids">Tickets Here!</a></button>
+      </div>
       <div class="container">
       <div class="carousel slide" id="carousel" data-ride="carousel">
       <!-- Indicators for Slides -->

@@ -11,12 +11,16 @@ $hooks = Hooks::get();
 </main>
 
 <!-- JS -->
+<script src="/bower_components/foundation/js/foundation.js"></script>
+<script src="/bower_components/foundation/js/foundation/foundation.dropdown.js"></script>
+<script src="/bower_components/foundation/js/foundation/foundation.topbar.js"></script>
+<script src="/bower_components/foundation/js/foundation/foundation.alert.js"></script>
+<script src="/bower_components/foundation/js/foundation/foundation.abide.js"></script>
 
 <?php
     Assets::js(array(
-        '//cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js',
-        '/bower_components/bootstrap/dist/js/bootstrap.js',
-        Url::templatePath() . 'js/main.js'
+        Url::templatePath() . 'js/main.js',
+        Url::templatePath() . 'featherlight.js'
     ));
 //hook for plugging in javascript
 $hooks->run('js');
@@ -28,10 +32,10 @@ $hooks->run('footer');
 <footer>
     <div class="container">
         <div class="row">
-            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12"><hr />
+            <div class="small-12 columns"><hr />
                 <p class="text-center">12315 Crabapple Rd Suite 122 - Alpharetta GA, 30004 <br /> 770-664-2410 <br /><span id="footerEmail"><a href="mailto:offbroadway@msn.com">offbroadway@msn.com</a></span></p>
             </div>
-            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12" id="footerSM">
+            <div class="small-12 columns" id="footerSM">
                 <ul class="text-center">
                     <li><a href="https://www.facebook.com/offbroadwaydancetheater"><i class="fa fa-facebook-official fa-3x"></i></a></li>
                     <li><a href="https://twitter.com/offbroadwayga"><i class="fa fa-twitter-square fa-3x"></i></a></li>
@@ -39,7 +43,7 @@ $hooks->run('footer');
                     <li><a href="https://www.youtube.com/channel/UCYE5UAeKu42oT4NNTOH6YMQ"><i class="fa fa-youtube-square fa-3x"></i></a></li>
                 </ul>
             </div>
-            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+            <div class="small-12 columns">
                 <p class="text-center" id="copy">&copy; <?php echo date("Y"); ?></p>
 <!--                <p class="text-center">Site Visitors: --><?php //include('counter.php'); ?><!--</p>-->
             </div>

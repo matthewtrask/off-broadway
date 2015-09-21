@@ -1,12 +1,11 @@
 // nav bar
 $(document).ready(function() {
+    $(document).foundation();
+
     $('[data-toggle=offcanvas]').click(function() {
         $('.row-offcanvas').toggleClass('active');
     });
-});
 
-//scroll arrow
-$(document).ready(function(){
     var offset = 250;
     var duration = 300;
     $(window).scroll(function(){
@@ -22,10 +21,7 @@ $(document).ready(function(){
         $('html,body').animate({scrollTop: 0}, duration);
         return false;
     });
-});
 
-//Questions expanded
-$(document).ready(function () {
     $(".click_me").on('click', function () {
         var $faq = $(this).next(".hide_div");
         $faq.slideToggle();

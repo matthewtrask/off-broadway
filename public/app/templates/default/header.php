@@ -23,17 +23,36 @@ $hooks = Hooks::get();
     //hook for plugging in meta tags
     $hooks->run('meta');
     ?>
-    <title><?php echo $data['title'].' - '.SITETITLE; //SITETITLE defined in app/Core/Config.php ?></title>
+    <title><?php echo $data['title'].' | '.SITETITLE; //SITETITLE defined in app/Core/Config.php ?></title>
+    <!-- FAVICON -->
+    <link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+
 
     <!-- CSS -->
-    <link href='http://fonts.googleapis.com/css?family=Bitter' rel='stylesheet' type='text/css'> 
+    <link href='http://fonts.googleapis.com/css?family=Merriweather' rel='stylesheet' type='text/css'> 
     <link href='http://fonts.googleapis.com/css?family=Raleway:400,200,600' rel='stylesheet' type='text/css'>    
     <script src="bower_components/jquery/dist/jquery.js"></script>
+    <!--<link href='https://cdnjs.cloudflare.com/ajax/libs/foundation/5.5.2/css/foundation.min.css'>-->
+    <link href="/bower_components/foundation/css/foundation.css" rel="stylesheet">
     <?php
     Assets::css(array(
         '//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css',
-        '/bower_components/bootstrap/dist/css/bootstrap.css',
-        //'https://cdnjs.cloudflare.com/ajax/libs/foundation/5.5.2/css/foundation.min.css',
         Url::templatePath() . 'css/style.css'
     ));
 
@@ -54,45 +73,41 @@ $hooks = Hooks::get();
 //hook for running code after body tag
 $hooks->run('afterBody');
 ?>
-<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
-   <div class="navbar-header">
-      <button type="button" class="navbar-toggle" data-toggle="collapse" 
-         data-target="#example-navbar-collapse">
-         <span class="sr-only">Toggle navigation</span>
-         <span class="icon-bar"></span>
-         <span class="icon-bar"></span>
-         <span class="icon-bar"></span>
-      </button>
-      <a class="navbar-brand" href="#"><i class="fa fa-home"></i> Off Broadway Children's Theatre</a>
-   </div>
-   <div class="collapse navbar-collapse" id="example-navbar-collapse">
-      <ul class="nav navbar-nav pull-right">
-         <li class="active"><a href="#">About</a></li>
-         <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Studio <b class="caret"></b></a>
-            <ul class="dropdown-menu">
-                <li><a href="classes"><i class="fa fa-calendar"></i> Classes</a></li>
-                <li><a href="teachers">Teachers</a></li>
-                <li class="divider"></li>
-                <li><a href="gallery"><i class="fa fa-camera"></i> Gallery</a></li>
-                <li class="divider"></li>
-                <li><a href="faq">Questions</a></li>
-            </ul>
-         </li>
-         <li><a href="troupe">OBCT Troupe</a></li>
-         <li class="dropdown">
-            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Production <b class="caret"></b></a>
-            <ul class="dropdown-menu">
-                <li><a href="currentprod"><i class="fa fa-star-o"></i> Current Show</a></li>
-                <li class="divider"></li>
-                <li><a href="upcoming">Upcoming</a></li>
-                <li class="divider"></li>
-                <li><a href="auditions"><i class="fa fa-music"></i> Auditions</a></li>
-            </ul>
-         </li>
-         <li><a href="contact"><i class="fa fa-envelope-o"></i> Contact</a></li>
+<div class="fixed" style="padding-bottom: 20px;">
+    <nav class="top-bar" data-topbar role="navigation">
+      <ul class="title-area" style="margin-left: 2%;">
+        <li class="name">
+          <a href="#"><h1>OBCT</h1></a>
+        </li>
+         <!-- Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone -->
+        <li class="toggle-topbar menu-icon"><a href="#"><span>Menu</span></a></li>
       </ul>
-   </div>
-</nav>
-<main class="page-container">
+
+      <section class="top-bar-section">
+        <!-- Right Nav Section -->
+        <ul class="right">
+          <li ><a href="#">About Us</a></li>
+          <li class="has-dropdown">
+            <a href="#">Studio</a>
+            <ul class="dropdown">
+              <li><a href="#">Studio</a></li>
+              <li><a href='#'>Classes</a></li>
+              <li ><a href="#">Teachers</a></li>
+            </ul>
+          </li>
+          <li class="has-dropdown">
+            <a href="#">Shows</a>
+            <ul class="dropdown">
+              <li><a href="#">Current Show</a></li>
+              <li ><a href="#">Upcoming</a></li>
+              <li><a href="">Auditions</a></li>
+            </ul>
+          </li>
+          <li><a href='#'>Troupe</a></li>
+          <li><a href='#'>Contact</a></li>
+        </ul>
+      </section>
+    </nav>
+</div>
 
 

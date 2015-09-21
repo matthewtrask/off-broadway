@@ -19,36 +19,52 @@ Copyright: 2015
 */
 
 
+/*
+
+colors:
+gray: #5d5d5d;
+yellow: #D1FF47;
+red: #ff6047;
+purple: #ff47d1;
+green: #47ffa3;
+facebook:#3b6998;
+twitter:#4099ff;
+wordpress:#21759b;
+youtube:#D1FF47;
+
+
+*/
 
 /* GLOBAL */
 body {
-  padding-top: 51px;
-  background-color: #5d5d5d;
-  color: white;
+  /*background-color: #5d5d5d;*/
+  background-color: #fff;
+  color: #5d5d5d;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: 'Bitter', serif;
-  line-height: 1.6;
-}
-
-p, a, li {
   font-family: 'Raleway', sans-serif;
-  line-height: 1.5;
 }
 
-.row {
-  margin-right: 0px;
-  margin-left: 0px;
+p, a, li, span, blockquote {
+  font-family: 'Merriweather', sans-serif;
 }
 
-.text-center {
-  padding-top: 20px;
+.button.message {
+  background-color: #7547ff;
+}
+.button.message:hover {
+  background-color: #7507ff;
 }
 
-main {
-  padding-top: 60px;
+.button.success {
+  background-color: #47ffa3;
 }
+
+.button.success:hover {
+  background-color: #43AC6A;
+}
+
 
 /* END GLOBAL */
 
@@ -58,15 +74,52 @@ main {
 
 /* NAV BAR */
 
+nav.top-bar, 
+nav.top-bar section.top-bar-section ul.left li a,
+nav.top-bar section.top-bar-section ul.right li a, 
+nav.top-bar section.top-bar-section ul.right li.has-dropdown ul.dropdown li a, 
+nav.top-bar ul.title-area li.name h1,
+nav.top-bar ul.title-area li.name h1 a,
+nav.top-bar ul.title-area li.toggle-topbar.menu-icon a,
+nav.top-bar ul.title-area li.toggle-topbar.menu-icon a span {
+  background-color: #5d5d5d;
+  color: #fff;
+}
+
+nav.top-bar section.top-bar-section ul.left li a:hover,
+nav.top-bar section.top-bar-section ul.right li a:hover, 
+nav.top-bar section.top-bar-section ul.right li.has-dropdown ul.dropdown li a:hover,
+nav.top-bar ul.title-area li.name h1 a:hover,
+.top-bar.expanded .toggle-topbar a span::after  {
+  background-color: #fff;
+  color: #5d5d5d;
+}
+
 
 
 
 /* END NAV BAR */
 
-/* CAROUSEL */
+/* HOME */
+div#home {
+  height: 500px;
+}
 
 
-/* END CAROUSEL */
+div#hero {
+    padding: 5px;
+    border: 1px solid black;
+}
+
+div#current {
+  width: 25%;
+}
+
+div#about {
+  margin-top: 8%;
+}
+
+/* END HOME */
 
 /* HAPPENINGS */
 
@@ -89,11 +142,11 @@ main {
 }
 
 #footerSM li a {
-  color: #D1FF47;
+  color: #5d5d5d;
 }
 
 #footerEmail a {
-  color: #D1FF47;
+  color: #5d5d5d;
 }
 
 footer .fa-youtube-square:hover {
@@ -135,20 +188,20 @@ footer .fa-youtube:hover {
   z-index: 100;
   display: none;
   text-decoration: none;
-  color: #000;
+  color: #ff6047;
 
 }
 
 .back-to-top:hover {
-  color: #D1FF47;
+  color: #ff6047;
 }
 
 .back-to-top:active {
-  color: #D1FF47;
+  color: #ff6047;
 }
 
 .back-to-top:visited {
-  color: #D1FF47;
+  color: #ff6047;
 }
 
 .back-to-top i {
@@ -174,7 +227,6 @@ footer .fa-youtube:hover {
 
 /* CLASSES */
 
-}
 /* END CLASSES */
 
 /* QUESTIONS */

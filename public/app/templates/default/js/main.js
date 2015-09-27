@@ -2,6 +2,11 @@
 $(document).ready(function() {
     $(document).foundation();
 
+    $('body').flowtype({
+        minFont : 12,
+        maxFont : 40
+    });
+
     $('[data-toggle=offcanvas]').click(function() {
         $('.row-offcanvas').toggleClass('active');
     });

@@ -65,6 +65,14 @@ p, a, li, span, blockquote {
   background-color: #43AC6A;
 }
 
+.button.register {
+  background-color: #ff6047;
+  width: 50%;
+}
+
+.button.success:hover {
+  background-color: #ff6047;
+}
 
 /* END GLOBAL */
 
@@ -101,9 +109,6 @@ nav.top-bar ul.title-area li.name h1 a:hover,
 /* END NAV BAR */
 
 /* HOME */
-div#home {
-  height: 500px;
-}
 
 
 div#hero {
@@ -116,7 +121,7 @@ div#current {
 }
 
 div#about {
-  margin-top: 8%;
+  margin-top: 6%;
 }
 
 /* END HOME */

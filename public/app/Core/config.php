@@ -42,23 +42,23 @@ class Config
         define('DB_NAME', 'dbname');
         define('DB_USER', 'root');
         define('DB_PASS', 'password');
-        define('PREFIX', 'obd_');
+        define('PREFIX', 'obct_');
 
         //set prefix for sessions
-        define('SESSION_PREFIX', 'obd_');
+        define('SESSION_PREFIX', 'obct_');
 
         //optionall create a constant for the name of the site
-        define('SITETITLE', 'OBD');
+        define('SITETITLE', 'OBCT');
 
         //optional set a site email address
-        define('LSITEEMAI', 'offbroadway@msn.com');
+        define('SITEEMAIL', 'offbroadway@msn.com');
 
         //turn on custom error handling
         set_exception_handler('Core\Logger::ExceptionHandler');
         set_error_handler('Core\Logger::ErrorHandler');
 
         //set timezone
-        date_default_timezone_set('America/New York');
+        date_default_timezone_set('America/New_York');
 
         //start sessions
         //Session::init();

@@ -36,7 +36,7 @@ class OBD extends Controller{
   }
 
   public function AboutUs () {
-    $data['title'] = 'About OBD';
+    $data['title'] = 'About OBCT';
 
     View::rendertemplate('header', $data);
     View::rendertemplate('aboutus');

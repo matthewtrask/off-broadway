@@ -24,6 +24,9 @@ $hooks = Hooks::get();
     $hooks->run('meta');
     ?>
     <title><?php echo $data['title'].' | '.SITETITLE; //SITETITLE defined in app/Core/Config.php ?></title>
+    <meta name="" content="">
+    <meta name="" content="">
+    <meta name="" content="">
     <!-- FAVICON -->
     <link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
     <link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">

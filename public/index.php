@@ -77,6 +77,13 @@ Router::any('auditions', 'Controllers\OBD@auditions');
 Router::any('register', 'Controllers\OBD@register');
 Router::any('boxoffice', 'Controllers\OBD@boxoffice');
 Router::any('contact', 'Controllers\OBD@contact');
+//define routes
+Router::any('admin', '\controllers\admin\admin@index');
+Router::any('admin/login', '\controllers\admin\auth@login');
+Router::any('admin/logout', '\controllers\admin\auth@logout');
+Router::any('admin/users', '\controllers\admin\users@index');
+Router::any('admin/users/add', '\controllers\admin\users@add');
+Router::any('admin/users/edit/(:num)', '\controllers\admin\users@edit');
 
 
 

@@ -5,11 +5,6 @@
 </div>
 <div class="row">
 	<div class="small-8 medium-8 columns">
-		<label>Browse all of our class offerings, or select a specfic group for your child</label>
-      	<input id="elementary" type="checkbox"><label for="checkbox1">Elementary School</label>
-      	<input id="middle" type="checkbox"><label for="checkbox2">Middle School</label>
-      	<input id="highschool" type="checkbox"><label for="checkbox2">High School</label>
-      	<input id="troupe" type="checkbox"><label for="checkbox2">Troupe</label>
 		<!-- Musical Theatre Dance  -->
 		<div class="panel">
 			<div class="row">

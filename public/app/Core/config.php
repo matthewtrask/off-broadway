@@ -39,9 +39,9 @@ class Config
         //database details ONLY NEEDED IF USING A DATABASE
         define('DB_TYPE', 'mysql');
         define('DB_HOST', 'localhost');
-        define('DB_NAME', 'dbname');
+        define('DB_NAME', 'offbroadway');
         define('DB_USER', 'root');
-        define('DB_PASS', 'password');
+        define('DB_PASS', 'root');
         define('PREFIX', 'obct_');
 
         //set prefix for sessions

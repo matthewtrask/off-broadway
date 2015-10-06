@@ -5,6 +5,14 @@
     </div>
   </div>
 </div>
+<div class="container">
+  <div class="row">
+    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+      <h3 class="text-center">Monday</h3>
+    </div>
+  </div>
+</div>
+
 
 <div class="container classes-offered">
   <div class="row">
@@ -32,6 +40,15 @@
     </div>
   </div>
 </div>
+
+<div class="container">
+  <div class="row">
+    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+      <h3 class="text-center">Tuesday</h3>
+    </div>
+  </div>
+</div>
+
 <div class="container classes-offered">
   <div class="row">
     <div class="col-xs-12 OBDClass">
@@ -43,6 +60,15 @@
     </div>
   </div>
 </div>
+
+<div class="container">
+  <div class="row">
+    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+      <h3 class="text-center">Thursday</h3>
+    </div>
+  </div>
+</div>
+
 <div class="container classes-offered">
   <div class="row">
     <div class="col-xs-12 OBDClass">

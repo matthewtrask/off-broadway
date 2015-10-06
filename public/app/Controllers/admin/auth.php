@@ -32,7 +32,7 @@ class Auth extends \core\controller {
 
 		View::rendertemplate('loginheader',$data);
 		View::rendertemplate('login',$data,$error);
-		View::rendertemplate('adminfooter',$data);
+		View::rendertemplate('footer',$data);
 	}
 	public function logout(){
 		Session::destroy();

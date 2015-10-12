@@ -1,66 +1,60 @@
-<?php
-namespace Core;
-
-use Helpers\Session;
+<?php namespace core;
 
 /*
  * config - an example for setting up system settings
  * When you are done editing, rename this file to 'config.php'
  *
- * @author David Carr - dave@simplemvcframework.com
+ * @author David Carr - dave@daveismyname.com - http://www.daveismyname.com
  * @author Edwin Hoksberg - info@edwinhoksberg.nl
- * @version 2.2
+ * @version 2.1
  * @date June 27, 2014
- * @date updated May 18 2015
  */
-class Config
-{
-    public function __construct()
-    {
-        //turn on output buffering
-        ob_start();
+class Config {
 
-        //site address
-        define('DIR', '');
+	public function __construct() {
 
-        //set default controller and method for legacy calls
-        define('DEFAULT_CONTROLLER', 'welcome');
-        define('DEFAULT_METHOD', 'index');
+		//turn on output buffering
+		ob_start();
 
-        //set the default template
-        define('TEMPLATE', 'default');
+		//site address
+		define('DIR', 'http://192.168.33.10/');
 
-        //set the default image path
-        define('IMGDIR', DIR.'app/templates/default/img/');
+		//set default controller and method for legacy calls
+		define('DEFAULT_CONTROLLER', 'home');
+		define('DEFAULT_METHOD' , 'index');
 
-        //set a default language
-        define('LANGUAGE_CODE', 'en');
+		//set a default language
+		define('LANGUAGE_CODE', 'en');
 
-        //database details ONLY NEEDED IF USING A DATABASE
-        define('DB_TYPE', 'mysql');
-        define('DB_HOST', 'localhost');
-        define('DB_NAME', 'offbroadway');
-        define('DB_USER', 'root');
-        define('DB_PASS', 'root');
-        define('PREFIX', 'obct_');
+		//set Image folder path
+		define('IMGDIR',DIR.'app/templates/default/img/');
 
-        //set prefix for sessions
-        define('SESSION_PREFIX', 'obct_');
+		//database details ONLY NEEDED IF USING A DATABASE
+		define('DB_TYPE', 'mysql');
+		define('DB_HOST', 'localhost');
+		define('DB_NAME', 'offbroadway');
+		define('DB_USER', 'root');
+		define('DB_PASS', 'root');
+		define('PREFIX', 'obct_');
 
-        //optionall create a constant for the name of the site
-        define('SITETITLE', 'OBCT');
+		//set prefix for sessions
+		define('SESSION_PREFIX', 'obct_');
 
-        //optional set a site email address
-        define('SITEEMAIL', 'offbroadway@msn.com');
+		//optionall create a constant for the name of the site
+		define('SITETITLE', 'Off Broadway Children\'s Theatre');
 
-        //turn on custom error handling
-        set_exception_handler('Core\Logger::ExceptionHandler');
-        set_error_handler('Core\Logger::ErrorHandler');
+		//turn on custom error handling
+		set_exception_handler('core\logger::exception_handler');
+		set_error_handler('core\logger::error_handler');
 
-        //set timezone
-        date_default_timezone_set('America/New_York');
+		//set timezone
+		date_default_timezone_set('America/New York');
 
-        //start sessions
-        //Session::init();
-    }
+		//start sessions
+		\helpers\session::init();
+
+		//set the default template
+		\helpers\session::set('template', 'default');
+	}
+
 }

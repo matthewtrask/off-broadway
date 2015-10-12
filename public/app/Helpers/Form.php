@@ -1,24 +1,20 @@
-<?php
-namespace Helpers;
-
+<?php namespace helpers;
 /*
  * Form Helper - create form elements quickly
  *
- * @author David Carr - dave@simplemvcframework.com
+ * @author David Carr - dave@daveismyname.com - http://www.daveismyname.com
  * @version 1.0
  * @date June 27, 2014
- * @date May 18 2015
  */
-class Form
-{
+class form {
+
     /**
      * open form
      * This method return the form element <form...
      * @param   array(id, name, class, onsubmit, method, action, files, style)
      * @return  string
      */
-    public static function open($params = array())
-    {
+    static public function open($params = array()){
         $o = '<form';
         $o .= (isset($params['id']))        ? " id='{$params['id']}'"                       : '';
         $o .= (isset($params['name']))      ? " name='{$params['name']}'"                   : '';
@@ -37,8 +33,7 @@ class Form
      * closed the form
      * @return string
      */
-    public static function close()
-    {
+    public static function close(){
         return "</form>\n";
     }
 
@@ -48,8 +43,7 @@ class Form
      * @param   array(id, name, class, onclick, columns, rows, disabled, placeholder, style, value)
      * @return  string
      */
-    public static function textBox($params = array())
-    {
+    public function textBox($params = array()) {
         $o = '<textarea';
         $o .= (isset($params['id']))        ? " id='{$params['id']}'"                           : '';
         $o .= (isset($params['name']))      ? " name='{$params['name']}'"                       : '';
@@ -72,8 +66,7 @@ class Form
      * @param   array(id, name, class, onclick, value, length, width, disable,placeholder)
      * @return  string
      */
-    public static function input($params = array())
-    {
+    static public function input($params = array()) {
         $o = '<input ';
         $o .= (isset($params['type']))      ? " type='{$params['type']}'"                   : 'type="text"';
         $o .= (isset($params['id']))        ? " id='{$params['id']}'"                       : '';
@@ -100,8 +93,7 @@ class Form
      * @param   array(id, name, class, onclick, disabled)
      * @return  string
      */
-    public static function select($params = array())
-    {
+    static public function select($params = array()) {
         $o = "<select";
         $o .= (isset($params['id']))        ? " id='{$params['id']}'"                           : '';
         $o .= (isset($params['name']))      ? " name='{$params['name']}'"                       : '';
@@ -133,13 +125,12 @@ class Form
      * @param   array(array(id, name, value, class, checked, disabled))
      * @return  string
      */
-    public static function checkbox($params = array())
-    {
+    public function checkbox($params = array()) {
         $o = '';
         if (!empty($params)) {
             $x = 0;
             foreach ($params as $k => $v) {
-                $v['id'] = (isset($v['id']))        ? $v['id']                                          : "cb_id_{$x}_".rand(1000, 9999);
+                $v['id'] = (isset($v['id']))        ? $v['id']                                          : "cb_id_{$x}_".rand(1000,9999);               
                 $o .= "<input type='checkbox'";
                 $o .= (isset($v['id']))             ? " id='{$v['id']}'"                                : '';
                 $o .= (isset($v['name']))           ? " name='{$v['name']}'"                            : '';
@@ -155,7 +146,7 @@ class Form
         }
         return $o;
     }
-
+ 
     /**
      * radioMulti
      * This method returns radio elements in order given in an array
@@ -164,13 +155,12 @@ class Form
      * @param   array(array(id, name, value, class, checked, disabled, label))
      * @return  string
      */
-    public static function radio($params = array())
-    {
+    public function radio($params = array()) {
         $o = '';
         if (!empty($params)) {
             $x = 0;
             foreach ($params as $k => $v) {
-                $v['id'] = (isset($v['id']))        ? $v['id']                                          : "rd_id_{$x}_".rand(1000, 9999);
+                $v['id'] = (isset($v['id']))        ? $v['id']                                          : "rd_id_{$x}_".rand(1000,9999);               
                 $o .= "<input type='radio'";
                 $o .= (isset($v['id']))             ? " id='{$v['id']}'"                                : '';
                 $o .= (isset($v['name']))           ? " name='{$v['name']}'"                            : '';
@@ -186,14 +176,13 @@ class Form
         }
         return $o;
     }
-
+ 
     /**
      * This method returns a button element given the params for settings
      * @param   array(id, name, class, onclick, value, disabled)
      * @return  string
      */
-    public static function button($params = array())
-    {
+    public function button($params = array()) {
         $o = "<button type='submit'";
         $o .= (isset($params['id']))        ? " id='{$params['id']}'"                           : '';
         $o .= (isset($params['name']))      ? " name='{$params['name']}'"                       : '';
@@ -207,14 +196,13 @@ class Form
         $o .= "</button>\n";
         return $o;
     }
-
+ 
     /**
      * This method returns a submit button element given the params for settings
      * @param   array(id, name, class, onclick, value, disabled)
      * @return  string
      */
-    public static function submit($params = array())
-    {
+    public function submit($params = array()) {
         $o = '<input type="submit"';
         $o .= (isset($params['id']))        ? " id='{$params['id']}'"                           : '';
         $o .= (isset($params['name']))      ? " name='{$params['name']}'"                       : '';
@@ -226,20 +214,22 @@ class Form
         $o .= " />\n";
         return $o;
     }
-
+ 
     /**
      * This method returns a hidden input elements given its params
      * @param   array(id, name, class, value)
      * @return  string
      */
-    public static function hidden($params = array())
-    {
+    public function hidden($params = array()) {
         $o = '<input type="hidden"';
         $o .= (isset($params['id']))        ? " id='{$params['id']}'"                           : '';
         $o .= (isset($params['name']))      ? " name='{$params['name']}'"                       : '';
         $o .= (isset($params['class']))     ? " class='{$params['class']}'"   : '';
         $o .= (isset($params['value']))     ? " value='{$params['value']}'"                     : '';
-        $o .= " />\n";
+        $o .= " />\n";       
         return $o;
     }
+
+
+
 }

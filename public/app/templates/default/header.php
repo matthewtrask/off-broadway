@@ -8,10 +8,7 @@
 
 use Helpers\Assets;
 use Helpers\Url;
-use Helpers\Hooks;
 
-//initialise hooks
-$hooks = Hooks::get();
 ?>
 <!DOCTYPE html>
 <html lang="<?php echo LANGUAGE_CODE; ?>">
@@ -19,10 +16,6 @@ $hooks = Hooks::get();
 
     <!-- Site meta -->
     <meta charset="utf-8">
-    <?php
-    //hook for plugging in meta tags
-    $hooks->run('meta');
-    ?>
     <title><?php echo $data['title'].' | '.SITETITLE; //SITETITLE defined in app/Core/Config.php ?></title>
     <meta name="" content="">
     <meta name="" content="">
@@ -50,21 +43,20 @@ $hooks = Hooks::get();
     <!-- CSS -->
     <link href='http://fonts.googleapis.com/css?family=Merriweather' rel='stylesheet' type='text/css'> 
     <link href='http://fonts.googleapis.com/css?family=Raleway:400,200,600' rel='stylesheet' type='text/css'>    
-    <script src="bower_components/jquery/dist/jquery.js"></script>
-    <!--<link href='https://cdnjs.cloudflare.com/ajax/libs/foundation/5.5.2/css/foundation.min.css'>-->
-    <link href="/bower_components/foundation/css/foundation.css" rel="stylesheet">
+    <script src="/bower_components/jquery/dist/jquery.js"></script>
+<!--    <link href='https://cdnjs.cloudflare.com/ajax/libs/foundation/5.5.2/css/foundation.min.css'>-->
+<!--    <link href="/bower_components/foundation/css/foundation.css" rel="stylesheet">-->
     <?php
     Assets::css(array(
         '//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css',
-        Url::templatePath() . 'css/mobile.css',
-        Url::templatePath() . 'css/style.css'
+        '/bower_components/foundation/css/foundation.css',
+        Url::template_Path() . 'css/mobile.css',
+        Url::template_Path() . 'css/style.css'
     ));
 
-    //hook for plugging in css
-    $hooks->run('css');
 
     Assets::js(array(
-        Url::templatePath() . 'js/jquery.js',
+        Url::template_Path() . 'js/jquery.js',
         '//cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js',
     ));
     ?>
@@ -72,11 +64,6 @@ $hooks = Hooks::get();
 </head>
 <body>
 
-
-<?php
-//hook for running code after body tag
-$hooks->run('afterBody');
-?>
 <div class="fixed" style="padding-bottom: 20px;">
     <nav class="top-bar" data-topbar role="navigation">
       <ul class="title-area" style="margin-left: 2%;">
@@ -90,7 +77,7 @@ $hooks->run('afterBody');
       <section class="top-bar-section">
         <!-- Right Nav Section -->
         <ul class="right">
-          <li ><a href="#">About Us</a></li>
+          <li ><a href="aboutus">About Us</a></li>
           <li class="has-dropdown">
             <a href="#">Studio</a>
             <ul class="dropdown">
@@ -108,7 +95,7 @@ $hooks->run('afterBody');
             </ul>
           </li>
           <li><a href='#'>Troupe</a></li>
-          <li><a href='#'>Contact</a></li>
+          <li><a href='contact'>Contact</a></li>
         </ul>
       </section>
     </nav>

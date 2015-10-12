@@ -1,5 +1,4 @@
-<?php
-namespace Helpers;
+<?php namespace helpers;
 
 /**
  * GUMP - A fast, extensible PHP input validation class
@@ -20,9 +19,9 @@ class GUMP
 
 	// Instance attribute containing errors from last run
 	protected $errors = array();
-
+	
 	// Contain readable field names that have been set manually
-	protected static $fields = array();
+	protected static $fields = array();	
 
 	// Custom validation methods
 	protected static $validation_methods = array();
@@ -117,7 +116,7 @@ class GUMP
 	public static function add_validator($rule, $callback)
 	{
 		$method = 'validate_'.$rule;
-
+		
 		if(method_exists(__CLASS__, $method) || isset(self::$validation_methods[$rule])) {
 			throw new Exception("Validator rule '$rule' already exists.");
 		}
@@ -138,7 +137,7 @@ class GUMP
 	public static function add_filter($rule, $callback)
 	{
 		$method = 'filter_'.$rule;
-
+		
 		if(method_exists(__CLASS__, $method) || isset(self::$filter_methods[$rule])) {
 			throw new Exception("Filter rule '$rule' already exists.");
 		}
@@ -240,9 +239,9 @@ class GUMP
 		{
 			$fields = array_keys($input);
 		}
-
+		
 		$return = array();
-
+		
 		foreach($fields as $field)
 		{
 			if(!isset($input[$field]))
@@ -314,9 +313,9 @@ class GUMP
 			#}
 
 			$rules = explode('|', $rules);
-
+			
 	        if(in_array("required", $rules) || (isset($input[$field]) && trim($input[$field]) != ''))
-	        {
+	        {			
 				foreach($rules as $rule)
 				{
 					$method = NULL;
@@ -369,14 +368,14 @@ class GUMP
 
 		return (count($this->errors) > 0)? $this->errors : TRUE;
 	}
-
+	
 	/**
 	 * Set a readable name for a specified field names
 	 *
 	 * @param string $field_class
 	 * @param string $readable_name
 	 * @return void
-	 */
+	 */	
 	public static function set_field_name($field, $readable_name)
 	{
 		self::$fields[$field] = $readable_name;
@@ -403,7 +402,7 @@ class GUMP
 
 			$field = ucwords(str_replace(array('_','-'), chr(32), $e['field']));
 			$param = $e['param'];
-
+			
 			// Let's fetch explicit field names if they exist
 			if(array_key_exists($e['field'], self::$fields)) {
 				$field = self::$fields[$e['field']];
@@ -492,7 +491,7 @@ class GUMP
 					$resp[] = "The <span class=\"$field_class\">$field</span> field needs to be a numeric value, equal to, or lower than $param";
 					break;
 				default:
-					$resp[] = "The <span class=\"$field_class\">$field</span> field is invalid";
+					$resp[] = "The <span class=\"$field_class\">$field</span> field is invalid";				
 			}
 		}
 
@@ -750,7 +749,7 @@ class GUMP
 	{
 		return strip_tags($value, self::$basic_tags);
 	}
-
+	
 	/**
 	 * Convert the provided numeric value to a whole number
 	 *
@@ -762,7 +761,7 @@ class GUMP
 	protected function filter_whole_number($value, $params = NULL)
 	{
 		return intval($value);
-	}
+	}	
 
 	// ** ------------------------- Validators ------------------------------------ ** //
 
@@ -1220,9 +1219,9 @@ class GUMP
 		{
 			return;
 		}
-
+		
 		$url = parse_url(strtolower($input[$field]));
-
+		
 		if(isset($url['host'])) {
 			$url = $url['host'];
 		}

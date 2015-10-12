@@ -1,20 +1,20 @@
 <?php namespace controllers\admin;
 
-use \helpers\password;
-use	\helpers\session;
-use	\helpers\url;
-use	\core\view;
+use \helpers\password,
+	\helpers\session,
+	\helpers\url,
+	\core\view;
 
 class Auth extends \core\controller {
 
 	public function login(){
 
-
 		if(Session::get('loggedin')){
 			Url::redirect('admin');
 		}
 
-		$model = new \models\auth();
+		$model = new \models\admin\auth();
+
 		$data['title'] = 'Login';
 
 		if(isset($_POST['submit'])){
@@ -28,14 +28,19 @@ class Auth extends \core\controller {
 				Session::set('loggedin',true);
 				Url::redirect('admin');
 			}
+
 		}
 
-		View::rendertemplate('loginheader',$data);
-		View::rendertemplate('login',$data,$error);
-		View::rendertemplate('footer',$data);
+		View::renderadmintemplate('loginheader',$data);
+		View::render('admin/login',$data,$error);
+		View::renderadmintemplate('footer',$data);
 	}
+
 	public function logout(){
+
 		Session::destroy();
 		Url::redirect('admin/login');
+
 	}
+
 }

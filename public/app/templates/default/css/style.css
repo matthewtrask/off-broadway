@@ -52,27 +52,27 @@ p, a, li, span, blockquote {
 }
 
 .button.message {
-  background-color: #7547ff;
+  background-color: #7547ff !important;
 }
 .button.message:hover {
-  background-color: #7507ff;
+  background-color: #7507ff !important;
 }
 
 .button.success {
-  background-color: #47ffa3;
+  background-color: #47ffa3 !important;
 }
 
 .button.success:hover {
-  background-color: #43AC6A;
+  background-color: #43AC6A !important;
 }
 
 .button.register {
-  background-color: #ff6047;
+  background-color: #ff6047 !important;
   width: 50%;
 }
 
-.button.success:hover {
-  background-color: #ff6047;
+.button.register:hover {
+  background-color: #ff6047 !important;
 }
 
 /* END GLOBAL */
@@ -215,6 +215,17 @@ footer .fa-youtube:hover {
 }
 /* END BTT ARROW */
 
+/* ABOUT */
+
+img#ObctLogo {
+  height: 60%;
+  width: 60%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+/* END ABOUT */
+
 /* TEACHERS */
 
 
@@ -266,3 +277,16 @@ footer .fa-youtube:hover {
 /* CONTACT */
 
 /* END CONTACT */
+
+/* ADMIN */
+
+#recentMessage {
+  height: 600px;
+  overflow: auto;
+}
+
+#messages a {
+  font-family: 'Raleway', sans-serif;
+}
+
+/* END ADMIN */

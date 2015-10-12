@@ -2,10 +2,9 @@
 
 use Helpers\Assets;
 use Helpers\Url;
-use Helpers\Hooks;
 
-//initialise hooks
-$hooks = Hooks::get();
+
+
 ?>
 
 </main>
@@ -20,14 +19,9 @@ $hooks = Hooks::get();
 
 <?php
     Assets::js(array(
-        Url::templatePath() . 'js/main.js',
-        Url::templatePath() . 'featherlight.js'
+        Url::template_path() . 'js/main.js',
+        Url::template_path() . 'featherlight.js'
     ));
-//hook for plugging in javascript
-$hooks->run('js');
-
-//hook for plugging in code into the footer
-$hooks->run('footer');
 ?>
 
 <footer>

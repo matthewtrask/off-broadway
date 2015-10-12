@@ -1,0 +1,20 @@
+#login {
+	padding-top: 40px;
+}
+
+
+.login {
+	margin:auto;
+	width:400px;
+}
+
+.login{
+	margin: auto;
+	min-width: 300px;
+}
+
+.button a {
+	color: #fff;
+	text-decoration: none;
+}
+

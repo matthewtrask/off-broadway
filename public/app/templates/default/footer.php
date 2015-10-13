@@ -15,12 +15,11 @@ use Helpers\Url;
 <script src="/bower_components/foundation/js/foundation/foundation.topbar.js"></script>
 <script src="/bower_components/foundation/js/foundation/foundation.alert.js"></script>
 <script src="/bower_components/foundation/js/foundation/foundation.abide.js"></script>
-<script src='/bower_components/flowtype/flowtype.js'></script>
+<script src='/bower_components/flowtype.js/flowtype.js'></script>
 
 <?php
     Assets::js(array(
         Url::template_path() . 'js/main.js',
-        Url::template_path() . 'featherlight.js'
     ));
 ?>
 

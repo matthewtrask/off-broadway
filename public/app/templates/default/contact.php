@@ -7,7 +7,7 @@
 	</div>
 	<div class="row">
 		<div class="small-8 columns">
-			<form method="post" action="" id="contactForm">
+			<form method="POST" action="" id="contactForm">
 				<div class="row">
 					<div class="large-12 columns">
 						<label>Name
@@ -42,10 +42,10 @@
 		<div class="small-4 columns">
 			<ul class="vcard">
 				<li class="fn">Off Broadway Children's Theatre</li>
-				<li class="street-address">123 Colonial Ave.</li>
-				<li class="locality">Caprica City</li>
-				<li><span class="state">Caprica</span>, <span class="zip">12345</span></li>
-				<li class="email"><a href="#">g.baltar@example.com</a></li>
+				<li class="street-address">12365 Crabapple Rd</li>
+				<li class="locality">Alpharetta</li>
+				<li><span class="state">GA</span>, <span class="zip">30004</span></li>
+				<li class="email"><a href="#">offbroadway@msn.com</a></li>
 			</ul>
 		</div>
 	</div>

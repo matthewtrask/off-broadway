@@ -104,8 +104,8 @@ Router::any('admin/cats/edit/(:num)', '\controllers\admin\cats@edit');
 Router::any('admin/cats/delete/(:num)', '\controllers\admin\cats@delete');
 
 
-Router::any('', '\controllers\blog@index');
-Router::any('category/(:any)', '\controllers\blog@cat');
+//Router::any('', '\controllers\blog@index');
+//Router::any('category/(:any)', '\controllers\blog@cat');
 
 
 //if no route found

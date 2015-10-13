@@ -80,12 +80,70 @@ class offbroadway extends \core\controller {
     public function contact(){
         $data['title'] = 'Contact';
 
+
         view::rendertemplate('header', $data);
         view::rendertemplate('contact');
         view::rendertemplate('footer');
     }
 
     public function postContact(){
-        var_dump($_POST);
+
+        $name = $_POST['name'];
+        $email = $_POST['email'];
+        $phone = $_POST['phone'];
+        $message = $_POST['message'];
+
+        $cleanName = filter_var($name, FILTER_SANITIZE_STRING);
+        $cleanEmail = filter_var($email, FILTER_SANITIZE_EMAIL);
+        $cleanPhone = filer_var($phone, FILTER_SANITIZE_STRING);
+        $cleanMsg = filter_var($message, FILTER_SANITIZE_STRING);
+
+
+        $mail = new \PHPMailer(true);
+
+
+        $mail->From = $cleanEmail;
+        $mail->FromName = $cleanName;
+        $mail->addAddress('mjftrask@gmail.com');
+        $mail->addReplyTo($cleanEmail, $cleanName);
+
+        $mail->Subject = 'A message for OBCT from ' . $cleanName;
+        $mail->Body = $cleanMsg . "<br>This message is from $cleanName ($cleanEmail)";
+
+        if(!empty($cleanName) && !empty($cleanEmail) && !empty($cleanPhone) && !empty($cleanMsg)){
+            if (!$mail->send()) {
+                ?><div data-alert class="alert-box alert round" style="margin-top: 20px;">
+                    Something went wrong when sending your contact email. Please check your spelling and try again.
+                    <a href="#" class="close">&times;</a>
+                </div><?php
+            }
+            else {
+                ?><div data-alert class="alert-box success radius" style="margin-top: 20px;">
+                    Your message has been successfully sent. We will be in contact with you soon.
+                    <a href="#" class="close">&times;</a>
+                </div><?php
+            }
+        }
+        else {
+            ?><div data-alert class="alert-box alert round" style="margin-top: 20px;">
+                Something went wrong when sending your contact email. Please check your spelling and try again.
+                <a href="#" class="close">&times;</a>
+            </div><?php
+        }
+
+        $this->insertContact($name, $phone, $email, $message);
+
+    }
+
+    public function insertContact($name, $phone, $email, $message)
+    {
+        $contactMessage = array(
+            'name' => $name,
+            'email' => $email,
+            'phone' => $phone,
+            'message' => $message
+        );
+
+        $this->_obct->insertContact($contactMessage);
     }
 }

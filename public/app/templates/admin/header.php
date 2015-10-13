@@ -75,6 +75,8 @@ use Helpers\Url;
     <section class="top-bar-section">
       <!-- Right Nav Section -->
       <ul class="right" style="margin-right: 5%">
+        <li><a href="">Admin</a></li>
+        <li><a href="admin/users">Users</a></li>
         <li class="has-dropdown">
           <a href="#">Pages</a>
           <ul class="dropdown">

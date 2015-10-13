@@ -23,7 +23,7 @@
 	<div class="small-6 columns">
 		<h4>Reply</h4>
 		<fieldset>
-			<form method="post" action="">
+			<form method="post" action="" id="adminMessage">
 				<label>Email
 					<input type="text" placeholder="Email" for="adminEmail">
 				</label>
@@ -36,6 +36,19 @@
 				<button class="button" id="submit" type="submit">Submit</button>
 			</form>
 		</fieldset>
-	</div>
+	</div><hr>
 </div>
 
+<div class="row" id="classes">
+	<div class="small-6 columns">
+		<h4>Classes</h4>
+		<?php
+		foreach($data['classes'] as $classes){
+			
+		}
+		?>
+	</div>
+	<div class="small-6 columns">
+		<fieldset></fieldset>
+	</div>
+</div>

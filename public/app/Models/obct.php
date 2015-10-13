@@ -8,8 +8,8 @@ class Obct extends \core\model {
     }
 
     // INSERT METHODS    
-    public function insertContact($message) {
-        $this->_db->insert(PREFIX."contact", $message);
+    public function insertContact($contactMessage) {
+        $this->_db->insert(PREFIX."contact", $contactMessage);
     }
 
     public function insertAbout($about) {
@@ -27,6 +27,10 @@ class Obct extends \core\model {
 
     public function getSummary() {
         return $this->_db->select('select id, title, content, updateDate from '.PREFIX.'about where id = 6');
+    }
+
+    public function getClasses() {
+        return $this->_db->select('select id, class_title, teaser, description, day, time, price, link from '.PREFIX.'classes');
     }
 
     // UPDATE METHODS

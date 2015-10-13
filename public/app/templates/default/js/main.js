@@ -32,25 +32,32 @@ $(document).ready(function() {
         $faq.slideToggle();
         $(".hide_div").not($faq).slideUp();
     });
-    console.log('hey hey');
 
     // Ajax Call for Contact Page
-        $('#submit').click(function(e){
+        $('button#submitForm').click(function(e){
             $(document).foundation('alert','events');
-            var data = $('#contactForm').serialize;
+            var name = $('input#name').val();
+            var phone = $('input#phone').val();
+            var email = $('input#email').val();
+            var message = $('textarea#message').val();
+            var data = {name: name, phone: phone, email: email, message: message};
+            e.preventDefault();
             $.ajax({
                type: 'POST',
-               url: '/postContact',
+               url: 'postContact',
                data: data,
                datatype: 'jsonp',
+               async: true,
+               cache: false,
                success: function(data){
-                   alert("Your message was sent! We will get back to you soon!");
-                   console.log(data);
+                   document.getElementById('contactForm').reset();
+
                },
                failure: function(data){
-                   alert("There was a problem submitting your message, please try again soon");
+
                }
             });
-            e.preventDefault();
+
+            return false;
         });
 });

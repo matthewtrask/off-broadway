@@ -25,6 +25,9 @@ class Admin extends \core\controller {
 		$obctContact = $this->_adminObct->getContact();
 		$data['contact'] = $obctContact;
 
+		$obctClasses = $this->_adminObct->getClasses();
+		$data['classes'] = $obctClasses;
+
 		View::renderadmintemplate('header',$data);
 		View::render('admin/admin', $data);
 		View::renderadmintemplate('footer',$data);

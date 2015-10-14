@@ -11,11 +11,11 @@
   <div class="row">
     <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
       <h2 class="text-center">Our upcoming productions</h2>
-      <p class="text-center">Cinderella Kids | October 2 - October 4</p>
-      <h3 class="text-center">Click <a href="boxoffice">here</a> to buy tickets!</h3>
+      <p class="text-center">Dear Edwina Junior | November 6th - 8th</p>
+      <h3 class="text-center">Click <a href="https://obct.yapsody.com/event/index/20348/dear-edwina-jr">here</a> to buy tickets!</h3>
     </div>
     <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 upcoming">
-      <img class="img-responsive center-block" style="margin-top: 10%" src="<?php echo IMGDIR; ?>cinderella.jpg">
+      <img class="img-responsive center-block" style="margin-top: 10%" src="<?php echo IMGDIR; ?>edwina.jpg">
     </div>
   </div><hr />
 </div>

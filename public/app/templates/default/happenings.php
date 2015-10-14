@@ -12,11 +12,11 @@
     <div class="row upcoming">
         <div class="col-xs-6 col-sm-6">
             <h2 class="text-center">Our upcoming productions</h2>
-            <h2 class="text-center">Cinderella Kids</h2>
-            <h3 class="text-center">Click <a href="#">here</a> to buy tickets!</h3>
+            <h2 class="text-center">Dear Edwina Jr</h2>
+            <h3 class="text-center">Click <a href="https://obct.yapsody.com/event/index/20348/dear-edwina-jr">here</a> to buy tickets!</h3>
         </div>
         <div class="col-xs-6 col-sm-6">
-            <img src="<?php echo IMGDIR; ?>cinderella.jpg" class="img-responsive center-block"
+            <img src="<?php echo IMGDIR; ?>edwina.jpg" class="img-responsive center-block"
         </div>
     </div>
 </div><hr />

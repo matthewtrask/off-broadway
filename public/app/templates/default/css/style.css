@@ -51,6 +51,10 @@ p, a, li, span, blockquote {
 
 }
 
+button.button > a {
+  color: #fff;
+}
+
 .button.message {
   background-color: #7547ff !important;
 }
@@ -68,11 +72,13 @@ p, a, li, span, blockquote {
 
 .button.register {
   background-color: #ff6047 !important;
+  color: #fff !important;
   width: 50%;
 }
 
 .button.register:hover {
   background-color: #ff6047 !important;
+  color: #fff !important;
 }
 
 /* END GLOBAL */
@@ -115,6 +121,7 @@ nav.top-bar ul.title-area li.name h1 a:hover,
 div#hero {
     padding: 5px;
     border: 1px solid black;
+    margin-bottom: 4%;
 }
 
 div#current {
@@ -123,6 +130,11 @@ div#current {
 
 div#about {
   margin-top: 6%;
+}
+
+div.panel#whatsnew {
+  overflow: scroll;
+  height: 300px;
 }
 
 /* END HOME */

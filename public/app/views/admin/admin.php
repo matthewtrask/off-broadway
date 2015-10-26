@@ -1,5 +1,5 @@
 <?php use \helpers\form;?>
-<div class="row">
+<div class="row" style="padding-top: 6%">
 	<div class="small-12 columns">
 		<h1>Admin</h1>
 		<h4><?php $date = date('m/d/Y h:i:s a', time());;
@@ -31,7 +31,7 @@
 					<input type="text" placeholder="Name" for="adminName">
 				</label>
 				<label>Name
-					<textarea type="text" placeholder="Message" for="adminTextMsg"></textarea>
+					<textarea type="text" placeholder="Message" rows="6" for="adminTextMsg"></textarea>
 				</label>
 				<button class="button" id="submit" type="submit">Submit</button>
 			</form>
@@ -39,16 +39,30 @@
 	</div><hr>
 </div>
 
-<div class="row" id="classes">
-	<div class="small-6 columns">
-		<h4>Classes</h4>
-		<?php
-		foreach($data['classes'] as $classes){
-			
-		}
-		?>
-	</div>
-	<div class="small-6 columns">
-		<fieldset></fieldset>
+<div class='row'>
+	<div class="small-12 columns">
+		<h4>Message Queue</h4>
+		<p>This will be a way for you to see what pages get worked on. If I change something Ill update it here so you know. Eventually I will work it out so when you change something it will be updated here as well.</p>
+		<table id="mqTable">
+			<thead>
+				<tr>
+					<th>Page Title</th>
+					<th>Description</th>
+					<th>Time Changed</th>
+				</tr>
+			</thead>
+			<tbody>
+				<?php
+					foreach($data['messages'] as $message){
+						echo "<tr>";
+						echo "<td>".$message->page_change."</td>";
+						echo "<td>".$message->description."</td>";
+						echo "<td>".date('Y-m-d', strtotime($message->time))."</td>";
+						echo "</tr>";
+					}
+				?>
+			</tbody>
+		</table>
 	</div>
 </div>
+

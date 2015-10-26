@@ -7,21 +7,7 @@ use Helpers\Url;
 
 ?>
 
-</main>
 
-<!-- JS -->
-<script src="/bower_components/foundation/js/foundation.js"></script>
-<script src="/bower_components/foundation/js/foundation/foundation.dropdown.js"></script>
-<script src="/bower_components/foundation/js/foundation/foundation.topbar.js"></script>
-<script src="/bower_components/foundation/js/foundation/foundation.alert.js"></script>
-<script src="/bower_components/foundation/js/foundation/foundation.abide.js"></script>
-<script src='/bower_components/flowtype.js/flowtype.js'></script>
-
-<?php
-    Assets::js(array(
-        Url::template_path() . 'js/main.js',
-    ));
-?>
 
 <footer>
     <div class="container">
@@ -47,6 +33,21 @@ use Helpers\Url;
 <a href="#" class="back-to-top" style="display: inline;">
     <i class="fa fa-arrow-circle-up"></i>
 </a>
+<!-- JS -->
+<script src="/bower_components/foundation/js/foundation.js"></script>
+<script src="/bower_components/foundation/js/foundation/foundation.dropdown.js"></script>
+<script src="/bower_components/foundation/js/foundation/foundation.topbar.js"></script>
+<script src="/bower_components/foundation/js/foundation/foundation.alert.js"></script>
+<script src="/bower_components/foundation/js/foundation/foundation.abide.js"></script>
+<script src="/bower_components/foundation/js/foundation/foundation.reveal.js"></script>
+<script src="/bower_components/foundation/js/foundation/foundation.accordion.js"></script>
+<script src='/bower_components/flowtype.js/flowtype.js'></script>
+
+<?php
+    Assets::js(array(
+        Url::template_path() . 'js/main.js',
+    ));
+?>
 
 </body>
 </html>

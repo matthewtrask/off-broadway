@@ -24,15 +24,20 @@ class offbroadway extends \core\controller {
 
     }
 
-    public function index(){
+    public function index()
+    {
         $data['title'] = 'Home';
+
+        $new = $this->_obct->getWhatsNew();
+        $data['new'] = $new;
 
         view::rendertemplate('header', $data);
         view::rendertemplate('home', $data);
         view::rendertemplate('footer', $data);
     }
 
-    public function aboutus(){
+    public function aboutus()
+    {
         $data['title'] = 'About OBCT';
 
         // Gets the 5 bullet points
@@ -49,35 +54,57 @@ class offbroadway extends \core\controller {
 
     }
 
-    public function classes(){
+    public function auditions()
+    {
+        $data['title'] = 'Auditions';
+
+        $faq = $this->_obct->getFaq();
+        $data['faq'] = $faq;
+
+        
+
+        View::rendertemplate('header', $data);
+        View::rendertemplate('auditions', $data);
+        View::rendertemplate('footer');
+    }
+
+    public function classes()
+    {
         $data['title'] = 'About OBCT';
     }
 
-    public function troupe(){
+    public function troupe()
+    {
         $data['title'] = 'About OBCT';
     }
 
-    public function juniorTroupe(){
+    public function juniorTroupe()
+    {
         $data['title'] = 'About OBCT';
     }
 
-    public function gallery(){
+    public function gallery()
+    {
         $data['title'] = 'About OBCT';
     }
 
-    public function currentProd(){
+    public function currentProd()
+    {
         $data['title'] = 'About OBCT';
     }
 
-    public function questions(){
+    public function questions()
+    {
         $data['title'] = 'Questions';
     }
 
-    public function boxOffice(){
+    public function boxOffice()
+    {
         $data['title'] = 'Box Office';
     }
 
-    public function contact(){
+    public function contact()
+    {
         $data['title'] = 'Contact';
 
 
@@ -86,7 +113,8 @@ class offbroadway extends \core\controller {
         view::rendertemplate('footer');
     }
 
-    public function postContact(){
+    public function postContact()
+    {
 
         $name = $_POST['name'];
         $email = $_POST['email'];
@@ -109,28 +137,6 @@ class offbroadway extends \core\controller {
 
         $mail->Subject = 'A message for OBCT from ' . $cleanName;
         $mail->Body = $cleanMsg . "<br>This message is from $cleanName ($cleanEmail)";
-
-        if(!empty($cleanName) && !empty($cleanEmail) && !empty($cleanPhone) && !empty($cleanMsg)){
-            if (!$mail->send()) {
-                ?><div data-alert class="alert-box alert round" style="margin-top: 20px;">
-                    Something went wrong when sending your contact email. Please check your spelling and try again.
-                    <a href="#" class="close">&times;</a>
-                </div><?php
-            }
-            else {
-                ?><div data-alert class="alert-box success radius" style="margin-top: 20px;">
-                    Your message has been successfully sent. We will be in contact with you soon.
-                    <a href="#" class="close">&times;</a>
-                </div><?php
-            }
-        }
-        else {
-            ?><div data-alert class="alert-box alert round" style="margin-top: 20px;">
-                Something went wrong when sending your contact email. Please check your spelling and try again.
-                <a href="#" class="close">&times;</a>
-            </div><?php
-        }
-
         $this->insertContact($name, $phone, $email, $message);
 
     }

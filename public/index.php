@@ -87,21 +87,28 @@ Router::any('admin', '\controllers\admin\admin@index');
 Router::any('admin/login', '\controllers\admin\auth@login');
 Router::any('admin/logout', '\controllers\admin\auth@logout');
 
-Router::any('admin/approveReview', '\controllers\admin\admin@approvereview');
+Router::any('admin/classes', '\controllers\admin\admin@classes');
+
+//AJAX Contollers
+Router::POST('admin/postMessage', '\controllers\admin\admin@postMessage');
 
 Router::any('admin/users', '\controllers\admin\users@index');
 Router::any('admin/users/add', '\controllers\admin\users@add');
 Router::any('admin/users/edit/(:num)', '\controllers\admin\users@edit');
 
-Router::any('admin/posts', '\controllers\admin\posts@index');
-Router::any('admin/posts/add', '\controllers\admin\posts@add');
-Router::any('admin/posts/edit/(:num)', '\controllers\admin\posts@edit');
-Router::any('admin/posts/delete/(:num)', '\controllers\admin\posts@delete');
 
-Router::any('admin/cats', '\controllers\admin\cats@index');
-Router::any('admin/cats/add', '\controllers\admin\cats@add');
-Router::any('admin/cats/edit/(:num)', '\controllers\admin\cats@edit');
-Router::any('admin/cats/delete/(:num)', '\controllers\admin\cats@delete');
+
+//Router::any('admin/posts', '\controllers\admin\posts@index');
+//Router::any('admin/posts/add', '\controllers\admin\posts@add');
+//Router::any('admin/posts/edit/(:num)', '\controllers\admin\posts@edit');
+//Router::any('admin/posts/delete/(:num)', '\controllers\admin\posts@delete');
+//
+//Router::any('admin/cats', '\controllers\admin\cats@index');
+//Router::any('admin/cats/add', '\controllers\admin\cats@add');
+//Router::any('admin/cats/edit/(:num)', '\controllers\admin\cats@edit');
+//Router::any('admin/cats/delete/(:num)', '\controllers\admin\cats@delete');
+
+
 
 
 //Router::any('', '\controllers\blog@index');

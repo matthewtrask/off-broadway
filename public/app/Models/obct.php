@@ -56,7 +56,7 @@ class Obct extends \core\model {
 
     public function getWhatsNew()
     {
-        return $this->_db->select('select id, title, content from '.PREFIX.'whats_new');
+        return $this->_db->select('select id, title, content, button from '.PREFIX.'whats_new');
     }
     // UPDATE METHODS
 

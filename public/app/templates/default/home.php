@@ -13,6 +13,10 @@
 			<?php foreach($data['new'] as $new){
 				echo "<h5><b>".$new->title."</b></h5>";
 				echo "<p>".$new->content."</p>";
+				if(isset($new->button)){
+					echo "<button class='button whatsnew'><a href='".$new->button."'>Find Out More</a></button>";
+				}
+				echo "<hr>";
 			} ?>
 		</div>
     </div>

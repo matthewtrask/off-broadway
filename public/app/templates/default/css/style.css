@@ -81,6 +81,16 @@ button.button > a {
   color: #fff !important;
 }
 
+.button.whatsnew {
+  background-color: #ff6047 !important;
+  color: #5d5d5d;
+}
+
+.button.whatsnew:hover {
+  background-color: #ff6047 !important;
+  color: #5d5d5d;
+}
+
 /* END GLOBAL */
 
 /* LOGO */

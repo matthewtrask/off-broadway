@@ -50,19 +50,19 @@ use Helpers\Url;
   Assets::css(array(
       '//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css',
       '/bower_components/foundation/css/foundation.css',
-      Url::template_Path() . 'css/mobile.css',
-      Url::template_Path() . 'css/style.css',
+      Url::admin_template_path() . 'css/mobile.css',
+      Url::admin_template_path() . 'css/adminstyle.css'
   ));
 
 
   Assets::js(array(
-      Url::template_Path() . 'js/jquery.js',
+      Url::admin_template_path() . 'js/jquery.js',
       '//cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js',
   ));
   ?>
 
 </head>
-<div class="fixed" style="padding-bottom: 20px;">
+<div class="fixed">
   <nav class="top-bar" data-topbar role="navigation">
     <ul class="title-area" style="margin-left: 2%;">
       <li class="name">
@@ -90,5 +90,5 @@ use Helpers\Url;
     </section>
   </nav>
 </div>
-<main>
+
 

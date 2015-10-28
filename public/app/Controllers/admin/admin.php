@@ -54,6 +54,11 @@ class Admin extends \core\controller
 		View::renderadmintemplate('footer');
 	}
 
+	private function removeClasses()
+	{
+		
+	}
+
 	private function updateClasses()
 	{
 		

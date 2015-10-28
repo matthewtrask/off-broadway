@@ -20,3 +20,71 @@ nav.top-bar ul.title-area li.name h1 a:hover,
 }
 
 
+#body {
+	padding-top: 60px;
+}
+
+button.button > a {
+  color: #fff;
+}
+
+.button.message {
+  background-color: #7547ff !important;
+}
+.button.message:hover {
+  background-color: #7507ff !important;
+}
+
+.button.success {
+  background-color: #47ffa3 !important;
+}
+
+.button.success:hover {
+  background-color: #43AC6A !important;
+}
+
+.button.register {
+  background-color: #ff6047 !important;
+  color: #fff !important;
+  width: 50%;
+}
+
+.button.register:hover {
+  background-color: #ff6047 !important;
+  color: #fff !important;
+}
+
+.button.whatsnew {
+  background-color: #ff6047 !important;
+  color: #fff;
+}
+
+.button.whatsnew:hover {
+  background-color: #ff6047 !important;
+  color: #fff;
+}
+
+.button.remove {
+  background-color: #5d5d5d !important;
+  color: #fff !important;
+  width: 200px !important;
+}
+
+.button.remove:hover {
+  background-color: #5d5d5d !important;
+  color: #fff !important;
+  width: 200px !important;
+}
+
+table.classTable {
+	margin-left: -10%;
+}
+
+td div.scrollable {
+    width: 200px;
+    height: 120px;
+    margin: 0;
+    padding: 0;
+    overflow: auto;
+}
+

@@ -90,5 +90,5 @@ use Helpers\Url;
     </section>
   </nav>
 </div>
-
+<main id="body">
 

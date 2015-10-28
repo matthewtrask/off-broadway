@@ -1,8 +1,7 @@
 $(document).ready(function(){
-    $(document).foundation('tab', 'reflow');
+    $(document).foundation();
 
     // ajax call for sending messages
-    console.log('hello');
     $('button#submit').on('click', function(){
     	var data = $('form#adminMessage').serialize();
     	
@@ -19,7 +18,10 @@ $(document).ready(function(){
     		}
     	});
     });
-    // ajax call to recieve the updated class info
-
-
+    // ajax call to pass class id to db
+    $('button#editClasses').on('click', function(){
+        var id = $(' input.edit:checkbox:checked').val();
+        console.log('hello');
+        console.log(id);
+    });
 });

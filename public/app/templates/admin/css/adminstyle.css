@@ -67,24 +67,27 @@ button.button > a {
 .button.remove {
   background-color: #5d5d5d !important;
   color: #fff !important;
-  width: 200px !important;
 }
 
 .button.remove:hover {
   background-color: #5d5d5d !important;
   color: #fff !important;
-  width: 200px !important;
 }
 
-table.classTable {
-	margin-left: -10%;
+table.classTable
+{
+    table-layout: fixed;
+    width: 1200px;
+    margin-left: -12%;
 }
 
 td div.scrollable {
-    width: 200px;
+    width: 100px;
     height: 120px;
     margin: 0;
     padding: 0;
     overflow: auto;
 }
+
+
 

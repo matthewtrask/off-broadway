@@ -90,7 +90,11 @@ Router::any('admin/logout', '\controllers\admin\auth@logout');
 Router::any('admin/classes', '\controllers\admin\admin@classes');
 
 //AJAX Contollers
-Router::POST('admin/postMessage', '\controllers\admin\admin@postMessage');
+Router::POST('postMessage', '\controllers\admin\admin@postMessage');
+Router::POST('updateClasses', '\controllers\admin\admin@updateClasses');
+Router::POST('addClasses', '\controllers\admin\admin@addClasses');
+Router::POST('removeClasses', '\controllers\admin\admin@removeClasses');
+
 
 Router::any('admin/users', '\controllers\admin\users@index');
 Router::any('admin/users/add', '\controllers\admin\users@add');

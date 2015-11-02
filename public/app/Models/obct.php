@@ -59,6 +59,9 @@ class Obct extends \core\model {
         return $this->_db->select('select id, title, content, button from '.PREFIX.'whats_new');
     }
     // UPDATE METHODS
-
+    public function updateClasses()
+    {
+        $this->_db->update('')
+    }
 
 }

@@ -18,10 +18,31 @@ $(document).ready(function(){
     		}
     	});
     });
-    // ajax call to pass class id to db
-    $('button#editClasses').on('click', function(){
-        var id = $(' input.edit:checkbox:checked').val();
-        console.log('hello');
-        console.log(id);
+    
+    $('button#addClass').on('click', function(){
+        console.log('add class button worked');
+        var data = $('form#addClassForm').serialize();
+        $.ajax({
+            method: "POST",
+            url: "/addClasses",
+            async: true,
+            success: function(data){
+                console.log('and away we go!');
+            }
+        });
     });
+
+    $('button#editClass').on('click', function(){
+        console.log('edit class button worked');
+        var data = $('form#editClassForm').serialize();
+        $.ajax({
+            method: "POST",
+            url: "/updateClasses",
+            async: true,
+            success: function(data){
+                console.log('away we go again!');
+            }
+        });
+    });
+
 });

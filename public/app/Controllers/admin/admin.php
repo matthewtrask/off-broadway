@@ -56,12 +56,36 @@ class Admin extends \core\controller
 
 	private function removeClasses()
 	{
-		
+		var_dump($_POST);
 	}
 
 	private function updateClasses()
 	{
+		$updatedClassId = $_POST['updatedClassId']
+		$updatedClassName = $_POST['updatedClassName'];
+		$updatedClassTeaser = $_POST['updatedTeaster'];
+		$updatedClassDesc = $_POST['updatedClassDescription'];
+		$updatedClassDay = $_POST['updatedClassDay'];
+		$updatedClassTime = $_POST['updatedClassTime']; 
+		$updatedClassPrice = $_POST['updatedClassPrice'];
+		$updatedClassLink = $_POST['updatedClassLink'];
+
+		$updatedInfo = array(
+			'class_title' => $updatedClassName,
+			'teaser'      => $updatedClassTeaster,
+			'description' => $updatedClassDesc,
+			'day' 		  => $updatedClassDay,
+			'time'		  => $updatedClassTime,
+			'price'       => $updatedClassPrice,
+			'link'        => $updatedClassLink
+		);
+
 		
+	}
+
+	private function addClasses()
+	{
+		var_dump($_POST);
 	}
 
 }

@@ -75,7 +75,7 @@ Router::any('troupe', 'Controllers\offbroadway@troupe');
 Router::any('gallery', 'Controllers\offbroadway@gallery');
 Router::any('classes', 'Controllers\offbroadway@classes');
 Router::any('questions', 'Controllers\offbroadway@questions');
-Router::any('currentprod', 'Controllers\offbroadway@currentprod');
+Router::any('currentshow', 'Controllers\offbroadway@currentprod');
 Router::any('upcoming', 'Controllers\offbroadway@upcoming');
 Router::any('auditions', 'Controllers\offbroadway@auditions');
 Router::any('register', 'Controllers\offbroadway@register');
@@ -88,6 +88,7 @@ Router::any('admin/login', '\controllers\admin\auth@login');
 Router::any('admin/logout', '\controllers\admin\auth@logout');
 
 Router::any('admin/classes', '\controllers\admin\admin@classes');
+Router::any('admin/currentshow', '\controllers\admin\admin@currentShow');
 
 //AJAX Contollers
 Router::POST('postMessage', '\controllers\admin\admin@postMessage');

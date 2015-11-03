@@ -54,14 +54,14 @@ class Admin extends \core\controller
 		View::renderadmintemplate('footer');
 	}
 
-	private function removeClasses()
+	public function removeClasses()
 	{
 		var_dump($_POST);
 	}
 
-	private function updateClasses()
+	public function updateClasses()
 	{
-		$updatedClassId = $_POST['updatedClassId']
+		$updatedClassId = $_POST['updatedClassId'];
 		$updatedClassName = $_POST['updatedClassName'];
 		$updatedClassTeaser = $_POST['updatedTeaster'];
 		$updatedClassDesc = $_POST['updatedClassDescription'];
@@ -72,7 +72,7 @@ class Admin extends \core\controller
 
 		$updatedInfo = array(
 			'class_title' => $updatedClassName,
-			'teaser'      => $updatedClassTeaster,
+			'teaser'      => $updatedClassTeaser,
 			'description' => $updatedClassDesc,
 			'day' 		  => $updatedClassDay,
 			'time'		  => $updatedClassTime,
@@ -80,12 +80,28 @@ class Admin extends \core\controller
 			'link'        => $updatedClassLink
 		);
 
+		$where = array('id' => $updatedClassId);
+
+		$this->_adminObct->updateClasses($updatedInfo, $where);
 		
 	}
 
-	private function addClasses()
+	public function addClasses()
 	{
-		var_dump($_POST);
+
+	}
+
+	public function currentShow()
+	{
+		$data['title'] = 'Current Show';
+
+		$currentShow = $this->_adminObct->getCurrentShow();
+		$data['currentShow'] = $currentShow;
+
+
+		View::renderadmintemplate('header', $data);
+		View::render('admin/currentshow', $data);
+		View::renderadmintemplate('footer');
 	}
 
 }

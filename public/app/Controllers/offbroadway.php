@@ -90,7 +90,17 @@ class offbroadway extends \core\controller {
 
     public function currentProd()
     {
-        $data['title'] = 'About OBCT';
+        $data['title'] = 'Current Show';
+
+        $currentProd = $this->_obct->getCurrentShow();
+        $data['currentShow'] = $currentProd;
+
+        $upcomingShows = $this->_obct->getUpcomingShows();
+        $data['upcomingShows'] = $upcomingShows;
+
+        View::rendertemplate('header', $data);
+        View::rendertemplate('currentprod', $data);
+        View::rendertemplate('footer');
     }
 
     public function questions()
@@ -123,21 +133,24 @@ class offbroadway extends \core\controller {
 
         $cleanName = filter_var($name, FILTER_SANITIZE_STRING);
         $cleanEmail = filter_var($email, FILTER_SANITIZE_EMAIL);
-        $cleanPhone = filer_var($phone, FILTER_SANITIZE_STRING);
+        $cleanPhone = filter_var($phone, FILTER_SANITIZE_STRING);
         $cleanMsg = filter_var($message, FILTER_SANITIZE_STRING);
 
 
-        $mail = new \PHPMailer(true);
+        $mail = new \Helpers\PhpMailer\Mail();
 
 
         $mail->From = $cleanEmail;
         $mail->FromName = $cleanName;
+        $mail->setFrom($cleanEmail);
         $mail->addAddress('mjftrask@gmail.com');
         $mail->addReplyTo($cleanEmail, $cleanName);
 
         $mail->Subject = 'A message for OBCT from ' . $cleanName;
         $mail->Body = $cleanMsg . "<br>This message is from $cleanName ($cleanEmail)";
-        $this->insertContact($name, $phone, $email, $message);
+        $mail->send();
+
+        $this->insertContact($cleanName, $cleanPhone, $cleanEmail, $cleanMsg);
 
     }
 

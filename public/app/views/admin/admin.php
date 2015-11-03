@@ -1,4 +1,7 @@
-<?php use \helpers\form;?>
+<?php
+use \helpers\form;
+use \helpers\session;
+?>
 <div class="row" style="padding-top: 6%">
 	<div class="small-12 columns">
 		<h1>Admin</h1>

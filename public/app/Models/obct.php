@@ -58,10 +58,34 @@ class Obct extends \core\model {
     {
         return $this->_db->select('select id, title, content, button from '.PREFIX.'whats_new');
     }
-    // UPDATE METHODS
-    public function updateClasses()
+
+    public function getCurrentShow()
     {
-        $this->_db->update('')
+        return $this->_db->select('select id, show_title, description, dates, price, box_office_link, image from '.PREFIX.'current_show');
     }
+
+    public function getUpcomingShows()
+    {
+        return $this->_db->select('select id, title, dates, price, image from '.PREFIX.'upcoming');
+    }
+
+    // UPDATE METHODS
+    public function updateClasses($updatedInfo, $where)
+    {
+        $this->_db->update(PREFIX.'classes', $updatedInfo, $where);
+    }
+
+    public function updateCurrentShow()
+    {
+        //
+    }
+
+    public function updateUpcomingShows()
+    {
+        //
+    }
+
+    // DELETE METHODS
+
 
 }

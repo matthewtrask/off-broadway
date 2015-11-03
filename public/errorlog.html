@@ -1,5 +1,51 @@
 <h3>Exception information:</h3>
 
+		<p><strong>Date:</strong> Nov 03, 2015 2:21AM</p>
+
+		<p><strong>Message:</strong> SQLSTATE[42S02]: Base table or view not found: 1146 Table 'offbroadway.obct_upcoming_shows' doesn't exist</p>
+
+		<p><strong>Code:</strong> 42S02</p>
+
+		<p><strong>File:</strong> /var/www/public/app/helpers/database.php</p>
+
+		<p><strong>Line:</strong> 86</p>
+
+		<h3>Stack trace:</h3>
+
+		<pre>#0 /var/www/public/app/helpers/database.php(86): PDOStatement->execute()
+#1 /var/www/public/app/models/obct.php(69): helpers\Database->select('select id, titl...')
+#2 /var/www/public/app/Controllers/offbroadway.php(98): models\Obct->getUpcomingShows()
+#3 /var/www/public/app/core/router.php(85): controllers\offbroadway->currentProd()
+#4 /var/www/public/app/core/router.php(177): core\Router::invokeObject('Controllers\\off...')
+#5 /var/www/public/index.php(130): core\Router::dispatch()
+#6 {main}</pre>
+
+		<hr />
+<h3>Exception information:</h3>
+
+		<p><strong>Date:</strong> Nov 03, 2015 2:21AM</p>
+
+		<p><strong>Message:</strong> SQLSTATE[42S02]: Base table or view not found: 1146 Table 'offbroadway.obct_upcoming_shows' doesn't exist</p>
+
+		<p><strong>Code:</strong> 42S02</p>
+
+		<p><strong>File:</strong> /var/www/public/app/helpers/database.php</p>
+
+		<p><strong>Line:</strong> 86</p>
+
+		<h3>Stack trace:</h3>
+
+		<pre>#0 /var/www/public/app/helpers/database.php(86): PDOStatement->execute()
+#1 /var/www/public/app/models/obct.php(69): helpers\Database->select('select id, titl...')
+#2 /var/www/public/app/Controllers/offbroadway.php(98): models\Obct->getUpcomingShows()
+#3 /var/www/public/app/core/router.php(85): controllers\offbroadway->currentProd()
+#4 /var/www/public/app/core/router.php(177): core\Router::invokeObject('Controllers\\off...')
+#5 /var/www/public/index.php(130): core\Router::dispatch()
+#6 {main}</pre>
+
+		<hr />
+<p>Error on Nov 02, 2015 2:16AM - require(app/views/currentshow.php): failed to open stream: No such file or directory in /var/www/public/app/core/view.php on line 19</p><h3>Exception information:</h3>
+
 		<p><strong>Date:</strong> Oct 26, 2015 0:28AM</p>
 
 		<p><strong>Message:</strong> SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'limt 1' at line 1</p>

@@ -73,7 +73,6 @@ button.button > a {
 .button.register {
   background-color: #ff6047 !important;
   color: #fff !important;
-  width: 50%;
 }
 
 .button.register:hover {

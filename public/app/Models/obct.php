@@ -18,6 +18,11 @@ class Obct extends \core\model {
         $this->_db->insert(PREFIX."about", $about);
     }
 
+    public function insertWhatsNew($whatsNew)
+    {
+        $this->_db->insert(PREFIX.'whats_new', $whatsNew);
+    }
+
     // GET METHODS
     public function getContact() 
     {

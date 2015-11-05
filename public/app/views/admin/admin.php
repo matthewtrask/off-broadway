@@ -2,7 +2,7 @@
 use \helpers\form;
 use \helpers\session;
 ?>
-<div class="row" style="padding-top: 6%">
+<div class="row" style="padding-top: 2%">
 	<div class="small-12 columns">
 		<h1>Admin</h1>
 		<h4><?php $date = date('m/d/Y h:i:s a', time());;
@@ -11,6 +11,46 @@ use \helpers\session;
 		<input type="button" class="button" value="Reload Page" onClick="window.location.reload()"><hr>
 	</div>
 </div>
+
+<div class="row" id="whatsNew">
+	<div class="small-6 columns" id="whatsNewAdmin">
+		<h4>What's New</h4>
+		<?php
+		foreach($data['whatsNew'] as $whatsNew){
+			echo "<p><b>Title</b>: ".$whatsNew->title."</p>";
+			echo "<p><b>Content</b>: ".$whatsNew->content."</p>";
+			if(isset($whatsNew->button)){
+				echo "<p><b>Link</b>: ".$whatsNew->button."</p>";
+			}
+			echo "<hr>";
+		}?>
+	</div>
+	<div class="small-6 columns">
+		<p>If you do not wish to add a button, do not select an option for the link</p>
+		<fieldset>
+			<form method="post" action="" id="adminMessage">
+				<label>Title
+					<input type="text" placeholder="Email" for="adminEmail">
+				</label>
+				<label>Content
+					<textarea type="text" placeholder="Message" rows="6" for="adminTextMsg"></textarea>
+				</label>
+				<label>Link
+					<select id="urlSelect" name="urlSelect">
+						<option>Select</option>
+						<option value="about">About</option>
+						<option value="currentProd">Current Show</option>
+						<option value="classes">Classes</option>
+					</select>
+				</label>
+				<button class="button" id="submit" type="submit">Submit</button>
+			</form>
+		</fieldset>
+	</div><hr>
+</div>
+<br><br>
+
+
 <div class="row" id="messages">
 	<div class="small-6 columns" id="recentMessage">
 		<h4>Latest Messages</h4>
@@ -28,15 +68,15 @@ use \helpers\session;
 		<fieldset>
 			<form method="post" action="" id="adminMessage">
 				<label>Email
-					<input type="text" placeholder="Email" for="adminEmail">
+					<input type="text" placeholder="Email" name="adminemail" for="adminEmail">
 				</label>
 				<label>Name
-					<input type="text" placeholder="Name" for="adminName">
+					<input type="text" placeholder="Name" name="adminName" for="adminName">
 				</label>
 				<label>Name
-					<textarea type="text" placeholder="Message" rows="6" for="adminTextMsg"></textarea>
+					<textarea type="text" placeholder="Message" name="adminTextMsg" rows="6" for="adminTextMsg"></textarea>
 				</label>
-				<button class="button" id="submit" type="submit">Submit</button>
+				<button class="button" id="submit" for="submit" type="submit">Submit</button>
 			</form>
 		</fieldset>
 	</div><hr>

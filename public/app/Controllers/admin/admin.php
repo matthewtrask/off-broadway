@@ -31,6 +31,9 @@ class Admin extends \core\controller
 		$obctMessageQueue = $this->_adminObct->getMessageQueue();
 		$data['messages'] = $obctMessageQueue;
 
+		$whatsNew = $this->_adminObct->getWhatsNew();
+		$data['whatsNew'] = $whatsNew;
+
 		View::renderadmintemplate('header',$data);
 		View::render('admin/admin', $data);
 		View::renderadmintemplate('footer',$data);

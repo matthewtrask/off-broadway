@@ -89,5 +89,13 @@ td div.scrollable {
     overflow: auto;
 }
 
+#recentMessage, #whatsNewAdmin {
+    height: 400px;
+    overflow: auto;
+}
+
+#messages a {
+    font-family: 'Raleway', sans-serif;
+}
 
 

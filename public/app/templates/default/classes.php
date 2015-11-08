@@ -3,71 +3,35 @@
 		<h2>Classes</h2>
 	</div>
 </div>
+
 <div class="row">
-	<div class="small-8 medium-8 columns">
-		<!-- Musical Theatre Dance  -->
-		<div class="panel">
-			<div class="row">
-				<div class="small-8 columns">
-					<h4>Musical Theatre Dance</h4>
-					<p>Come join Erin Greenway as she inspires you to connect to the basics of Musical Theater Dance.</p>
-					<a href="#" data-reveal-id="mtd"><button class="button register">Learn More</button></a>
-				</div>
-				<div class="small-4 columns">
-					<p>Ages: 5 - 7</p>
-					<p>Day: Monday
-					<p>Time: 5:30 - 6:30pm</p>
-				</div>
-			</div>			
-		</div>
-		<!-- Beginning Improv/Acting Ages 8-12 -->
-		<div class="panel">
-			<div class="row">
-				<div class="small-8 columns">
-					<h4>Beginning Improv/Acting</h4>
-					<p>Mr. Chris will help your young performer connect with their inner passion for storytelling.</p>
-					<a href="#" data-reveal-id="bia"><button class="button register">Learn More</button></a>
-				</div>
-				<div class="small-4 columns">
-					<p>Ages: 8 - 12</p>
-					<p>Day: Monday
-					<p>Time: 4:30 - 5:30pm</p>
-				</div>
-			</div>			
-		</div>
-		<!-- Junior Musical Theatre -->
-		<div class="panel">
-			<div class="row">
-				<div class="small-8 columns">
-					<h4>Junior Musical Theatre</h4>
-					<p>Come take a journey with Ms. Shannon and her infectious teaching style as she helps your young performer connect with the song to tell the story.</p>
-					<a href="#" data-reveal-id="jmt"><button class="button register">Learn More</button></a>
-				</div>
-				<div class="small-4 columns">
-					<p>Ages: 5 - 7</p>
-					<p>Day: Tuesday
-					<p>Time: 5:00 - 6:00pm</p>
-				</div>
-			</div>			
-		</div>
-		<!-- Intro to Musical Theatre -->
-		<div class="panel">
-			<div class="row">
-				<div class="small-8 columns">
-					<h4>Intro to Musical Theatre</h4>
-					<p>Come take a journey with Ms. Shannon and her infectious teaching style as she helps your young performer connect with the song to tell the story.</p>
-					<a href="#" data-reveal-id="imt"><button class="button register">Learn More</button></a>
-				</div>
-				<div class="small-4 columns">
-					<p>Ages: 8 - 12</p>
-					<p>Day: Thursday
-					<p>Time: 5:00 - 6:00pm</p>
-				</div>
-			</div>			
-		</div>
+	<div class="small-8 columns">
+		<?php foreach($data['classes'] as $classes){
+			echo "<div class='panel'>";
+				echo "<div class='row'>";
+					echo "<div class='small-8 columns'>";
+						echo "<h4>".$classes->class_title."</h4>";
+						echo "<p>".$classes->teaser."</p>";
+						if(!empty($classes->link)) {
+							echo "<a href='#' data-reveal-id='class" . $classes->id . "'><button class='button register'>Learn More</button></a>";
+						}
+					echo "</div>";
+					echo "<div class='small-4 columns'>";
+						echo "<p>Ages: ".$classes->ages."</p>";
+						echo "<p>Day: ".$classes->day."</p>";
+						echo "<p>Time: ".$classes->time."</p>";
+					echo "</div>";
+				echo "</div>";
+			echo "</div>";
+		}?>
 	</div>
 </div>
 
+<?php
+foreach($data['classes'] as $classes){
+	
+}
+?>
 
 <!-- Junior Musical Theatre -->
 <div id="jmt" class="reveal-modal" data-reveal aria-labelledby="modalTitle" aria-hidden="true" role="dialog">

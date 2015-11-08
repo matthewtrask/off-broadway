@@ -41,7 +41,7 @@ class Obct extends \core\model {
 
     public function getClasses() 
     {
-        return $this->_db->select('select id, class_title, teaser, description, day, time, price, link from '.PREFIX.'classes');
+        return $this->_db->select('select id, class_title, teaser, description, ages, day, time, price, link from '.PREFIX.'classes');
     }
 
     public function getMessageQueue()

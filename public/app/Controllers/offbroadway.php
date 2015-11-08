@@ -13,10 +13,20 @@ use helpers\form;
 use helpers\url;
 use helpers\phpmailer\mail;
 
+/**
+ * Class offbroadway
+ * @package controllers
+ */
 class offbroadway extends \core\controller {
 
+    /**
+     * @var \models\obct
+     */
     private $_obct;
 
+    /**
+     *
+     */
     public function __construct(){
             parent::__construct();
 
@@ -24,6 +34,9 @@ class offbroadway extends \core\controller {
 
     }
 
+    /**
+     *
+     */
     public function index()
     {
         $data['title'] = 'Home';
@@ -36,6 +49,9 @@ class offbroadway extends \core\controller {
         view::rendertemplate('footer', $data);
     }
 
+    /**
+     *
+     */
     public function aboutus()
     {
         $data['title'] = 'About OBCT';
@@ -54,6 +70,9 @@ class offbroadway extends \core\controller {
 
     }
 
+    /**
+     *
+     */
     public function auditions()
     {
         $data['title'] = 'Auditions';
@@ -68,26 +87,50 @@ class offbroadway extends \core\controller {
         View::rendertemplate('footer');
     }
 
+    /**
+     *
+     */
     public function classes()
     {
-        $data['title'] = 'About OBCT';
+        $data['title'] = 'Classes';
+
+        $classes = $this->_obct->getClasses();
+
+        $data['classes'] = $classes;
+
+        View::rendertemplate('header', $data);
+        View::rendertemplate('classes', $data);
+        View::rendertemplate('footer');
+
     }
 
+    /**
+     *
+     */
     public function troupe()
     {
         $data['title'] = 'About OBCT';
     }
 
+    /**
+     *
+     */
     public function juniorTroupe()
     {
         $data['title'] = 'About OBCT';
     }
 
+    /**
+     *
+     */
     public function gallery()
     {
         $data['title'] = 'About OBCT';
     }
 
+    /**
+     *
+     */
     public function currentProd()
     {
         $data['title'] = 'Current Show';
@@ -103,16 +146,25 @@ class offbroadway extends \core\controller {
         View::rendertemplate('footer');
     }
 
+    /**
+     *
+     */
     public function questions()
     {
         $data['title'] = 'Questions';
     }
 
+    /**
+     *
+     */
     public function boxOffice()
     {
         $data['title'] = 'Box Office';
     }
 
+    /**
+     *
+     */
     public function contact()
     {
         $data['title'] = 'Contact';
@@ -123,6 +175,9 @@ class offbroadway extends \core\controller {
         view::rendertemplate('footer');
     }
 
+    /**
+     *
+     */
     public function postContact()
     {
 
@@ -154,6 +209,12 @@ class offbroadway extends \core\controller {
 
     }
 
+    /**
+     * @param $name
+     * @param $phone
+     * @param $email
+     * @param $message
+     */
     public function insertContact($name, $phone, $email, $message)
     {
         $contactMessage = array(

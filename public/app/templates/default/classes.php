@@ -13,7 +13,7 @@
 						echo "<h4>".$classes->class_title."</h4>";
 						echo "<p>".$classes->teaser."</p>";
 						if(!empty($classes->link)) {
-							echo "<a href='#' data-reveal-id='class" . $classes->id . "'><button class='button register'>Learn More</button></a>";
+							echo "<a href='#' data-reveal-id='class_" . $classes->id . "'><button class='button register'>Learn More</button></a>";
 						}
 					echo "</div>";
 					echo "<div class='small-4 columns'>";
@@ -23,18 +23,33 @@
 					echo "</div>";
 				echo "</div>";
 			echo "</div>";
+
 		}?>
 	</div>
+    <div class="small-4 columns">
+      <img src="<?php echo IMGDIR ?>green-logo.png"><br><br>
+      <div class="panel">
+        <h4 class="text-center">Questions?</h4>
+        <a href="contact"><button class="button message expand">Contact Us</button></a>
+      </div>
+    </div>
 </div>
 
 <?php
 foreach($data['classes'] as $classes){
-	
+  echo "<div id='class_".$classes->id."' data-reveal aria-labelledby='modalTitle' aria-hidden='true' role='dialog'>";
+    echo "<h2 id='modalTitle'>".$classes->class_title."</h2>";
+    echo "<p class='lead'>".$classes->teaser."</p>";
+    echo "<p>".$class->description."</p>";
+    echo "<p><b>Cost</b>: ".$classes->price."</p>";
+    echo "<a href=".$classes->link."><button class='button register large'>Register</button>";
+    echo "<a class='close-reveal-modal' aria-label='Close'>&#215;</a>";
+  echo "</div>";
 }
 ?>
 
 <!-- Junior Musical Theatre -->
-<div id="jmt" class="reveal-modal" data-reveal aria-labelledby="modalTitle" aria-hidden="true" role="dialog">
+<div id="class_" class="reveal-modal" data-reveal aria-labelledby="modalTitle" aria-hidden="true" role="dialog">
   <h2 id="modalTitle">Junior  Musical Theatre</h2>
   <p class="lead">Come take a journey with Ms. Shannon and her infectious teaching style as she helps your young performer connect with the song to tell the story.</p>
   <p>This is a great way for the young performer to get the basics of all the elements of what Musical Theater is: song- dance and acting. We will attack stage basics, auditions, building a character that conveys a story through song and working as an ensemble to bring those moments to life.  We will cover selections from Annie, Peter Pan, Seussical, Honk and many more to help keep the class fresh and challenging. We will have periodic showcases through the year to showcase their growth and passion.</p>

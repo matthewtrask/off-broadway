@@ -81,9 +81,8 @@ use Helpers\Url;
           <li class="has-dropdown">
             <a href="#">Studio</a>
             <ul class="dropdown">
-              <li><a href="#">Studio</a></li>
-              <li><a href='#'>Classes</a></li>
-              <li ><a href="#">Teachers</a></li>
+              <li><a href='classes'>Classes</a></li>
+              <li ><a href="teachers">Teachers</a></li>
             </ul>
           </li>
           <li class="has-dropdown">

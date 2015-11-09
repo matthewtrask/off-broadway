@@ -1,4 +1,0 @@
-<form method="post" action="">
-    <label>First Name</label>
-    <input id="fname" class="" for="fname">
-</form>

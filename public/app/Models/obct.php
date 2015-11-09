@@ -23,6 +23,11 @@ class Obct extends \core\model {
         $this->_db->insert(PREFIX.'whats_new', $whatsNew);
     }
 
+    public function insertTeacher($teacher)
+    {
+        //
+    }
+
     // GET METHODS
     public function getContact() 
     {
@@ -74,6 +79,10 @@ class Obct extends \core\model {
         return $this->_db->select('select id, title, dates, price, image from '.PREFIX.'upcoming');
     }
 
+    public function getTeachers(){
+        return $this->_db->select('select id, name, about, image from '.PREFIX.'teachers');
+    }
+
     // UPDATE METHODS
     public function updateClasses($updatedInfo, $where)
     {
@@ -86,6 +95,11 @@ class Obct extends \core\model {
     }
 
     public function updateUpcomingShows()
+    {
+        //
+    }
+
+    public function updateTeachers()
     {
         //
     }

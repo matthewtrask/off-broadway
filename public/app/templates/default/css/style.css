@@ -249,6 +249,10 @@ img#ObctLogo {
 
 /* TEACHERS */
 
+#teachers img {
+  width: 300px;
+  height: 300px;
+}
 
 /* END TEACHERS */
 

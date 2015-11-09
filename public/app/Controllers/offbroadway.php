@@ -70,6 +70,18 @@ class offbroadway extends \core\controller {
 
     }
 
+    public function teachers()
+    {
+        $data['title'] = 'Teachers';
+
+        $teachers = $this->_obct->getTeachers();
+        $data['teachers'] = $teachers;
+
+        View::rendertemplate('header', $data);
+        View::rendertemplate('teachers', $data);
+        View::rendertemplate('footer');
+    }
+
     /**
      *
      */

@@ -92,6 +92,8 @@ class offbroadway extends \core\controller {
         $faq = $this->_obct->getFaq();
         $data['faq'] = $faq;
 
+        $tips = $this->_obct->getHints();
+        $data['tips'] = $tips;
         
 
         View::rendertemplate('header', $data);
@@ -121,7 +123,18 @@ class offbroadway extends \core\controller {
      */
     public function troupe()
     {
-        $data['title'] = 'About OBCT';
+        $data['title'] = 'OBCT Troupe';
+
+        $troupeInfo = $this->_obct->getTroupeInfo();
+        $troupeAddtInfo = $this->_obct->getTroupeAddtInfo();
+
+        $data['troupeInfo'] = $troupeInfo;
+        $data['troupeAddtInfo'] = $troupeAddtInfo;
+
+        View::rendertemplate('header', $data);
+        View::rendertemplate('troupe', $data);
+        View::rendertemplate('footer');
+
     }
 
     /**
@@ -129,7 +142,17 @@ class offbroadway extends \core\controller {
      */
     public function juniorTroupe()
     {
-        $data['title'] = 'About OBCT';
+        $data['title'] = 'Jr OBCT Troupe';
+
+        $jrTroupe = $this->_obct->getJrTroupeInfo();
+        $jrTroupeImg = $this->_obct->getJrTroupeImages();
+
+        $data['jrTroupe'] = $jrTroupe;
+        $data['jrTroupeImg'] = $jrTroupeImg;
+
+        View::rendertemplate('header', $data);
+        View::rendertemplate('jrtroupe', $data);
+        View::rendertemplate('footer');
     }
 
     /**

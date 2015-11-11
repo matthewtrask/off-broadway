@@ -83,6 +83,26 @@ class Obct extends \core\model {
         return $this->_db->select('select id, name, about, image from '.PREFIX.'teachers');
     }
 
+    public function getTroupeInfo()
+    {
+        return $this->_db->select('select id, content from .'.PREFIX.'about_troupe where id in (1, 2, 3)');
+    }
+
+    public function getTroupeAddtInfo()
+    {
+        return $this->_db->select('select id, content from .'.PREFIX.'about_troupe where id in (4, 5, 6, 7, 8, 9)');
+    }
+
+    public function getJrTroupeInfo()
+    {
+        return $this->_db->select('select id, content from .'.PREFIX.'about_jr_troupe');
+    }
+
+    public function getJrTroupeImages()
+    {
+        return $this->_db->select('select id, troupe_member, image from '.PREFIX.'junior_troupe');
+    }
+
     // UPDATE METHODS
     public function updateClasses($updatedInfo, $where)
     {

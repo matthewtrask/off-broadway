@@ -1,7 +1,10 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: matthewtrask
- * Date: 11/9/15
- * Time: 8:38 PM
- */
+
+?>
+
+
+<div class="row">
+    <div class="small-8 columns">
+        <h2>OBCT Jr. Troupe</h2>
+    </div>
+</div>

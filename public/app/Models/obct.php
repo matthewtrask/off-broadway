@@ -7,13 +7,13 @@ class Obct extends \core\model {
             parent::__construct();
     }
 
-    // INSERT METHODS    
-    public function insertContact($contactMessage) 
+    // INSERT METHODS
+    public function insertContact($contactMessage)
     {
         $this->_db->insert(PREFIX."contact", $contactMessage);
     }
 
-    public function insertAbout($about) 
+    public function insertAbout($about)
     {
         $this->_db->insert(PREFIX."about", $about);
     }
@@ -29,22 +29,22 @@ class Obct extends \core\model {
     }
 
     // GET METHODS
-    public function getContact() 
+    public function getContact()
     {
         return $this->_db->select('SELECT name, email, phone, message FROM '.PREFIX.'contact');
     }
 
-    public function getAbout() 
+    public function getAbout()
     {
         return $this->_db->select('select id, title, content, updateDate from '.PREFIX.'about where id in (1, 2, 3, 4, 5)');
     }
 
-    public function getSummary() 
+    public function getSummary()
     {
         return $this->_db->select('select id, title, content, updateDate from '.PREFIX.'about where id = 6');
     }
 
-    public function getClasses() 
+    public function getClasses()
     {
         return $this->_db->select('select id, class_title, teaser, description, ages, day, time, price, link from '.PREFIX.'classes');
     }
@@ -85,12 +85,12 @@ class Obct extends \core\model {
 
     public function getTroupeInfo()
     {
-        return $this->_db->select('select id, content from .'.PREFIX.'about_troupe where id in (1, 2, 3)');
+        return $this->_db->select('select id, content from .'.PREFIX.'about_troupe');
     }
 
     public function getTroupeAddtInfo()
     {
-        return $this->_db->select('select id, content from .'.PREFIX.'about_troupe where id in (4, 5, 6, 7, 8, 9)');
+        return $this->_db->select('select id, title, point from .'.PREFIX.'troupe_points');
     }
 
     public function getJrTroupeInfo()

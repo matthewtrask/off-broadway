@@ -14,7 +14,7 @@
         <?php foreach($data['troupeInfo'] as $troupeInfo){
             echo "<p>".$troupeInfo->content."</p>";
         }?>
-        <p>Click here to see our Troupe Members</p>
+        <button class='button contact'><a href="#" data-reveal-id="troupe">Click here to see our Troupe Members</a></button>
     </div>
     <div class="small-4 columns">
         <img src="<?php echo IMGDIR ?>green-logo.png">
@@ -34,7 +34,7 @@
     <p class="lead">A little more info about our Troupe</p>
     <?php
     foreach($data['troupeAddtInfo'] as $addtInfo){
-        echo "<p>".$addtInfo->content."</p>";
+        echo "<p><b>".$addtInfo->title."</b>: ".$addtInfo->point."</p>";
     }
     ?>
 </div>

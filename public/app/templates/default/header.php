@@ -41,8 +41,8 @@ use Helpers\Url;
 
 
     <!-- CSS -->
-    <link href='http://fonts.googleapis.com/css?family=Merriweather' rel='stylesheet' type='text/css'> 
-    <link href='http://fonts.googleapis.com/css?family=Raleway:400,200,600' rel='stylesheet' type='text/css'>    
+    <link href='http://fonts.googleapis.com/css?family=Merriweather' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Raleway:400,200,600' rel='stylesheet' type='text/css'>
     <script src="/bower_components/jquery/dist/jquery.js"></script>
 <!--    <link href='https://cdnjs.cloudflare.com/ajax/libs/foundation/5.5.2/css/foundation.min.css'>-->
 <!--    <link href="/bower_components/foundation/css/foundation.css" rel="stylesheet">-->
@@ -88,16 +88,19 @@ use Helpers\Url;
           <li class="has-dropdown">
             <a href="#">Shows</a>
             <ul class="dropdown">
-              <li><a href="#">Current Show</a></li>
-              <li ><a href="#">Upcoming</a></li>
-              <li><a href="">Auditions</a></li>
+              <li><a href="currentshow">Current Show</a></li>
+              <li><a href="#">Auditions</a></li>
             </ul>
           </li>
-          <li><a href='#'>Troupe</a></li>
+          <li class="has-dropdown">
+            <a href='#'>Troupe</a>
+            <ul class="dropdown">
+              <li><a href="juniortroupe">Junior Troupe</a></li>
+              <li><a href="troupe">Senior Troupe</a></li>
+            </ul>
+          </li>
           <li><a href='contact'>Contact</a></li>
         </ul>
       </section>
     </nav>
 </div>
-
-

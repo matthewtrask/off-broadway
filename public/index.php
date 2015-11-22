@@ -66,11 +66,11 @@ use \core\router,
 //define routes
 Router::any('', 'Controllers\offbroadway@index');
 Router::any('home', 'Controllers\offbroadway@index');
-Router::any('happenings','Controllers\offbroadway@happenings');
+// Router::any('happenings','Controllers\offbroadway@happenings');
 Router::any('schools', 'Controllers\offbroadway@schools');
 Router::any('aboutus', 'Controllers\offbroadway@aboutus');
 Router::any('teachers', 'Controllers\offbroadway@teachers');
-Router::any('juniortroupe', 'Controllers\Offbroadway@juniorTroupe');
+Router::any('juniortroupe', 'Controllers\offbroadway@juniorTroupe');
 Router::any('troupe', 'Controllers\offbroadway@troupe');
 Router::any('gallery', 'Controllers\offbroadway@gallery');
 Router::any('classes', 'Controllers\offbroadway@classes');

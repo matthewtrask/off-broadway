@@ -82,15 +82,3 @@
 	    </div>
     </div>
 </div>
-
-<!-- <div class="row" id="about">
-	<div class="small-12 medium-12 large-9 columns">
-		<div class="panel">
-			<h2 class="text-center">Our Mission</h2>
-			<p>We aim to connect children with their passions. We provide a safe place for children to explore their creative side in acting, singing and dancing.</p>
-			<p>Through the various classes and productions, children will have the ability to try anything they want here at Off Broadway Children's Theatre.</p>
-		</div>
-	</div>
-</div>
-
- -->

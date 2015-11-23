@@ -66,9 +66,9 @@ use Helpers\Url;
 
 <div class="fixed" style="padding-bottom: 20px;">
     <nav class="top-bar" data-topbar role="navigation">
-      <ul class="title-area" style="margin-left: 2%;">
-        <li class="name">
-          <a href="#"><h1>OBCT</h1></a>
+      <ul class="title-area">
+        <li class="name" style="margin-left: 2%">
+          <a href="/"><h1>OBCT</h1></a>
         </li>
          <!-- Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone -->
         <li class="toggle-topbar menu-icon"><a href="#"><span>Menu</span></a></li>
@@ -88,6 +88,7 @@ use Helpers\Url;
           <li class="has-dropdown">
             <a href="#">Shows</a>
             <ul class="dropdown">
+              <li><a href="schools">Schools</a></li>
               <li><a href="currentshow">Current Show</a></li>
               <li><a href="#">Auditions</a></li>
             </ul>

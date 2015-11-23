@@ -44,6 +44,9 @@ class offbroadway extends \core\controller {
         $new = $this->_obct->getWhatsNew();
         $data['new'] = $new;
 
+        $show = $this->_obct->getCurrentShow();
+        $data['show'] = $show;
+
         view::rendertemplate('header', $data);
         view::rendertemplate('home', $data);
         view::rendertemplate('footer', $data);
@@ -179,6 +182,21 @@ class offbroadway extends \core\controller {
         View::rendertemplate('header', $data);
         View::rendertemplate('currentprod', $data);
         View::rendertemplate('footer');
+    }
+
+    public function schools()
+    {
+      $data['title'] = 'Schools';
+
+      $schoolPoints = $this->_obct->getSchoolPoints();
+      $schools = $this->_obct->getSchools();
+
+      $data['schoolPoints'] = $schoolPoints;
+      $data['schools'] = $schools;
+
+      View::rendertemplate('header', $data);
+      View::rendertemplate('schools', $data);
+      View::rendertemplate('footer');
     }
 
     /**

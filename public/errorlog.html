@@ -1,3 +1,26 @@
+<p>Error on Nov 23, 2015 0:28AM - Invalid argument supplied for foreach() in /var/www/public/app/templates/default/schools.php on line 6</p><p>Error on Nov 23, 2015 0:27AM - Invalid argument supplied for foreach() in /var/www/public/app/templates/default/schools.php on line 4</p><p>Error on Nov 23, 2015 0:27AM - Invalid argument supplied for foreach() in /var/www/public/app/templates/default/schools.php on line 4</p><p>Error on Nov 23, 2015 0:27AM - Invalid argument supplied for foreach() in /var/www/public/app/templates/default/schools.php on line 4</p><p>Error on Nov 23, 2015 0:00AM - Invalid argument supplied for foreach() in /var/www/public/app/templates/default/schools.php on line 4</p><p>Error on Nov 22, 2015 23:30PM - Invalid argument supplied for foreach() in /var/www/public/app/templates/default/schools.php on line 4</p><p>Error on Nov 22, 2015 23:29PM - Invalid argument supplied for foreach() in /var/www/public/app/templates/default/schools.php on line 4</p><h3>Exception information:</h3>
+
+		<p><strong>Date:</strong> Nov 22, 2015 17:46PM</p>
+
+		<p><strong>Message:</strong> SQLSTATE[42S02]: Base table or view not found: 1146 Table 'offbroadway.obct_teachers' doesn't exist</p>
+
+		<p><strong>Code:</strong> 42S02</p>
+
+		<p><strong>File:</strong> /var/www/public/app/helpers/database.php</p>
+
+		<p><strong>Line:</strong> 86</p>
+
+		<h3>Stack trace:</h3>
+
+		<pre>#0 /var/www/public/app/helpers/database.php(86): PDOStatement->execute()
+#1 /var/www/public/app/models/obct.php(83): helpers\Database->select('select id, name...')
+#2 /var/www/public/app/Controllers/offbroadway.php(77): models\Obct->getTeachers()
+#3 /var/www/public/app/core/router.php(85): controllers\offbroadway->teachers()
+#4 /var/www/public/app/core/router.php(177): core\Router::invokeObject('Controllers\\off...')
+#5 /var/www/public/index.php(130): core\Router::dispatch()
+#6 {main}</pre>
+
+		<hr />
 <h3>Exception information:</h3>
 
 		<p><strong>Date:</strong> Nov 22, 2015 17:44PM</p>

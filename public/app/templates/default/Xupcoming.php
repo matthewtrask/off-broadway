@@ -13,7 +13,7 @@
       <h4 class="text-center">Check our <a href="troupe">troupe</a> page for more information or email us at <a href="mailto:offbroadway@msn.com">offbroadway@msn.com</a> for more details!</h4>
     </div>
   </div><hr>
-</div> 
+</div>
 
 <div class="container">
   <div class="row">
@@ -25,5 +25,4 @@
       <img src="<?php echo IMGDIR; ?>cinderella.jpg" alt="Cinderella Kids" class="img-responsive center-block">
     </div>
   </div>
-</div> 
-
+</div>

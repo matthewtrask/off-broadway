@@ -119,7 +119,9 @@ nav.top-bar ul.title-area li.name h1 a:hover,
   color: #5d5d5d;
 }
 
-
+ul.title-area > li.name {
+  background-color: #5d5d5d;
+}
 
 
 /* END NAV BAR */

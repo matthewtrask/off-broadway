@@ -19,18 +19,17 @@
             foreach($data['points'] as $points){
                 echo '<p class="text-left"><b>'.$points->title.'</b>: '.$points->content.'</p>';
             }
-            echo "<img alt='OBCT Logo' id='ObctLogo' src=".IMGDIR."green-logo.png>";
+            echo "<img alt='OBCT Logo' class='hide-for-small-only' id='ObctLogo' src=".IMGDIR."green-logo.png>";
         ?>
     </div>
     <div class="small-12 medium-4 columns">
         <div class="panel">
             <?php
                 foreach($data['summary'] as $summary){
-                    echo '<h4>'.$summary->title.'</h4>';
+                    echo '<h4>'.$summary->title.'</h4><hr>';
                     echo '<p>'.$summary->content.'</p>';
                 }
             ?>
         </div>
     </div>
 </div>
-

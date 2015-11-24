@@ -77,6 +77,9 @@ class offbroadway extends \core\controller {
     {
         $data['title'] = 'Teachers';
 
+        $show = $this->_obct->getCurrentShow();
+        $data['show'] = $show;
+
         $teachers = $this->_obct->getTeachers();
         $data['teachers'] = $teachers;
 
@@ -255,7 +258,7 @@ class offbroadway extends \core\controller {
         $mail->addReplyTo($cleanEmail, $cleanName);
 
         $mail->Subject = 'A message for OBCT from ' . $cleanName;
-        $mail->Body = $cleanMsg . "<br>This message is from $cleanName ($cleanEmail)";
+        $mail->Body = "This message is from " . $cleanName ($cleanEmail)."<br>Phone Number: ". $cleanPhone ."<br>Message: ".$cleanMsg;
         $mail->send();
 
         $this->insertContact($cleanName, $cleanPhone, $cleanEmail, $cleanMsg);

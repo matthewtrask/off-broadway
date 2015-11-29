@@ -5,7 +5,7 @@ use \helpers\password,
 	\helpers\url,
 	\core\view;
 
-class Auth extends \core\controller {
+class auth extends \core\controller {
 
 	public function login(){
 

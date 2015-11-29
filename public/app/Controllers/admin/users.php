@@ -4,7 +4,7 @@ use \helpers\url,
 	\helpers\session,
 	\core\view;
 
-class Users extends \core\controller{
+class users extends \core\controller{
 
 	private $_model;
 
@@ -13,7 +13,7 @@ class Users extends \core\controller{
 		if(!Session::get('loggedin')){
 			Url::redirect('admin/login');
 		}
-		
+
 		$this->_model = new \models\admin\users();
 	}
 
@@ -28,7 +28,7 @@ class Users extends \core\controller{
 	}
 
 	public function add(){
-		
+
 		$data['title'] = 'Add User';
 
 		if(isset($_POST['submit'])){
@@ -72,7 +72,7 @@ class Users extends \core\controller{
 	}
 
 	public function edit($id){
-		
+
 		$data['title'] = 'Edit User';
 		$data['row'] = $this->_model->getuser($id);
 

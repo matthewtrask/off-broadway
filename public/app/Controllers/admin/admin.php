@@ -4,7 +4,7 @@ use \helpers\session,
 	\helpers\url,
 	\core\view;
 
-class Admin extends \core\controller
+class admin extends \core\controller
 {
 
 	private $_adminObct;
@@ -22,8 +22,8 @@ class Admin extends \core\controller
 
 	public function index()
 	{
-		
-		$data['title'] = 'Admin';	
+
+		$data['title'] = 'Admin';
 
 		$obctContact = $this->_adminObct->getContact();
 		$data['contact'] = $obctContact;
@@ -69,7 +69,7 @@ class Admin extends \core\controller
 		$updatedClassTeaser = $_POST['updatedTeaster'];
 		$updatedClassDesc = $_POST['updatedClassDescription'];
 		$updatedClassDay = $_POST['updatedClassDay'];
-		$updatedClassTime = $_POST['updatedClassTime']; 
+		$updatedClassTime = $_POST['updatedClassTime'];
 		$updatedClassPrice = $_POST['updatedClassPrice'];
 		$updatedClassLink = $_POST['updatedClassLink'];
 
@@ -86,7 +86,7 @@ class Admin extends \core\controller
 		$where = array('id' => $updatedClassId);
 
 		$this->_adminObct->updateClasses($updatedInfo, $where);
-		
+
 	}
 
 	public function addClasses()

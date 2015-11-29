@@ -1,4 +1,5 @@
-<?php namespace core;
+<?php
+namespace core;
 
 /*
  * config - an example for setting up system settings
@@ -9,7 +10,7 @@
  * @version 2.1
  * @date June 27, 2014
  */
-class Config {
+class config {
 
 	public function __construct() {
 
@@ -33,8 +34,8 @@ class Config {
 		define('DB_TYPE', 'mysql');
 		define('DB_HOST', 'localhost');
 		define('DB_NAME', 'offbroadway');
-		define('DB_USER', 'obct15');
-		define('DB_PASS', '1qaz@WSX');
+		define('DB_USER', 'root');
+		define('DB_PASS', 'root');
 		define('PREFIX', 'obct_');
 
 		//set prefix for sessions

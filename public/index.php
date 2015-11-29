@@ -29,7 +29,7 @@ if (!is_readable('app/core/config.php')) {
  * NOTE: If you change these, also change the error_reporting() code below
  *
  */
-	define('ENVIRONMENT', 'development');
+	define('ENVIRONMENT', 'production');
 /*
  *---------------------------------------------------------------
  * ERROR REPORTING
@@ -64,42 +64,42 @@ use \core\router,
     \helpers\url;
 
 //define routes
-Router::any('', 'Controllers\offbroadway@index');
-Router::any('home', 'Controllers\offbroadway@index');
+router::any('', 'controllers\offbroadway@index');
+router::any('home', 'controllers\offbroadway@index');
 // Router::any('happenings','Controllers\offbroadway@happenings');
-Router::any('schools', 'Controllers\offbroadway@schools');
-Router::any('aboutus', 'Controllers\offbroadway@aboutus');
-Router::any('teachers', 'Controllers\offbroadway@teachers');
-Router::any('juniortroupe', 'Controllers\offbroadway@juniorTroupe');
-Router::any('troupe', 'Controllers\offbroadway@troupe');
-Router::any('gallery', 'Controllers\offbroadway@gallery');
-Router::any('classes', 'Controllers\offbroadway@classes');
-Router::any('questions', 'Controllers\offbroadway@questions');
-Router::any('currentshow', 'Controllers\offbroadway@currentprod');
-Router::any('upcoming', 'Controllers\offbroadway@upcoming');
-Router::any('auditions', 'Controllers\offbroadway@auditions');
-Router::any('register', 'Controllers\offbroadway@register');
-Router::any('boxoffice', 'Controllers\offbroadway@boxoffice');
-Router::any('contact', 'Controllers\offbroadway@contact');
-Router::post('postContact', 'Controllers\offbroadway@postContact');
+router::any('schools', 'controllers\offbroadway@schools');
+router::any('aboutus', 'controllers\offbroadway@aboutus');
+router::any('teachers', 'controllers\offbroadway@teachers');
+router::any('juniortroupe', 'controllers\offbroadway@juniorTroupe');
+router::any('troupe', 'controllers\offbroadway@troupe');
+router::any('gallery', 'controllers\offbroadway@gallery');
+router::any('classes', 'controllers\offbroadway@classes');
+router::any('questions', 'controllers\offbroadway@questions');
+router::any('currentshow', 'controllers\offbroadway@currentprod');
+router::any('upcoming', 'controllers\offbroadway@upcoming');
+router::any('auditions', 'controllers\offbroadway@auditions');
+router::any('register', 'controllers\offbroadway@register');
+router::any('boxoffice', 'controllers\offbroadway@boxoffice');
+router::any('contact', 'controllers\offbroadway@contact');
+router::post('postContact', 'controllers\offbroadway@postContact');
 
-Router::any('admin', '\controllers\admin\admin@index');
-Router::any('admin/login', '\controllers\admin\auth@login');
-Router::any('admin/logout', '\controllers\admin\auth@logout');
+router::any('admin', '\controllers\admin\admin@index');
+router::any('admin/login', '\controllers\admin\auth@login');
+router::any('admin/logout', '\controllers\admin\auth@logout');
 
-Router::any('admin/classes', '\controllers\admin\admin@classes');
-Router::any('admin/currentshow', '\controllers\admin\admin@currentShow');
+router::any('admin/classes', '\controllers\admin\admin@classes');
+router::any('admin/currentshow', '\controllers\admin\admin@currentShow');
 
 //AJAX Contollers
-Router::POST('postMessage', '\controllers\admin\admin@postMessage');
-Router::POST('updateClasses', '\controllers\admin\admin@updateClasses');
-Router::POST('addClasses', '\controllers\admin\admin@addClasses');
-Router::POST('removeClasses', '\controllers\admin\admin@removeClasses');
+router::POST('postMessage', '\controllers\admin\admin@postMessage');
+router::POST('updateClasses', '\controllers\admin\admin@updateClasses');
+router::POST('addClasses', '\controllers\admin\admin@addClasses');
+router::POST('removeClasses', '\controllers\admin\admin@removeClasses');
 
 
-Router::any('admin/users', '\controllers\admin\users@index');
-Router::any('admin/users/add', '\controllers\admin\users@add');
-Router::any('admin/users/edit/(:num)', '\controllers\admin\users@edit');
+router::any('admin/users', '\controllers\admin\users@index');
+router::any('admin/users/add', '\controllers\admin\users@add');
+router::any('admin/users/edit/(:num)', '\controllers\admin\users@edit');
 
 
 

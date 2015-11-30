@@ -29,7 +29,20 @@ use \helpers\url;
             } ?>
         </div>
         <div id="upcomingShow">
-            <h4>Upcoming Shows</h4>
+            <h4>Upcoming Shows</h4><hr>
+            <?php foreach($data['upcomingShows'] as $upcomingShow){
+                echo "<div class='row'>";
+                    echo "<div class='small-6 columns'>";
+                        echo "<h5><b>Show Title: ".$upcomingShow->title."</b></h5>";
+                        echo "<p>Dates: ".$upcomingShow->dates."</p>";
+                        echo "<p>Auditions: ".$upcomingShow->auditions."</p>";
+                        echo "<p>Price: ".$upcomingShow->price."</p>";
+                    echo "</div>";
+                    echo "<div class='small-6 columns'>";
+                        echo "<img src=data:image/jpg;base64,$upcomingShow->image>";
+                    echo "</div>";
+                echo "</div><hr>";
+            }?>
         </div>
     </div>
     <div class="small-3 columns">

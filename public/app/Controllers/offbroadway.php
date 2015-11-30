@@ -11,7 +11,7 @@ namespace controllers;
 use core\view;
 use helpers\form;
 use helpers\url;
-use helpers\phpmailer\mail;
+use \helpers\phpmailer\mail;
 
 /**
  * Class offbroadway
@@ -248,7 +248,7 @@ class offbroadway extends \core\controller {
         $cleanMsg = filter_var($message, FILTER_SANITIZE_STRING);
 
 
-        $mail = new \Helpers\PhpMailer\Mail();
+        $mail = new \helpers\PhpMailer\Mail();
 
 
         $mail->From = $cleanEmail;

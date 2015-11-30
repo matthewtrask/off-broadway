@@ -43,23 +43,10 @@ use Helpers\Url;
   <!-- CSS -->
   <link href='http://fonts.googleapis.com/css?family=Merriweather' rel='stylesheet' type='text/css'>
   <link href='http://fonts.googleapis.com/css?family=Raleway:400,200,600' rel='stylesheet' type='text/css'>
+  <link href='//cdnjs.cloudflare.com/ajax/libs/foundation/5.5.2/css/foundation.min.css' rel='stylesheet' type='text/css'>
+  <link href='//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css' rel='stylesheet' type='text/css'>
+  <link href='/app/templates/admin/css/adminstyle.css' rel='stylesheet' type='text/css'>
   <script src="/bower_components/jquery/dist/jquery.js"></script>
-  <!--    <link href='https://cdnjs.cloudflare.com/ajax/libs/foundation/5.5.2/css/foundation.min.css'>-->
-  <!--    <link href="/bower_components/foundation/css/foundation.css" rel="stylesheet">-->
-  <?php
-  Assets::css(array(
-      '//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css',
-      '/bower_components/foundation/css/foundation.css',
-      Url::admin_template_path() . 'css/mobile.css',
-      Url::admin_template_path() . 'css/adminstyle.css'
-  ));
-
-
-  Assets::js(array(
-      Url::admin_template_path() . 'js/jquery.js',
-      '//cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js',
-  ));
-  ?>
 
 </head>
 <div class="fixed">

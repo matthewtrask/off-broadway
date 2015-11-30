@@ -1,0 +1,101 @@
+nav.top-bar, 
+nav.top-bar section.top-bar-section ul.left li a,
+nav.top-bar section.top-bar-section ul.right li a, 
+nav.top-bar section.top-bar-section ul.right li.has-dropdown ul.dropdown li a, 
+nav.top-bar ul.title-area li.name h1,
+nav.top-bar ul.title-area li.name h1 a,
+nav.top-bar ul.title-area li.toggle-topbar.menu-icon a,
+nav.top-bar ul.title-area li.toggle-topbar.menu-icon a span {
+  background-color: #5d5d5d;
+  color: #fff;
+}
+
+nav.top-bar section.top-bar-section ul.left li a:hover,
+nav.top-bar section.top-bar-section ul.right li a:hover, 
+nav.top-bar section.top-bar-section ul.right li.has-dropdown ul.dropdown li a:hover,
+nav.top-bar ul.title-area li.name h1 a:hover,
+.top-bar.expanded .toggle-topbar a span::after  {
+  background-color: #fff;
+  color: #5d5d5d;
+}
+
+
+#body {
+	padding-top: 60px;
+}
+
+button.button > a {
+  color: #fff;
+}
+
+.button.message {
+  background-color: #7547ff !important;
+}
+.button.message:hover {
+  background-color: #7507ff !important;
+}
+
+.button.success {
+  background-color: #47ffa3 !important;
+}
+
+.button.success:hover {
+  background-color: #43AC6A !important;
+}
+
+.button.register {
+  background-color: #ff6047 !important;
+  color: #fff !important;
+  width: 50%;
+}
+
+.button.register:hover {
+  background-color: #ff6047 !important;
+  color: #fff !important;
+}
+
+.button.whatsnew {
+  background-color: #ff6047 !important;
+  color: #fff;
+}
+
+.button.whatsnew:hover {
+  background-color: #ff6047 !important;
+  color: #fff;
+}
+
+.button.remove {
+  background-color: #5d5d5d !important;
+  color: #fff !important;
+}
+
+.button.remove:hover {
+  background-color: #5d5d5d !important;
+  color: #fff !important;
+}
+
+table.classTable
+{
+    table-layout: fixed;
+    width: 1200px;
+    margin-left: -12%;
+}
+
+td div.scrollable {
+    width: 100px;
+    height: 120px;
+    margin: 0;
+    padding: 0;
+    overflow: auto;
+}
+
+#recentMessage, #whatsNewAdmin {
+    height: 400px;
+    overflow: auto;
+}
+
+#messages a {
+    font-family: 'Raleway', sans-serif;
+}
+
+

@@ -1,10 +1,7 @@
-<?php
-namespace Helpers\PhpMailer;
-
-require('Smtp.php');
-require('Pop3.php');
-require('Exception.php');
-
+<?php namespace helpers\phpmailer;
+require('smtp.php');
+require('pop3.php');
+require('exception.php');
 /**
  * PHPMailer - PHP email creation and transport class.
  * PHP Version 5
@@ -1047,7 +1044,7 @@ class phpmailer
                     if (method_exists($this, $sendMethod)) {
                         return $this->$sendMethod($this->MIMEHeader, $this->MIMEBody);
                     }
-
+                    
                     return $this->mailSend($this->MIMEHeader, $this->MIMEBody);
             }
         } catch (phpmailerException $exc) {

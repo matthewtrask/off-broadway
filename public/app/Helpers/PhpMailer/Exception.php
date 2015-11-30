@@ -1,12 +1,9 @@
-<?php
-namespace Helpers\PhpMailer;
-
+<?php namespace helpers\phpmailer;
 /**
  * PHPMailer exception handler
  * @package PHPMailer
- * @date May 18 2015
  */
-class PhpMailerException extends \Exception
+class phpmailerException extends \Exception
 {
     /**
      * Prettify error message output

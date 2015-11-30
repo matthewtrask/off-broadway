@@ -1,15 +1,15 @@
 <?php
-if (file_exists('vendor/autoload.php')) {
-    require 'vendor/autoload.php';
+if(file_exists('vendor/autoload.php')){
+	require 'vendor/autoload.php';
 } else {
-    echo "<h1>Please install via composer.json</h1>";
-    echo "<p>Install Composer instructions: <a href='https://getcomposer.org/doc/00-intro.md#globally'>https://getcomposer.org/doc/00-intro.md#globally</a></p>";
-    echo "<p>Once composer is installed navigate to the working directory in your terminal/command promt and enter 'composer install'</p>";
-    exit;
+	echo "<h1>Please install via composer.json</h1>";
+	echo "<p>Install Composer instructions: <a href='https://getcomposer.org/doc/00-intro.md#globally'>https://getcomposer.org/doc/00-intro.md#globally</a></p>";
+	echo "<p>Once composer is installed navigate to the working directory in your terminal/command promt and enter 'composer install'</p>";
+	exit;
 }
 
-if (!is_readable('app/Core/Config.php')) {
-    die('No Config.php found, configure and rename Config.example.php to Config.php in app/Core.');
+if (!is_readable('app/core/config.php')) {
+	die('No config.php found, configure and rename config.example.php to config.php in app/core.');
 }
 
 /*
@@ -29,7 +29,7 @@ if (!is_readable('app/Core/Config.php')) {
  * NOTE: If you change these, also change the error_reporting() code below
  *
  */
-    define('ENVIRONMENT', 'production');
+	define('ENVIRONMENT', 'production');
 /*
  *---------------------------------------------------------------
  * ERROR REPORTING
@@ -39,53 +39,89 @@ if (!is_readable('app/Core/Config.php')) {
  * By default development will show errors but production will hide them.
  */
 
-if (defined('ENVIRONMENT')) {
-    switch (ENVIRONMENT) {
-        case 'development':
-            error_reporting(E_ALL);
-            break;
-        case 'production':
-            error_reporting(0);
-            break;
-        default:
-            exit('The application environment is not set correctly.');
-    }
+if (defined('ENVIRONMENT')){
+
+	switch (ENVIRONMENT){
+		case 'development':
+			error_reporting(E_ALL);
+		break;
+
+		case 'production':
+			error_reporting(0);
+		break;
+
+		default:
+			exit('The application environment is not set correctly.');
+	}
 
 }
 
 //initiate config
-new Core\Config();
+new \core\config();
 
 //create alias for Router
-use Core\Router;
-use Helpers\Hooks;
+use \core\router,
+    \helpers\url;
 
 //define routes
-Router::any('', 'Controllers\OBD@index');
-Router::any('home', 'Controllers\OBD@index');
-Router::any('happenings','Controllers\OBD@happenings');
-Router::any('schools', 'Controllers\OBD@schools');
-Router::any('aboutus', 'Controllers\OBD@aboutus');
-Router::any('teachers', 'Controllers\OBD@teachers');
-Router::any('troupe', 'Controllers\OBD@troupe');
-Router::any('gallery', 'Controllers\OBD@gallery');
-Router::any('classes', 'Controllers\OBD@classes');
-Router::any('questions', 'Controllers\OBD@questions');
-Router::any('currentprod', 'Controllers\OBD@currentprod');
-Router::any('upcoming', 'Controllers\OBD@upcoming');
-Router::any('auditions', 'Controllers\OBD@auditions');
-Router::any('register', 'Controllers\OBD@register');
-Router::any('boxoffice', 'Controllers\OBD@boxoffice');
-Router::any('contact', 'Controllers\OBD@contact');
+router::any('', 'controllers\offbroadway@index');
+router::any('home', 'controllers\offbroadway@index');
+// Router::any('happenings','Controllers\offbroadway@happenings');
+router::any('schools', 'controllers\offbroadway@schools');
+router::any('aboutus', 'controllers\offbroadway@aboutus');
+router::any('teachers', 'controllers\offbroadway@teachers');
+router::any('juniortroupe', 'controllers\offbroadway@juniorTroupe');
+router::any('troupe', 'controllers\offbroadway@troupe');
+router::any('gallery', 'controllers\offbroadway@gallery');
+router::any('classes', 'controllers\offbroadway@classes');
+router::any('questions', 'controllers\offbroadway@questions');
+router::any('currentshow', 'controllers\offbroadway@currentprod');
+router::any('upcoming', 'controllers\offbroadway@upcoming');
+router::any('auditions', 'controllers\offbroadway@auditions');
+router::any('register', 'controllers\offbroadway@register');
+router::any('boxoffice', 'controllers\offbroadway@boxoffice');
+router::any('contact', 'controllers\offbroadway@contact');
+router::post('postContact', 'controllers\offbroadway@postContact');
+
+router::any('admin', '\controllers\admin\admin@index');
+router::any('admin/login', '\controllers\admin\auth@login');
+router::any('admin/logout', '\controllers\admin\auth@logout');
+
+router::any('admin/classes', '\controllers\admin\admin@classes');
+router::any('admin/currentshow', '\controllers\admin\admin@currentShow');
+
+//AJAX Contollers
+router::POST('postMessage', '\controllers\admin\admin@postMessage');
+router::POST('updateClasses', '\controllers\admin\admin@updateClasses');
+router::POST('addClasses', '\controllers\admin\admin@addClasses');
+router::POST('removeClasses', '\controllers\admin\admin@removeClasses');
+
+
+router::any('admin/users', '\controllers\admin\users@index');
+router::any('admin/users/add', '\controllers\admin\users@add');
+router::any('admin/users/edit/(:num)', '\controllers\admin\users@edit');
 
 
 
-//module routes
-$hooks = Hooks::get();
-$hooks->run('routes');
+//Router::any('admin/posts', '\controllers\admin\posts@index');
+//Router::any('admin/posts/add', '\controllers\admin\posts@add');
+//Router::any('admin/posts/edit/(:num)', '\controllers\admin\posts@edit');
+//Router::any('admin/posts/delete/(:num)', '\controllers\admin\posts@delete');
+//
+//Router::any('admin/cats', '\controllers\admin\cats@index');
+//Router::any('admin/cats/add', '\controllers\admin\cats@add');
+//Router::any('admin/cats/edit/(:num)', '\controllers\admin\cats@edit');
+//Router::any('admin/cats/delete/(:num)', '\controllers\admin\cats@delete');
+
+
+
+
+//Router::any('', '\controllers\blog@index');
+//Router::any('category/(:any)', '\controllers\blog@cat');
+
 
 //if no route found
-Router::error('Core\Error@index');
+Router::error('\core\error@index');
 
 //turn on old style routing
 Router::$fallback = false;

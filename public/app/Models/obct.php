@@ -76,7 +76,7 @@ class Obct extends \core\model {
 
     public function getUpcomingShows()
     {
-        return $this->_db->select('select id, title, dates, auditions, price, image from '.PREFIX.'upcoming limit 3');
+        return $this->_db->select('select id, title, dates, price, image from '.PREFIX.'upcoming');
     }
 
     public function getTeachers(){

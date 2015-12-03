@@ -21,7 +21,7 @@
 			} ?>
 		</div>
     </div>
-    <div class="large-3 columns hide-for-small-only 2hide-for-medium-only" id="current">
+    <div class="small-12 large-3 columns hide-for-small-only hide-for-medium-only" id="current">
     	<div class="logo" style="margin-bottom: 4%">
     		<img src="<?php echo IMGDIR; ?>green-logo.png" alt="Off Broadway Logo">
     	</div>
@@ -30,22 +30,24 @@
         <?php
           foreach($data['show'] as $show){
             echo "<h4>".$show->show_title."</h4>";
-            echo "<img src=data:image/jpg;base64,$show->image>";
+            echo "<img style='margin-bottom: 4%' src=data:image/jpg;base64,$show->image>";
             echo "<button class='button register'><a href=".$show->box_office_link.">Buy Tickets</a></button>";
           }
         ?>
-		</div>
-		<div class="panel">
-			<h3>Classes</h3>
-			<hr>
-			<button class="button success expand"><a href="classes">Information Here</a></button>
-		</div>
-		<div class="panel">
-			<h3>Contact</h3>
-			<hr>
-			<button class="button message expand"><a href="contact">Contact Us</a></button>
-		</div>
-	</div>
+
+
+	    </div>
+	    <div class="panel">
+	    	<h3>Classes</h3>
+	    	<hr>
+	    	<button class="button success expand"><a href="classes">Information Here</a></button>
+	    </div>
+	    <div class="panel">
+	    	<h3>Contact</h3>
+	    	<hr>
+	    	<button class="button message expand"><a href="contact">Contact Us</a></button>
+	    </div>
+    </div>
 </div>
 
 <div class="row show-for-small-only">
@@ -64,11 +66,11 @@
 </div>
 <div class="row show-for-small-only">
 	<div class="small-12 columns">
-        <div class="panel">
-            <h3>Classes</h3>
-            <hr>
-            <button class="button success expand"><a href="classes">Information Here</a></button>
-        </div>
+    <div class="panel">
+      <h3>Classes</h3>
+      <hr>
+      <button class="button success expand"><a href="classes">Information Here</a></button>
+    </div>
     </div>
 </div>
 <div class="row show-for-small-only">
@@ -76,8 +78,7 @@
 	    <div class="panel">
 	    	<h3>Contact</h3>
 	    	<hr>
-	    	<button class="button message expand"><a href="contact">Contact Us</a></button>
+	    	<button class="button message expand">Contact Us</button>
 	    </div>
     </div>
 </div>
-

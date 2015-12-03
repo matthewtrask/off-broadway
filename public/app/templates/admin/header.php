@@ -47,7 +47,7 @@ use Helpers\Url;
   <link href='//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css' rel='stylesheet' type='text/css'>
   <link href='/app/templates/admin/css/adminstyle.css' rel='stylesheet' type='text/css'>
   <script src="/bower_components/jquery/dist/jquery.js"></script>
-
+  
 </head>
 <div class="fixed">
   <nav class="top-bar" data-topbar role="navigation">

@@ -10,7 +10,7 @@ namespace core;
  * @version 2.1
  * @date June 27, 2014
  */
-class config {
+class Config {
 
 	public function __construct() {
 
@@ -18,7 +18,7 @@ class config {
 		ob_start();
 
 		//site address
-		define('DIR', 'http://192.168.33.10/');
+		define('DIR', '');
 
 		//set default controller and method for legacy calls
 		define('DEFAULT_CONTROLLER', 'home');

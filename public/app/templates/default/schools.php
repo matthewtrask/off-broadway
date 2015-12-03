@@ -5,6 +5,7 @@
       foreach($data['schoolPoints'] as $schoolPoints){
         echo "<p><b>".$schoolPoints->point."</b>: ".$schoolPoints->answer."</p>";
       }
+
       foreach($data['schools'] as $schools){
         echo "<button class='button register' style='margin-right: 2%'><a href='#' data-reveal-id='school_".$schools->id."'>".$schools->school."</a></button>";
         echo "<div id='school_".$schools->id."' class='reveal-modal' data-reveal aria-labelledby='modalTitle' aria-hidden='true' role='dialog'>";

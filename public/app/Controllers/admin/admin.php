@@ -107,9 +107,4 @@ class admin extends \core\controller
 		View::renderadmintemplate('footer');
 	}
 
-	public function updateShow()
-	{
-		
-	}
-
 }

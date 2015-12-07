@@ -44,8 +44,8 @@ use Helpers\Url;
     <link href='http://fonts.googleapis.com/css?family=Merriweather' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Raleway:400,200,600' rel='stylesheet' type='text/css'>
     <script src="/bower_components/jquery/dist/jquery.js"></script>
-<!--    <link href='https://cdnjs.cloudflare.com/ajax/libs/foundation/5.5.2/css/foundation.min.css'>-->
-   <link href="/bower_components/foundation/css/foundation.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link href="/bower_components/foundation/css/foundation.css" rel="stylesheet">
     <?php
     Assets::css(array(
         Url::template_Path() . 'css/mobile.css',

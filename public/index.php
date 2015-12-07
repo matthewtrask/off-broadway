@@ -81,7 +81,6 @@ router::any('auditions', 'controllers\offbroadway@auditions');
 router::any('register', 'controllers\offbroadway@register');
 router::any('boxoffice', 'controllers\offbroadway@boxoffice');
 router::any('contact', 'controllers\offbroadway@contact');
-router::post('postContact', 'controllers\offbroadway@postContact');
 
 router::any('admin', '\controllers\admin\admin@index');
 router::any('admin/login', '\controllers\admin\auth@login');
@@ -96,7 +95,7 @@ router::POST('postMessage', '\controllers\admin\ajax@postMessage');
 router::POST('updateClasses', '\controllers\admin\ajax@updateClasses');
 router::POST('addClasses', '\controllers\admin\ajax@addClasses');
 router::POST('removeClasses', '\controllers\admin\ajax@removeClasses');
-
+router::POST('postContact', '\controllers\admin\ajax@postContact');
 
 router::any('admin/users', '\controllers\admin\users@index');
 router::any('admin/users/add', '\controllers\admin\users@add');

@@ -71,4 +71,45 @@ class Ajax extends \core\controller
     	{
     		var_dump($_POST);
     	}
+
+      /**
+       *
+       */
+      public function postContact()
+      {
+
+          $name = $_POST['name'];
+          $email = $_POST['email'];
+          $phone = $_POST['phone'];
+          $message = $_POST['message'];
+
+          $cleanName = filter_var($name, FILTER_SANITIZE_STRING);
+          $cleanEmail = filter_var($email, FILTER_SANITIZE_EMAIL);
+          $cleanPhone = filter_var($phone, FILTER_SANITIZE_STRING);
+          $cleanMsg = filter_var($message, FILTER_SANITIZE_STRING);
+
+          $contact = array(
+            'name'  => $cleanName,
+            'email' => $cleanEmail,
+            'phone' => $cleanPhone,
+            'message' => $cleanMsg
+          );
+
+          $this->_adminObct->insertContact($contact);
+
+          //
+          // $mail = new \Helpers\PhpMailer\Mail();
+          //
+          //
+          // $mail->From = $cleanEmail;
+          // $mail->FromName = $cleanName;
+          // $mail->setFrom($cleanEmail);
+          // $mail->addAddress('mjftrask@gmail.com');
+          // $mail->addReplyTo($cleanEmail, $cleanName);
+          //
+          // $mail->Subject = 'A message for OBCT from ' . $cleanName;
+          // $mail->Body = "This message is from " . $cleanName ."<br>Phone Number: ". $cleanPhone ."<br>Message: ".$cleanMsg;
+          // $mail->send();
+
+      }
 }

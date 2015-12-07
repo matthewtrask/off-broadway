@@ -40,10 +40,6 @@ class admin extends \core\controller
 
 	}
 
-	private function postMessage()
-	{
-		var_dump($_POST);
-	}
 
 	public function classes()
 	{
@@ -57,42 +53,6 @@ class admin extends \core\controller
 		View::renderadmintemplate('footer');
 	}
 
-	public function removeClasses()
-	{
-		var_dump($_POST);
-	}
-
-	public function updateClasses()
-	{
-		$updatedClassId = $_POST['updatedClassId'];
-		$updatedClassName = $_POST['updatedClassName'];
-		$updatedClassTeaser = $_POST['updatedTeaster'];
-		$updatedClassDesc = $_POST['updatedClassDescription'];
-		$updatedClassDay = $_POST['updatedClassDay'];
-		$updatedClassTime = $_POST['updatedClassTime'];
-		$updatedClassPrice = $_POST['updatedClassPrice'];
-		$updatedClassLink = $_POST['updatedClassLink'];
-
-		$updatedInfo = array(
-			'class_title' => $updatedClassName,
-			'teaser'      => $updatedClassTeaser,
-			'description' => $updatedClassDesc,
-			'day' 		  => $updatedClassDay,
-			'time'		  => $updatedClassTime,
-			'price'       => $updatedClassPrice,
-			'link'        => $updatedClassLink
-		);
-
-		$where = array('id' => $updatedClassId);
-
-		$this->_adminObct->updateClasses($updatedInfo, $where);
-
-	}
-
-	public function addClasses()
-	{
-
-	}
 
 	public function currentShow()
 	{

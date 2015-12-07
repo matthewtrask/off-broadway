@@ -29,7 +29,7 @@ if (!is_readable('app/core/config.php')) {
  * NOTE: If you change these, also change the error_reporting() code below
  *
  */
-	define('ENVIRONMENT', 'production');
+	define('ENVIRONMENT', 'development');
 /*
  *---------------------------------------------------------------
  * ERROR REPORTING
@@ -91,10 +91,11 @@ router::any('admin/classes', '\controllers\admin\admin@classes');
 router::any('admin/currentshow', '\controllers\admin\admin@currentShow');
 
 //AJAX Contollers
-router::POST('postMessage', '\controllers\admin\admin@postMessage');
-router::POST('updateClasses', '\controllers\admin\admin@updateClasses');
-router::POST('addClasses', '\controllers\admin\admin@addClasses');
-router::POST('removeClasses', '\controllers\admin\admin@removeClasses');
+router::POST('postWhatsNew', '\controllers\admin\ajax@addWhatsNew');
+router::POST('postMessage', '\controllers\admin\ajax@postMessage');
+router::POST('updateClasses', '\controllers\admin\ajax@updateClasses');
+router::POST('addClasses', '\controllers\admin\ajax@addClasses');
+router::POST('removeClasses', '\controllers\admin\ajax@removeClasses');
 
 
 router::any('admin/users', '\controllers\admin\users@index');

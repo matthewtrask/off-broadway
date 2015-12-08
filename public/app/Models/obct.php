@@ -28,6 +28,11 @@ class Obct extends \core\model {
         //
     }
 
+    public function insertUrl()
+    {
+      //
+    }
+
     // GET METHODS
     public function getContact()
     {
@@ -113,6 +118,11 @@ class Obct extends \core\model {
       return $this->_db->select('select id, school, location, details, current_show from '.PREFIX.'schools');
     }
 
+    public function getUrls()
+    {
+      return $this->_db->select('select id, url, value, description from '.PREFIX.'pages');
+    }
+
     // UPDATE METHODS
     public function updateClasses($updatedInfo, $where)
     {
@@ -132,6 +142,11 @@ class Obct extends \core\model {
     public function updateTeachers()
     {
         //
+    }
+
+    public function updateUrls()
+    {
+      //
     }
 
     // DELETE METHODS

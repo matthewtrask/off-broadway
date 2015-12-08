@@ -67,4 +67,16 @@ class admin extends \core\controller
 		View::renderadmintemplate('footer');
 	}
 
+	public function pages()
+	{
+		$data['title'] = 'Page URLs';
+
+		$url = $this->_adminObct->getUrls();
+		$data['url'] = $url;
+
+		View::renderadmintemplate('header', $data);
+		View::render('admin/url', $data);
+		View::renderadmintemplate('footer', $data);
+	}
+
 }

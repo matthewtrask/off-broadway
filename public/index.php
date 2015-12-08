@@ -76,18 +76,19 @@ router::any('gallery', 'controllers\offbroadway@gallery');
 router::any('classes', 'controllers\offbroadway@classes');
 router::any('questions', 'controllers\offbroadway@questions');
 router::any('currentshow', 'controllers\offbroadway@currentprod');
-router::any('upcoming', 'controllers\offbroadway@upcoming');
+//router::any('upcoming', 'controllers\offbroadway@upcoming');
 router::any('auditions', 'controllers\offbroadway@auditions');
 router::any('register', 'controllers\offbroadway@register');
 router::any('boxoffice', 'controllers\offbroadway@boxoffice');
 router::any('contact', 'controllers\offbroadway@contact');
 
+//Admin Pages
 router::any('admin', '\controllers\admin\admin@index');
 router::any('admin/login', '\controllers\admin\auth@login');
 router::any('admin/logout', '\controllers\admin\auth@logout');
-
 router::any('admin/classes', '\controllers\admin\admin@classes');
 router::any('admin/currentshow', '\controllers\admin\admin@currentShow');
+router::any('admin/url', '\controllers\admin\admin@pages');
 
 //AJAX Contollers
 router::POST('postWhatsNew', '\controllers\admin\ajax@addWhatsNew');

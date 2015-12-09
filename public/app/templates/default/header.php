@@ -8,10 +8,7 @@
 
 use Helpers\Assets;
 use Helpers\Url;
-use Helpers\Hooks;
 
-//initialise hooks
-$hooks = Hooks::get();
 ?>
 <!DOCTYPE html>
 <html lang="<?php echo LANGUAGE_CODE; ?>">
@@ -19,97 +16,82 @@ $hooks = Hooks::get();
 
     <!-- Site meta -->
     <meta charset="utf-8">
-    <?php
-    //hook for plugging in meta tags
-    $hooks->run('meta');
-    ?>
-    <title><?php echo $data['title'].' - '.SITETITLE; //SITETITLE defined in app/Core/Config.php ?></title>
+    <title><?php echo $data['title'].' | '.SITETITLE; //SITETITLE defined in app/Core/Config.php ?></title>
+    <meta name="" content="">
+    <meta name="" content="">
+    <meta name="" content="">
+    <!-- FAVICON -->
+    <link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+
 
     <!-- CSS -->
-    <link href='http://fonts.googleapis.com/css?family=Dosis:400,200,600' rel='stylesheet' type='text/css'>
-    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700' rel='stylesheet' type='text/css'>
-    <?php
-    Assets::css(array(
-        '//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css',
-        '//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css',
-        '//cdn.rawgit.com/noelboss/featherlight/1.0.3/release/featherlight.min.css',
-        Url::templatePath() . 'css/style.css',
-    ));
-
-    //hook for plugging in css
-    $hooks->run('css');
-
-
-    Assets::js(array(
-        Url::templatePath() . 'js/jquery.js',
-        '//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js',
-        '//cdn.rawgit.com/noelboss/featherlight/1.0.3/release/featherlight.min.js',
-        '//cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js',
-        Url::templatePath() . 'js/main.js'
-    ));
-    ?>
-
+    <link href='http://fonts.googleapis.com/css?family=Merriweather' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Raleway:400,200,600' rel='stylesheet' type='text/css'>
+    <script src="/bower_components/jquery/dist/jquery.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link href="/bower_components/foundation/css/foundation.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/jquery.slick/1.5.9/slick.css"/>
+    <script type="text/javascript" src="//cdn.jsdelivr.net/jquery.slick/1.5.9/slick.min.js"></script>
+    <link href="/app/templates/default/css/style.css" type="text/css" rel="stylesheet">
+    <link href="/app/templates/default/css/mobile.css" type="text/css" rel="stylesheet">
+    <script src="//cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
 </head>
 <body>
-<?php
-//hook for running code after body tag
-$hooks->run('afterBody');
-?>
 
-<div class="page-container">
+<div class="fixed" style="margin-bottom: 40px;">
+    <nav class="top-bar" data-topbar role="navigation">
+      <ul class="title-area">
+        <li class="name" style="margin-left: 2%">
+          <a href="/"><h1>OBCT</h1></a>
+        </li>
+         <!-- Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone -->
+        <li class="toggle-topbar menu-icon"><a href="#"><span>Menu</span></a></li>
+      </ul>
 
-    <!-- top navbar -->
-    <div class="navbar navbar-default" role="navigation">
-        <div class="container">
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="offcanvas" data-target=".sidebar-nav">
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-            </div>
-        </div>
-    </div>
-
-
-        <div class="row row-offcanvas row-offcanvas-left">
-
-            <!-- sidebar -->
-            <div class="col-xs-3 col-sm-2 sidebar-offcanvas" id="sidebar" role="navigation">
-                <ul class="nav">
-                    <li class="active"><a href="home">Home</a></li>
-                    <li><a href="happenings">What's New</a></li>
-                    <li><a href="schools">Schools</a></li>
-                    <li><a href="#" data-toggle="dropdown" class="dropdown-toggle">About Us<b class="caret"></b></a>
-                        <ul class="dropdown-menu menuDrop">
-                            <li><a href="aboutus">The Studio</a></li>
-                            <li><a href="teachers">Teachers</a></li>
-                            <li class="hidden"><a href="#">Gallery</a></li>
-                        </ul>
-                    </li>
-                    <li><a href="troupe">OBCT Troupe</a></li>
-                    <li><a href="#" data-toggle="dropdown" class="dropdown-toggle">Classes<b class="caret"></b></a>
-                        <ul class="dropdown-menu menuDrop">
-                          <li><a href="classes">Classes</a></li>
-                          <li><a href="faq">Questions</a></li>
-                        </ul>
-                    </li>
-                    <li><a href="#" data-toggle="dropdown" class="dropdown-toggle">Shows<b class="caret"></b></a>
-                        <ul class="dropdown-menu menuDrop">
-                          <li><a href="currentprod">Current Show</a></li>
-                          <li><a href="upcoming">Upcoming</a></li>
-                          <li><a href="auditions">Auditions</a></li>
-                        </ul>
-                    </li>
-                    <li><a href="register">Register</a></li>
-                    <li><a href="boxoffice">Box Office</a></li>
-                    <li><a href="contact">Contact</a></li>
-                </ul>
-            </div>
-            <!-- main area -->
-            <div class="row">
-                <div class="col-xs-9 col-sm-10">
-                    <img src="<?php echo IMGDIR; ?>green-logo.png" id="logo" class="img-responsive center-block">
-                </div><!-- /.col-xs-12 main -->
-            </div>
-        </div><!--/.row-->
+      <section class="top-bar-section">
+        <!-- Right Nav Section -->
+        <ul class="right">
+          <li ><a href="aboutus">About Us</a></li>
+          <li class="has-dropdown">
+            <a href="#">Studio</a>
+            <ul class="dropdown">
+              <li><a href='classes'>Classes</a></li>
+              <li ><a href="teachers">Teachers</a></li>
+            </ul>
+          </li>
+          <li class="has-dropdown">
+            <a href="#">Shows</a>
+            <ul class="dropdown">
+              <li><a href="schools">Schools</a></li>
+              <li><a href="currentshow">Current Show</a></li>
+              <li><a href="#">Auditions</a></li>
+            </ul>
+          </li>
+          <li class="has-dropdown">
+            <a href='#'>Troupe</a>
+            <ul class="dropdown">
+              <li><a href="juniortroupe">Junior Troupe</a></li>
+              <li><a href="troupe">Senior Troupe</a></li>
+            </ul>
+          </li>
+          <li><a href='contact'>Contact</a></li>
+        </ul>
+      </section>
+    </nav>
+</div>

@@ -127,11 +127,12 @@ ul.title-area > li.name {
 /* END NAV BAR */
 
 /* HOME */
-
+div#home {
+  margin-top: 5%;
+}
 
 div#hero {
     padding: 5px;
-    border: 1px solid black;
     margin-bottom: 4%;
 }
 
@@ -148,6 +149,15 @@ div.panel#whatsnew {
   height: 300px;
 }
 
+div#hero img, div.slick-list.draggable {
+  height: 100% !important;
+}
+
+div#hero > ul.slick-dots > li {
+  display: inline-block;
+  margin-left: auto;
+  margin-right: auto;
+}
 /* END HOME */
 
 /* HAPPENINGS */

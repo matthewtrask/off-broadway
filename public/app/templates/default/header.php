@@ -46,23 +46,15 @@ use Helpers\Url;
     <script src="/bower_components/jquery/dist/jquery.js"></script>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
     <link href="/bower_components/foundation/css/foundation.css" rel="stylesheet">
-    <?php
-    Assets::css(array(
-        Url::template_Path() . 'css/mobile.css',
-        Url::template_Path() . 'css/style.css'
-    ));
-
-
-    Assets::js(array(
-        Url::template_Path() . 'js/jquery.js',
-        '//cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js',
-    ));
-    ?>
-
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/jquery.slick/1.5.9/slick.css"/>
+    <script type="text/javascript" src="//cdn.jsdelivr.net/jquery.slick/1.5.9/slick.min.js"></script>
+    <link href="/app/templates/default/css/style.css" type="text/css" rel="stylesheet">
+    <link href="/app/templates/default/css/mobile.css" type="text/css" rel="stylesheet">
+    <script src="//cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
 </head>
 <body>
 
-<div class="fixed" style="padding-bottom: 20px;">
+<div class="fixed" style="margin-bottom: 40px;">
     <nav class="top-bar" data-topbar role="navigation">
       <ul class="title-area">
         <li class="name" style="margin-left: 2%">

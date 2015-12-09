@@ -3,6 +3,9 @@
       <h2 class="show-for-small-only text-center">Off Broadway Children's Theatre</h2><hr>
     	<div class="image" id="hero">
     		<img src="<?php echo IMGDIR; ?>groupshot2.jpg" alt="group shot">
+        <img src="<?php echo IMGDIR; ?>little-mermaid-play.jpg" alt="OBCT Mermaid Group">
+        <img src="<?php echo IMGDIR; ?>green-logo.png" alt="Off Broadway Logo">
+        <img src="<?php echo IMGDIR; ?>island-show.jpg" alt="OBCT Island Show">
     	</div>
     	<div class="panel">
 			<h2 class="text-center">Our Mission</h2>

@@ -7,6 +7,16 @@ $(document).ready(function() {
         maxFont : 40
     });
 
+    // Main Page Slider
+    $('.image').slick({
+      dots: false,
+      arrows: false,
+      autoplay: true,
+      fade: true,
+      cassEase: 'linear',
+      autoplaySpeed: 2500
+    });
+
     $('[data-toggle=offcanvas]').click(function() {
         $('.row-offcanvas').toggleClass('active');
     });

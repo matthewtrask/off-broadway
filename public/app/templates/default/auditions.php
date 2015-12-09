@@ -1,5 +1,6 @@
 <div class="row">
   <div class="small-9 columns">
+    <h2>Auditions | FAQ's</h2>
     <?php foreach($data['faq'] as $faq)
     {
       echo "<div class='panel'>";

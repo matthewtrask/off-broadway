@@ -1,14 +1,18 @@
 <?php
 use \helpers\form;
 use \helpers\session;
+use Carbon\Carbon;
 ?>
 <div class="row" style="padding-top: 2%">
-	<div class="small-12 columns">
+	<div class="small-9 columns">
 		<h1>Admin</h1>
-		<h4><?php $date = date('m/d/Y h:i:s a', time());;
-			echo $date;
-			?></h4>
+		<h4><?php printf("%s", Carbon::now('America/New_York'));?></h4>
+		<p>Logged In: <?php echo ucfirst(Session::get('username')); ?></p>
 		<input type="button" class="button" value="Reload Page" onClick="window.location.reload()"><hr>
+
+	</div>
+	<div class="small-3 columns">
+		<img src="<?php echo IMGDIR;?>/green-logo.png">
 	</div>
 </div>
 
@@ -26,24 +30,25 @@ use \helpers\session;
 		}?>
 	</div>
 	<div class="small-6 columns">
-		<p>If you do not wish to add a button, do not select an option for the link</p>
+		<p><em>If you do not wish to add a button, do not select an option for the link</em></p>
 		<fieldset>
-			<form method="post" action="" id="adminMessage">
+			<form method="post" action="" id="adminWhatsNew">
 				<label>Title
-					<input type="text" placeholder="Email" for="adminEmail">
+					<input type="text" placeholder="Headline" name="whatsNewHeadline">
 				</label>
 				<label>Content
-					<textarea type="text" placeholder="Message" rows="6" for="adminTextMsg"></textarea>
+					<textarea type="text" placeholder="Message" rows="6" name="whatsNewContent"></textarea>
 				</label>
 				<label>Link
-					<select id="urlSelect" name="urlSelect">
+					<select id="urlSelect" name="urlSelect" for="urlSelect">
 						<option>Select</option>
 						<option value="about">About</option>
 						<option value="currentProd">Current Show</option>
+						<option value="faq">FAQ</option>
 						<option value="classes">Classes</option>
 					</select>
 				</label>
-				<button class="button" id="submit" type="submit">Submit</button>
+				<button class="button" id="submitWhatsNew" type="submit">Submit</button>
 			</form>
 		</fieldset>
 	</div><hr>
@@ -76,7 +81,7 @@ use \helpers\session;
 				<label>Name
 					<textarea type="text" placeholder="Message" name="adminTextMsg" rows="6" for="adminTextMsg"></textarea>
 				</label>
-				<button class="button" id="submit" for="submit" type="submit">Submit</button>
+				<button class="button" id="submitMessage" for="submit" type="submit">Submit</button>
 			</form>
 		</fieldset>
 	</div><hr>
@@ -108,4 +113,3 @@ use \helpers\session;
 		</table>
 	</div>
 </div>
-

@@ -7,6 +7,16 @@ $(document).ready(function() {
         maxFont : 40
     });
 
+    // Main Page Slider
+    $('.image').slick({
+      dots: false,
+      arrows: false,
+      autoplay: true,
+      fade: true,
+      cassEase: 'linear',
+      autoplaySpeed: 2500
+    });
+
     $('[data-toggle=offcanvas]').click(function() {
         $('.row-offcanvas').toggleClass('active');
     });
@@ -34,30 +44,21 @@ $(document).ready(function() {
     });
 
     // Ajax Call for Contact Page
-        $('button#submitForm').click(function(e){
-            $(document).foundation('alert','events');
-            var name = $('input#name').val();
-            var phone = $('input#phone').val();
-            var email = $('input#email').val();
-            var message = $('textarea#message').val();
-            var data = {name: name, phone: phone, email: email, message: message};
-            e.preventDefault();
-            $.ajax({
-               type: 'POST',
-               url: 'postContact',
-               data: data,
-               datatype: 'jsonp',
-               async: true,
-               cache: false,
-               success: function(data){
-                   document.getElementById('contactForm').reset();
-
-               },
-               failure: function(data){
-
-               }
-            });
-
-            return false;
+    $('button#submitForm').on('click', function(){
+        var mydata = $('form#contactForm').serialize();
+        console.log(mydata);
+        $.ajax({
+           method: 'POST',
+           url: '/postContact',
+           data: mydata,
+           async: true,
+           success: function(data){
+               document.getElementById('contactForm').reset();
+               console.log(data);
+           },
+           failure: function(data){
+                console.log(data);
+           }
         });
+    });
 });

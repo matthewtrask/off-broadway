@@ -3,6 +3,9 @@
       <h2 class="show-for-small-only text-center">Off Broadway Children's Theatre</h2><hr>
     	<div class="image" id="hero">
     		<img src="<?php echo IMGDIR; ?>groupshot2.jpg" alt="group shot">
+        <img src="<?php echo IMGDIR; ?>little-mermaid-play.jpg" alt="OBCT Mermaid Group">
+        <img src="<?php echo IMGDIR; ?>green-logo.png" alt="Off Broadway Logo">
+        <img src="<?php echo IMGDIR; ?>island-show.jpg" alt="OBCT Island Show">
     	</div>
     	<div class="panel">
 			<h2 class="text-center">Our Mission</h2>
@@ -34,8 +37,6 @@
             echo "<button class='button register'><a href=".$show->box_office_link.">Buy Tickets</a></button>";
           }
         ?>
-
-
 	    </div>
 	    <div class="panel">
 	    	<h3>Classes</h3>
@@ -71,6 +72,7 @@
       <hr>
       <button class="button success expand"><a href="classes">Information Here</a></button>
     </div>
+
     </div>
 </div>
 <div class="row show-for-small-only">

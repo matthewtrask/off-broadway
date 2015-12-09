@@ -47,7 +47,26 @@ use Helpers\Url;
   <link href='//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css' rel='stylesheet' type='text/css'>
   <link href='/app/templates/admin/css/adminstyle.css' rel='stylesheet' type='text/css'>
   <script src="/bower_components/jquery/dist/jquery.js"></script>
+<<<<<<< HEAD
   
+=======
+  <link href='https://cdnjs.cloudflare.com/ajax/libs/foundation/5.5.2/css/foundation.min.css'>
+  <link href='/bower_components/foundation/css/foundation.css' rel='stylesheet'>
+  <link href='//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css' rel='stylesheet'>
+  <?php
+  Assets::css(array(
+      '//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css',
+      Url::admin_template_path() . 'css/adminstyle.css'
+  ));
+
+
+  Assets::js(array(
+      Url::admin_template_path() . 'js/jquery.js',
+      '//cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js',
+  ));
+  ?>
+
+>>>>>>> 920d3225dd025cfa67566e163e764f5b26f36223
 </head>
 <div class="fixed">
   <nav class="top-bar" data-topbar role="navigation">
@@ -78,4 +97,3 @@ use Helpers\Url;
   </nav>
 </div>
 <main id="body">
-

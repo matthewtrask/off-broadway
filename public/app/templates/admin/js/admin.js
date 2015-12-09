@@ -4,12 +4,11 @@ $(document).ready(function(){
     // ajax call for sending messages
     $('button#submit').on('click', function(){
     	var data = $('form#adminMessage').serialize();
-    	
     	$.ajax({
     		method: "POST",
     		url: 'admin/postMessage',
     		data: data,
-    		async: true, 
+    		async: true,
     		success: function(data){
     			console.log("Message was sent");
     		},
@@ -18,7 +17,7 @@ $(document).ready(function(){
     		}
     	});
     });
-    
+
     $('button#addClass').on('click', function(){
         console.log('add class button worked');
         var data = $('form#addClassForm').serialize();
@@ -42,6 +41,22 @@ $(document).ready(function(){
             success: function(data){
                 console.log('away we go again!');
             }
+        });
+    });
+
+    $('button#submitWhatsNew').on('click', function(){
+        var data = $('form#adminWhatsNew').serialize();
+        $.ajax({
+          data: data,
+          method: "POST",
+          url: "/postWhatsNew",
+          async: true,
+          success: function(data){
+            console.log(data);
+          },
+          error: function(data){
+            console.log(data);
+          }
         });
     });
 

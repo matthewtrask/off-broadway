@@ -29,7 +29,7 @@ if (!is_readable('app/core/config.php')) {
  * NOTE: If you change these, also change the error_reporting() code below
  *
  */
-	define('ENVIRONMENT', 'production');
+	define('ENVIRONMENT', 'development');
 /*
  *---------------------------------------------------------------
  * ERROR REPORTING
@@ -76,26 +76,27 @@ router::any('gallery', 'controllers\offbroadway@gallery');
 router::any('classes', 'controllers\offbroadway@classes');
 router::any('questions', 'controllers\offbroadway@questions');
 router::any('currentshow', 'controllers\offbroadway@currentprod');
-router::any('upcoming', 'controllers\offbroadway@upcoming');
+//router::any('upcoming', 'controllers\offbroadway@upcoming');
 router::any('auditions', 'controllers\offbroadway@auditions');
 router::any('register', 'controllers\offbroadway@register');
 router::any('boxoffice', 'controllers\offbroadway@boxoffice');
 router::any('contact', 'controllers\offbroadway@contact');
-router::post('postContact', 'controllers\offbroadway@postContact');
 
+//Admin Pages
 router::any('admin', '\controllers\admin\admin@index');
 router::any('admin/login', '\controllers\admin\auth@login');
 router::any('admin/logout', '\controllers\admin\auth@logout');
-
 router::any('admin/classes', '\controllers\admin\admin@classes');
 router::any('admin/currentshow', '\controllers\admin\admin@currentShow');
+router::any('admin/url', '\controllers\admin\admin@pages');
 
 //AJAX Contollers
-router::POST('postMessage', '\controllers\admin\admin@postMessage');
-router::POST('updateClasses', '\controllers\admin\admin@updateClasses');
-router::POST('addClasses', '\controllers\admin\admin@addClasses');
-router::POST('removeClasses', '\controllers\admin\admin@removeClasses');
-
+router::POST('postWhatsNew', '\controllers\admin\ajax@addWhatsNew');
+router::POST('postMessage', '\controllers\admin\ajax@postMessage');
+router::POST('updateClasses', '\controllers\admin\ajax@updateClasses');
+router::POST('addClasses', '\controllers\admin\ajax@addClasses');
+router::POST('removeClasses', '\controllers\admin\ajax@removeClasses');
+router::POST('postContact', '\controllers\admin\ajax@postContact');
 
 router::any('admin/users', '\controllers\admin\users@index');
 router::any('admin/users/add', '\controllers\admin\users@add');

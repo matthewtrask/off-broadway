@@ -11,28 +11,28 @@
 				<div class="row">
 					<div class="large-12 columns">
 						<label>Name
-							<input type="text" placeholder="Name" for="name" id="name" />
+							<input type="text" placeholder="Name" name="name" for="name" id="name" />
 						</label>
 					</div>
 				</div>
 				<div class="row">
 					<div class="large-12 columns">
 						<label>Phone
-							<input type="text" placeholder="(123) 123-1234" for="phone" id="phone" />
+							<input type="text" placeholder="(123) 123-1234" name="phone" for="phone" id="phone" />
 						</label>
 					</div>
 				</div>
 				<div class="row">
 					<div class="large-12 columns">
 						<label>Email
-							<input type="text" placeholder="email@email.com" for="email" id="email" />
+							<input type="text" placeholder="email@email.com" name="email" for="email" id="email" />
 						</label>
 					</div>
 				</div>
 				<div class="row">
 					<div class="large-12 columns">
 						<label>Input Label
-							<textarea rows="5" type="text" placeholder="Message for OBCT..." for="message" id="message"></textarea>
+							<textarea rows="5" type="text" placeholder="Message for OBCT..." name="message" for="message" id="message"></textarea>
 						</label>
 					</div>
 				</div>

@@ -6,7 +6,6 @@
  * Time: 7:21 PM
  */
 use \helpers\url;
-
 ?>
 
 <div class="row">

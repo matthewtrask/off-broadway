@@ -41,13 +41,7 @@ use Helpers\Url;
 <script src="/bower_components/foundation/js/foundation/foundation.abide.js"></script>
 <script src="/bower_components/foundation/js/foundation/foundation.reveal.js"></script>
 <script src="/bower_components/foundation/js/foundation/foundation.accordion.js"></script>
-<script src='/bower_components/flowtype.js/flowtype.js'></script>
-
-<?php
-    Assets::js(array(
-        Url::template_path() . 'js/main.js',
-    ));
-?>
-
+<script src='/bower_components/Flowtype.js/flowtype.js'></script>
+<script src="/app/templates/default/js/main.js"></script>
 </body>
 </html>

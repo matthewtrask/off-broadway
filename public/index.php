@@ -89,6 +89,7 @@ router::any('admin/logout', '\controllers\admin\auth@logout');
 router::any('admin/classes', '\controllers\admin\admin@classes');
 router::any('admin/currentshow', '\controllers\admin\admin@currentShow');
 router::any('admin/url', '\controllers\admin\admin@pages');
+router::any('admin/faq', '\controllers\admin\admin@questions');
 
 //AJAX Contollers
 router::POST('postWhatsNew', '\controllers\admin\ajax@addWhatsNew');

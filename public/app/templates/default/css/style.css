@@ -309,6 +309,10 @@ div.image {
 /* END BOX OFFICE */
 
 /* CONTACT */
+#alert {
+    position: fixed;
+    top: 0px;
+}
 
 /* END CONTACT */
 

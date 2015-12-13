@@ -60,4 +60,6 @@ $(document).ready(function(){
         });
     });
 
+    // current show image uploader
+
 });

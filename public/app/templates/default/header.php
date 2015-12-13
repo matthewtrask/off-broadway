@@ -41,8 +41,8 @@ use Helpers\Url;
 
 
     <!-- CSS -->
-    <link href='http://fonts.googleapis.com/css?family=Merriweather' rel='stylesheet' type='text/css'>
-    <link href='http://fonts.googleapis.com/css?family=Raleway:400,200,600' rel='stylesheet' type='text/css'>
+    <link href='//fonts.googleapis.com/css?family=Merriweather' rel='stylesheet' type='text/css'>
+    <link href='//fonts.googleapis.com/css?family=Raleway:400,200,600' rel='stylesheet' type='text/css'>
     <script src="/bower_components/jquery/dist/jquery.js"></script>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
     <link href="/bower_components/foundation/css/foundation.css" rel="stylesheet">
@@ -80,7 +80,7 @@ use Helpers\Url;
             <ul class="dropdown">
               <li><a href="schools">Schools</a></li>
               <li><a href="currentshow">Current Show</a></li>
-              <li><a href="#">Auditions</a></li>
+              <li><a href="auditions">Auditions</a></li>
             </ul>
           </li>
           <li class="has-dropdown">

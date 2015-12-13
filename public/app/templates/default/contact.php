@@ -1,4 +1,6 @@
-
+<div class="row">
+    <div id="alert-message" class="small-10 small-offset-1 columns"></div>
+</div>
 	<div class="row">
 		<div class="small-12 columns">
 			<h2>Contact Us</h2>
@@ -39,6 +41,7 @@
 				<button class="button success" id="submitForm" value="submit" for="submit" style="width: 200px">Submit</button>
 			</form>
 		</div>
+
 		<div class="small-4 columns">
 			<ul class="vcard">
 				<li class="fn">Off Broadway Children's Theatre</li>

@@ -62,9 +62,7 @@
           echo "<td>".$url->url."</td>";
           echo "<td>".$url->value."</td>";
           echo "<td>".$url->description."</td>";
-          echo "<td id='url".$url->id."' class='button register'>Remove</td>";
-          echo "<td id='".$url->id."' class='button whatsnew'>Archive</td>";
-          // echo "<td id=".$url->id." class='button remove'>Remove</td>";
+          echo "<td id='url".$url->id."' class='button register' style='margin-right: 3%'>Remove</td>";
         echo "</tr>";
       echo "</tbody>";
     } ?>

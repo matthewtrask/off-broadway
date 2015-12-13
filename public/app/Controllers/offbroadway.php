@@ -101,6 +101,9 @@ class offbroadway extends \core\controller {
         $tips = $this->_obct->getHints();
         $data['tips'] = $tips;
 
+        $show = $this->_obct->getCurrentShow();
+        $data['show'] = $show;
+
 
         View::rendertemplate('header', $data);
         View::rendertemplate('auditions', $data);

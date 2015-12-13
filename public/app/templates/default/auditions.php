@@ -1,5 +1,5 @@
-<div class="row">
-  <div class="small-9 columns">
+<div class="row" style="margin-top: 5%">
+  <div class="small-12 medium-8 columns">
     <h2>Auditions | FAQ's</h2>
     <?php foreach($data['faq'] as $faq)
     {
@@ -10,17 +10,30 @@
     }
     ?>
   </div>
+  <div class="small-12 medium-3 columns">
+    <img src="<?php echo IMGDIR ?>green-logo.png"><br><br>
+    <div class="panel">
+      <h4 class="text-center">Questions?</h4>
+      <a href="contact"><button class="button message expand">Contact Us</button></a>
+    </div>
+    <div class="panel">
+      <h3>Current Production</h3>
+      <?php
+        foreach($data['show'] as $show){
+          echo "<h4>".$show->show_title."</h4>";
+          echo "<img src=data:image/jpg;base64,$show->image>";
+          echo "<button class='button register'><a href=".$show->box_office_link.">Buy Tickets</a></button>";
+        }
+      ?>
+    </div>
+  </div>
+
 </div>
 <?php foreach($data['faq'] as $faq){
   echo "<div id='faq".$faq->id."' class='reveal-modal' data-reveal aria-labelledby='modalTitle' aria-hidden='true' role='dialog'>";
-    echo "hello";
+    echo "<h2 id='modalTitle'>".$faq->question."</h2>";
+    echo "<p>".$faq->answer."</p>";
+    echo "<a class='close-reveal-modal' aria-label='Close'>&#215;</a>";
   echo "</div>";
 }
 ?>
-
-<div id="faq1" class="reveal-modal" data-reveal aria-labelledby="modalTitle" aria-hidden="true" role="dialog">
-  <h2 id="modalTitle">Awesome. I have it.</h2>
-  <p class="lead">Your couch.  It is mine.</p>
-  <p>I'm a cool paragraph that lives inside of an even cooler modal. Wins!</p>
-  <a class="close-reveal-modal" aria-label="Close">&#215;</a>
-</div>

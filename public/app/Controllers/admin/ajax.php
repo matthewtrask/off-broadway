@@ -97,19 +97,28 @@ class Ajax extends \core\controller
 
           $this->_adminObct->insertContact($contact);
 
-          //
-          // $mail = new \Helpers\PhpMailer\Mail();
-          //
-          //
-          // $mail->From = $cleanEmail;
-          // $mail->FromName = $cleanName;
-          // $mail->setFrom($cleanEmail);
-          // $mail->addAddress('mjftrask@gmail.com');
-          // $mail->addReplyTo($cleanEmail, $cleanName);
-          //
-          // $mail->Subject = 'A message for OBCT from ' . $cleanName;
-          // $mail->Body = "This message is from " . $cleanName ."<br>Phone Number: ". $cleanPhone ."<br>Message: ".$cleanMsg;
-          // $mail->send();
+          $mail = new \Helpers\PhpMailer\Mail();
 
+
+          $mail->From = $cleanEmail;
+          $mail->FromName = $cleanName;
+          $mail->setFrom($cleanEmail);
+          $mail->addAddress('mjftrask@gmail.com');
+          $mail->addReplyTo($cleanEmail, $cleanName);
+
+          $mail->Subject = 'A message for OBCT from ' . $cleanName;
+          $mail->Body = "This message is from " . $cleanName ."<br>Phone Number: ". $cleanPhone ."<br>Message: ".$cleanMsg;
+          $mail->send();
+
+      }
+
+      public function postCurrentShow()
+      {
+
+      }
+
+      public function postQuestions()
+      {
+        
       }
 }

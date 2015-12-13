@@ -79,4 +79,16 @@ class admin extends \core\controller
 		View::renderadmintemplate('footer', $data);
 	}
 
+	public function questions()
+	{
+		$data['title'] = 'FAQ | Questions';
+
+		$faq = $this->_adminObct->getFaq();
+		$data['faq'] = $faq;
+
+		View::renderadmintemplate('header', $data);
+		View::render('admin/faq', $data);
+		View::renderadmintemplate('footer');
+	}
+
 }

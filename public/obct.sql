@@ -7,7 +7,7 @@
 #
 # Host: 127.0.0.1 (MySQL 5.5.46-0ubuntu0.14.04.2)
 # Database: offbroadway
-# Generation Time: 2015-11-28 21:35:54 +0000
+# Generation Time: 2015-12-13 23:26:47 +0000
 # ************************************************************
 
 
@@ -194,7 +194,20 @@ LOCK TABLES `obct_contact` WRITE;
 INSERT INTO `obct_contact` (`id`, `name`, `email`, `phone`, `message`, `timestamp`)
 VALUES
 	(1,'Matt','mjftrask@gmail.com',2147483647,'test test test',NULL),
-	(2,'Tommy','tommy@me.com',2147483647,'testing testing',NULL);
+	(2,'Tommy','tommy@me.com',2147483647,'testing testing',NULL),
+	(3,'test','test',0,'test',NULL),
+	(4,'test','test',123123123,'test',NULL),
+	(5,'','',0,'',NULL),
+	(6,'','',0,'',NULL),
+	(7,'','',0,'',NULL),
+	(8,'','',0,'',NULL),
+	(9,'','',0,'',NULL),
+	(10,'','',0,'',NULL),
+	(11,'','',0,'',NULL),
+	(12,'','',0,'',NULL),
+	(13,'','',0,'',NULL),
+	(14,'','',0,'',NULL),
+	(15,'','',0,'',NULL);
 
 /*!40000 ALTER TABLE `obct_contact` ENABLE KEYS */;
 UNLOCK TABLES;
@@ -378,6 +391,38 @@ VALUES
 	(1,'Demo','$2y$12$UwWuRhQtfROz4/mzbfgY.Oas5tReZrQK187iVEA77LMkW/9HIhMsS','demo@demo.com','2014-12-08 19:07:19');
 
 /*!40000 ALTER TABLE `obct_members` ENABLE KEYS */;
+UNLOCK TABLES;
+
+
+# Dump of table obct_pages
+# ------------------------------------------------------------
+
+DROP TABLE IF EXISTS `obct_pages`;
+
+CREATE TABLE `obct_pages` (
+  `id` int(11) unsigned NOT NULL AUTO_INCREMENT,
+  `url` varchar(255) DEFAULT NULL,
+  `value` varchar(255) DEFAULT NULL,
+  `description` varchar(255) DEFAULT '',
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+LOCK TABLES `obct_pages` WRITE;
+/*!40000 ALTER TABLE `obct_pages` DISABLE KEYS */;
+
+INSERT INTO `obct_pages` (`id`, `url`, `value`, `description`)
+VALUES
+	(1,'home','home','The Home Page'),
+	(2,'aboutus','aboutus','About Us Page'),
+	(3,'teachers','teachers','Teachers Page'),
+	(4,'classes','classes','Classes Page'),
+	(5,'schools','schools','Schools Page'),
+	(6,'juniortroupe','juniortroupe','Junior Troupe Page'),
+	(7,'questions','questions','FAQ Page'),
+	(8,'currentshow','currentshow','Current Show Page'),
+	(9,'contact','contact','Contact Page');
+
+/*!40000 ALTER TABLE `obct_pages` ENABLE KEYS */;
 UNLOCK TABLES;
 
 
@@ -587,15 +632,6 @@ CREATE TABLE `obct_whats_new` (
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
-LOCK TABLES `obct_whats_new` WRITE;
-/*!40000 ALTER TABLE `obct_whats_new` DISABLE KEYS */;
-
-INSERT INTO `obct_whats_new` (`id`, `title`, `content`, `button`, `timestamp`)
-VALUES
-	(1,'Auditions','We are now doing auditions for our next presentation! Auditions will be held soon, so keep an eye out for them!','','2015-11-28 21:35:26');
-
-/*!40000 ALTER TABLE `obct_whats_new` ENABLE KEYS */;
-UNLOCK TABLES;
 
 
 

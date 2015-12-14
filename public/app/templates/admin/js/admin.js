@@ -62,4 +62,38 @@ $(document).ready(function(){
 
     // current show image uploader
 
+    // update faq
+    $('#faqSubmit').on('click', function(e){
+        e.preventDefault();
+        var data = $('newFaq').serialize();
+        $.ajax({
+           data: data,
+            method: "POST",
+            async: true,
+            url: "newFaq",
+            success: function(data){
+                console.log(data);
+            }
+        });
+    });
+
+    // delete faq
+    $('.remove').on('click', function(e){
+        e.preventDefault();
+        var id = this.name;
+        var data = id;
+        console.log(data);
+
+        $.ajax({
+            async: true,
+            method: 'POST',
+            cache: false,
+            url: 'removeFaq',
+            data: data,
+            success: function(data){
+                $(document).foundation('alerts', 'events');
+            }
+        })
+    })
+
 });

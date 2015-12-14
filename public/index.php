@@ -98,6 +98,9 @@ router::POST('updateClasses', '\controllers\admin\ajax@updateClasses');
 router::POST('addClasses', '\controllers\admin\ajax@addClasses');
 router::POST('removeClasses', '\controllers\admin\ajax@removeClasses');
 router::POST('postContact', '\controllers\admin\ajax@postContact');
+router::POST('admin/newFaq', '\controllers\admin\ajax@newFaq');
+router::POST('postUpdateFaq', '\controllers\admin\ajax@updateFaq');
+router::POST('admin/removeFaq', '\controllers\admin\ajax@deleteFaq');
 
 router::any('admin/users', '\controllers\admin\users@index');
 router::any('admin/users/add', '\controllers\admin\users@add');

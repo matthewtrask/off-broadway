@@ -117,8 +117,31 @@ class Ajax extends \core\controller
 
       }
 
-      public function postQuestions()
+      public function newFaq()
+      {
+          $question = $_POST['question'];
+          $answer   = $_POST['answer'];
+
+          $faq = array(
+              'question' => $question,
+              'answer'   => $answer
+          );
+
+          $this->_adminObct->insertFaq($faq);
+      }
+
+      public function updateFaq()
       {
         
+      }
+
+      public function deleteFaq()
+      {
+          $faqId = $_POST['id'];
+          $id = array(
+              'id' => $faqId
+          );
+
+          $this->_adminObct->deleteFaq($id);
       }
 }

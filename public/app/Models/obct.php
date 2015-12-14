@@ -28,6 +28,11 @@ class Obct extends \core\model {
         //
     }
 
+    public function insertFaq($faq)
+    {
+        $this->_db->insert(PREFIX.'faq', $faq);
+    }
+
     public function insertUrl()
     {
       //
@@ -151,5 +156,8 @@ class Obct extends \core\model {
 
     // DELETE METHODS
 
-
+    public function deleteFaq($id)
+    {
+        $this->_db->delete(PREFIX.'faq', $id);
+    }
 }

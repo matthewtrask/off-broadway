@@ -16,16 +16,6 @@
       <h4 class="text-center">Questions?</h4>
       <a href="contact"><button class="button message expand">Contact Us</button></a>
     </div>
-    <div class="panel">
-      <h3>Current Production</h3>
-      <?php
-        foreach($data['show'] as $show){
-          echo "<h4>".$show->show_title."</h4>";
-          echo "<img src=data:image/jpg;base64,$show->image>";
-          echo "<button class='button register'><a href=".$show->box_office_link.">Buy Tickets</a></button>";
-        }
-      ?>
-    </div>
   </div>
 
 </div>

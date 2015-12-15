@@ -144,4 +144,17 @@ class Ajax extends \core\controller
 
           $this->_adminObct->deleteFaq($id);
       }
+
+    public function postPageMessages()
+    {
+        $pageTitle = $_POST['pageTitle'];
+        $pageDescription = $_POST['pageDescription'];
+
+        $message = array(
+            'page_change' => $pageTitle,
+            'description' => $pageDescription
+        );
+
+        $this->_adminObct->insertChangelog($message);
+    }
 }

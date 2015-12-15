@@ -90,6 +90,7 @@ router::any('admin/classes', '\controllers\admin\admin@classes');
 router::any('admin/currentshow', '\controllers\admin\admin@currentShow');
 router::any('admin/url', '\controllers\admin\admin@pages');
 router::any('admin/faq', '\controllers\admin\admin@questions');
+router::any('admin/message', '\controllers\admin\admin@messages');
 
 //AJAX Contollers
 router::POST('postWhatsNew', '\controllers\admin\ajax@addWhatsNew');
@@ -101,6 +102,7 @@ router::POST('postContact', '\controllers\admin\ajax@postContact');
 router::POST('admin/newFaq', '\controllers\admin\ajax@newFaq');
 router::POST('postUpdateFaq', '\controllers\admin\ajax@updateFaq');
 router::POST('admin/removeFaq', '\controllers\admin\ajax@deleteFaq');
+router::POST('admin/postPageMessages', '\controllers\admin\ajax@postPageMessages');
 
 router::any('admin/users', '\controllers\admin\users@index');
 router::any('admin/users/add', '\controllers\admin\users@add');

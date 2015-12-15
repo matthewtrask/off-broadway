@@ -60,6 +60,27 @@ $(document).ready(function(){
         });
     });
 
+    // Message Queue Ajax
+    $('button#pageSubmit').on('click', function(e){
+        console.log("Im here.");
+        e.preventDefault();
+        var data = $('form#adminMessage').serialize();
+        console.log(data);
+        $.ajax({
+            data: data,
+            method: "POST",
+            async: true,
+            url: 'admin/postPageMessages',
+            success: function(data){
+                console.log(data);
+            },
+            error: function(data){
+                console.log(data);
+                console.log("there was an error");
+            }
+        });
+    });
+
     // current show image uploader
 
     // update faq
@@ -93,7 +114,6 @@ $(document).ready(function(){
             success: function(data){
                 $(document).foundation('alerts', 'events');
             }
-        })
-    })
-
+        });
+    });
 });

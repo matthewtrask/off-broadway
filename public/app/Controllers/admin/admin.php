@@ -91,4 +91,13 @@ class admin extends \core\controller
 		View::renderadmintemplate('footer');
 	}
 
+	public function messages()
+	{
+		$data['title'] = 'Message Queue';
+
+		View::renderadmintemplate('header', $data);
+		View::render('admin/message');
+		View::renderadmintemplate('footer');
+	}
+
 }

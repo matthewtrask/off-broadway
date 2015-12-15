@@ -33,6 +33,11 @@ class Obct extends \core\model {
         $this->_db->insert(PREFIX.'faq', $faq);
     }
 
+    public function insertChangelog($message)
+    {
+        $this->_db->insert(PREFIX.'changelog', $message);
+    }
+
     public function insertUrl()
     {
       //

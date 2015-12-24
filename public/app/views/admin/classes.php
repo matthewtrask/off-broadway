@@ -57,7 +57,7 @@ use \helpers\Url;
               <label for="right-label" class="right inline">Class Name</label>
             </div>
             <div class="small-9 columns">
-              <input type="text" id="right-label" name="className" placeholder="Class Name">
+              <input type="text" id="right-label" for="className" name="className" placeholder="Class Name">
             </div>
           </div>
         </div>

@@ -81,7 +81,7 @@ use Helpers\Url;
           <ul class="dropdown">
             <li><a href="#">Home</a></li>
             <li><a href='#'>About</a></li>
-            <li><a href="classes">Classes</a></li>
+            <li><a href="admin/classes">Classes</a></li>
             <li><a href="#">Contact</a></li>
           </ul>
         </li>

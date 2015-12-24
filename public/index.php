@@ -102,7 +102,7 @@ router::POST('postContact', '\controllers\admin\ajax@postContact');
 router::POST('admin/newFaq', '\controllers\admin\ajax@newFaq');
 router::POST('postUpdateFaq', '\controllers\admin\ajax@updateFaq');
 router::POST('admin/removeFaq', '\controllers\admin\ajax@deleteFaq');
-router::POST('admin/postPageMessages', '\controllers\admin\ajax@postPageMessages');
+router::POST('postPageMessages', '\controllers\admin\ajax@postPageMessages');
 
 router::any('admin/users', '\controllers\admin\users@index');
 router::any('admin/users/add', '\controllers\admin\users@add');

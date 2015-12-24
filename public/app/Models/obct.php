@@ -28,6 +28,11 @@ class Obct extends \core\model {
         //
     }
 
+    public function insertNewClass($newClass)
+    {
+        $this->_db->insert(PREFIX.'classes', $newClass);
+    }
+
     public function insertFaq($faq)
     {
         $this->_db->insert(PREFIX.'faq', $faq);

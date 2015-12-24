@@ -36,7 +36,25 @@ class Ajax extends \core\controller
 
     public function addClasses()
   	{
-      var_dump($_POST);
+      $newClassName = $_POST['className'];
+      $newClassTeaser = $_POST['teaser'];
+      $newClassDesc = $_POST['classDesc'];
+      $newClassDay = $_POST['classDay'];
+      $newClassTime = $_POST['classTime'];
+      $newClassPrice = $_POST['classPrice'];
+      $newRegLink = $_POST['regLink'];
+
+      $newClass = array(
+          'class_title' => $newClassName,
+          'teaser'      => $newClassTeaser,
+          'description' => $newClassDesc,
+          'day' 		=> $newClassDay,
+          'time'		=> $newClassTime,
+          'price'       => $newClassPrice,
+          'link'        => $newRegLink
+      );
+
+      $this->_adminObct->insertNewClass($newClass);
   	}
 
     public function updateClasses()

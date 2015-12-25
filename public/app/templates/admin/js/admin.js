@@ -21,8 +21,10 @@ $(document).ready(function(){
     $('button#addClass').on('click', function(){
         console.log('add class button worked');
         var data = $('form#addClassForm').serialize();
+        console.log(data);
         $.ajax({
             method: "POST",
+            data: data,
             url: "/addClasses",
             async: true,
             success: function(data){
@@ -36,6 +38,7 @@ $(document).ready(function(){
         var data = $('form#editClassForm').serialize();
         $.ajax({
             method: "POST",
+            data: data,
             url: "/updateClasses",
             async: true,
             success: function(data){

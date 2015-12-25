@@ -72,8 +72,8 @@ class Ajax extends \core\controller
         'class_title' => $updatedClassName,
         'teaser'      => $updatedClassTeaser,
         'description' => $updatedClassDesc,
-        'day' 		  => $updatedClassDay,
-        'time'		  => $updatedClassTime,
+        'day' 		    => $updatedClassDay,
+        'time'		    => $updatedClassTime,
         'price'       => $updatedClassPrice,
         'link'        => $updatedClassLink
       );
@@ -150,7 +150,7 @@ class Ajax extends \core\controller
 
       public function updateFaq()
       {
-        
+
       }
 
       public function deleteFaq()

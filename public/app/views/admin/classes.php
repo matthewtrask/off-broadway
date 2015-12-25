@@ -49,7 +49,7 @@ use \helpers\Url;
 
 <div id="newClass" class="reveal-modal" data-reveal aria-labelledby="modalTitle" aria-hidden="true" role="dialog">
   <h2 id="modalTitle" class="text-center">Add New Class</h2>
-  <form method="post" action="" id="addClassForm">
+  <form method="POST" action="" id="addClassForm">
     <div class="row">
         <div class="small-12 columns">
           <div class="row">
@@ -138,7 +138,7 @@ use \helpers\Url;
 foreach($data['classes'] as $classes) {
     echo "<div id='class".$classes->id."' class='reveal-modal' data-reveal aria-labelledby='modalTitle' aria-hidden='true' role='dialog'>";
         echo "<h2 id='modalTitle' class='text-center'>Edit Class</h2>";
-            echo "<form method='post' action='' id='EditClassForm'>";
+            echo "<form method='POST' action='' id='editClassForm'>";
                 echo "<div class='row'>";
                     echo "<div class='small-12 columns hide-for-medium-up'>";
                         echo "<div class='row'>";
@@ -322,8 +322,3 @@ foreach($data['classes'] as $classes) {
   </form>
   <a class="close-reveal-modal" aria-label="Close">&#215;</a>
 </div>
-
-
-
-
-

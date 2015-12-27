@@ -96,6 +96,7 @@ use Carbon\Carbon;
 				<tr>
 					<th>Page Title</th>
 					<th>Description</th>
+					<th>Updated By</th>
 					<th>Time Changed</th>
 				</tr>
 			</thead>
@@ -105,6 +106,7 @@ use Carbon\Carbon;
 						echo "<tr>";
 						echo "<td>".$message->page_change."</td>";
 						echo "<td>".$message->description."</td>";
+						echo "<td>".$message->updatedBy."</td>";
 						echo "<td>".date('Y-m-d', strtotime($message->time))."</td>";
 						echo "</tr>";
 					}

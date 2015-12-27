@@ -5,7 +5,7 @@
 </div>
 
 <div class="row">
-	<div class="small-12 medium-8 columns">
+	<div class="small-12 medium-9 columns">
 		<?php foreach($data['classes'] as $classes){
 			echo "<div class='panel'>";
 				echo "<div class='row'>";
@@ -32,7 +32,7 @@
 
 		}?>
 	</div>
-    <div class="small-12 medium-4 columns">
+    <div class="small-12 medium-3 columns">
       <img src="<?php echo IMGDIR ?>green-logo.png"><br><br>
       <div class="panel">
         <h4 class="text-center">Questions?</h4>

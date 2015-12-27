@@ -43,6 +43,11 @@ class Obct extends \core\model {
         $this->_db->insert(PREFIX.'changelog', $message);
     }
 
+    public function insertAuditions()
+    {
+        //
+    }
+
     public function insertUrl()
     {
       //
@@ -56,12 +61,12 @@ class Obct extends \core\model {
 
     public function getAbout()
     {
-        return $this->_db->select('select id, title, content, updateDate from '.PREFIX.'about where id in (1, 2, 3, 4, 5)');
+        return $this->_db->select('select id, title, content, updatedBy, updateDate from '.PREFIX.'about where id in (1, 2, 3, 4, 5)');
     }
 
     public function getSummary()
     {
-        return $this->_db->select('select id, title, content, updateDate from '.PREFIX.'about where id = 6');
+        return $this->_db->select('select id, title, content, updatedBy, updateDate from '.PREFIX.'about where id = 6');
     }
 
     public function getClasses()
@@ -71,7 +76,7 @@ class Obct extends \core\model {
 
     public function getMessageQueue()
     {
-        return $this->_db->select('select page_change, description, time from '.PREFIX.'changelog');
+        return $this->_db->select('select page_change, description, updatedBy, time from '.PREFIX.'changelog');
     }
 
     public function getFaq()
@@ -138,6 +143,11 @@ class Obct extends \core\model {
       return $this->_db->select('select id, url, value, description from '.PREFIX.'pages');
     }
 
+    public function getAuditions()
+    {
+        return $this->_db->select('SELECT id, show_title, show_teaser, show_dates, show_images, show_audition_dates from '.PREFIX.'auditions');
+    }
+
     // UPDATE METHODS
     public function updateClasses($updatedInfo, $where)
     {
@@ -162,6 +172,11 @@ class Obct extends \core\model {
     public function updateUrls()
     {
       //
+    }
+
+    public function updateAuditions()
+    {
+        //
     }
 
     // DELETE METHODS

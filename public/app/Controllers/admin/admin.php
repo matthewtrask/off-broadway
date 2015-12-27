@@ -40,6 +40,18 @@ class admin extends \core\controller
 
 	}
 
+	public function about()
+	{
+		$data['title'] = 'About Us';
+
+		$about = $this->_adminObct->getAbout();
+		$data['about'] = $about;
+
+		View::rendertemplate('header', $data);
+		View::render('admin/about', $data);
+		View::renderadmintemplate('footer');
+
+	}
 
 	public function classes()
 	{
@@ -53,6 +65,14 @@ class admin extends \core\controller
 		View::renderadmintemplate('footer');
 	}
 
+	public function auditions()
+	{
+		$data['title'] = 'Auditions';
+
+		View::renderadmintemplate('header', $data);
+		View::render('admin/auditions');
+		View::renderadmintemplate('footer');
+	}
 
 	public function currentShow()
 	{

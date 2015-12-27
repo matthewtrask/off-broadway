@@ -1,8 +1,9 @@
 <?php namespace controllers\admin;
 
 use \helpers\session;
+use Carbon\Carbon;
 use	\helpers\url;
-use	\core\view;
+use \Core\Model;
 
 class Ajax extends \core\controller
 {
@@ -21,18 +22,14 @@ class Ajax extends \core\controller
       $link = $_POST['urlSelect'];
 
       $whatsNew = array(
-        'title'   => $title,
-        'content' => $content,
-        'button'  => $link
+        'title'     => $title,
+        'content'   => $content,
+        'button'    => $link,
+        'updatedBy' => Session::get('username')
       );
 
       $this->_adminObct->insertWhatsNew($whatsNew);
     }
-
-  	public function postMessage()
-  	{
-  		var_dump($_POST);
-  	}
 
     public function addClasses()
   	{
@@ -163,16 +160,23 @@ class Ajax extends \core\controller
           $this->_adminObct->deleteFaq($id);
       }
 
-    public function postPageMessages()
+    public function postChangelog()
     {
         $pageTitle = $_POST['pageTitle'];
-        $pageDescription = $_POST['pageDescription'];
+        $pageChanges = $_POST['pageChanges'];
+        $updatedBy = Session::get('username');
 
         $message = array(
             'page_change' => $pageTitle,
-            'description' => $pageDescription
+            'description' => $pageChanges,
+            'updatedBy'   => $updatedBy
         );
 
         $this->_adminObct->insertChangelog($message);
+    }
+
+    public function postAuditions()
+    {
+
     }
 }

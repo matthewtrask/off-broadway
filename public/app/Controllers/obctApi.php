@@ -11,4 +11,13 @@ namespace controllers;
 
 class obctApi extends \core\controller {
 
+    public function __construct()
+    {
+
+    }
+
+    public function facebookApi()
+    {
+
+    }
 }

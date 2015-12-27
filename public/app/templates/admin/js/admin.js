@@ -2,22 +2,22 @@ $(document).ready(function(){
     $(document).foundation();
 
     // ajax call for sending messages
-    $('button#submit').on('click', function(){
-    	var data = $('form#adminMessage').serialize();
+    $('button#pageSubmit').on('click', function(){
+    	var data = $('form#changelogForm').serialize();
     	$.ajax({
     		method: "POST",
-    		url: 'admin/postMessage',
+    		url: 'postChangelog',
     		data: data,
     		async: true,
     		success: function(data){
     			console.log("Message was sent");
+                console.log(data);
     		},
-    		failue: function(data){
-    			console.log("Message failed to send");
-    		}
     	});
     });
 
+
+    //
     $('button#addClass').on('click', function(){
         console.log('add class button worked');
         var data = $('form#addClassForm').serialize();
@@ -25,7 +25,7 @@ $(document).ready(function(){
         $.ajax({
             method: "POST",
             data: data,
-            url: "/addClasses",
+            url: "addClasses",
             async: true,
             success: function(data){
                 console.log('and away we go!');
@@ -39,7 +39,7 @@ $(document).ready(function(){
         $.ajax({
             method: "POST",
             data: data,
-            url: "/updateClasses",
+            url: "updateClasses",
             async: true,
             success: function(data){
                 console.log('away we go again!');
@@ -63,27 +63,6 @@ $(document).ready(function(){
         });
     });
 
-    // Message Queue Ajax
-    $('button#pageSubmit').on('click', function(e){
-        console.log("Im here.");
-        e.preventDefault();
-        var data = $('form#adminMessage').serialize();
-        console.log(data);
-        $.ajax({
-            data: data,
-            method: "POST",
-            async: true,
-            url: 'admin/postPageMessages',
-            success: function(data){
-                console.log(data);
-            },
-            error: function(data){
-                console.log(data);
-                console.log("there was an error");
-            }
-        });
-    });
-
     // current show image uploader
 
     // update faq
@@ -91,7 +70,7 @@ $(document).ready(function(){
         e.preventDefault();
         var data = $('newFaq').serialize();
         $.ajax({
-           data: data,
+            data: data,
             method: "POST",
             async: true,
             url: "newFaq",

@@ -211,6 +211,20 @@ class offbroadway extends \core\controller {
     public function questions()
     {
         $data['title'] = 'Questions';
+
+        $faq = $this->_obct->getFaq();
+        $data['faq'] = $faq;
+
+        $tips = $this->_obct->getHints();
+        $data['tips'] = $tips;
+
+        $show = $this->_obct->getCurrentShow();
+        $data['show'] = $show;
+
+
+        View::rendertemplate('header', $data);
+        View::rendertemplate('questions', $data);
+        View::rendertemplate('footer');
     }
 
     /**

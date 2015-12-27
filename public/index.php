@@ -66,7 +66,6 @@ use \core\router,
 //define routes
 router::any('', 'controllers\offbroadway@index');
 router::any('home', 'controllers\offbroadway@index');
-// Router::any('happenings','Controllers\offbroadway@happenings');
 router::any('schools', 'controllers\offbroadway@schools');
 router::any('aboutus', 'controllers\offbroadway@aboutus');
 router::any('teachers', 'controllers\offbroadway@teachers');
@@ -76,7 +75,6 @@ router::any('gallery', 'controllers\offbroadway@gallery');
 router::any('classes', 'controllers\offbroadway@classes');
 router::any('questions', 'controllers\offbroadway@questions');
 router::any('currentshow', 'controllers\offbroadway@currentprod');
-//router::any('upcoming', 'controllers\offbroadway@upcoming');
 router::any('auditions', 'controllers\offbroadway@auditions');
 router::any('register', 'controllers\offbroadway@register');
 router::any('boxoffice', 'controllers\offbroadway@boxoffice');
@@ -91,18 +89,18 @@ router::any('admin/currentshow', '\controllers\admin\admin@currentShow');
 router::any('admin/url', '\controllers\admin\admin@pages');
 router::any('admin/faq', '\controllers\admin\admin@questions');
 router::any('admin/message', '\controllers\admin\admin@messages');
+router::any('admin/about', '\controllers\admin\admin@about');
 
 //AJAX Contollers
 router::POST('postWhatsNew', '\controllers\admin\ajax@addWhatsNew');
-router::POST('postMessage', '\controllers\admin\ajax@postMessage');
 router::POST('updateClasses', '\controllers\admin\ajax@updateClasses');
 router::POST('addClasses', '\controllers\admin\ajax@addClasses');
 router::POST('removeClasses', '\controllers\admin\ajax@removeClasses');
 router::POST('postContact', '\controllers\admin\ajax@postContact');
-router::POST('admin/newFaq', '\controllers\admin\ajax@newFaq');
+router::POST('newFaq', '\controllers\admin\ajax@newFaq');
 router::POST('postUpdateFaq', '\controllers\admin\ajax@updateFaq');
-router::POST('admin/removeFaq', '\controllers\admin\ajax@deleteFaq');
-router::POST('postPageMessages', '\controllers\admin\ajax@postPageMessages');
+router::POST('removeFaq', '\controllers\admin\ajax@deleteFaq');
+router::POST('postChangelog', '\controllers\admin\ajax@postChangelog');
 
 router::any('admin/users', '\controllers\admin\users@index');
 router::any('admin/users/add', '\controllers\admin\users@add');

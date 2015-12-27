@@ -82,7 +82,7 @@ use Helpers\Url;
             <li><a href="#">Home</a></li>
             <li><a href='#'>About</a></li>
             <li><a href="admin/classes">Classes</a></li>
-            <li><a href="#">Contact</a></li>
+            <li><a href="admin/faq">FAQ</a></li>
           </ul>
         </li>
       </ul>

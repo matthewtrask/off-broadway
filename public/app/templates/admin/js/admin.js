@@ -1,4 +1,4 @@
-$(document).ready(function(){
+$(document).ready(function() {
     $(document).foundation();
 
     // ajax call for sending messages
@@ -9,10 +9,9 @@ $(document).ready(function(){
     		url: 'postChangelog',
     		data: data,
     		async: true,
-    		success: function(data){
+    		success: function(){
     			console.log("Message was sent");
-                console.log(data);
-    		},
+    		}
     	});
     });
 
@@ -52,7 +51,7 @@ $(document).ready(function(){
         $.ajax({
           data: data,
           method: "POST",
-          url: "/postWhatsNew",
+          url: "postWhatsNew",
           async: true,
           success: function(data){
             console.log(data);
@@ -66,8 +65,7 @@ $(document).ready(function(){
     // current show image uploader
 
     // update faq
-    $('#faqSubmit').on('click', function(e){
-        e.preventDefault();
+    $('#faqSubmit').on('click', function(){
         var data = $('newFaq').serialize();
         $.ajax({
             data: data,
@@ -81,8 +79,7 @@ $(document).ready(function(){
     });
 
     // delete faq
-    $('.remove').on('click', function(e){
-        e.preventDefault();
+    $('.remove').on('click', function(){
         var id = this.name;
         var data = id;
         console.log(data);
@@ -95,6 +92,25 @@ $(document).ready(function(){
             data: data,
             success: function(data){
                 $(document).foundation('alerts', 'events');
+            }
+        });
+    });
+
+    // Audition Call
+
+    $('button#submitAudition').on('click', function(){
+        var data = $('form#auditionsForm').serialize();
+        $.ajax({
+            data: data,
+            method: "POST",
+            url: "postAuditions",
+            async: true,
+            success: function(data){
+                console.log(data);
+            },
+            error: function(xhr, status, error) {
+                var err = eval("(" + xhr.responseText + ")");
+                alert(err.Message);
             }
         });
     });

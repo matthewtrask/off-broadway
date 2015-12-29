@@ -43,9 +43,9 @@ class Obct extends \core\model {
         $this->_db->insert(PREFIX.'changelog', $message);
     }
 
-    public function insertAuditions()
+    public function insertAuditions($audition)
     {
-        //
+        $this->_db->insert(PREFIX.'auditions', $audition);
     }
 
     public function insertUrl()
@@ -146,6 +146,11 @@ class Obct extends \core\model {
     public function getAuditions()
     {
         return $this->_db->select('SELECT id, show_title, show_teaser, show_dates, show_images, show_audition_dates from '.PREFIX.'auditions');
+    }
+
+    public function getAuditionUpdates()
+    {
+        return $this->_db->select('SELECT id, content from '.PREFIX.'auditions_info');
     }
 
     // UPDATE METHODS

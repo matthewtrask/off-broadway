@@ -2,29 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9d7ac8a3-6bb5-49c0-b1b8-ad6f9c3999c1" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/app/views/admin/about.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/app/views/admin/auditions.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.vagrant/machines/default/virtualbox/action_provision" afterPath="$PROJECT_DIR$/.vagrant/machines/default/virtualbox/action_provision" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.vagrant/machines/default/virtualbox/action_set_name" afterPath="$PROJECT_DIR$/.vagrant/machines/default/virtualbox/action_set_name" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.vagrant/machines/default/virtualbox/id" afterPath="$PROJECT_DIR$/.vagrant/machines/default/virtualbox/id" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.vagrant/machines/default/virtualbox/index_uuid" afterPath="$PROJECT_DIR$/.vagrant/machines/default/virtualbox/index_uuid" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.vagrant/machines/default/virtualbox/private_key" afterPath="$PROJECT_DIR$/.vagrant/machines/default/virtualbox/private_key" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.vagrant/machines/default/virtualbox/synced_folders" afterPath="$PROJECT_DIR$/.vagrant/machines/default/virtualbox/synced_folders" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/app/Controllers/admin/admin.php" afterPath="$PROJECT_DIR$/public/app/Controllers/admin/admin.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/app/Controllers/admin/ajax.php" afterPath="$PROJECT_DIR$/public/app/Controllers/admin/ajax.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/app/Controllers/obctApi.php" afterPath="$PROJECT_DIR$/public/app/Controllers/obctApi.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/app/Controllers/offbroadway.php" afterPath="$PROJECT_DIR$/public/app/Controllers/offbroadway.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/app/Models/obct.php" afterPath="$PROJECT_DIR$/public/app/Models/obct.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/app/templates/admin/css/adminstyle.css" afterPath="$PROJECT_DIR$/public/app/templates/admin/css/adminstyle.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/app/templates/admin/header.php" afterPath="$PROJECT_DIR$/public/app/templates/admin/header.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/app/templates/admin/js/admin.js" afterPath="$PROJECT_DIR$/public/app/templates/admin/js/admin.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/app/templates/default/auditions.php" afterPath="$PROJECT_DIR$/public/app/templates/default/auditions.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/app/templates/default/classes.php" afterPath="$PROJECT_DIR$/public/app/templates/default/classes.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/app/templates/default/footer.php" afterPath="$PROJECT_DIR$/public/app/templates/default/footer.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/app/templates/default/questions.php" afterPath="$PROJECT_DIR$/public/app/templates/default/questions.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/app/views/admin/admin.php" afterPath="$PROJECT_DIR$/public/app/views/admin/admin.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/app/views/admin/message.php" afterPath="$PROJECT_DIR$/public/app/views/admin/message.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/errorlog.html" afterPath="$PROJECT_DIR$/public/errorlog.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/app/views/admin/auditions.php" afterPath="$PROJECT_DIR$/public/app/views/admin/auditions.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/index.php" afterPath="$PROJECT_DIR$/public/index.php" />
     </list>
     <ignored path="off-broadway.iws" />
@@ -47,33 +31,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="offbroadway.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/app/Controllers/offbroadway.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-20.0">
-              <caret line="234" column="38" selection-start-line="234" selection-start-column="38" selection-end-line="234" selection-end-column="38" />
-              <folding>
-                <element signature="e#121#135#0#PHP" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="admin.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/app/Controllers/admin/admin.php">
+        <entry file="file://$PROJECT_DIR$/public/app/views/admin/admin.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-5.8163266">
-              <caret line="73" column="44" selection-start-line="73" selection-start-column="44" selection-end-line="73" selection-end-column="44" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="auditions.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/public/app/views/admin/auditions.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state vertical-scroll-proportion="-1.875">
+              <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="18" />
               <folding />
             </state>
           </provider>
@@ -82,63 +44,84 @@
       <file leaf-file-name="obct.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/app/Models/obct.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-23.125">
-              <caret line="49" column="0" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
+            <state vertical-scroll-proportion="-18.75">
+              <caret line="45" column="46" selection-start-line="45" selection-start-column="46" selection-end-line="45" selection-end-column="46" />
               <folding>
-                <marker date="1451249290000" expanded="true" signature="1115:1172" placeholder="SELECT name,..${PREFIX}contact..." />
-                <marker date="1451249290000" expanded="true" signature="1255:1352" placeholder="select id, t..${PREFIX}about..." />
-                <marker date="1451249290000" expanded="true" signature="1437:1519" placeholder="select id, t..${PREFIX}about..." />
-                <marker date="1451249290000" expanded="true" signature="1604:1700" placeholder="select id, c..." />
-                <marker date="1451249290000" expanded="true" signature="1790:1863" placeholder="select page_..." />
-                <marker date="1451249290000" expanded="true" signature="1944:1990" placeholder="select id, q..${PREFIX}faq..." />
-                <marker date="1451249290000" expanded="true" signature="2073:2110" placeholder="select id, h..${PREFIX}hints..." />
-                <marker date="1451249290000" expanded="true" signature="2196:2254" placeholder="select id, t..${PREFIX}whats_new..." />
-                <marker date="1451249290000" expanded="true" signature="2343:2443" placeholder="select id, s..${PREFIX}current_show..." />
-                <marker date="1451249290000" expanded="true" signature="2534:2595" placeholder="select id, t..${PREFIX}upcoming..." />
-                <marker date="1451249290000" expanded="true" signature="2676:2729" placeholder="select id, n..${PREFIX}teachers..." />
-                <marker date="1451249290000" expanded="true" signature="2817:2864" placeholder="select id, c..${PREFIX}about_troupe..." />
-                <marker date="1451249290000" expanded="true" signature="2956:3009" placeholder="select id, t..${PREFIX}troupe_points..." />
-                <marker date="1451249290000" expanded="true" signature="3099:3149" placeholder="select id, c..${PREFIX}about_jr_troupe..." />
-                <marker date="1451249290000" expanded="true" signature="3241:3301" placeholder="select id, t..${PREFIX}junior_troupe..." />
-                <marker date="1451249290000" expanded="true" signature="3389:3442" placeholder="select id, p..${PREFIX}school_points..." />
-                <marker date="1451249290000" expanded="true" signature="3525:3598" placeholder="select id, s..${PREFIX}schools..." />
-                <marker date="1451249290000" expanded="true" signature="3678:3733" placeholder="select id, u..${PREFIX}pages..." />
-                <marker date="1451249290000" expanded="true" signature="3820:3925" placeholder="SELECT id, s..${PREFIX}auditions..." />
-                <marker date="1451249290000" expanded="true" signature="3820:3927" placeholder="SELECT id, s..${PREFIX}auditions..." />
-                <marker date="1451249290000" expanded="true" signature="3820:3942" placeholder="SELECT id, s..." />
-                <marker date="1451249290000" expanded="true" signature="3943:4040" placeholder="UPDATE METHO..." />
+                <marker date="1451341352000" expanded="true" signature="1172:1229" placeholder="SELECT name,..${PREFIX}contact..." />
+                <marker date="1451341352000" expanded="true" signature="1312:1409" placeholder="select id, t..${PREFIX}about..." />
+                <marker date="1451341352000" expanded="true" signature="1494:1576" placeholder="select id, t..${PREFIX}about..." />
+                <marker date="1451341352000" expanded="true" signature="1661:1757" placeholder="select id, c..." />
+                <marker date="1451341352000" expanded="true" signature="1847:1920" placeholder="select page_..." />
+                <marker date="1451341352000" expanded="true" signature="2001:2047" placeholder="select id, q..${PREFIX}faq..." />
+                <marker date="1451341352000" expanded="true" signature="2130:2167" placeholder="select id, h..${PREFIX}hints..." />
+                <marker date="1451341352000" expanded="true" signature="2253:2311" placeholder="select id, t..${PREFIX}whats_new..." />
+                <marker date="1451341352000" expanded="true" signature="2400:2500" placeholder="select id, s..${PREFIX}current_show..." />
+                <marker date="1451341352000" expanded="true" signature="2591:2652" placeholder="select id, t..${PREFIX}upcoming..." />
+                <marker date="1451341352000" expanded="true" signature="2733:2786" placeholder="select id, n..${PREFIX}teachers..." />
+                <marker date="1451341352000" expanded="true" signature="2874:2921" placeholder="select id, c..${PREFIX}about_troupe..." />
+                <marker date="1451341352000" expanded="true" signature="3013:3066" placeholder="select id, t..${PREFIX}troupe_points..." />
+                <marker date="1451341352000" expanded="true" signature="3156:3206" placeholder="select id, c..${PREFIX}about_jr_troupe..." />
+                <marker date="1451341352000" expanded="true" signature="3298:3358" placeholder="select id, t..${PREFIX}junior_troupe..." />
+                <marker date="1451341352000" expanded="true" signature="3446:3499" placeholder="select id, p..${PREFIX}school_points..." />
+                <marker date="1451341352000" expanded="true" signature="3582:3655" placeholder="select id, s..${PREFIX}schools..." />
+                <marker date="1451341352000" expanded="true" signature="3735:3790" placeholder="select id, u..${PREFIX}pages..." />
+                <marker date="1451341352000" expanded="true" signature="3877:3982" placeholder="SELECT id, s..${PREFIX}auditions..." />
+                <marker date="1451341352000" expanded="true" signature="3877:3984" placeholder="SELECT id, s..${PREFIX}auditions..." />
+                <marker date="1451341352000" expanded="true" signature="4075:4098" placeholder="SELECT id, c..." />
+                <marker date="1451341352000" expanded="true" signature="4075:4123" placeholder="SELECT id, c..${PREFIX}auditions_info..." />
+                <marker date="1451341352000" expanded="true" signature="4075:4124" placeholder="SELECT id, c..${PREFIX}..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="auditions.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/app/templates/default/auditions.php">
+      <file leaf-file-name="ajax.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/app/Controllers/admin/ajax.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-4.591837">
-              <caret line="15" column="6" selection-start-line="15" selection-start-column="6" selection-end-line="15" selection-end-column="6" />
+            <state vertical-scroll-proportion="-16.958334">
+              <caret line="177" column="35" selection-start-line="177" selection-start-column="35" selection-end-line="177" selection-end-column="35" />
               <folding>
-                <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="e#36#57#0#PHP" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/app/templates/default/css/style.css">
+      <file leaf-file-name="admin.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/app/Controllers/admin/admin.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="25.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state vertical-scroll-proportion="2.4166667">
+              <caret line="73" column="44" selection-start-line="73" selection-start-column="44" selection-end-line="73" selection-end-column="44" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="classes.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/app/templates/default/classes.php">
+      <file leaf-file-name="auditions.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/app/views/admin/auditions.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-25.0">
-              <caret line="41" column="6" selection-start-line="41" selection-start-column="6" selection-end-line="41" selection-end-column="6" />
+            <state vertical-scroll-proportion="-10.0">
+              <caret line="16" column="39" selection-start-line="16" selection-start-column="39" selection-end-line="16" selection-end-column="39" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="admin.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/public/app/templates/admin/js/admin.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.33498758">
+              <caret line="18" column="6" selection-start-line="18" selection-start-column="6" selection-end-line="18" selection-end-column="6" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="header.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/app/templates/admin/header.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-3.125">
+              <caret line="18" column="79" selection-start-line="18" selection-start-column="79" selection-end-line="18" selection-end-column="79" />
               <folding />
             </state>
           </provider>
@@ -156,21 +139,23 @@
         <option value="$PROJECT_DIR$/public/app/templates/admin/footer.php" />
         <option value="$PROJECT_DIR$/.htaccess" />
         <option value="$PROJECT_DIR$/public/app/views/admin/classes.php" />
-        <option value="$PROJECT_DIR$/public/app/templates/admin/header.php" />
         <option value="$PROJECT_DIR$/public/app/views/admin/about.php" />
         <option value="$PROJECT_DIR$/public/app/templates/default/footer.php" />
         <option value="$PROJECT_DIR$/public/app/views/admin/admin.php" />
         <option value="$PROJECT_DIR$/public/app/views/admin/message.php" />
-        <option value="$PROJECT_DIR$/public/app/templates/admin/js/admin.js" />
-        <option value="$PROJECT_DIR$/public/app/Controllers/admin/ajax.php" />
-        <option value="$PROJECT_DIR$/public/index.php" />
         <option value="$PROJECT_DIR$/public/app/templates/default/questions.php" />
         <option value="$PROJECT_DIR$/public/app/Controllers/offbroadway.php" />
         <option value="$PROJECT_DIR$/public/app/Controllers/obctApi.php" />
         <option value="$PROJECT_DIR$/public/app/templates/default/classes.php" />
         <option value="$PROJECT_DIR$/public/app/templates/default/auditions.php" />
         <option value="$PROJECT_DIR$/public/app/Controllers/admin/admin.php" />
+        <option value="$PROJECT_DIR$/public/index.php" />
+        <option value="$PROJECT_DIR$/public/app/templates/admin/css/adminstyle.css" />
         <option value="$PROJECT_DIR$/public/app/Models/obct.php" />
+        <option value="$PROJECT_DIR$/public/app/views/admin/auditions.php" />
+        <option value="$PROJECT_DIR$/public/app/Controllers/admin/ajax.php" />
+        <option value="$PROJECT_DIR$/public/app/templates/admin/header.php" />
+        <option value="$PROJECT_DIR$/public/app/templates/admin/js/admin.js" />
       </list>
     </option>
   </component>
@@ -212,7 +197,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -414,6 +398,70 @@
               <option name="myItemId" value="templates" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="admin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="off-broadway" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="off-broadway" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="templates" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="admin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="off-broadway" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="off-broadway" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="templates" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="admin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -528,6 +576,7 @@
         </subPane>
       </pane>
       <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -581,11 +630,11 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <frame x="0" y="0" width="1440" height="900" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28898427" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29756796" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -651,20 +700,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/public/app/templates/admin/header.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/app/templates/admin/footer.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="20" column="4" selection-start-line="20" selection-start-column="4" selection-end-line="20" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/app/views/admin/message.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -683,7 +718,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="104" column="20" selection-start-line="104" selection-start-column="20" selection-end-line="104" selection-end-column="20" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -709,28 +743,29 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="34" column="0" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
           <folding>
-            <marker date="1451249290000" expanded="true" signature="1115:1172" placeholder="SELECT name,..${PREFIX}contact..." />
-            <marker date="1451249290000" expanded="true" signature="1255:1352" placeholder="select id, t..${PREFIX}about..." />
-            <marker date="1451249290000" expanded="true" signature="1437:1519" placeholder="select id, t..${PREFIX}about..." />
-            <marker date="1451249290000" expanded="true" signature="1604:1700" placeholder="select id, c..." />
-            <marker date="1451249290000" expanded="true" signature="1790:1863" placeholder="select page_..." />
-            <marker date="1451249290000" expanded="true" signature="1944:1990" placeholder="select id, q..${PREFIX}faq..." />
-            <marker date="1451249290000" expanded="true" signature="2073:2110" placeholder="select id, h..${PREFIX}hints..." />
-            <marker date="1451249290000" expanded="true" signature="2196:2254" placeholder="select id, t..${PREFIX}whats_new..." />
-            <marker date="1451249290000" expanded="true" signature="2343:2443" placeholder="select id, s..${PREFIX}current_show..." />
-            <marker date="1451249290000" expanded="true" signature="2534:2595" placeholder="select id, t..${PREFIX}upcoming..." />
-            <marker date="1451249290000" expanded="true" signature="2676:2729" placeholder="select id, n..${PREFIX}teachers..." />
-            <marker date="1451249290000" expanded="true" signature="2817:2864" placeholder="select id, c..${PREFIX}about_troupe..." />
-            <marker date="1451249290000" expanded="true" signature="2956:3009" placeholder="select id, t..${PREFIX}troupe_points..." />
-            <marker date="1451249290000" expanded="true" signature="3099:3149" placeholder="select id, c..${PREFIX}about_jr_troupe..." />
-            <marker date="1451249290000" expanded="true" signature="3241:3301" placeholder="select id, t..${PREFIX}junior_troupe..." />
-            <marker date="1451249290000" expanded="true" signature="3389:3442" placeholder="select id, p..${PREFIX}school_points..." />
-            <marker date="1451249290000" expanded="true" signature="3525:3598" placeholder="select id, s..${PREFIX}schools..." />
-            <marker date="1451249290000" expanded="true" signature="3678:3733" placeholder="select id, u..${PREFIX}pages..." />
-            <marker date="1451249290000" expanded="true" signature="3820:3925" placeholder="SELECT id, s..${PREFIX}auditions..." />
-            <marker date="1451249290000" expanded="true" signature="3820:3927" placeholder="SELECT id, s..${PREFIX}auditions..." />
-            <marker date="1451249290000" expanded="true" signature="3820:3942" placeholder="SELECT id, s..." />
-            <marker date="1451249290000" expanded="true" signature="3943:4040" placeholder="UPDATE METHO..." />
+            <marker date="1451341352000" expanded="true" signature="1172:1229" placeholder="SELECT name,..${PREFIX}contact..." />
+            <marker date="1451341352000" expanded="true" signature="1312:1409" placeholder="select id, t..${PREFIX}about..." />
+            <marker date="1451341352000" expanded="true" signature="1494:1576" placeholder="select id, t..${PREFIX}about..." />
+            <marker date="1451341352000" expanded="true" signature="1661:1757" placeholder="select id, c..." />
+            <marker date="1451341352000" expanded="true" signature="1847:1920" placeholder="select page_..." />
+            <marker date="1451341352000" expanded="true" signature="2001:2047" placeholder="select id, q..${PREFIX}faq..." />
+            <marker date="1451341352000" expanded="true" signature="2130:2167" placeholder="select id, h..${PREFIX}hints..." />
+            <marker date="1451341352000" expanded="true" signature="2253:2311" placeholder="select id, t..${PREFIX}whats_new..." />
+            <marker date="1451341352000" expanded="true" signature="2400:2500" placeholder="select id, s..${PREFIX}current_show..." />
+            <marker date="1451341352000" expanded="true" signature="2591:2652" placeholder="select id, t..${PREFIX}upcoming..." />
+            <marker date="1451341352000" expanded="true" signature="2733:2786" placeholder="select id, n..${PREFIX}teachers..." />
+            <marker date="1451341352000" expanded="true" signature="2874:2921" placeholder="select id, c..${PREFIX}about_troupe..." />
+            <marker date="1451341352000" expanded="true" signature="3013:3066" placeholder="select id, t..${PREFIX}troupe_points..." />
+            <marker date="1451341352000" expanded="true" signature="3156:3206" placeholder="select id, c..${PREFIX}about_jr_troupe..." />
+            <marker date="1451341352000" expanded="true" signature="3298:3358" placeholder="select id, t..${PREFIX}junior_troupe..." />
+            <marker date="1451341352000" expanded="true" signature="3446:3499" placeholder="select id, p..${PREFIX}school_points..." />
+            <marker date="1451341352000" expanded="true" signature="3582:3655" placeholder="select id, s..${PREFIX}schools..." />
+            <marker date="1451341352000" expanded="true" signature="3735:3790" placeholder="select id, u..${PREFIX}pages..." />
+            <marker date="1451341352000" expanded="true" signature="3877:3982" placeholder="SELECT id, s..${PREFIX}auditions..." />
+            <marker date="1451341352000" expanded="true" signature="3877:3984" placeholder="SELECT id, s..${PREFIX}auditions..." />
+            <marker date="1451341352000" expanded="true" signature="4075:4098" placeholder="SELECT id, c..." />
+            <marker date="1451341352000" expanded="true" signature="4075:4123" placeholder="SELECT id, c..${PREFIX}auditions_info..." />
+            <marker date="1451341352000" expanded="true" signature="4075:4124" placeholder="SELECT id, c..${PREFIX}..." />
           </folding>
         </state>
       </provider>
@@ -811,7 +846,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -830,28 +864,29 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="34" column="0" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
           <folding>
-            <marker date="1451249290000" expanded="true" signature="1115:1172" placeholder="SELECT name,..${PREFIX}contact..." />
-            <marker date="1451249290000" expanded="true" signature="1255:1352" placeholder="select id, t..${PREFIX}about..." />
-            <marker date="1451249290000" expanded="true" signature="1437:1519" placeholder="select id, t..${PREFIX}about..." />
-            <marker date="1451249290000" expanded="true" signature="1604:1700" placeholder="select id, c..." />
-            <marker date="1451249290000" expanded="true" signature="1790:1863" placeholder="select page_..." />
-            <marker date="1451249290000" expanded="true" signature="1944:1990" placeholder="select id, q..${PREFIX}faq..." />
-            <marker date="1451249290000" expanded="true" signature="2073:2110" placeholder="select id, h..${PREFIX}hints..." />
-            <marker date="1451249290000" expanded="true" signature="2196:2254" placeholder="select id, t..${PREFIX}whats_new..." />
-            <marker date="1451249290000" expanded="true" signature="2343:2443" placeholder="select id, s..${PREFIX}current_show..." />
-            <marker date="1451249290000" expanded="true" signature="2534:2595" placeholder="select id, t..${PREFIX}upcoming..." />
-            <marker date="1451249290000" expanded="true" signature="2676:2729" placeholder="select id, n..${PREFIX}teachers..." />
-            <marker date="1451249290000" expanded="true" signature="2817:2864" placeholder="select id, c..${PREFIX}about_troupe..." />
-            <marker date="1451249290000" expanded="true" signature="2956:3009" placeholder="select id, t..${PREFIX}troupe_points..." />
-            <marker date="1451249290000" expanded="true" signature="3099:3149" placeholder="select id, c..${PREFIX}about_jr_troupe..." />
-            <marker date="1451249290000" expanded="true" signature="3241:3301" placeholder="select id, t..${PREFIX}junior_troupe..." />
-            <marker date="1451249290000" expanded="true" signature="3389:3442" placeholder="select id, p..${PREFIX}school_points..." />
-            <marker date="1451249290000" expanded="true" signature="3525:3598" placeholder="select id, s..${PREFIX}schools..." />
-            <marker date="1451249290000" expanded="true" signature="3678:3733" placeholder="select id, u..${PREFIX}pages..." />
-            <marker date="1451249290000" expanded="true" signature="3820:3925" placeholder="SELECT id, s..${PREFIX}auditions..." />
-            <marker date="1451249290000" expanded="true" signature="3820:3927" placeholder="SELECT id, s..${PREFIX}auditions..." />
-            <marker date="1451249290000" expanded="true" signature="3820:3942" placeholder="SELECT id, s..." />
-            <marker date="1451249290000" expanded="true" signature="3943:4040" placeholder="UPDATE METHO..." />
+            <marker date="1451341352000" expanded="true" signature="1172:1229" placeholder="SELECT name,..${PREFIX}contact..." />
+            <marker date="1451341352000" expanded="true" signature="1312:1409" placeholder="select id, t..${PREFIX}about..." />
+            <marker date="1451341352000" expanded="true" signature="1494:1576" placeholder="select id, t..${PREFIX}about..." />
+            <marker date="1451341352000" expanded="true" signature="1661:1757" placeholder="select id, c..." />
+            <marker date="1451341352000" expanded="true" signature="1847:1920" placeholder="select page_..." />
+            <marker date="1451341352000" expanded="true" signature="2001:2047" placeholder="select id, q..${PREFIX}faq..." />
+            <marker date="1451341352000" expanded="true" signature="2130:2167" placeholder="select id, h..${PREFIX}hints..." />
+            <marker date="1451341352000" expanded="true" signature="2253:2311" placeholder="select id, t..${PREFIX}whats_new..." />
+            <marker date="1451341352000" expanded="true" signature="2400:2500" placeholder="select id, s..${PREFIX}current_show..." />
+            <marker date="1451341352000" expanded="true" signature="2591:2652" placeholder="select id, t..${PREFIX}upcoming..." />
+            <marker date="1451341352000" expanded="true" signature="2733:2786" placeholder="select id, n..${PREFIX}teachers..." />
+            <marker date="1451341352000" expanded="true" signature="2874:2921" placeholder="select id, c..${PREFIX}about_troupe..." />
+            <marker date="1451341352000" expanded="true" signature="3013:3066" placeholder="select id, t..${PREFIX}troupe_points..." />
+            <marker date="1451341352000" expanded="true" signature="3156:3206" placeholder="select id, c..${PREFIX}about_jr_troupe..." />
+            <marker date="1451341352000" expanded="true" signature="3298:3358" placeholder="select id, t..${PREFIX}junior_troupe..." />
+            <marker date="1451341352000" expanded="true" signature="3446:3499" placeholder="select id, p..${PREFIX}school_points..." />
+            <marker date="1451341352000" expanded="true" signature="3582:3655" placeholder="select id, s..${PREFIX}schools..." />
+            <marker date="1451341352000" expanded="true" signature="3735:3790" placeholder="select id, u..${PREFIX}pages..." />
+            <marker date="1451341352000" expanded="true" signature="3877:3982" placeholder="SELECT id, s..${PREFIX}auditions..." />
+            <marker date="1451341352000" expanded="true" signature="3877:3984" placeholder="SELECT id, s..${PREFIX}auditions..." />
+            <marker date="1451341352000" expanded="true" signature="4075:4098" placeholder="SELECT id, c..." />
+            <marker date="1451341352000" expanded="true" signature="4075:4123" placeholder="SELECT id, c..${PREFIX}auditions_info..." />
+            <marker date="1451341352000" expanded="true" signature="4075:4124" placeholder="SELECT id, c..${PREFIX}..." />
           </folding>
         </state>
       </provider>
@@ -874,7 +909,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="102" column="20" selection-start-line="102" selection-start-column="20" selection-end-line="102" selection-end-column="20" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -899,13 +933,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/app/templates/admin/header.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-28.75">
-          <caret line="92" column="0" selection-start-line="92" selection-start-column="0" selection-end-line="92" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/app/Controllers/admin/auth.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -917,7 +944,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-27.5">
           <caret line="45" column="10" selection-start-line="45" selection-start-column="10" selection-end-line="45" selection-end-column="10" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -940,7 +966,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="28" column="87" selection-start-line="28" selection-start-column="87" selection-end-line="28" selection-end-column="87" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -948,7 +973,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-17.5">
           <caret line="28" column="38" selection-start-line="28" selection-start-column="38" selection-end-line="28" selection-end-column="38" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -956,7 +980,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-3.75">
           <caret line="6" column="49" selection-start-line="6" selection-start-column="49" selection-end-line="6" selection-end-column="49" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -968,19 +991,83 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/app/templates/admin/js/admin.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="19" column="6" selection-start-line="19" selection-start-column="6" selection-end-line="19" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/vendor/autoload.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/app/templates/default/aboutus.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/app/templates/default/questions.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5576923">
+          <caret line="29" column="0" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/app/Controllers/obctApi.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.1923077">
+          <caret line="15" column="8" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/app/templates/default/auditions.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-4.591837">
+          <caret line="15" column="6" selection-start-line="15" selection-start-column="6" selection-end-line="15" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/app/templates/default/classes.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-25.0">
+          <caret line="41" column="6" selection-start-line="41" selection-start-column="6" selection-end-line="41" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/app/templates/default/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="25.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/app/templates/admin/css/login.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/app/templates/admin/css/adminstyle.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-30.0">
+          <caret line="74" column="0" selection-start-line="74" selection-start-column="0" selection-end-line="74" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-8.833333">
+          <caret line="104" column="14" selection-start-line="104" selection-start-column="14" selection-end-line="104" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/app/Controllers/offbroadway.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.57800514">
+          <caret line="234" column="38" selection-start-line="234" selection-start-column="38" selection-end-line="234" selection-end-column="38" />
+          <folding>
+            <element signature="e#121#135#0#PHP" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -992,118 +1079,41 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/app/Controllers/admin/ajax.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-23.75">
-          <caret line="169" column="40" selection-start-line="169" selection-start-column="40" selection-end-line="169" selection-end-column="40" />
-          <folding>
-            <element signature="e#36#57#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/app/templates/default/aboutus.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5205128">
-          <caret line="91" column="61" selection-start-line="91" selection-start-column="61" selection-end-line="91" selection-end-column="61" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/app/templates/default/questions.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5576923">
-          <caret line="29" column="0" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/app/Controllers/obctApi.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.1923077">
-          <caret line="15" column="8" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/app/templates/default/auditions.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-4.591837">
-          <caret line="15" column="6" selection-start-line="15" selection-start-column="6" selection-end-line="15" selection-end-column="6" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/app/templates/default/classes.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-25.0">
-          <caret line="41" column="6" selection-start-line="41" selection-start-column="6" selection-end-line="41" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/app/templates/default/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="25.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/app/Controllers/offbroadway.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-20.0">
-          <caret line="234" column="38" selection-start-line="234" selection-start-column="38" selection-end-line="234" selection-end-column="38" />
-          <folding>
-            <element signature="e#121#135#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/app/Models/obct.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-23.125">
-          <caret line="49" column="0" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
+        <state vertical-scroll-proportion="-18.75">
+          <caret line="45" column="46" selection-start-line="45" selection-start-column="46" selection-end-line="45" selection-end-column="46" />
           <folding>
-            <marker date="1451249290000" expanded="true" signature="1115:1172" placeholder="SELECT name,..${PREFIX}contact..." />
-            <marker date="1451249290000" expanded="true" signature="1255:1352" placeholder="select id, t..${PREFIX}about..." />
-            <marker date="1451249290000" expanded="true" signature="1437:1519" placeholder="select id, t..${PREFIX}about..." />
-            <marker date="1451249290000" expanded="true" signature="1604:1700" placeholder="select id, c..." />
-            <marker date="1451249290000" expanded="true" signature="1790:1863" placeholder="select page_..." />
-            <marker date="1451249290000" expanded="true" signature="1944:1990" placeholder="select id, q..${PREFIX}faq..." />
-            <marker date="1451249290000" expanded="true" signature="2073:2110" placeholder="select id, h..${PREFIX}hints..." />
-            <marker date="1451249290000" expanded="true" signature="2196:2254" placeholder="select id, t..${PREFIX}whats_new..." />
-            <marker date="1451249290000" expanded="true" signature="2343:2443" placeholder="select id, s..${PREFIX}current_show..." />
-            <marker date="1451249290000" expanded="true" signature="2534:2595" placeholder="select id, t..${PREFIX}upcoming..." />
-            <marker date="1451249290000" expanded="true" signature="2676:2729" placeholder="select id, n..${PREFIX}teachers..." />
-            <marker date="1451249290000" expanded="true" signature="2817:2864" placeholder="select id, c..${PREFIX}about_troupe..." />
-            <marker date="1451249290000" expanded="true" signature="2956:3009" placeholder="select id, t..${PREFIX}troupe_points..." />
-            <marker date="1451249290000" expanded="true" signature="3099:3149" placeholder="select id, c..${PREFIX}about_jr_troupe..." />
-            <marker date="1451249290000" expanded="true" signature="3241:3301" placeholder="select id, t..${PREFIX}junior_troupe..." />
-            <marker date="1451249290000" expanded="true" signature="3389:3442" placeholder="select id, p..${PREFIX}school_points..." />
-            <marker date="1451249290000" expanded="true" signature="3525:3598" placeholder="select id, s..${PREFIX}schools..." />
-            <marker date="1451249290000" expanded="true" signature="3678:3733" placeholder="select id, u..${PREFIX}pages..." />
-            <marker date="1451249290000" expanded="true" signature="3820:3925" placeholder="SELECT id, s..${PREFIX}auditions..." />
-            <marker date="1451249290000" expanded="true" signature="3820:3927" placeholder="SELECT id, s..${PREFIX}auditions..." />
-            <marker date="1451249290000" expanded="true" signature="3820:3942" placeholder="SELECT id, s..." />
-            <marker date="1451249290000" expanded="true" signature="3943:4040" placeholder="UPDATE METHO..." />
+            <marker date="1451341352000" expanded="true" signature="1172:1229" placeholder="SELECT name,..${PREFIX}contact..." />
+            <marker date="1451341352000" expanded="true" signature="1312:1409" placeholder="select id, t..${PREFIX}about..." />
+            <marker date="1451341352000" expanded="true" signature="1494:1576" placeholder="select id, t..${PREFIX}about..." />
+            <marker date="1451341352000" expanded="true" signature="1661:1757" placeholder="select id, c..." />
+            <marker date="1451341352000" expanded="true" signature="1847:1920" placeholder="select page_..." />
+            <marker date="1451341352000" expanded="true" signature="2001:2047" placeholder="select id, q..${PREFIX}faq..." />
+            <marker date="1451341352000" expanded="true" signature="2130:2167" placeholder="select id, h..${PREFIX}hints..." />
+            <marker date="1451341352000" expanded="true" signature="2253:2311" placeholder="select id, t..${PREFIX}whats_new..." />
+            <marker date="1451341352000" expanded="true" signature="2400:2500" placeholder="select id, s..${PREFIX}current_show..." />
+            <marker date="1451341352000" expanded="true" signature="2591:2652" placeholder="select id, t..${PREFIX}upcoming..." />
+            <marker date="1451341352000" expanded="true" signature="2733:2786" placeholder="select id, n..${PREFIX}teachers..." />
+            <marker date="1451341352000" expanded="true" signature="2874:2921" placeholder="select id, c..${PREFIX}about_troupe..." />
+            <marker date="1451341352000" expanded="true" signature="3013:3066" placeholder="select id, t..${PREFIX}troupe_points..." />
+            <marker date="1451341352000" expanded="true" signature="3156:3206" placeholder="select id, c..${PREFIX}about_jr_troupe..." />
+            <marker date="1451341352000" expanded="true" signature="3298:3358" placeholder="select id, t..${PREFIX}junior_troupe..." />
+            <marker date="1451341352000" expanded="true" signature="3446:3499" placeholder="select id, p..${PREFIX}school_points..." />
+            <marker date="1451341352000" expanded="true" signature="3582:3655" placeholder="select id, s..${PREFIX}schools..." />
+            <marker date="1451341352000" expanded="true" signature="3735:3790" placeholder="select id, u..${PREFIX}pages..." />
+            <marker date="1451341352000" expanded="true" signature="3877:3982" placeholder="SELECT id, s..${PREFIX}auditions..." />
+            <marker date="1451341352000" expanded="true" signature="3877:3984" placeholder="SELECT id, s..${PREFIX}auditions..." />
+            <marker date="1451341352000" expanded="true" signature="4075:4098" placeholder="SELECT id, c..." />
+            <marker date="1451341352000" expanded="true" signature="4075:4123" placeholder="SELECT id, c..${PREFIX}auditions_info..." />
+            <marker date="1451341352000" expanded="true" signature="4075:4124" placeholder="SELECT id, c..${PREFIX}..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/app/Controllers/admin/admin.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.8163266">
+        <state vertical-scroll-proportion="2.4166667">
           <caret line="73" column="44" selection-start-line="73" selection-start-column="44" selection-end-line="73" selection-end-column="44" />
           <folding />
         </state>
@@ -1111,8 +1121,34 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/public/app/views/admin/auditions.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state vertical-scroll-proportion="-10.0">
+          <caret line="16" column="39" selection-start-line="16" selection-start-column="39" selection-end-line="16" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/app/Controllers/admin/ajax.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-16.958334">
+          <caret line="177" column="35" selection-start-line="177" selection-start-column="35" selection-end-line="177" selection-end-column="35" />
+          <folding>
+            <element signature="e#36#57#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/app/templates/admin/header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.125">
+          <caret line="18" column="79" selection-start-line="18" selection-start-column="79" selection-end-line="18" selection-end-column="79" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/app/templates/admin/js/admin.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33498758">
+          <caret line="18" column="6" selection-start-line="18" selection-start-column="6" selection-end-line="18" selection-end-column="6" />
           <folding />
         </state>
       </provider>

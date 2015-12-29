@@ -86,6 +86,7 @@ router::any('admin/login', '\controllers\admin\auth@login');
 router::any('admin/logout', '\controllers\admin\auth@logout');
 router::any('admin/classes', '\controllers\admin\admin@classes');
 router::any('admin/currentshow', '\controllers\admin\admin@currentShow');
+router::any('admin/auditions', '\controllers\admin\admin@auditions');
 router::any('admin/url', '\controllers\admin\admin@pages');
 router::any('admin/faq', '\controllers\admin\admin@questions');
 router::any('admin/message', '\controllers\admin\admin@messages');
@@ -101,6 +102,7 @@ router::POST('newFaq', '\controllers\admin\ajax@newFaq');
 router::POST('postUpdateFaq', '\controllers\admin\ajax@updateFaq');
 router::POST('removeFaq', '\controllers\admin\ajax@deleteFaq');
 router::POST('postChangelog', '\controllers\admin\ajax@postChangelog');
+router::POST('postAuditions', '\controllers\admin\ajax@postAuditions');
 
 router::any('admin/users', '\controllers\admin\users@index');
 router::any('admin/users/add', '\controllers\admin\users@add');

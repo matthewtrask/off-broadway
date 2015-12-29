@@ -177,6 +177,20 @@ class Ajax extends \core\controller
 
     public function postAuditions()
     {
+        $showTitle     = $_POST['showTitle'];
+        $showTeaser    = $_POST['showTeaser'];
+        $showDates     = $_POST['showDates'];
+        $auditionDates = $_POST['auditionDates'];
+        $auditionImage = $_FILES['auditionImage'];
 
+        $audition = array(
+            'show_title'          => $showTitle,
+            'show_teaser'         => $showTeaser,
+            'show_dates' => $showDates,
+            'show_image' => $auditionImage,
+            'show_audition_dates' => $auditionDates
+        );
+
+        $this->_adminObct->insertAuditions($audition);
     }
 }

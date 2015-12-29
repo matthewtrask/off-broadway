@@ -96,3 +96,13 @@ td div.scrollable {
 #messages a {
     font-family: 'Raleway', sans-serif;
 }
+
+input[type="file"] {
+    display: none;
+}
+.custom-file-upload {
+    border: 1px solid #ccc;
+    display: inline-block;
+    padding: 6px 12px;
+    cursor: pointer;
+}

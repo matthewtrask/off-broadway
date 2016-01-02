@@ -1,217 +1,46 @@
 <h3>Exception information:</h3>
 
-		<p><strong>Date:</strong> Dec 25, 2015 15:51PM</p>
+		<p><strong>Date:</strong> Jan 02, 2016 4:08AM</p>
 
-		<p><strong>Message:</strong> SQLSTATE[HY000] [1049] Unknown database 'offbroadway'</p>
+		<p><strong>Message:</strong> SQLSTATE[42S22]: Column not found: 1054 Unknown column 'show_images' in 'field list'</p>
 
-		<p><strong>Code:</strong> 1049</p>
+		<p><strong>Code:</strong> 42S22</p>
 
 		<p><strong>File:</strong> /var/www/public/app/helpers/database.php</p>
 
-		<p><strong>Line:</strong> 54</p>
+		<p><strong>Line:</strong> 86</p>
 
 		<h3>Stack trace:</h3>
 
-		<pre>#0 /var/www/public/app/helpers/database.php(54): PDO->__construct('mysql:host=loca...', 'root', 'root')
-#1 /var/www/public/app/core/model.php(25): helpers\Database::get()
-#2 /var/www/public/app/models/obct.php(7): core\Model->__construct()
-#3 /var/www/public/app/controllers/admin/admin.php(15): models\Obct->__construct()
-#4 /var/www/public/app/core/router.php(80): controllers\admin\admin->__construct(NULL)
-#5 /var/www/public/app/core/router.php(177): core\Router::invokeObject('\\controllers\\ad...')
-#6 /var/www/public/index.php(137): core\Router::dispatch()
-#7 {main}</pre>
+		<pre>#0 /var/www/public/app/helpers/database.php(86): PDOStatement->execute()
+#1 /var/www/public/app/models/obct.php(149): helpers\Database->select('SELECT id, show...')
+#2 /var/www/public/app/controllers/offbroadway.php(98): models\Obct->getAuditions()
+#3 /var/www/public/app/core/router.php(85): controllers\offbroadway->auditions()
+#4 /var/www/public/app/core/router.php(177): core\Router::invokeObject('controllers\\off...')
+#5 /var/www/public/index.php(142): core\Router::dispatch()
+#6 {main}</pre>
 
 		<hr />
 <h3>Exception information:</h3>
 
-		<p><strong>Date:</strong> Dec 25, 2015 15:51PM</p>
+		<p><strong>Date:</strong> Jan 02, 2016 4:08AM</p>
 
-		<p><strong>Message:</strong> SQLSTATE[HY000] [1049] Unknown database 'offbroadway'</p>
+		<p><strong>Message:</strong> SQLSTATE[42S22]: Column not found: 1054 Unknown column 'show_images' in 'field list'</p>
 
-		<p><strong>Code:</strong> 1049</p>
-
-		<p><strong>File:</strong> /var/www/public/app/helpers/database.php</p>
-
-		<p><strong>Line:</strong> 54</p>
-
-		<h3>Stack trace:</h3>
-
-		<pre>#0 /var/www/public/app/helpers/database.php(54): PDO->__construct('mysql:host=loca...', 'root', 'root')
-#1 /var/www/public/app/core/model.php(25): helpers\Database::get()
-#2 /var/www/public/app/models/obct.php(7): core\Model->__construct()
-#3 /var/www/public/app/controllers/offbroadway.php(33): models\Obct->__construct()
-#4 /var/www/public/app/core/router.php(80): controllers\offbroadway->__construct(NULL)
-#5 /var/www/public/app/core/router.php(177): core\Router::invokeObject('controllers\\off...')
-#6 /var/www/public/index.php(137): core\Router::dispatch()
-#7 {main}</pre>
-
-		<hr />
-<h3>Exception information:</h3>
-
-		<p><strong>Date:</strong> Dec 24, 2015 20:39PM</p>
-
-		<p><strong>Message:</strong> SQLSTATE[HY000] [1049] Unknown database 'offbroadway'</p>
-
-		<p><strong>Code:</strong> 1049</p>
+		<p><strong>Code:</strong> 42S22</p>
 
 		<p><strong>File:</strong> /var/www/public/app/helpers/database.php</p>
 
-		<p><strong>Line:</strong> 54</p>
+		<p><strong>Line:</strong> 86</p>
 
 		<h3>Stack trace:</h3>
 
-		<pre>#0 /var/www/public/app/helpers/database.php(54): PDO->__construct('mysql:host=loca...', 'root', 'root')
-#1 /var/www/public/app/core/model.php(25): helpers\Database::get()
-#2 /var/www/public/app/models/obct.php(7): core\Model->__construct()
-#3 /var/www/public/app/controllers/offbroadway.php(33): models\Obct->__construct()
-#4 /var/www/public/app/core/router.php(80): controllers\offbroadway->__construct(NULL)
-#5 /var/www/public/app/core/router.php(177): core\Router::invokeObject('controllers\\off...')
-#6 /var/www/public/index.php(137): core\Router::dispatch()
-#7 {main}</pre>
+		<pre>#0 /var/www/public/app/helpers/database.php(86): PDOStatement->execute()
+#1 /var/www/public/app/models/obct.php(149): helpers\Database->select('SELECT id, show...')
+#2 /var/www/public/app/controllers/offbroadway.php(98): models\Obct->getAuditions()
+#3 /var/www/public/app/core/router.php(85): controllers\offbroadway->auditions()
+#4 /var/www/public/app/core/router.php(177): core\Router::invokeObject('controllers\\off...')
+#5 /var/www/public/index.php(142): core\Router::dispatch()
+#6 {main}</pre>
 
 		<hr />
-<h3>Exception information:</h3>
-
-		<p><strong>Date:</strong> Dec 24, 2015 20:39PM</p>
-
-		<p><strong>Message:</strong> SQLSTATE[HY000] [1049] Unknown database 'offbroadway'</p>
-
-		<p><strong>Code:</strong> 1049</p>
-
-		<p><strong>File:</strong> /var/www/public/app/helpers/database.php</p>
-
-		<p><strong>Line:</strong> 54</p>
-
-		<h3>Stack trace:</h3>
-
-		<pre>#0 /var/www/public/app/helpers/database.php(54): PDO->__construct('mysql:host=loca...', 'root', 'root')
-#1 /var/www/public/app/core/model.php(25): helpers\Database::get()
-#2 /var/www/public/app/models/obct.php(7): core\Model->__construct()
-#3 /var/www/public/app/controllers/offbroadway.php(33): models\Obct->__construct()
-#4 /var/www/public/app/core/router.php(80): controllers\offbroadway->__construct(NULL)
-#5 /var/www/public/app/core/router.php(177): core\Router::invokeObject('controllers\\off...')
-#6 /var/www/public/index.php(137): core\Router::dispatch()
-#7 {main}</pre>
-
-		<hr />
-<h3>Exception information:</h3>
-
-		<p><strong>Date:</strong> Dec 14, 2015 0:06AM</p>
-
-		<p><strong>Message:</strong> SQLSTATE[HY000] [1049] Unknown database 'offbroadway'</p>
-
-		<p><strong>Code:</strong> 1049</p>
-
-		<p><strong>File:</strong> /var/www/public/app/helpers/database.php</p>
-
-		<p><strong>Line:</strong> 54</p>
-
-		<h3>Stack trace:</h3>
-
-		<pre>#0 /var/www/public/app/helpers/database.php(54): PDO->__construct('mysql:host=loca...', 'root', 'root')
-#1 /var/www/public/app/core/model.php(25): helpers\Database::get()
-#2 /var/www/public/app/models/obct.php(7): core\Model->__construct()
-#3 /var/www/public/app/controllers/offbroadway.php(33): models\Obct->__construct()
-#4 /var/www/public/app/core/router.php(80): controllers\offbroadway->__construct(NULL)
-#5 /var/www/public/app/core/router.php(177): core\Router::invokeObject('controllers\\off...')
-#6 /var/www/public/index.php(132): core\Router::dispatch()
-#7 {main}</pre>
-
-		<hr />
-<h3>Exception information:</h3>
-
-		<p><strong>Date:</strong> Nov 28, 2015 21:00PM</p>
-
-		<p><strong>Message:</strong> SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES)</p>
-
-		<p><strong>Code:</strong> 1045</p>
-
-		<p><strong>File:</strong> /var/www/public/app/helpers/database.php</p>
-
-		<p><strong>Line:</strong> 54</p>
-
-		<h3>Stack trace:</h3>
-
-		<pre>#0 /var/www/public/app/helpers/database.php(54): PDO->__construct('mysql:host=loca...', 'root', 'G30zxouu8h')
-#1 /var/www/public/app/core/model.php(25): helpers\Database::get()
-#2 /var/www/public/app/models/obct.php(7): core\Model->__construct()
-#3 /var/www/public/app/Controllers/offbroadway.php(33): models\Obct->__construct()
-#4 /var/www/public/app/core/router.php(80): controllers\offbroadway->__construct(NULL)
-#5 /var/www/public/app/core/router.php(177): core\Router::invokeObject('Controllers\\off...')
-#6 /var/www/public/index.php(130): core\Router::dispatch()
-#7 {main}</pre>
-
-		<hr />
-<h3>Exception information:</h3>
-
-		<p><strong>Date:</strong> Nov 28, 2015 20:35PM</p>
-
-		<p><strong>Message:</strong> SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES)</p>
-
-		<p><strong>Code:</strong> 1045</p>
-
-		<p><strong>File:</strong> /var/www/public/app/helpers/database.php</p>
-
-		<p><strong>Line:</strong> 54</p>
-
-		<h3>Stack trace:</h3>
-
-		<pre>#0 /var/www/public/app/helpers/database.php(54): PDO->__construct('mysql:host=loca...', 'root', 'G30zxouu8h')
-#1 /var/www/public/app/core/model.php(25): helpers\Database::get()
-#2 /var/www/public/app/models/obct.php(7): core\Model->__construct()
-#3 /var/www/public/app/Controllers/offbroadway.php(33): models\Obct->__construct()
-#4 /var/www/public/app/core/router.php(80): controllers\offbroadway->__construct(NULL)
-#5 /var/www/public/app/core/router.php(177): core\Router::invokeObject('Controllers\\off...')
-#6 /var/www/public/index.php(130): core\Router::dispatch()
-#7 {main}</pre>
-
-		<hr />
-<h3>Exception information:</h3>
-
-		<p><strong>Date:</strong> Nov 28, 2015 20:35PM</p>
-
-		<p><strong>Message:</strong> SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES)</p>
-
-		<p><strong>Code:</strong> 1045</p>
-
-		<p><strong>File:</strong> /var/www/public/app/helpers/database.php</p>
-
-		<p><strong>Line:</strong> 54</p>
-
-		<h3>Stack trace:</h3>
-
-		<pre>#0 /var/www/public/app/helpers/database.php(54): PDO->__construct('mysql:host=loca...', 'root', 'G30zxouu8h')
-#1 /var/www/public/app/core/model.php(25): helpers\Database::get()
-#2 /var/www/public/app/models/obct.php(7): core\Model->__construct()
-#3 /var/www/public/app/Controllers/offbroadway.php(33): models\Obct->__construct()
-#4 /var/www/public/app/core/router.php(80): controllers\offbroadway->__construct(NULL)
-#5 /var/www/public/app/core/router.php(177): core\Router::invokeObject('Controllers\\off...')
-#6 /var/www/public/index.php(130): core\Router::dispatch()
-#7 {main}</pre>
-
-		<hr />
-<h3>Exception information:</h3>
-
-		<p><strong>Date:</strong> Nov 28, 2015 17:12PM</p>
-
-		<p><strong>Message:</strong> SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES)</p>
-
-		<p><strong>Code:</strong> 1045</p>
-
-		<p><strong>File:</strong> /var/www/public/app/helpers/database.php</p>
-
-		<p><strong>Line:</strong> 54</p>
-
-		<h3>Stack trace:</h3>
-
-		<pre>#0 /var/www/public/app/helpers/database.php(54): PDO->__construct('mysql:host=loca...', 'root', 'G30zxouu8h')
-#1 /var/www/public/app/core/model.php(25): helpers\Database::get()
-#2 /var/www/public/app/models/obct.php(7): core\Model->__construct()
-#3 /var/www/public/app/Controllers/offbroadway.php(33): models\Obct->__construct()
-#4 /var/www/public/app/core/router.php(80): controllers\offbroadway->__construct(NULL)
-#5 /var/www/public/app/core/router.php(177): core\Router::invokeObject('Controllers\\off...')
-#6 /var/www/public/index.php(130): core\Router::dispatch()
-#7 {main}</pre>
-
-		<hr />
-<p>Error on Nov 24, 2015 0:57AM - Invalid argument supplied for foreach() in /var/www/public/app/templates/default/teachers.php on line 29</p><p>Error on Nov 24, 2015 0:34AM - Missing argument 1 for controllers\offbroadway::teachers(), called in /var/www/public/app/core/router.php on line 85 and defined in /var/www/public/app/Controllers/offbroadway.php on line 78</p><p>Error on Nov 24, 2015 0:33AM - Missing argument 1 for controllers\offbroadway::teachers(), called in /var/www/public/app/core/router.php on line 85 and defined in /var/www/public/app/Controllers/offbroadway.php on line 78</p><p>Error on Nov 24, 2015 0:33AM - Missing argument 1 for controllers\offbroadway::teachers(), called in /var/www/public/app/core/router.php on line 85 and defined in /var/www/public/app/Controllers/offbroadway.php on line 78</p>

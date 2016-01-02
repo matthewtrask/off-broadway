@@ -23,6 +23,12 @@ class Obct extends \core\model {
         $this->_db->insert(PREFIX.'whats_new', $whatsNew);
     }
 
+    public function insertChangelog($changeLog)
+    {
+        $this->_db->insert(PREFIX.'changelog', $changeLog);
+    }
+
+
     public function insertTeacher($teacher)
     {
         //
@@ -36,11 +42,6 @@ class Obct extends \core\model {
     public function insertFaq($faq)
     {
         $this->_db->insert(PREFIX.'faq', $faq);
-    }
-
-    public function insertChangelog($message)
-    {
-        $this->_db->insert(PREFIX.'changelog', $message);
     }
 
     public function insertAuditions($audition)
@@ -145,7 +146,7 @@ class Obct extends \core\model {
 
     public function getAuditions()
     {
-        return $this->_db->select('SELECT id, show_title, show_teaser, show_dates, show_images, show_audition_dates from '.PREFIX.'auditions');
+        return $this->_db->select('SELECT id, show_title, show_teaser, show_dates, show_image, show_audition_dates, show_audition_times from '.PREFIX.'auditions');
     }
 
     public function getAuditionUpdates()
@@ -157,6 +158,11 @@ class Obct extends \core\model {
     public function updateClasses($updatedInfo, $where)
     {
         $this->_db->update(PREFIX.'classes', $updatedInfo, $where);
+    }
+
+    public function updateFaq($editFaq, $where)
+    {
+        $this->_db->update(PREFIX.'faq', $editFaq, $where);
     }
 
     public function updateCurrentShow()
@@ -186,8 +192,13 @@ class Obct extends \core\model {
 
     // DELETE METHODS
 
-    public function deleteFaq($id)
+    public function deleteFaq($faqId)
     {
-        $this->_db->delete(PREFIX.'faq', $id);
+        $this->_db->delete(PREFIX.'faq', $faqId);
+    }
+
+    public function removeClass($classId)
+    {
+        $this->_db->delete(PREFIX.'classes', $classId);
     }
 }

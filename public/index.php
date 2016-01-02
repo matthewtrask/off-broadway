@@ -94,20 +94,25 @@ router::any('admin/about', '\controllers\admin\admin@about');
 
 //AJAX Contollers
 router::POST('postWhatsNew', '\controllers\admin\ajax@addWhatsNew');
-router::POST('updateClasses', '\controllers\admin\ajax@updateClasses');
-router::POST('addClasses', '\controllers\admin\ajax@addClasses');
-router::POST('removeClasses', '\controllers\admin\ajax@removeClasses');
-router::POST('postContact', '\controllers\admin\ajax@postContact');
-router::POST('newFaq', '\controllers\admin\ajax@newFaq');
-router::POST('postUpdateFaq', '\controllers\admin\ajax@updateFaq');
-router::POST('removeFaq', '\controllers\admin\ajax@deleteFaq');
 router::POST('postChangelog', '\controllers\admin\ajax@postChangelog');
-router::POST('postAuditions', '\controllers\admin\ajax@postAuditions');
+router::POST('addNewClass', '\controllers\admin\ajax@addClasses');
+router::POST('removeClasses', '\controllers\admin\ajax@removeClasses');
+router::POST('editClasses', '\controllers\admin\ajax@editClasses');
+router::POST('newFaq', '\controllers\admin\ajax@newFaq');
+router::POST('editFaq', '\controllers\admin\ajax@editFaq');
+router::any('removeFaq', '\controllers\admin\ajax@deleteFaq');
+
+
+//router::POST('postContact', '\controllers\admin\ajax@postContact');
+//router::POST('newFaq', '\controllers\admin\ajax@newFaq');
+//router::POST('postUpdateFaq', '\controllers\admin\ajax@updateFaq');
+//router::POST('removeFaq', '\controllers\admin\ajax@deleteFaq');
+//router::POST('postAuditions', '\controllers\admin\ajax@postAuditions');
 
 router::any('admin/users', '\controllers\admin\users@index');
 router::any('admin/users/add', '\controllers\admin\users@add');
 router::any('admin/users/edit/(:num)', '\controllers\admin\users@edit');
-
+router::any('admin/users/delete/(:num)', '\controllers\admin\users@delete');
 
 
 //Router::any('admin/posts', '\controllers\admin\posts@index');

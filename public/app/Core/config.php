@@ -56,6 +56,9 @@ class config {
 
 		//set the default template
 		\helpers\session::set('template', 'default');
+
+		// set session counter
+		\helpers\session::set('counter');
 	}
 
 }

@@ -16,6 +16,7 @@
                     <th>Show Dates</th>
                     <th>Show Image</th>
                     <th>Audition Dates</th>
+                    <th>Audition Times</th>
                 </tr>
             </thead>
         </table>

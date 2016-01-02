@@ -7,7 +7,7 @@
             <input for="pageTitle" name="pageTitle">
             <label>Changes</label>
             <textarea rows="5" for="pageChanges" name="pageChanges"></textarea>
-            <button class="button" id="pageSubmit">Submit</button>
+            <button class="button" id="changelogSubmit">Submit</button>
         </form>
     </div>
 </div>

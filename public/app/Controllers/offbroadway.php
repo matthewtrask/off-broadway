@@ -95,6 +95,12 @@ class offbroadway extends \core\controller {
     {
         $data['title'] = 'Auditions';
 
+        $auditions = $this->_obct->getAuditions();
+        $data['auditions'] = $auditions;
+
+        $auditionInfo = $this->_obct->getAuditionUpdates();
+        $data['auditionInfo'] = $auditionInfo;
+
         $faq = $this->_obct->getFaq();
         $data['faq'] = $faq;
 

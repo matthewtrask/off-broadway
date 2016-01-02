@@ -4,17 +4,22 @@ use \helpers\session;
 use Carbon\Carbon;
 ?>
 <div class="row" style="padding-top: 2%">
-	<div class="small-9 columns">
-		<h1>Admin</h1>
-		<h4><?php printf("%s", Carbon::now('America/New_York'));?></h4>
-		<p>Logged In: <?php echo ucfirst(Session::get('username')); ?></p>
-		<input type="button" class="button" value="Reload Page" onClick="window.location.reload()"><hr>
+	<div class="small-6 columns">
+		<div class="small-6 columns">
+			<h1>Admin</h1>
+			<p><?php printf("%s", Carbon::now('America/New_York')->toDateTimeString());?></p>
+			<p>Logged In: <?php echo ucfirst(Session::get('username')); ?></p>
+			<p>Site Visitors: <?php echo count(Session::get('counter'));?></p>
+			<input type="button" class="button" value="Reload Page" onClick="window.location.reload()">
+		</div>
+		<div class="small-6 columns">
 
+		</div>
 	</div>
 	<div class="small-3 columns">
 		<img src="<?php echo IMGDIR;?>/green-logo.png">
 	</div>
-</div>
+</div><hr>
 
 <div class="row" id="whatsNew">
 	<div class="small-6 columns" id="whatsNewAdmin">

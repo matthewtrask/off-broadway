@@ -62,12 +62,12 @@ class Obct extends \core\model {
 
     public function getAbout()
     {
-        return $this->_db->select('select id, title, content, updatedBy, updateDate from '.PREFIX.'about where id in (1, 2, 3, 4, 5)');
+        return $this->_db->select('select id, title, content from '.PREFIX.'about where id in (1, 2, 3, 4, 5)');
     }
 
     public function getSummary()
     {
-        return $this->_db->select('select id, title, content, updatedBy, updateDate from '.PREFIX.'about where id = 6');
+        return $this->_db->select('select id, title, content from '.PREFIX.'about where id = 6');
     }
 
     public function getClasses()
@@ -77,7 +77,7 @@ class Obct extends \core\model {
 
     public function getMessageQueue()
     {
-        return $this->_db->select('select page_change, description, updatedBy, time from '.PREFIX.'changelog');
+        return $this->_db->select('select page_change, description, time from '.PREFIX.'changelog');
     }
 
     public function getFaq()
@@ -146,12 +146,7 @@ class Obct extends \core\model {
 
     public function getAuditions()
     {
-        return $this->_db->select('SELECT id, show_title, show_teaser, show_dates, show_image, show_audition_dates, show_audition_times from '.PREFIX.'auditions');
-    }
-
-    public function getAuditionUpdates()
-    {
-        return $this->_db->select('SELECT id, content from '.PREFIX.'auditions_info');
+        return $this->_db->select('SELECT id, show_title, show_teaser, show_dates, show_image, show_audition_dates, show_audition_times, show_info_one, show_info_two from '.PREFIX.'auditions');
     }
 
     // UPDATE METHODS

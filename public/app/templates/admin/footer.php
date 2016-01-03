@@ -1,11 +1,3 @@
-<?php
-
-use Helpers\Assets;
-use Helpers\Url;
-
-
-
-?>
 
 
 </main>

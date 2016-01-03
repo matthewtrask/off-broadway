@@ -25,7 +25,6 @@ private $_adminObct;
             'title'     => $title,
             'content'   => $content,
             'button'    => $link,
-            'updatedBy' => Session::get('username')
         );
 
         $this->_adminObct->insertWhatsNew($whatsNew);
@@ -35,12 +34,10 @@ private $_adminObct;
     {
         $pageTitle = $_POST['pageTitle'];
         $pageChanges = $_POST['pageChanges'];
-        $updatedBy = Session::get('username');
 
         $changeLog = array(
             'page_change' => $pageTitle,
             'description' => $pageChanges,
-            'updatedBy'   => $updatedBy
         );
 
         $this->_adminObct->insertChangelog($changeLog);
@@ -55,7 +52,6 @@ private $_adminObct;
         $newClassTime = $_POST['classTime'];
         $newClassPrice = $_POST['classPrice'];
         $newRegLink = $_POST['regLink'];
-        $updatedBy = Session::get('username');
 
         $newClass = array(
             'class_title'   => $newClassName,
@@ -65,7 +61,6 @@ private $_adminObct;
             'time'		    => $newClassTime,
             'price'         => $newClassPrice,
             'link'          => $newRegLink,
-            'updatedBy'     => $updatedBy
         );
 
         $this->_adminObct->insertNewClass($newClass);
@@ -81,7 +76,6 @@ private $_adminObct;
         $updatedClassTime = $_POST['updateClassTime'];
         $updatedClassPrice = $_POST['updateClassPrice'];
         $updatedClassLink = $_POST['updateClassLink'];
-        $updatedBy = Session::get('username');
 
         $updatedInfo = array(
             'class_title'   => $updatedClassName,
@@ -91,7 +85,6 @@ private $_adminObct;
             'time'		    => $updatedClassTime,
             'price'         => $updatedClassPrice,
             'link'          => $updatedClassLink,
-            'updatedBy'     => $updatedBy
         );
 
         $where = array('id' => $updatedClassId);
@@ -153,13 +146,10 @@ private $_adminObct;
     {
         $question = $_POST['faqQuestion'];
         $answer   = $_POST['faqAnswer'];
-        $updatedBy = Session::get('username');
-
 
         $faq = array(
             'question'    => $question,
             'answer'      => $answer,
-            'updatedBy'   => $updatedBy
         );
 
         $this->_adminObct->insertFaq($faq);
@@ -170,12 +160,10 @@ private $_adminObct;
         $id = $_POST['editId'];
         $question = $_POST['editQuestion'];
         $answer   = $_POST['editAnswer'];
-        $updatedBy = Session::get('username');
 
         $faq = array(
             'question'    => $question,
             'answer'      => $answer,
-            'updatedBy'   => $updatedBy
         );
 
         $where = array('id' => $id);
@@ -187,7 +175,6 @@ private $_adminObct;
     {
         foreach($_POST as $id){
             $faqId = array('id' => $id);
-            die;
             $this->_adminObct->removeClass($faqId);
         }
     }
@@ -223,12 +210,14 @@ private $_adminObct;
         $showDates     = $_POST['showDates'];
         $auditionDates = $_POST['auditionDates'];
         $auditionTimes = $_POST['auditionTimes'];
+        $newAuditionImage = $auditionImage;
+
 
         $audition = array(
             'show_title'          => $showTitle,
             'show_teaser'         => $showTeaser,
             'show_dates'          => $showDates,
-            'show_image'          => $auditionImage,
+            'show_image'          => $newAuditionImage,
             'show_audition_dates' => $auditionDates,
             'show_audition_times' => $auditionTimes
         );

@@ -1,14 +1,20 @@
+<?php
+
+?>
+
 <div class="row" style="margin-top: 2%">
   <div class="small-12 medium-9 columns">
     <h2>Auditions</h2><hr>
     <?php foreach($data['auditions'] as $audition){
       echo "<h2>".$audition->show_title."</h2>";
       echo "<p><b>".$audition->show_teaser."</b></p>";
+      echo "<p>".$audition->show_info_one."</p>";
+      echo "<p>".$audition->show_info_two."</p>";
       echo "<p>Show Dates: ".$audition->show_dates."</p>";
       echo "<p>Audition Date: ".$audition->show_audition_dates."</p>";
       echo "<p>Audition Time: ".$audition->show_audition_times."</p>";
       echo "<img width='200px' src=data:image/jpg;base64,$audition->show_image>";
-
+      echo "<p style='margin-top: 2%'>For more information, or to sign up, please email us at <a href='mailto:offbroadway@msn.net'>offbroadway@msn.net</a>";
     }?>
   </div>
   <div class="small-12 medium-3 columns">

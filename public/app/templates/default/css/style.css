@@ -276,6 +276,14 @@ div.image {
 
 /* END TROUPE */
 
+/* SUMMER */
+
+#summer button {
+  margin-right: 4%;
+}
+
+/* END SUMMER */
+
 /* CLASSES */
 
 /* END CLASSES */
@@ -316,15 +324,3 @@ div.image {
 
 /* END CONTACT */
 
-/* ADMIN */
-
-#recentMessage {
-  height: 400px;
-  overflow: auto;
-}
-
-#messages a {
-  font-family: 'Raleway', sans-serif;
-}
-
-/* END ADMIN */

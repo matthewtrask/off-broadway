@@ -45,12 +45,10 @@ use Carbon\Carbon;
 					<textarea type="text" placeholder="Message" rows="6" name="whatsNewContent"></textarea>
 				</label>
 				<label>Link
-					<select id="urlSelect" name="urlSelect" for="urlSelect">
-						<option>Select</option>
-						<option value="about">About</option>
-						<option value="currentProd">Current Show</option>
-						<option value="faq">FAQ</option>
-						<option value="classes">Classes</option>
+					<select id='urlSelect' name='urlSelect' for='urlSelect'>
+					<?php foreach($data['url'] as $url){
+							echo "<option value=".$url->url.">".$url->url."</option>";
+					} ?>
 					</select>
 				</label>
 				<button class="button" id="submitWhatsNew" type="submit">Submit</button>

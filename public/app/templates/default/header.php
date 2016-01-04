@@ -72,7 +72,8 @@ use Helpers\Url;
             <a href="#">Studio</a>
             <ul class="dropdown">
               <li><a href='classes'>Classes</a></li>
-              <li ><a href="teachers">Teachers</a></li>
+              <li><a href="teachers">Teachers</a></li>
+              <li><a href="summer">Summer Sessions</a></li>
             </ul>
           </li>
           <li class="has-dropdown">
@@ -81,6 +82,7 @@ use Helpers\Url;
               <li><a href="schools">Schools</a></li>
               <li><a href="currentshow">Current Show</a></li>
               <li><a href="auditions">Auditions</a></li>
+              <li><a href="questions">Questions</a></li>
             </ul>
           </li>
           <li class="has-dropdown">

@@ -62,12 +62,7 @@ class Obct extends \core\model {
 
     public function getAbout()
     {
-        return $this->_db->select('select id, title, content from '.PREFIX.'about where id in (1, 2, 3, 4, 5)');
-    }
-
-    public function getSummary()
-    {
-        return $this->_db->select('select id, title, content from '.PREFIX.'about where id = 6');
+        return $this->_db->select('select id, content from '.PREFIX.'about');
     }
 
     public function getClasses()
@@ -139,14 +134,24 @@ class Obct extends \core\model {
       return $this->_db->select('select id, school, location, details, current_show from '.PREFIX.'schools');
     }
 
-    public function getUrls()
+    public function getPages()
     {
-      return $this->_db->select('select id, url, value, description from '.PREFIX.'pages');
+      return $this->_db->select('select id, url, value, description from '.PREFIX.'pages where active = 1');
     }
 
     public function getAuditions()
     {
         return $this->_db->select('SELECT id, show_title, show_teaser, show_dates, show_image, show_audition_dates, show_audition_times, show_info_one, show_info_two from '.PREFIX.'auditions');
+    }
+
+    public function getSummerSession()
+    {
+        return $this->_db->select('SELECT id, show_title, ages, dates, time, cost, show_dates, about_show, show_image from '.PREFIX.'summer_sessions');
+    }
+
+    public function getSummerInfo()
+    {
+        return $this->_db->select('SELECT id, summer_info from '.PREFIX.'summer_info');
     }
 
     // UPDATE METHODS

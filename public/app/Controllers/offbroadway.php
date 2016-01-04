@@ -60,12 +60,8 @@ class offbroadway extends \core\controller {
         $data['title'] = 'About OBCT';
 
         // Gets the 5 bullet points
-        $points = $this->_obct->getAbout();
-        $data['points'] = $points;
-
-        // Gets the bigger text section by ID
-        $summary = $this->_obct->getSummary();
-        $data['summary'] = $summary;
+        $about = $this->_obct->getAbout();
+        $data['about'] = $about;
 
         View::rendertemplate('header', $data);
         View::rendertemplate('aboutus', $data);
@@ -233,9 +229,19 @@ class offbroadway extends \core\controller {
     /**
      *
      */
-    public function boxOffice()
+    public function summerSession()
     {
-        $data['title'] = 'Box Office';
+        $data['title'] = 'Summer Sessions';
+
+        $summerSession = $this->_obct->getSummerSession();
+        $data['summer'] = $summerSession;
+
+        $summerInfo = $this->_obct->getSummerInfo();
+        $data['info'] = $summerInfo;
+
+        View::rendertemplate('header', $data);
+        View::rendertemplate('summer', $data);
+        View::rendertemplate('footer');
     }
 
     /**

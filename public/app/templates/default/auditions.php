@@ -2,7 +2,7 @@
 
 ?>
 
-<div class="row" style="margin-top: 2%">
+<div class="row" style="margin-top: 4%">
   <div class="small-12 medium-9 columns">
     <h2>Auditions</h2><hr>
     <?php foreach($data['auditions'] as $audition){

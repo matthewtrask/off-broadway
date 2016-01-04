@@ -34,6 +34,9 @@ class admin extends \core\controller
 		$whatsNew = $this->_adminObct->getWhatsNew();
 		$data['whatsNew'] = $whatsNew;
 
+		$url = $this->_adminObct->getPages();
+		$data['url'] = $url;
+
 		View::renderadmintemplate('header',$data);
 		View::render('admin/admin', $data);
 		View::renderadmintemplate('footer',$data);

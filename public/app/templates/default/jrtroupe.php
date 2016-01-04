@@ -3,7 +3,7 @@
 ?>
 
 
-<div class="row">
+<div class="row" style="margin-top: 4%">
     <div class="small-8 columns">
         <h2>OBCT Jr. Troupe</h2><hr>
         <?php foreach($data['jrTroupe'] as $jrtroupe){

@@ -7,29 +7,21 @@
  */
 ?>
 
-<div class="row">
-    <div class="small-12 columns">
-        <h2 class="text-center">About Off Broadway Children's Theatre</h2>
-    </div>
-</div>
-
-<div class="row">
-    <div class="small-12 medium-8 columns">
+<div class="row" style="margin-top: 4%">
+    <div class="small-12 medium-9 columns">
+        <h2>About Off Broadway Children's Theatre</h2>
         <?php
-            foreach($data['points'] as $points){
-                echo '<p class="text-left"><b>'.$points->title.'</b>: '.$points->content.'</p>';
+            foreach($data['about'] as $about){
+                echo "<p>".$about->content."</p>";
             }
             echo "<img alt='OBCT Logo' class='hide-for-small-only' id='ObctLogo' src=".IMGDIR."green-logo.png>";
         ?>
     </div>
-    <div class="small-12 medium-4 columns">
+    <div class="small-12 medium-3 columns">
+        <img src="<?php echo IMGDIR ?>green-logo.png"><br><br>
         <div class="panel">
-            <?php
-                foreach($data['summary'] as $summary){
-                    echo '<h4>'.$summary->title.'</h4><hr>';
-                    echo '<p>'.$summary->content.'</p>';
-                }
-            ?>
+            <h4 class="text-center">Questions?</h4>
+            <a href="contact"><button class="button message expand">Contact Us</button></a>
         </div>
     </div>
 </div>

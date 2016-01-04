@@ -71,13 +71,11 @@ router::any('aboutus', 'controllers\offbroadway@aboutus');
 router::any('teachers', 'controllers\offbroadway@teachers');
 router::any('juniortroupe', 'controllers\offbroadway@juniorTroupe');
 router::any('troupe', 'controllers\offbroadway@troupe');
-router::any('gallery', 'controllers\offbroadway@gallery');
+router::any('summer', 'controllers\offbroadway@summerSession');
 router::any('classes', 'controllers\offbroadway@classes');
 router::any('questions', 'controllers\offbroadway@questions');
 router::any('currentshow', 'controllers\offbroadway@currentprod');
 router::any('auditions', 'controllers\offbroadway@auditions');
-router::any('register', 'controllers\offbroadway@register');
-router::any('boxoffice', 'controllers\offbroadway@boxoffice');
 router::any('contact', 'controllers\offbroadway@contact');
 
 //Admin Pages

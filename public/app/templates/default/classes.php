@@ -1,4 +1,4 @@
-<div class="row">
+<div class="row" style="margin-top: 4%">
 	<div class="small-12 columns">
 		<h2>Classes</h2>
 	</div>

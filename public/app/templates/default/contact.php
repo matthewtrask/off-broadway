@@ -1,4 +1,4 @@
-<div class="row">
+<div class="row" style="margin-top: 4%">
     <div id="alert-message" class="small-10 small-offset-1 columns"></div>
 </div>
 	<div class="row">

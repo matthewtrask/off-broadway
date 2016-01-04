@@ -26,7 +26,10 @@ use Helpers\Url;
                 </ul>
             </div>
             <div class="small-12 columns">
-                <p class="text-center" id="copy">&copy; Off Broadway Children' Theatre <?php echo date("Y"); ?></p>
+                <p class="text-center" id="copy">&copy; <?php
+                    $fromYear = 2000;
+                    $thisYear = (int)date('Y');
+                    echo $fromYear . (($fromYear != $thisYear) ? '-' . $thisYear : '');?> Off Broadway Children's Theatre.</p>
 <!--                <p class="text-center">Site Visitors: --><?php //include('counter.php'); ?><!--</p>-->
             </div>
         </div>

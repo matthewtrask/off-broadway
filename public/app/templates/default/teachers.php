@@ -8,7 +8,7 @@
 
 ?>
 
-<div class="row">
+<div class="row" style="margin-top: 4%">
     <div class="small-12 medium-8 columns">
         <h2>Teachers</h2>
         <?php foreach($data['teachers'] as $teachers){

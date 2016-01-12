@@ -1,4 +1,4 @@
-$(document).ready( function () {
+$(document).ready(function() {
     $(document).foundation();
 
     // AJAX For Whats New
@@ -12,8 +12,9 @@ $(document).ready( function () {
             success: function(data){
                 console.log(data);
             },
-            error: function(data){
-                console.log(data);
+            error: function(xhr, status, error) {
+                var err = eval("(" + xhr.responseText + ")");
+                alert(err.Message);
             }
         });
     });
@@ -29,8 +30,9 @@ $(document).ready( function () {
             success: function(data){
                 console.log(data);
             },
-            error: function(data){
-                console.log(data);
+            error: function(xhr, status, error) {
+                var err = eval("(" + xhr.responseText + ")");
+                alert(err.Message);
             }
         });
     });

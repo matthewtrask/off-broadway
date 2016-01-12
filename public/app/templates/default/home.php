@@ -50,6 +50,7 @@
 	    	<hr>
 	    	<button class="button message expand"><a href="contact">Contact Us</a></button>
 	    </div>
+		<div class="fb-page" data-href="https://www.facebook.com/offbroadwaydancetheater/?fref=ts" data-tabs="timeline" data-small-header="true" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><div class="fb-xfbml-parse-ignore"><blockquote cite="https://www.facebook.com/offbroadwaydancetheater/?fref=ts"><a href="https://www.facebook.com/offbroadwaydancetheater/?fref=ts">Off Broadway Children&#039;s Theatre</a></blockquote></div></div>
     </div>
 </div>
 

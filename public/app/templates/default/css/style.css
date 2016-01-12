@@ -90,6 +90,19 @@ button.button > a {
   color: #5d5d5d;
 }
 
+#alertBox h3, #alertBox h5 {
+  color: #fff;
+}
+
+#urlLink a {
+  border: 1px solid #fff;
+  border-radius: 10px;
+  color: #fff;
+  padding: 10px;
+  text-decoration: none;
+  background-color: #f04124;
+}
+
 /* END GLOBAL */
 
 /* LOGO */
@@ -284,37 +297,6 @@ div.image {
 
 /* END SUMMER */
 
-/* CLASSES */
-
-/* END CLASSES */
-
-/* QUESTIONS */
-
-
-
-/* END QUESTIONS */
-
-/* SHOWS */
-
-
-
-/* END SHOWS */
-
-/* UPCOMING */
-
-/* END UPCOMING */
-
-/* AUDITIONS */
-
-/* END AUDITIONS */
-
-/* REGISTER */
-
-/* END REGISTER */
-
-/* BOX OFFICE */
-
-/* END BOX OFFICE */
 
 /* CONTACT */
 #alert {
@@ -323,4 +305,9 @@ div.image {
 }
 
 /* END CONTACT */
+
+/* JR TROUPE */
+div.small-3.columns#jrTroupeImg img {
+  border: 1px solid #5d5d5d;
+}
 

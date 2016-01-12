@@ -154,6 +154,10 @@ class Obct extends \core\model {
         return $this->_db->select('SELECT id, summer_info from '.PREFIX.'summer_info');
     }
 
+    public function getAlerts()
+    {
+        return $this->_db->select('SELECT id, alert, link from '.PREFIX.'alert');
+    }
     // UPDATE METHODS
     public function updateClasses($updatedInfo, $where)
     {

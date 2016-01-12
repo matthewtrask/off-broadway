@@ -47,6 +47,9 @@ class offbroadway extends \core\controller {
         $show = $this->_obct->getCurrentShow();
         $data['show'] = $show;
 
+        $alert = $this->_obct->getAlerts();
+        $data['alert'] = $alert;
+
         view::rendertemplate('header', $data);
         view::rendertemplate('home', $data);
         view::rendertemplate('footer', $data);
@@ -63,6 +66,9 @@ class offbroadway extends \core\controller {
         $about = $this->_obct->getAbout();
         $data['about'] = $about;
 
+        $alert = $this->_obct->getAlerts();
+        $data['alert'] = $alert;
+
         View::rendertemplate('header', $data);
         View::rendertemplate('aboutus', $data);
         View::rendertemplate('footer');
@@ -78,6 +84,9 @@ class offbroadway extends \core\controller {
 
         $teachers = $this->_obct->getTeachers();
         $data['teachers'] = $teachers;
+
+        $alert = $this->_obct->getAlerts();
+        $data['alert'] = $alert;
 
         View::rendertemplate('header', $data);
         View::rendertemplate('teachers', $data);
@@ -103,6 +112,9 @@ class offbroadway extends \core\controller {
         $show = $this->_obct->getCurrentShow();
         $data['show'] = $show;
 
+        $alert = $this->_obct->getAlerts();
+        $data['alert'] = $alert;
+
 
         View::rendertemplate('header', $data);
         View::rendertemplate('auditions', $data);
@@ -119,6 +131,9 @@ class offbroadway extends \core\controller {
         $classes = $this->_obct->getClasses();
 
         $data['classes'] = $classes;
+
+        $alert = $this->_obct->getAlerts();
+        $data['alert'] = $alert;
 
         View::rendertemplate('header', $data);
         View::rendertemplate('classes', $data);
@@ -139,6 +154,9 @@ class offbroadway extends \core\controller {
         $data['troupeInfo'] = $troupeInfo;
         $data['troupeAddtInfo'] = $troupeAddtInfo;
 
+        $alert = $this->_obct->getAlerts();
+        $data['alert'] = $alert;
+
         View::rendertemplate('header', $data);
         View::rendertemplate('troupe', $data);
         View::rendertemplate('footer');
@@ -157,6 +175,9 @@ class offbroadway extends \core\controller {
 
         $data['jrTroupe'] = $jrTroupe;
         $data['jrTroupeImg'] = $jrTroupeImg;
+
+        $alert = $this->_obct->getAlerts();
+        $data['alert'] = $alert;
 
         View::rendertemplate('header', $data);
         View::rendertemplate('jrtroupe', $data);
@@ -184,6 +205,9 @@ class offbroadway extends \core\controller {
         $upcomingShows = $this->_obct->getUpcomingShows();
         $data['upcomingShows'] = $upcomingShows;
 
+        $alert = $this->_obct->getAlerts();
+        $data['alert'] = $alert;
+
         View::rendertemplate('header', $data);
         View::rendertemplate('currentprod', $data);
         View::rendertemplate('footer');
@@ -198,6 +222,9 @@ class offbroadway extends \core\controller {
 
       $data['schoolPoints'] = $schoolPoints;
       $data['schools'] = $schools;
+
+        $alert = $this->_obct->getAlerts();
+        $data['alert'] = $alert;
 
       View::rendertemplate('header', $data);
       View::rendertemplate('schools', $data);
@@ -221,6 +248,9 @@ class offbroadway extends \core\controller {
         $data['show'] = $show;
 
 
+        $alert = $this->_obct->getAlerts();
+        $data['alert'] = $alert;
+
         View::rendertemplate('header', $data);
         View::rendertemplate('questions', $data);
         View::rendertemplate('footer');
@@ -239,6 +269,9 @@ class offbroadway extends \core\controller {
         $summerInfo = $this->_obct->getSummerInfo();
         $data['info'] = $summerInfo;
 
+        $alert = $this->_obct->getAlerts();
+        $data['alert'] = $alert;
+
         View::rendertemplate('header', $data);
         View::rendertemplate('summer', $data);
         View::rendertemplate('footer');
@@ -251,6 +284,9 @@ class offbroadway extends \core\controller {
     {
         $data['title'] = 'Contact';
 
+
+        $alert = $this->_obct->getAlerts();
+        $data['alert'] = $alert;
 
         view::rendertemplate('header', $data);
         view::rendertemplate('contact');

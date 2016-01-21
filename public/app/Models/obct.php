@@ -92,7 +92,7 @@ class Obct extends \core\model {
 
     public function getCurrentShow()
     {
-        return $this->_db->select('select id, show_title, description, dates, price, box_office_link, image from '.PREFIX.'current_show');
+        return $this->_db->select('select id, show_title, description, dates, price, tickets, image from '.PREFIX.'current_show');
     }
 
     public function getUpcomingShows()

@@ -102,7 +102,6 @@ use Helpers\Url;
           <li class="has-dropdown">
             <a href='#'>Troupe</a>
             <ul class="dropdown">
-              <li><a href="juniortroupe">Junior Troupe</a></li>
               <li><a href="troupe">Senior Troupe</a></li>
             </ul>
           </li>

@@ -6,7 +6,7 @@
         }?>
         <?php
             foreach($data['summer'] as $summer) {
-                echo "<button id='".$summer->id."' class='button'><a href='#' data-reveal-id='summer".$summer->id."'>".$summer->show_title."</a></button>";
+                echo "<button id='".$summer->id."' class='button'><a href='#' data-reveal-id='summer_".$summer->id."'>".$summer->show_title."</a></button>";
             }
         ?>
 
@@ -23,7 +23,7 @@
 
 <?php
 foreach($data['summer'] as $summer){
-    echo "<div id='summer".$summer->id."' class='reveal-modal' data-reveal aria-labelledby='modalTitle' aria-hidden='true' role='dialog'>";
+    echo "<div id='summer_".$summer->id."' class='reveal-modal' data-reveal aria-labelledby='modalTitle' aria-hidden='true' role='dialog'>";
     echo "<h2 id='modalTitle'>".$summer->show_title."</h2>";
     echo "<p>".$summer->about_show."</p>";
     echo "<div class='row'>";

@@ -78,6 +78,9 @@ router::any('currentshow', 'controllers\offbroadway@currentprod');
 router::any('auditions', 'controllers\offbroadway@auditions');
 router::any('contact', 'controllers\offbroadway@contact');
 
+
+router::any('about', 'controllers\aboutus@aboutus');
+
 //Admin Pages
 router::any('admin', '\controllers\admin\admin@index');
 router::any('admin/login', '\controllers\admin\auth@login');

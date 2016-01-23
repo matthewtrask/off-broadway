@@ -39,6 +39,7 @@ use helpers\url;
     <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
     <meta name="theme-color" content="#ffffff">
     <meta property=”og:title” content="Off Broadway Children's Theatre"/>
+    <meta property=”og:url” content=”https://offbroadwaykids.net”/>
 
     <!-- CSS -->
     <link href='//fonts.googleapis.com/css?family=Merriweather' rel='stylesheet' type='text/css'>

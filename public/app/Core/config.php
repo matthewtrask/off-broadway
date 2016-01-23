@@ -15,7 +15,7 @@ class Config {
 
 	public function __construct() {
 
-		$dotenv = new Dotenv(__DIR__);
+		$dotenv = new Dotenv('/var/www/public/');
 		$dotenv->load();
 
 		//turn on output buffering
@@ -36,10 +36,10 @@ class Config {
 
 		//database details ONLY NEEDED IF USING A DATABASE
 		define('DB_TYPE', 'mysql');
-		define('DB_HOST', 'localhost');
-		define('DB_NAME', 'offbroadway');
-		define('DB_USER', 'root');
-		define('DB_PASS', 'root');
+		define('DB_HOST', getenv('MYSQL_HOST'));
+		define('DB_NAME', getenv('MYSQL_NAME'));
+		define('DB_USER', getenv('MYSQL_USER'));
+		define('DB_PASS', getenv('MYSQL_PASS'));
 		define('PREFIX', 'obct_');
 
 		//set prefix for sessions

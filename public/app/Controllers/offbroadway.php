@@ -30,7 +30,7 @@ class offbroadway extends \core\controller {
     public function __construct(){
             parent::__construct();
 
-            $this->_obct = new \models\obct();
+            $this->_obct = new \models\Obct();
 
     }
 

@@ -17,9 +17,7 @@ use helpers\url;
     <!-- Site meta -->
     <meta charset="utf-8">
     <title><?php echo $data['title'].' | '.SITETITLE; //SITETITLE defined in app/Core/Config.php ?></title>
-    <meta name="" content="">
-    <meta name="" content="">
-    <meta name="" content="">
+
     <!-- FAVICON -->
     <link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
     <link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
@@ -38,8 +36,11 @@ use helpers\url;
     <meta name="msapplication-TileColor" content="#ffffff">
     <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
     <meta name="theme-color" content="#ffffff">
-    <meta property=”og:title” content="Off Broadway Children's Theatre"/>
-    <meta property=”og:url” content=”https://offbroadwaykids.net”/>
+    <meta property=”og:title” content="Off Broadway Children's Theatre" />
+    <meta property=”og:image” content=”<?php echo IMGDIR ?>green-logo.png”/>
+    <meta property="og:url" content="https://offbroadwaykids.net<?php echo $_SERVER['REQUEST_URI']; ?>" />
+    <meta property=”og:description” content="Looking for children's theatre lessons? We love offbroadwaykids.net!" />
+
 
     <!-- CSS -->
     <link href='//fonts.googleapis.com/css?family=Merriweather' rel='stylesheet' type='text/css'>
@@ -112,13 +113,15 @@ use helpers\url;
     </nav>
 </div>
 <?php
-foreach($data['alert'] as $alert){
-    if(isset($alert)){
-        echo "<div id='alertBox' data-alert class='alert-box success'>";
-            echo "<h3 class='text-center'>".$alert->alert."</h3>";
-            echo "<h3 id='urlLink' class='text-center'>Click <a class='alert' href='".$alert->link."'>here</a> to help us win!</h3>";
+if(!empty($data['alert'])) {
+    foreach ($data['alert'] as $alert) {
+        if (isset($alert)) {
+            echo "<div id='alertBox' data-alert class='alert-box success'>";
+            echo "<h3 class='text-center'>" . $alert->alert . "</h3>";
+            echo "<h3 id='urlLink' class='text-center'>Click <a class='alert' href='" . $alert->link . "'>here</a> to help us win!</h3>";
             echo "<a href='#' class='close'>&times;</a>";
-        echo "</div>";
+            echo "</div>";
+        }
     }
 }
 ?>

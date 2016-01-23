@@ -1,3 +1,14 @@
+<?php
+use Dotenv\Dotenv;
+$dotenv = new Dotenv('/var/www/public/');
+$dotenv->load();
+?>
+
+<script async defer
+		src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC6SZ3Y0LGv6kecQTynpa1heqEYchzI1NE&callback=initMap">
+</script>
+
+
 <div class="row" style="margin-top: 4%">
     <div id="alert-message" class="small-10 small-offset-1 columns"></div>
 </div>
@@ -8,7 +19,7 @@
 		</div>
 	</div>
 	<div class="row">
-		<div class="small-8 columns">
+		<div class="small-6 columns">
 			<form method="POST" action="" id="contactForm">
 				<div class="row">
 					<div class="large-12 columns">
@@ -42,13 +53,8 @@
 			</form>
 		</div>
 
-		<div class="small-4 columns">
-			<ul class="vcard">
-				<li class="fn">Off Broadway Children's Theatre</li>
-				<li class="street-address">12365 Crabapple Rd</li>
-				<li class="locality">Alpharetta</li>
-				<li><span class="state">GA</span>, <span class="zip">30004</span></li>
-				<li class="email"><a href="#">offbroadway@msn.com</a></li>
-			</ul>
+		<div class="small-6 columns">
+			<iframe width="100%" height="450" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJRW8utolz9YgRAeVJedATr7E&key=<?php echo getenv('GOOGLE_MAPS'); ?>" allowfullscreen></iframe>
+
 		</div>
 	</div>

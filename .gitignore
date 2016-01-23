@@ -18,5 +18,5 @@ sftp-config.json
 
 
 # files for project
-/hitcounter.txt/
-
+.env
+public/.env

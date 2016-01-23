@@ -41,6 +41,7 @@ use Helpers\Url;
 
 
 	<!-- CSS -->
+<<<<<<< HEAD
 	<link href='http://fonts.googleapis.com/css?family=Merriweather' rel='stylesheet' type='text/css'>
 	<link href='http://fonts.googleapis.com/css?family=Raleway:400,200,600' rel='stylesheet' type='text/css'>
 <<<<<<< HEAD
@@ -51,16 +52,23 @@ use Helpers\Url;
 	<script src="/bower_components/jquery/dist/jquery.js"></script>
 =======
 	<link href='https://cdnjs.cloudflare.com/ajax/libs/foundation/5.5.2/css/foundation.min.css'>
+=======
+	<link href='//fonts.googleapis.com/css?family=Merriweather' rel='stylesheet' type='text/css'>
+	<link href='//fonts.googleapis.com/css?family=Raleway:400,200,600' rel='stylesheet' type='text/css'>
+	<link href='//cdnjs.cloudflare.com/ajax/libs/foundation/5.5.2/css/foundation.min.css'>
+>>>>>>> siteUpdates
 	<link href="/bower_components/foundation/css/foundation.css" rel="stylesheet">
+	<!--<link href="/app/templates/default/css/style.css" rel="stylesheet">-->
+	<!--<link href="/app/templates/admin/css/login.css" rel="stylesheet">-->
 	<?php
-	Assets::css(array(
-		Url::template_path() . '/css/style.css',
-		Url::admin_template_path() . '/css/login.css'
+	helpers\assets::css(array(
+		helpers\url::template_path() . '/css/style.css',
+		helpers\url::admin_template_path() . '/css/login.css'
 	));
 
 
-	Assets::js(array(
-		Url::template_Path() . 'js/jquery.js',
+	helpers\assets::js(array(
+		helpers\url::template_Path() . 'js/jquery.js',
 		'//cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js',
 	));
 	?>

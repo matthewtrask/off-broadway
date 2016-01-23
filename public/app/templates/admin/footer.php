@@ -1,11 +1,3 @@
-<?php
-
-use Helpers\Assets;
-use Helpers\Url;
-
-
-
-?>
 
 
 </main>
@@ -16,15 +8,8 @@ use Helpers\Url;
 <script src="/bower_components/foundation/js/foundation/foundation.alert.js"></script>
 <script src="/bower_components/foundation/js/foundation/foundation.reveal.js"></script>
 <script src="/bower_components/foundation/js/foundation/foundation.abide.js"></script>
+<script src="/app/templates/admin/js/admin.js"></script>
 <!-- <script src='../bower_components/flowtype/flowtype.js'></script>
  -->
-<?php
-Assets::js(array(
-	Url::admin_template_path() . 'js/admin.js',
-));
-?>
-
-
-
 </body>
 </html>

@@ -90,6 +90,19 @@ button.button > a {
   color: #5d5d5d;
 }
 
+#alertBox h3, #alertBox h5 {
+  color: #fff;
+}
+
+#urlLink a {
+  border: 1px solid #fff;
+  border-radius: 10px;
+  color: #fff;
+  padding: 10px;
+  text-decoration: none;
+  background-color: #f04124;
+}
+
 /* END GLOBAL */
 
 /* LOGO */
@@ -276,51 +289,25 @@ div.image {
 
 /* END TROUPE */
 
-/* CLASSES */
+/* SUMMER */
 
-/* END CLASSES */
+#summer button {
+  margin-right: 4%;
+}
 
-/* QUESTIONS */
+/* END SUMMER */
 
-
-
-/* END QUESTIONS */
-
-/* SHOWS */
-
-
-
-/* END SHOWS */
-
-/* UPCOMING */
-
-/* END UPCOMING */
-
-/* AUDITIONS */
-
-/* END AUDITIONS */
-
-/* REGISTER */
-
-/* END REGISTER */
-
-/* BOX OFFICE */
-
-/* END BOX OFFICE */
 
 /* CONTACT */
+#alert {
+    position: fixed;
+    top: 0px;
+}
 
 /* END CONTACT */
 
-/* ADMIN */
-
-#recentMessage {
-  height: 400px;
-  overflow: auto;
+/* JR TROUPE */
+div.small-3.columns#jrTroupeImg img {
+  border: 1px solid #5d5d5d;
 }
 
-#messages a {
-  font-family: 'Raleway', sans-serif;
-}
-
-/* END ADMIN */

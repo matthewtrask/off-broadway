@@ -1,63 +1,154 @@
-$(document).ready(function(){
+$(document).ready(function() {
     $(document).foundation();
 
-    // ajax call for sending messages
-    $('button#submit').on('click', function(){
-    	var data = $('form#adminMessage').serialize();
-    	$.ajax({
-    		method: "POST",
-    		url: 'admin/postMessage',
-    		data: data,
-    		async: true,
-    		success: function(data){
-    			console.log("Message was sent");
-    		},
-    		failue: function(data){
-    			console.log("Message failed to send");
-    		}
-    	});
-    });
-
-    $('button#addClass').on('click', function(){
-        console.log('add class button worked');
-        var data = $('form#addClassForm').serialize();
-        $.ajax({
-            method: "POST",
-            url: "/addClasses",
-            async: true,
-            success: function(data){
-                console.log('and away we go!');
-            }
-        });
-    });
-
-    $('button#editClass').on('click', function(){
-        console.log('edit class button worked');
-        var data = $('form#editClassForm').serialize();
-        $.ajax({
-            method: "POST",
-            url: "/updateClasses",
-            async: true,
-            success: function(data){
-                console.log('away we go again!');
-            }
-        });
-    });
-
+    // AJAX For Whats New
     $('button#submitWhatsNew').on('click', function(){
         var data = $('form#adminWhatsNew').serialize();
         $.ajax({
-          data: data,
-          method: "POST",
-          url: "/postWhatsNew",
-          async: true,
-          success: function(data){
-            console.log(data);
-          },
-          error: function(data){
-            console.log(data);
-          }
+            data: data,
+            method: "POST",
+            url: "postWhatsNew",
+            async: true,
+            success: function(data){
+                console.log(data);
+            },
+            error: function(xhr, status, error) {
+                var err = eval("(" + xhr.responseText + ")");
+                alert(err.Message);
+            }
         });
     });
 
+    // Message Queue Ajax
+    $('button#changelogSubmit').on('click', function(){
+        var data = $('form#changelogForm').serialize();
+        $.ajax({
+            data: data,
+            method: "POST",
+            url: "/postChangelog",
+            async: true,
+            success: function(data){
+                console.log(data);
+            },
+            error: function(xhr, status, error) {
+                var err = eval("(" + xhr.responseText + ")");
+                alert(err.Message);
+            }
+        });
+    });
+
+    // Button To add class Ajax call
+
+    $('button#addClass').on('click', function(){
+        var data = $('form#addClassForm').serialize();
+        $.ajax({
+            data: data,
+            method: "POST",
+            url: "/addNewClass",
+            async: true,
+            success: function(data){
+                console.log(data);
+            },
+            error: function(xhr, status, error) {
+                var err = eval("(" + xhr.responseText + ")");
+                alert(err.Message);
+            }
+        });
+    });
+
+    // delete class
+    $('button.remove.button').on('click', function(){
+        var id = this.name;
+        var data = {};
+        data['id'] = id;
+        console.log(data);
+        $.ajax({
+            data: data,
+            method: "POST",
+            url: "/removeClasses",
+            async: true,
+            success: function(data){
+                console.log(data);
+            },
+            error: function(xhr, status, error) {
+                var err = eval("(" + xhr.responseText + ")");
+                alert(err.Message);
+            }
+        });
+    });
+
+    // Edit class
+    $('button#editClass').on('click', function(){
+        var data = $('form#editClassForm').serialize();
+        $.ajax({
+            data: data,
+            method: "POST",
+            url: "/editClasses",
+            async: true,
+            success: function(data){
+                console.log(data);
+            },
+            error: function(xhr, status, error) {
+                var err = eval("(" + xhr.responseText + ")");
+                alert(err.Message);
+            }
+        });
+    });
+
+    // New FAQ Button
+    $('button#faqSubmit').on('click', function(){
+        var data = $('form#newFaq').serialize();
+        $.ajax({
+            data: data,
+            method: "POST",
+            url: "/newFaq",
+            async: true,
+            success: function(data){
+                console.log(data);
+            },
+            error: function(xhr, status, error) {
+                var err = eval("(" + xhr.responseText + ")");
+                alert(err.Message);
+            }
+        });
+    });
+
+    // Update FAQ Button
+    $('button#editFaq').on('click', function(){
+        var data = $('form#editFaq').serialize();
+        $.ajax({
+            data: data,
+            method: "POST",
+            url: "/editFaq",
+            async: true,
+            success: function(data){
+                console.log(data);
+            },
+            error: function(xhr, status, error) {
+                var err = eval("(" + xhr.responseText + ")");
+                alert(err.Message);
+            }
+        });
+    });
+
+    // delete faq
+    $('button.remove.button.faq').on('click', function(){
+        var id = this.name;
+        var data = {};
+        data['id'] = id;
+        $.ajax({
+            data: data,
+            method: "POST",
+            url: "/removeFaq",
+            async: true,
+            success: function(data){
+                console.log(data);
+            },
+            error: function(xhr, status, error) {
+                var err = eval("(" + xhr.responseText + ")");
+                alert(err.Message);
+            }
+        });
+    });
 });
+

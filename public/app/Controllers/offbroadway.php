@@ -47,6 +47,9 @@ class offbroadway extends \core\controller {
         $show = $this->_obct->getCurrentShow();
         $data['show'] = $show;
 
+        $alert = $this->_obct->getAlerts();
+        $data['alert'] = $alert;
+
         view::rendertemplate('header', $data);
         view::rendertemplate('home', $data);
         view::rendertemplate('footer', $data);
@@ -60,12 +63,11 @@ class offbroadway extends \core\controller {
         $data['title'] = 'About OBCT';
 
         // Gets the 5 bullet points
-        $points = $this->_obct->getAbout();
-        $data['points'] = $points;
+        $about = $this->_obct->getAbout();
+        $data['about'] = $about;
 
-        // Gets the bigger text section by ID
-        $summary = $this->_obct->getSummary();
-        $data['summary'] = $summary;
+        $alert = $this->_obct->getAlerts();
+        $data['alert'] = $alert;
 
         View::rendertemplate('header', $data);
         View::rendertemplate('aboutus', $data);
@@ -83,6 +85,9 @@ class offbroadway extends \core\controller {
         $teachers = $this->_obct->getTeachers();
         $data['teachers'] = $teachers;
 
+        $alert = $this->_obct->getAlerts();
+        $data['alert'] = $alert;
+
         View::rendertemplate('header', $data);
         View::rendertemplate('teachers', $data);
         View::rendertemplate('footer');
@@ -95,11 +100,20 @@ class offbroadway extends \core\controller {
     {
         $data['title'] = 'Auditions';
 
+        $auditions = $this->_obct->getAuditions();
+        $data['auditions'] = $auditions;
+
         $faq = $this->_obct->getFaq();
         $data['faq'] = $faq;
 
         $tips = $this->_obct->getHints();
         $data['tips'] = $tips;
+
+        $show = $this->_obct->getCurrentShow();
+        $data['show'] = $show;
+
+        $alert = $this->_obct->getAlerts();
+        $data['alert'] = $alert;
 
 
         View::rendertemplate('header', $data);
@@ -117,6 +131,9 @@ class offbroadway extends \core\controller {
         $classes = $this->_obct->getClasses();
 
         $data['classes'] = $classes;
+
+        $alert = $this->_obct->getAlerts();
+        $data['alert'] = $alert;
 
         View::rendertemplate('header', $data);
         View::rendertemplate('classes', $data);
@@ -137,6 +154,9 @@ class offbroadway extends \core\controller {
         $data['troupeInfo'] = $troupeInfo;
         $data['troupeAddtInfo'] = $troupeAddtInfo;
 
+        $alert = $this->_obct->getAlerts();
+        $data['alert'] = $alert;
+
         View::rendertemplate('header', $data);
         View::rendertemplate('troupe', $data);
         View::rendertemplate('footer');
@@ -155,6 +175,9 @@ class offbroadway extends \core\controller {
 
         $data['jrTroupe'] = $jrTroupe;
         $data['jrTroupeImg'] = $jrTroupeImg;
+
+        $alert = $this->_obct->getAlerts();
+        $data['alert'] = $alert;
 
         View::rendertemplate('header', $data);
         View::rendertemplate('jrtroupe', $data);
@@ -182,6 +205,9 @@ class offbroadway extends \core\controller {
         $upcomingShows = $this->_obct->getUpcomingShows();
         $data['upcomingShows'] = $upcomingShows;
 
+        $alert = $this->_obct->getAlerts();
+        $data['alert'] = $alert;
+
         View::rendertemplate('header', $data);
         View::rendertemplate('currentprod', $data);
         View::rendertemplate('footer');
@@ -197,6 +223,9 @@ class offbroadway extends \core\controller {
       $data['schoolPoints'] = $schoolPoints;
       $data['schools'] = $schools;
 
+        $alert = $this->_obct->getAlerts();
+        $data['alert'] = $alert;
+
       View::rendertemplate('header', $data);
       View::rendertemplate('schools', $data);
       View::rendertemplate('footer');
@@ -208,14 +237,44 @@ class offbroadway extends \core\controller {
     public function questions()
     {
         $data['title'] = 'Questions';
+
+        $faq = $this->_obct->getFaq();
+        $data['faq'] = $faq;
+
+        $tips = $this->_obct->getHints();
+        $data['tips'] = $tips;
+
+        $show = $this->_obct->getCurrentShow();
+        $data['show'] = $show;
+
+
+        $alert = $this->_obct->getAlerts();
+        $data['alert'] = $alert;
+
+        View::rendertemplate('header', $data);
+        View::rendertemplate('questions', $data);
+        View::rendertemplate('footer');
     }
 
     /**
      *
      */
-    public function boxOffice()
+    public function summerSession()
     {
-        $data['title'] = 'Box Office';
+        $data['title'] = 'Summer Sessions';
+
+        $summerSession = $this->_obct->getSummerSession();
+        $data['summer'] = $summerSession;
+
+        $summerInfo = $this->_obct->getSummerInfo();
+        $data['info'] = $summerInfo;
+
+        $alert = $this->_obct->getAlerts();
+        $data['alert'] = $alert;
+
+        View::rendertemplate('header', $data);
+        View::rendertemplate('summer', $data);
+        View::rendertemplate('footer');
     }
 
     /**
@@ -225,6 +284,9 @@ class offbroadway extends \core\controller {
     {
         $data['title'] = 'Contact';
 
+
+        $alert = $this->_obct->getAlerts();
+        $data['alert'] = $alert;
 
         view::rendertemplate('header', $data);
         view::rendertemplate('contact');

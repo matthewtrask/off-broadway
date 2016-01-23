@@ -23,7 +23,7 @@ class auth extends \core\controller {
 			$password = $_POST['password'];
 
 			if(Password::verify($password, $model->getHash($_POST['username'])) == 0){
-				$error[] = 'Wrong username of password';
+				$error[] = '<h2>Wrong username of password</h2>';
 			} else {
 				Session::set('loggedin',true);
 				Session::set('username', $username);

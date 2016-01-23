@@ -44,8 +44,10 @@ $(document).ready(function() {
     });
 
     // Ajax Call for Contact Page
-    $('button#submitForm').on('click', function(){
+    $('button#submitForm').on('click', function(e){
+        $(document).foundation('alert', 'events');
         var mydata = $('form#contactForm').serialize();
+        e.preventDefault();
         console.log(mydata);
         $.ajax({
            method: 'POST',
@@ -53,12 +55,13 @@ $(document).ready(function() {
            data: mydata,
            async: true,
            success: function(data){
-               document.getElementById('contactForm').reset();
-               console.log(data);
+              document.getElementById('alert-message').innerHTML = data;
+              $(document).foundation('alert', 'events');
            },
            failure: function(data){
                 console.log(data);
            }
         });
+        document.getElementById('contactForm').reset();
     });
 });

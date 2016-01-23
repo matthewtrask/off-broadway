@@ -23,9 +23,30 @@ class Obct extends \core\model {
         $this->_db->insert(PREFIX.'whats_new', $whatsNew);
     }
 
+    public function insertChangelog($changeLog)
+    {
+        $this->_db->insert(PREFIX.'changelog', $changeLog);
+    }
+
+
     public function insertTeacher($teacher)
     {
         //
+    }
+
+    public function insertNewClass($newClass)
+    {
+        $this->_db->insert(PREFIX.'classes', $newClass);
+    }
+
+    public function insertFaq($faq)
+    {
+        $this->_db->insert(PREFIX.'faq', $faq);
+    }
+
+    public function insertAuditions($audition)
+    {
+        $this->_db->insert(PREFIX.'auditions', $audition);
     }
 
     public function insertUrl()
@@ -41,12 +62,7 @@ class Obct extends \core\model {
 
     public function getAbout()
     {
-        return $this->_db->select('select id, title, content, updateDate from '.PREFIX.'about where id in (1, 2, 3, 4, 5)');
-    }
-
-    public function getSummary()
-    {
-        return $this->_db->select('select id, title, content, updateDate from '.PREFIX.'about where id = 6');
+        return $this->_db->select('select id, content from '.PREFIX.'about');
     }
 
     public function getClasses()
@@ -76,7 +92,7 @@ class Obct extends \core\model {
 
     public function getCurrentShow()
     {
-        return $this->_db->select('select id, show_title, description, dates, price, box_office_link, image from '.PREFIX.'current_show');
+        return $this->_db->select('select id, show_title, description, dates, price, tickets, image from '.PREFIX.'current_show');
     }
 
     public function getUpcomingShows()
@@ -118,15 +134,39 @@ class Obct extends \core\model {
       return $this->_db->select('select id, school, location, details, current_show from '.PREFIX.'schools');
     }
 
-    public function getUrls()
+    public function getPages()
     {
-      return $this->_db->select('select id, url, value, description from '.PREFIX.'pages');
+      return $this->_db->select('select id, url, value, description from '.PREFIX.'pages where active = 1');
     }
 
+    public function getAuditions()
+    {
+        return $this->_db->select('SELECT id, show_title, show_teaser, show_dates, show_image, show_audition_dates, show_audition_times, show_info_one, show_info_two from '.PREFIX.'auditions');
+    }
+
+    public function getSummerSession()
+    {
+        return $this->_db->select('SELECT id, show_title, ages, dates, time, cost, show_dates, about_show, show_image from '.PREFIX.'summer_sessions');
+    }
+
+    public function getSummerInfo()
+    {
+        return $this->_db->select('SELECT id, summer_info from '.PREFIX.'summer_info');
+    }
+
+    public function getAlerts()
+    {
+        return $this->_db->select('SELECT id, alert, link from '.PREFIX.'alert WHERE active = 1');
+    }
     // UPDATE METHODS
     public function updateClasses($updatedInfo, $where)
     {
         $this->_db->update(PREFIX.'classes', $updatedInfo, $where);
+    }
+
+    public function updateFaq($editFaq, $where)
+    {
+        $this->_db->update(PREFIX.'faq', $editFaq, $where);
     }
 
     public function updateCurrentShow()
@@ -149,7 +189,20 @@ class Obct extends \core\model {
       //
     }
 
+    public function updateAuditions()
+    {
+        //
+    }
+
     // DELETE METHODS
 
+    public function deleteFaq($faqId)
+    {
+        $this->_db->delete(PREFIX.'faq', $faqId);
+    }
 
+    public function removeClass($classId)
+    {
+        $this->_db->delete(PREFIX.'classes', $classId);
+    }
 }

@@ -66,20 +66,16 @@ use \core\router,
 //define routes
 router::any('', 'controllers\offbroadway@index');
 router::any('home', 'controllers\offbroadway@index');
-// Router::any('happenings','Controllers\offbroadway@happenings');
 router::any('schools', 'controllers\offbroadway@schools');
 router::any('aboutus', 'controllers\offbroadway@aboutus');
 router::any('teachers', 'controllers\offbroadway@teachers');
 router::any('juniortroupe', 'controllers\offbroadway@juniorTroupe');
 router::any('troupe', 'controllers\offbroadway@troupe');
-router::any('gallery', 'controllers\offbroadway@gallery');
+router::any('summer', 'controllers\offbroadway@summerSession');
 router::any('classes', 'controllers\offbroadway@classes');
 router::any('questions', 'controllers\offbroadway@questions');
 router::any('currentshow', 'controllers\offbroadway@currentprod');
-//router::any('upcoming', 'controllers\offbroadway@upcoming');
 router::any('auditions', 'controllers\offbroadway@auditions');
-router::any('register', 'controllers\offbroadway@register');
-router::any('boxoffice', 'controllers\offbroadway@boxoffice');
 router::any('contact', 'controllers\offbroadway@contact');
 
 //Admin Pages
@@ -88,20 +84,33 @@ router::any('admin/login', '\controllers\admin\auth@login');
 router::any('admin/logout', '\controllers\admin\auth@logout');
 router::any('admin/classes', '\controllers\admin\admin@classes');
 router::any('admin/currentshow', '\controllers\admin\admin@currentShow');
+router::any('admin/auditions', '\controllers\admin\admin@auditions');
 router::any('admin/url', '\controllers\admin\admin@pages');
+router::any('admin/faq', '\controllers\admin\admin@questions');
+router::any('admin/message', '\controllers\admin\admin@messages');
+router::any('admin/about', '\controllers\admin\admin@about');
 
 //AJAX Contollers
 router::POST('postWhatsNew', '\controllers\admin\ajax@addWhatsNew');
-router::POST('postMessage', '\controllers\admin\ajax@postMessage');
-router::POST('updateClasses', '\controllers\admin\ajax@updateClasses');
-router::POST('addClasses', '\controllers\admin\ajax@addClasses');
+router::POST('postChangelog', '\controllers\admin\ajax@postChangelog');
+router::POST('addNewClass', '\controllers\admin\ajax@addClasses');
 router::POST('removeClasses', '\controllers\admin\ajax@removeClasses');
-router::POST('postContact', '\controllers\admin\ajax@postContact');
+router::POST('editClasses', '\controllers\admin\ajax@editClasses');
+router::POST('newFaq', '\controllers\admin\ajax@newFaq');
+router::POST('editFaq', '\controllers\admin\ajax@editFaq');
+router::any('removeFaq', '\controllers\admin\ajax@deleteFaq');
+
+
+//router::POST('postContact', '\controllers\admin\ajax@postContact');
+//router::POST('newFaq', '\controllers\admin\ajax@newFaq');
+//router::POST('postUpdateFaq', '\controllers\admin\ajax@updateFaq');
+//router::POST('removeFaq', '\controllers\admin\ajax@deleteFaq');
+//router::POST('postAuditions', '\controllers\admin\ajax@postAuditions');
 
 router::any('admin/users', '\controllers\admin\users@index');
 router::any('admin/users/add', '\controllers\admin\users@add');
 router::any('admin/users/edit/(:num)', '\controllers\admin\users@edit');
-
+router::any('admin/users/delete/(:num)', '\controllers\admin\users@delete');
 
 
 //Router::any('admin/posts', '\controllers\admin\posts@index');

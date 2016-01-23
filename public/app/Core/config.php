@@ -1,6 +1,7 @@
 <?php
 namespace core;
 
+use Dotenv\Dotenv;
 /*
  * config - an example for setting up system settings
  * When you are done editing, rename this file to 'config.php'
@@ -13,6 +14,9 @@ namespace core;
 class Config {
 
 	public function __construct() {
+
+		$dotenv = new Dotenv(__DIR__);
+		$dotenv->load();
 
 		//turn on output buffering
 		ob_start();
@@ -56,6 +60,9 @@ class Config {
 
 		//set the default template
 		\helpers\session::set('template', 'default');
+
+		// set session counter
+		\helpers\session::set('counter');
 	}
 
 }

@@ -8,7 +8,7 @@
 use \helpers\url;
 ?>
 
-<div class="row">
+<div class="row" style="margin-top: 4%">
     <div class="small-9 columns">
         <div id="currentShow">
             <h2>Current Show</h2><hr>

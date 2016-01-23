@@ -4,17 +4,22 @@ use \helpers\session;
 use Carbon\Carbon;
 ?>
 <div class="row" style="padding-top: 2%">
-	<div class="small-9 columns">
-		<h1>Admin</h1>
-		<h4><?php printf("%s", Carbon::now('America/New_York'));?></h4>
-		<p>Logged In: <?php echo ucfirst(Session::get('username')); ?></p>
-		<input type="button" class="button" value="Reload Page" onClick="window.location.reload()"><hr>
+	<div class="small-6 columns">
+		<div class="small-6 columns">
+			<h1>Admin</h1>
+			<p><?php printf("%s", Carbon::now('America/New_York')->toDateTimeString());?></p>
+			<p>Logged In: <?php echo ucfirst(Session::get('username')); ?></p>
+			<p>Site Visitors: <?php echo count(Session::get('counter'));?></p>
+			<input type="button" class="button" value="Reload Page" onClick="window.location.reload()">
+		</div>
+		<div class="small-6 columns">
 
+		</div>
 	</div>
 	<div class="small-3 columns">
 		<img src="<?php echo IMGDIR;?>/green-logo.png">
 	</div>
-</div>
+</div><hr>
 
 <div class="row" id="whatsNew">
 	<div class="small-6 columns" id="whatsNewAdmin">
@@ -40,12 +45,10 @@ use Carbon\Carbon;
 					<textarea type="text" placeholder="Message" rows="6" name="whatsNewContent"></textarea>
 				</label>
 				<label>Link
-					<select id="urlSelect" name="urlSelect" for="urlSelect">
-						<option>Select</option>
-						<option value="about">About</option>
-						<option value="currentProd">Current Show</option>
-						<option value="faq">FAQ</option>
-						<option value="classes">Classes</option>
+					<select id='urlSelect' name='urlSelect' for='urlSelect'>
+					<?php foreach($data['url'] as $url){
+							echo "<option value=".$url->url.">".$url->url."</option>";
+					} ?>
 					</select>
 				</label>
 				<button class="button" id="submitWhatsNew" type="submit">Submit</button>
@@ -96,6 +99,7 @@ use Carbon\Carbon;
 				<tr>
 					<th>Page Title</th>
 					<th>Description</th>
+					<th>Updated By</th>
 					<th>Time Changed</th>
 				</tr>
 			</thead>
@@ -105,6 +109,7 @@ use Carbon\Carbon;
 						echo "<tr>";
 						echo "<td>".$message->page_change."</td>";
 						echo "<td>".$message->description."</td>";
+						echo "<td>".$message->updatedBy."</td>";
 						echo "<td>".date('Y-m-d', strtotime($message->time))."</td>";
 						echo "</tr>";
 					}

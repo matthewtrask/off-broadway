@@ -7,15 +7,21 @@
  */
 ?>
 
+<<<<<<< HEAD
 <div class="row">
     <div class="small-8 columns">
+=======
+
+<div class="row" style="margin-top: 4%">
+    <div class="small-12 medium-9 columns">
+>>>>>>> siteUpdates
         <h2>OBCT Troupe</h2>
         <?php foreach($data['troupeInfo'] as $troupeInfo){
             echo "<p>".$troupeInfo->content."</p>";
         }?>
         <button class='button contact'><a href="#" data-reveal-id="troupe">Click here to see our Troupe Members</a></button>
     </div>
-    <div class="small-4 columns">
+    <div class="small-12 medium-3 columns">
         <img src="<?php echo IMGDIR ?>green-logo.png">
         <div class="panel" style="margin-top: 5%">
             <h4>More Info on the OBCT Troupe</h4>

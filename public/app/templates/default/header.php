@@ -38,21 +38,35 @@ use helpers\url;
     <meta name="msapplication-TileColor" content="#ffffff">
     <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
     <meta name="theme-color" content="#ffffff">
-
+    <meta property=”og:title” content="Off Broadway Children's Theatre"/>
 
     <!-- CSS -->
-    <link href='http://fonts.googleapis.com/css?family=Merriweather' rel='stylesheet' type='text/css'>
-    <link href='http://fonts.googleapis.com/css?family=Raleway:400,200,600' rel='stylesheet' type='text/css'>
-    <script src="/bower_components/jquery/dist/jquery.js"></script>
+    <link href='//fonts.googleapis.com/css?family=Merriweather' rel='stylesheet' type='text/css'>
+    <link href='//fonts.googleapis.com/css?family=Raleway:400,200,600' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
     <link href="/bower_components/foundation/css/foundation.css" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/jquery.slick/1.5.9/slick.css"/>
-    <script type="text/javascript" src="//cdn.jsdelivr.net/jquery.slick/1.5.9/slick.min.js"></script>
     <link href="/app/templates/default/css/style.css" type="text/css" rel="stylesheet">
     <link href="/app/templates/default/css/mobile.css" type="text/css" rel="stylesheet">
+
+    <script src="/bower_components/jquery/dist/jquery.js"></script>
     <script src="//cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
+    <script type="text/javascript" src="//cdn.jsdelivr.net/jquery.slick/1.5.9/slick.min.js"></script>
+    <script src="/bower_components/jquery-ui/jquery-ui.js" type="text/javascript"></script>
+
 </head>
 <body>
+<!-- Facebook JS -->
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.5&appId=1158671784161005";
+        fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));
+</script>
+<!-- End Facebook JS -->
 
 <div class="fixed" style="margin-bottom: 40px;">
     <nav class="top-bar" data-topbar role="navigation">
@@ -72,21 +86,22 @@ use helpers\url;
             <a href="#">Studio</a>
             <ul class="dropdown">
               <li><a href='classes'>Classes</a></li>
-              <li ><a href="teachers">Teachers</a></li>
+              <li><a href="teachers">Teachers</a></li>
             </ul>
           </li>
+          <li><a href="summer">Summer</a></li>
           <li class="has-dropdown">
             <a href="#">Shows</a>
             <ul class="dropdown">
               <li><a href="schools">Schools</a></li>
               <li><a href="currentshow">Current Show</a></li>
-              <li><a href="#">Auditions</a></li>
+              <li><a href="auditions">Auditions</a></li>
+              <li><a href="questions">Questions</a></li>
             </ul>
           </li>
           <li class="has-dropdown">
             <a href='#'>Troupe</a>
             <ul class="dropdown">
-              <li><a href="juniortroupe">Junior Troupe</a></li>
               <li><a href="troupe">Senior Troupe</a></li>
             </ul>
           </li>
@@ -95,3 +110,14 @@ use helpers\url;
       </section>
     </nav>
 </div>
+<?php
+foreach($data['alert'] as $alert){
+    if(isset($alert)){
+        echo "<div id='alertBox' data-alert class='alert-box success'>";
+            echo "<h3 class='text-center'>".$alert->alert."</h3>";
+            echo "<h3 id='urlLink' class='text-center'>Click <a class='alert' href='".$alert->link."'>here</a> to help us win!</h3>";
+            echo "<a href='#' class='close'>&times;</a>";
+        echo "</div>";
+    }
+}
+?>

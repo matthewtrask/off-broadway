@@ -4,7 +4,12 @@ use \helpers\Url;
 ?>
 <div class="row">
     <div class="small-12 columns">
+        <ul class="breadcrumbs">
+            <li><a href="admin">Admin</a></li>
+            <li>Classes</li>
+        </ul>
         <h2>Classes</h2>
+        <p>Add, edit, or remove classes here</p>
         <a href="#" data-reveal-id="newClass"><button id="addClassBtn" class="button whatsnew">Add Class</button></a>
     </div>
 </div><hr>
@@ -29,8 +34,8 @@ use \helpers\Url;
                 <tbody>
                     <?php foreach($data['classes'] as $classes){
                         echo "<tr id='container'>";
-                        echo "<td><button name='".$classes->class_title."' id='".$classes->id."' class='button remove'>Remove Class</button></td>";
-                        echo "<td><a href='#'' data-reveal-id='class".$classes->id."'><button name='".$classes->class_title."' id='".$classes->id."' class='button'>Edit Class</button></a></td>";
+                        echo "<td><button name='".$classes->id."' for='".$classes->id."' id='".$classes->id."' class='button remove'>Remove Class</button></td>";
+                        echo "<td><a href='#' data-reveal-id='class".$classes->id."'><button name='".$classes->class_title."' id='".$classes->id."' class='button'>Edit Class</button></a></td>";
                         echo "<td>".$classes->class_title."</td>";
                         echo "<td><div class='scrollable'>".$classes->teaser."</div></td>";
                         echo "<td><div class='scrollable'>".$classes->description."</div></td>";
@@ -49,7 +54,7 @@ use \helpers\Url;
 
 <div id="newClass" class="reveal-modal" data-reveal aria-labelledby="modalTitle" aria-hidden="true" role="dialog">
   <h2 id="modalTitle" class="text-center">Add New Class</h2>
-  <form method="post" action="" id="addClassForm">
+  <form method="POST" action="" id="addClassForm">
     <div class="row">
         <div class="small-12 columns">
           <div class="row">
@@ -57,7 +62,7 @@ use \helpers\Url;
               <label for="right-label" class="right inline">Class Name</label>
             </div>
             <div class="small-9 columns">
-              <input type="text" id="right-label" name="className" placeholder="Class Name">
+              <input type="text" id="right-label" for="className" name="className" placeholder="Class Name">
             </div>
           </div>
         </div>
@@ -138,7 +143,7 @@ use \helpers\Url;
 foreach($data['classes'] as $classes) {
     echo "<div id='class".$classes->id."' class='reveal-modal' data-reveal aria-labelledby='modalTitle' aria-hidden='true' role='dialog'>";
         echo "<h2 id='modalTitle' class='text-center'>Edit Class</h2>";
-            echo "<form method='post' action='' id='EditClassForm'>";
+            echo "<form method='POST' action='' id='editClassForm'>";
                 echo "<div class='row'>";
                     echo "<div class='small-12 columns hide-for-medium-up'>";
                         echo "<div class='row'>";
@@ -322,8 +327,3 @@ foreach($data['classes'] as $classes) {
   </form>
   <a class="close-reveal-modal" aria-label="Close">&#215;</a>
 </div>
-
-
-
-
-

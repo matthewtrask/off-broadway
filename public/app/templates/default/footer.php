@@ -13,7 +13,9 @@ use Helpers\Url;
     <div class="container">
         <div class="row">
             <div class="small-12 columns"><hr />
-                <p class="text-center">12315 Crabapple Rd Suite 122 - Alpharetta GA, 30004 <br /> 770-664-2410 <br /><span id="footerEmail"><a href="mailto:offbroadway@msn.com">offbroadway@msn.com</a></span></p>
+                <p class="text-center">12315 Crabapple Rd Suite 122 - Alpharetta GA, 30004 <br />
+                    <i class="fa fa-mobile"></i> 770-664-2410 <br />
+                    <span id="footerEmail"><i class="fa fa-envelope-o"></i> <a href="mailto:offbroadway@msn.com">offbroadway@msn.com</a></span></p>
             </div>
             <div class="small-12 columns" id="footerSM">
                 <ul class="text-center">
@@ -24,7 +26,10 @@ use Helpers\Url;
                 </ul>
             </div>
             <div class="small-12 columns">
-                <p class="text-center" id="copy">&copy; <?php echo date("Y"); ?></p>
+                <p class="text-center" id="copy">&copy; <?php
+                    $fromYear = 2000;
+                    $thisYear = (int)date('Y');
+                    echo $fromYear . (($fromYear != $thisYear) ? '-' . $thisYear : '');?> Off Broadway Children's Theatre.</p>
 <!--                <p class="text-center">Site Visitors: --><?php //include('counter.php'); ?><!--</p>-->
             </div>
         </div>

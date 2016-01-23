@@ -33,8 +33,17 @@
         <?php
           foreach($data['show'] as $show){
             echo "<h4>".$show->show_title."</h4>";
+<<<<<<< HEAD
             echo "<img style='margin-bottom: 4%' src=data:image/jpg;base64,$show->image>";
             echo "<button class='button register'><a href=".$show->box_office_link.">Buy Tickets</a></button>";
+=======
+            echo "<img src=data:image/jpg;base64,$show->image>";
+			if(isset($show->tickets)){
+				echo "<button class='button register'><a href=".$show->box_office_link.">Buy Tickets</a></button>";
+			} else {
+				echo "<p>Tickets available soon!</p>";
+			}
+>>>>>>> siteUpdates
           }
         ?>
 	    </div>
@@ -48,6 +57,7 @@
 	    	<hr>
 	    	<button class="button message expand"><a href="contact">Contact Us</a></button>
 	    </div>
+		<div class="fb-page" data-href="https://www.facebook.com/offbroadwaydancetheater/?fref=ts" data-tabs="timeline" data-small-header="true" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><div class="fb-xfbml-parse-ignore"><blockquote cite="https://www.facebook.com/offbroadwaydancetheater/?fref=ts"><a href="https://www.facebook.com/offbroadwaydancetheater/?fref=ts">Off Broadway Children&#039;s Theatre</a></blockquote></div></div>
     </div>
 </div>
 

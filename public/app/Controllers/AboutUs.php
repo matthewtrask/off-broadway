@@ -3,7 +3,7 @@
 namespace controllers;
 use core\view;
 
-class AboutUs extends \core\controller
+class aboutUs extends \core\controller
 {
     /**
      * @var \models\aboutus
@@ -15,7 +15,7 @@ class AboutUs extends \core\controller
      */
     private $_obct;
 
-    public function __contruct()
+    public function __construct()
     {
         parent::__construct();
 

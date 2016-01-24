@@ -68,7 +68,7 @@ router::any('', 'controllers\offbroadway@index');
 router::any('home', 'controllers\offbroadway@index');
 router::any('schools', 'controllers\offbroadway@schools');
 router::any('aboutus', 'controllers\offbroadway@aboutus');
-router::any('teachers', 'controllers\offbroadway@teachers');
+//router::any('teachers', 'controllers\offbroadway@teachers');
 router::any('juniortroupe', 'controllers\offbroadway@juniorTroupe');
 router::any('troupe', 'controllers\offbroadway@troupe');
 router::any('summer', 'controllers\offbroadway@summerSession');
@@ -79,7 +79,9 @@ router::any('auditions', 'controllers\offbroadway@auditions');
 router::any('contact', 'controllers\offbroadway@contact');
 
 
-router::any('about', 'controllers\aboutus@aboutus');
+router::any('about', 'controllers\aboutUs@aboutus');
+router::any('classes', 'controllers\classes@classes');
+router::any('teachers', 'controllers\teachers@teachers');
 
 //Admin Pages
 router::any('admin', '\controllers\admin\admin@index');

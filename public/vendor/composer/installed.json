@@ -105,6 +105,539 @@
         ]
     },
     {
+        "name": "vlucas/phpdotenv",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/vlucas/phpdotenv.git",
+            "reference": "827febb0f15fd781cba52662700eef244d903f1f"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/vlucas/phpdotenv/zipball/827febb0f15fd781cba52662700eef244d903f1f",
+            "reference": "827febb0f15fd781cba52662700eef244d903f1f",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.3.9"
+        },
+        "require-dev": {
+            "phpunit/phpunit": "^4.8|^5.0"
+        },
+        "time": "2016-01-17 17:25:37",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "2.2-dev"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Dotenv\\": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "BSD"
+        ],
+        "authors": [
+            {
+                "name": "Vance Lucas",
+                "email": "vance@vancelucas.com",
+                "homepage": "http://www.vancelucas.com"
+            }
+        ],
+        "description": "Loads environment variables from `.env` to `getenv()`, `$_ENV` and `$_SERVER` automagically.",
+        "homepage": "http://github.com/vlucas/phpdotenv",
+        "keywords": [
+            "dotenv",
+            "env",
+            "environment"
+        ]
+    },
+    {
+        "name": "ircmaxell/password-compat",
+        "version": "1.0.x-dev",
+        "version_normalized": "1.0.9999999.9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/ircmaxell/password_compat.git",
+            "reference": "9b99377557a33a4129c9194e60a97a685fab21e0"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/ircmaxell/password_compat/zipball/9b99377557a33a4129c9194e60a97a685fab21e0",
+            "reference": "9b99377557a33a4129c9194e60a97a685fab21e0",
+            "shasum": ""
+        },
+        "require-dev": {
+            "phpunit/phpunit": "4.*"
+        },
+        "time": "2014-11-20 19:18:42",
+        "type": "library",
+        "installation-source": "source",
+        "autoload": {
+            "files": [
+                "lib/password.php"
+            ]
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Anthony Ferrara",
+                "email": "ircmaxell@php.net",
+                "homepage": "http://blog.ircmaxell.com"
+            }
+        ],
+        "description": "A compatibility library for the proposed simplified password hashing algorithm: https://wiki.php.net/rfc/password_hash",
+        "homepage": "https://github.com/ircmaxell/password_compat",
+        "keywords": [
+            "hashing",
+            "password"
+        ]
+    },
+    {
+        "name": "symfony/polyfill-php55",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/symfony/polyfill-php55.git",
+            "reference": "3bd7c6c6fe7cfa07d1df9aaef799c559433a23ac"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/symfony/polyfill-php55/zipball/3bd7c6c6fe7cfa07d1df9aaef799c559433a23ac",
+            "reference": "3bd7c6c6fe7cfa07d1df9aaef799c559433a23ac",
+            "shasum": ""
+        },
+        "require": {
+            "ircmaxell/password-compat": "~1.0",
+            "php": ">=5.3.3"
+        },
+        "time": "2016-01-13 07:16:33",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "1.0-dev"
+            }
+        },
+        "installation-source": "source",
+        "autoload": {
+            "psr-4": {
+                "Symfony\\Polyfill\\Php55\\": ""
+            },
+            "files": [
+                "bootstrap.php"
+            ]
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Nicolas Grekas",
+                "email": "p@tchwork.com"
+            },
+            {
+                "name": "Symfony Community",
+                "homepage": "https://symfony.com/contributors"
+            }
+        ],
+        "description": "Symfony polyfill backporting some PHP 5.5+ features to lower PHP versions",
+        "homepage": "https://symfony.com",
+        "keywords": [
+            "compatibility",
+            "polyfill",
+            "portable",
+            "shim"
+        ]
+    },
+    {
+        "name": "symfony/polyfill-php54",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/symfony/polyfill-php54.git",
+            "reference": "2fc6510fe668493fe6a6ed6c61e03fea88f0ef6b"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/symfony/polyfill-php54/zipball/2fc6510fe668493fe6a6ed6c61e03fea88f0ef6b",
+            "reference": "2fc6510fe668493fe6a6ed6c61e03fea88f0ef6b",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.3.3"
+        },
+        "time": "2016-01-13 07:16:33",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "1.0-dev"
+            }
+        },
+        "installation-source": "source",
+        "autoload": {
+            "psr-4": {
+                "Symfony\\Polyfill\\Php54\\": ""
+            },
+            "files": [
+                "bootstrap.php"
+            ],
+            "classmap": [
+                "Resources/stubs"
+            ]
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Nicolas Grekas",
+                "email": "p@tchwork.com"
+            },
+            {
+                "name": "Symfony Community",
+                "homepage": "https://symfony.com/contributors"
+            }
+        ],
+        "description": "Symfony polyfill backporting some PHP 5.4+ features to lower PHP versions",
+        "homepage": "https://symfony.com",
+        "keywords": [
+            "compatibility",
+            "polyfill",
+            "portable",
+            "shim"
+        ]
+    },
+    {
+        "name": "symfony/event-dispatcher",
+        "version": "2.8.x-dev",
+        "version_normalized": "2.8.9999999.9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/symfony/event-dispatcher.git",
+            "reference": "ee278f7c851533e58ca307f66305ccb9188aceda"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/symfony/event-dispatcher/zipball/ee278f7c851533e58ca307f66305ccb9188aceda",
+            "reference": "ee278f7c851533e58ca307f66305ccb9188aceda",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.3.9"
+        },
+        "require-dev": {
+            "psr/log": "~1.0",
+            "symfony/config": "~2.0,>=2.0.5|~3.0.0",
+            "symfony/dependency-injection": "~2.6|~3.0.0",
+            "symfony/expression-language": "~2.6|~3.0.0",
+            "symfony/stopwatch": "~2.3|~3.0.0"
+        },
+        "suggest": {
+            "symfony/dependency-injection": "",
+            "symfony/http-kernel": ""
+        },
+        "time": "2016-01-13 10:28:07",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "2.8-dev"
+            }
+        },
+        "installation-source": "source",
+        "autoload": {
+            "psr-4": {
+                "Symfony\\Component\\EventDispatcher\\": ""
+            },
+            "exclude-from-classmap": [
+                "/Tests/"
+            ]
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Fabien Potencier",
+                "email": "fabien@symfony.com"
+            },
+            {
+                "name": "Symfony Community",
+                "homepage": "https://symfony.com/contributors"
+            }
+        ],
+        "description": "Symfony EventDispatcher Component",
+        "homepage": "https://symfony.com"
+    },
+    {
+        "name": "guzzle/guzzle",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/guzzle/guzzle3.git",
+            "reference": "b3f5050cb6270c7a728a0b74ac2de50a262b3e02"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/guzzle/guzzle3/zipball/b3f5050cb6270c7a728a0b74ac2de50a262b3e02",
+            "reference": "b3f5050cb6270c7a728a0b74ac2de50a262b3e02",
+            "shasum": ""
+        },
+        "require": {
+            "ext-curl": "*",
+            "php": ">=5.3.3",
+            "symfony/event-dispatcher": "~2.1"
+        },
+        "replace": {
+            "guzzle/batch": "self.version",
+            "guzzle/cache": "self.version",
+            "guzzle/common": "self.version",
+            "guzzle/http": "self.version",
+            "guzzle/inflection": "self.version",
+            "guzzle/iterator": "self.version",
+            "guzzle/log": "self.version",
+            "guzzle/parser": "self.version",
+            "guzzle/plugin": "self.version",
+            "guzzle/plugin-async": "self.version",
+            "guzzle/plugin-backoff": "self.version",
+            "guzzle/plugin-cache": "self.version",
+            "guzzle/plugin-cookie": "self.version",
+            "guzzle/plugin-curlauth": "self.version",
+            "guzzle/plugin-error-response": "self.version",
+            "guzzle/plugin-history": "self.version",
+            "guzzle/plugin-log": "self.version",
+            "guzzle/plugin-md5": "self.version",
+            "guzzle/plugin-mock": "self.version",
+            "guzzle/plugin-oauth": "self.version",
+            "guzzle/service": "self.version",
+            "guzzle/stream": "self.version"
+        },
+        "require-dev": {
+            "doctrine/cache": "~1.3",
+            "monolog/monolog": "~1.0",
+            "phpunit/phpunit": "3.7.*",
+            "psr/log": "~1.0",
+            "symfony/class-loader": "~2.1",
+            "zendframework/zend-cache": "2.*,<2.3",
+            "zendframework/zend-log": "2.*,<2.3"
+        },
+        "suggest": {
+            "guzzlehttp/guzzle": "Guzzle 5 has moved to a new package name. The package you have installed, Guzzle 3, is deprecated."
+        },
+        "time": "2015-04-29 17:06:53",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "3.9-dev"
+            }
+        },
+        "installation-source": "source",
+        "autoload": {
+            "psr-0": {
+                "Guzzle": "src/",
+                "Guzzle\\Tests": "tests/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Michael Dowling",
+                "email": "mtdowling@gmail.com",
+                "homepage": "https://github.com/mtdowling"
+            },
+            {
+                "name": "Guzzle Community",
+                "homepage": "https://github.com/guzzle/guzzle/contributors"
+            }
+        ],
+        "description": "PHP HTTP client. This library is deprecated in favor of https://packagist.org/packages/guzzlehttp/guzzle",
+        "homepage": "http://guzzlephp.org/",
+        "keywords": [
+            "client",
+            "curl",
+            "framework",
+            "http",
+            "http client",
+            "rest",
+            "web service"
+        ]
+    },
+    {
+        "name": "omnipay/common",
+        "version": "2.4.0",
+        "version_normalized": "2.4.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/thephpleague/omnipay-common.git",
+            "reference": "8e396e9af39d2b0176e9a05a764a5afce8ad21ef"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/thephpleague/omnipay-common/zipball/8e396e9af39d2b0176e9a05a764a5afce8ad21ef",
+            "reference": "8e396e9af39d2b0176e9a05a764a5afce8ad21ef",
+            "shasum": ""
+        },
+        "require": {
+            "guzzle/guzzle": "~3.9",
+            "php": ">=5.3.2",
+            "symfony/http-foundation": "~2.1"
+        },
+        "require-dev": {
+            "omnipay/tests": "~2.0"
+        },
+        "time": "2015-10-27 19:40:30",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "2.0.x-dev"
+            },
+            "gateways": [
+                "AuthorizeNet_AIM",
+                "AuthorizeNet_SIM",
+                "Buckaroo",
+                "Buckaroo_Ideal",
+                "Buckaroo_PayPal",
+                "CardSave",
+                "Coinbase",
+                "Dummy",
+                "Eway_Rapid",
+                "FirstData_Connect",
+                "GoCardless",
+                "Manual",
+                "Migs_ThreeParty",
+                "Migs_TwoParty",
+                "Mollie",
+                "MultiSafepay",
+                "Netaxept",
+                "NetBanx",
+                "PayFast",
+                "Payflow_Pro",
+                "PaymentExpress_PxPay",
+                "PaymentExpress_PxPost",
+                "PayPal_Express",
+                "PayPal_Pro",
+                "Pin",
+                "SagePay_Direct",
+                "SagePay_Server",
+                "SecurePay_DirectPost",
+                "Stripe",
+                "TargetPay_Directebanking",
+                "TargetPay_Ideal",
+                "TargetPay_Mrcash",
+                "WorldPay"
+            ]
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-0": {
+                "Omnipay\\Common\\": "src/"
+            },
+            "classmap": [
+                "src/Omnipay/Omnipay.php"
+            ]
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Adrian Macneil",
+                "email": "adrian@adrianmacneil.com"
+            },
+            {
+                "name": "Omnipay Contributors",
+                "homepage": "https://github.com/thephpleague/omnipay-common/contributors"
+            }
+        ],
+        "description": "Common components for Omnipay payment processing library",
+        "homepage": "https://github.com/thephpleague/omnipay-common",
+        "keywords": [
+            "gateway",
+            "merchant",
+            "omnipay",
+            "pay",
+            "payment",
+            "purchase"
+        ]
+    },
+    {
+        "name": "omnipay/paypal",
+        "version": "v2.5.1",
+        "version_normalized": "2.5.1.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/thephpleague/omnipay-paypal.git",
+            "reference": "b546d24241725061d44e60516f0fbce202336963"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/thephpleague/omnipay-paypal/zipball/b546d24241725061d44e60516f0fbce202336963",
+            "reference": "b546d24241725061d44e60516f0fbce202336963",
+            "shasum": ""
+        },
+        "require": {
+            "omnipay/common": "~2.0"
+        },
+        "require-dev": {
+            "omnipay/tests": "~2.0"
+        },
+        "time": "2016-01-13 07:03:27",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "2.3.x-dev"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Omnipay\\PayPal\\": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Adrian Macneil",
+                "email": "adrian@adrianmacneil.com"
+            },
+            {
+                "name": "Omnipay Contributors",
+                "homepage": "https://github.com/thephpleague/omnipay-paypal/contributors"
+            }
+        ],
+        "description": "PayPal gateway for Omnipay payment processing library",
+        "homepage": "https://github.com/thephpleague/omnipay-paypal",
+        "keywords": [
+            "gateway",
+            "merchant",
+            "omnipay",
+            "pay",
+            "payment",
+            "paypal",
+            "purchase"
+        ]
+    },
+    {
         "name": "sebastian/version",
         "version": "1.0.6",
         "version_normalized": "1.0.6.0",
@@ -1095,218 +1628,99 @@
         ]
     },
     {
-        "name": "vlucas/phpdotenv",
-        "version": "dev-master",
-        "version_normalized": "9999999-dev",
+        "name": "paypal/sdk-core-php",
+        "version": "V1.2.0",
+        "version_normalized": "1.2.0.0",
         "source": {
             "type": "git",
-            "url": "https://github.com/vlucas/phpdotenv.git",
-            "reference": "827febb0f15fd781cba52662700eef244d903f1f"
+            "url": "https://github.com/paypal/sdk-core-php.git",
+            "reference": "06588e5017a6c983168a3bd8e7093d7068974cd0"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/vlucas/phpdotenv/zipball/827febb0f15fd781cba52662700eef244d903f1f",
-            "reference": "827febb0f15fd781cba52662700eef244d903f1f",
+            "url": "https://api.github.com/repos/paypal/sdk-core-php/zipball/06588e5017a6c983168a3bd8e7093d7068974cd0",
+            "reference": "06588e5017a6c983168a3bd8e7093d7068974cd0",
             "shasum": ""
         },
         "require": {
-            "php": ">=5.3.9"
+            "ext-curl": "*",
+            "php": ">=5.2.0"
         },
-        "require-dev": {
-            "phpunit/phpunit": "^4.8|^5.0"
-        },
-        "time": "2016-01-17 17:25:37",
+        "time": "2013-03-06 13:21:44",
         "type": "library",
-        "extra": {
-            "branch-alias": {
-                "dev-master": "2.2-dev"
-            }
-        },
         "installation-source": "dist",
         "autoload": {
-            "psr-4": {
-                "Dotenv\\": "src/"
-            }
+            "classmap": [
+                "lib"
+            ]
         },
         "notification-url": "https://packagist.org/downloads/",
         "license": [
-            "BSD"
+            "Apache2"
         ],
         "authors": [
             {
-                "name": "Vance Lucas",
-                "email": "vance@vancelucas.com",
-                "homepage": "http://www.vancelucas.com"
+                "name": "PayPal",
+                "homepage": "https://github.com/paypal/sdk-core-php/contributors"
             }
         ],
-        "description": "Loads environment variables from `.env` to `getenv()`, `$_ENV` and `$_SERVER` automagically.",
-        "homepage": "http://github.com/vlucas/phpdotenv",
+        "description": "PayPal Core SDK for PHP",
+        "homepage": "https://github.com/paypal/sdk-core-php",
         "keywords": [
-            "dotenv",
-            "env",
-            "environment"
+            "paypal",
+            "php",
+            "sdk"
         ]
     },
     {
-        "name": "ircmaxell/password-compat",
-        "version": "1.0.x-dev",
-        "version_normalized": "1.0.9999999.9999999-dev",
+        "name": "paypal/rest-api-sdk-php",
+        "version": "V0.5.0",
+        "version_normalized": "0.5.0.0",
         "source": {
             "type": "git",
-            "url": "https://github.com/ircmaxell/password_compat.git",
-            "reference": "9b99377557a33a4129c9194e60a97a685fab21e0"
+            "url": "https://github.com/paypal/PayPal-PHP-SDK.git",
+            "reference": "9e09f7bff507e81cbb03d233c15c080fefd1d512"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/ircmaxell/password_compat/zipball/9b99377557a33a4129c9194e60a97a685fab21e0",
-            "reference": "9b99377557a33a4129c9194e60a97a685fab21e0",
+            "url": "https://api.github.com/repos/paypal/PayPal-PHP-SDK/zipball/9e09f7bff507e81cbb03d233c15c080fefd1d512",
+            "reference": "9e09f7bff507e81cbb03d233c15c080fefd1d512",
             "shasum": ""
+        },
+        "require": {
+            "ext-curl": "*",
+            "ext-json": "*",
+            "paypal/sdk-core-php": "1.2.*",
+            "php": ">=5.3.0"
         },
         "require-dev": {
-            "phpunit/phpunit": "4.*"
+            "phpunit/phpunit": "3.7.*"
         },
-        "time": "2014-11-20 19:18:42",
+        "time": "2013-03-08 02:11:59",
         "type": "library",
-        "installation-source": "source",
+        "installation-source": "dist",
         "autoload": {
-            "files": [
-                "lib/password.php"
-            ]
+            "psr-0": {
+                "PayPal": "lib/"
+            }
         },
         "notification-url": "https://packagist.org/downloads/",
         "license": [
-            "MIT"
+            "Apache2"
         ],
         "authors": [
             {
-                "name": "Anthony Ferrara",
-                "email": "ircmaxell@php.net",
-                "homepage": "http://blog.ircmaxell.com"
+                "name": "PayPal",
+                "homepage": "https://github.com/paypal/rest-api-sdk-php/contributors"
             }
         ],
-        "description": "A compatibility library for the proposed simplified password hashing algorithm: https://wiki.php.net/rfc/password_hash",
-        "homepage": "https://github.com/ircmaxell/password_compat",
+        "description": "PayPal's PHP SDK for REST APIs",
+        "homepage": "https://github.com/paypal/rest-api-sdk-php",
         "keywords": [
-            "hashing",
-            "password"
-        ]
-    },
-    {
-        "name": "symfony/polyfill-php55",
-        "version": "dev-master",
-        "version_normalized": "9999999-dev",
-        "source": {
-            "type": "git",
-            "url": "https://github.com/symfony/polyfill-php55.git",
-            "reference": "3bd7c6c6fe7cfa07d1df9aaef799c559433a23ac"
-        },
-        "dist": {
-            "type": "zip",
-            "url": "https://api.github.com/repos/symfony/polyfill-php55/zipball/3bd7c6c6fe7cfa07d1df9aaef799c559433a23ac",
-            "reference": "3bd7c6c6fe7cfa07d1df9aaef799c559433a23ac",
-            "shasum": ""
-        },
-        "require": {
-            "ircmaxell/password-compat": "~1.0",
-            "php": ">=5.3.3"
-        },
-        "time": "2016-01-13 07:16:33",
-        "type": "library",
-        "extra": {
-            "branch-alias": {
-                "dev-master": "1.0-dev"
-            }
-        },
-        "installation-source": "source",
-        "autoload": {
-            "psr-4": {
-                "Symfony\\Polyfill\\Php55\\": ""
-            },
-            "files": [
-                "bootstrap.php"
-            ]
-        },
-        "notification-url": "https://packagist.org/downloads/",
-        "license": [
-            "MIT"
-        ],
-        "authors": [
-            {
-                "name": "Nicolas Grekas",
-                "email": "p@tchwork.com"
-            },
-            {
-                "name": "Symfony Community",
-                "homepage": "https://symfony.com/contributors"
-            }
-        ],
-        "description": "Symfony polyfill backporting some PHP 5.5+ features to lower PHP versions",
-        "homepage": "https://symfony.com",
-        "keywords": [
-            "compatibility",
-            "polyfill",
-            "portable",
-            "shim"
-        ]
-    },
-    {
-        "name": "symfony/polyfill-php54",
-        "version": "dev-master",
-        "version_normalized": "9999999-dev",
-        "source": {
-            "type": "git",
-            "url": "https://github.com/symfony/polyfill-php54.git",
-            "reference": "2fc6510fe668493fe6a6ed6c61e03fea88f0ef6b"
-        },
-        "dist": {
-            "type": "zip",
-            "url": "https://api.github.com/repos/symfony/polyfill-php54/zipball/2fc6510fe668493fe6a6ed6c61e03fea88f0ef6b",
-            "reference": "2fc6510fe668493fe6a6ed6c61e03fea88f0ef6b",
-            "shasum": ""
-        },
-        "require": {
-            "php": ">=5.3.3"
-        },
-        "time": "2016-01-13 07:16:33",
-        "type": "library",
-        "extra": {
-            "branch-alias": {
-                "dev-master": "1.0-dev"
-            }
-        },
-        "installation-source": "source",
-        "autoload": {
-            "psr-4": {
-                "Symfony\\Polyfill\\Php54\\": ""
-            },
-            "files": [
-                "bootstrap.php"
-            ],
-            "classmap": [
-                "Resources/stubs"
-            ]
-        },
-        "notification-url": "https://packagist.org/downloads/",
-        "license": [
-            "MIT"
-        ],
-        "authors": [
-            {
-                "name": "Nicolas Grekas",
-                "email": "p@tchwork.com"
-            },
-            {
-                "name": "Symfony Community",
-                "homepage": "https://symfony.com/contributors"
-            }
-        ],
-        "description": "Symfony polyfill backporting some PHP 5.4+ features to lower PHP versions",
-        "homepage": "https://symfony.com",
-        "keywords": [
-            "compatibility",
-            "polyfill",
-            "portable",
-            "shim"
+            "payments",
+            "paypal",
+            "rest",
+            "sdk"
         ]
     },
     {
@@ -1316,12 +1730,12 @@
         "source": {
             "type": "git",
             "url": "https://github.com/symfony/http-foundation.git",
-            "reference": "ffe563af49112864b871711c1da8d9cb2ee4e9cb"
+            "reference": "90ec7023f1a92d59390157e5b9a0d989ec3d7e20"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/symfony/http-foundation/zipball/ffe563af49112864b871711c1da8d9cb2ee4e9cb",
-            "reference": "ffe563af49112864b871711c1da8d9cb2ee4e9cb",
+            "url": "https://api.github.com/repos/symfony/http-foundation/zipball/90ec7023f1a92d59390157e5b9a0d989ec3d7e20",
+            "reference": "90ec7023f1a92d59390157e5b9a0d989ec3d7e20",
             "shasum": ""
         },
         "require": {
@@ -1332,7 +1746,7 @@
         "require-dev": {
             "symfony/expression-language": "~2.4|~3.0.0"
         },
-        "time": "2016-01-21 09:05:51",
+        "time": "2016-01-24 11:06:16",
         "type": "library",
         "extra": {
             "branch-alias": {
@@ -1366,45 +1780,102 @@
         "homepage": "https://symfony.com"
     },
     {
-        "name": "symfony/event-dispatcher",
-        "version": "2.8.x-dev",
-        "version_normalized": "2.8.9999999.9999999-dev",
+        "name": "symfony/polyfill-mbstring",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
         "source": {
             "type": "git",
-            "url": "https://github.com/symfony/event-dispatcher.git",
-            "reference": "ee278f7c851533e58ca307f66305ccb9188aceda"
+            "url": "https://github.com/symfony/polyfill-mbstring.git",
+            "reference": "d7f01c96a4dde264682cf36c28e62086c77a09d4"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/symfony/event-dispatcher/zipball/ee278f7c851533e58ca307f66305ccb9188aceda",
-            "reference": "ee278f7c851533e58ca307f66305ccb9188aceda",
+            "url": "https://api.github.com/repos/symfony/polyfill-mbstring/zipball/d7f01c96a4dde264682cf36c28e62086c77a09d4",
+            "reference": "d7f01c96a4dde264682cf36c28e62086c77a09d4",
             "shasum": ""
         },
         "require": {
-            "php": ">=5.3.9"
-        },
-        "require-dev": {
-            "psr/log": "~1.0",
-            "symfony/config": "~2.0,>=2.0.5|~3.0.0",
-            "symfony/dependency-injection": "~2.6|~3.0.0",
-            "symfony/expression-language": "~2.6|~3.0.0",
-            "symfony/stopwatch": "~2.3|~3.0.0"
+            "php": ">=5.3.3"
         },
         "suggest": {
-            "symfony/dependency-injection": "",
-            "symfony/http-kernel": ""
+            "ext-mbstring": "For best performance"
         },
-        "time": "2016-01-13 10:28:07",
+        "time": "2016-01-13 07:16:33",
         "type": "library",
         "extra": {
             "branch-alias": {
-                "dev-master": "2.8-dev"
+                "dev-master": "1.0-dev"
             }
         },
         "installation-source": "source",
         "autoload": {
             "psr-4": {
-                "Symfony\\Component\\EventDispatcher\\": ""
+                "Symfony\\Polyfill\\Mbstring\\": ""
+            },
+            "files": [
+                "bootstrap.php"
+            ]
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Nicolas Grekas",
+                "email": "p@tchwork.com"
+            },
+            {
+                "name": "Symfony Community",
+                "homepage": "https://symfony.com/contributors"
+            }
+        ],
+        "description": "Symfony polyfill for the Mbstring extension",
+        "homepage": "https://symfony.com",
+        "keywords": [
+            "compatibility",
+            "mbstring",
+            "polyfill",
+            "portable",
+            "shim"
+        ]
+    },
+    {
+        "name": "symfony/dom-crawler",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/symfony/dom-crawler.git",
+            "reference": "7af4c27e6a0f31338b627c11e731c8b4b78fbcf8"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/symfony/dom-crawler/zipball/7af4c27e6a0f31338b627c11e731c8b4b78fbcf8",
+            "reference": "7af4c27e6a0f31338b627c11e731c8b4b78fbcf8",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.5.9",
+            "symfony/polyfill-mbstring": "~1.0"
+        },
+        "require-dev": {
+            "symfony/css-selector": "~2.8|~3.0"
+        },
+        "suggest": {
+            "symfony/css-selector": ""
+        },
+        "time": "2016-01-03 15:35:40",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "3.1-dev"
+            }
+        },
+        "installation-source": "source",
+        "autoload": {
+            "psr-4": {
+                "Symfony\\Component\\DomCrawler\\": ""
             },
             "exclude-from-classmap": [
                 "/Tests/"
@@ -1424,77 +1895,439 @@
                 "homepage": "https://symfony.com/contributors"
             }
         ],
-        "description": "Symfony EventDispatcher Component",
+        "description": "Symfony DomCrawler Component",
         "homepage": "https://symfony.com"
     },
     {
-        "name": "guzzle/guzzle",
+        "name": "symfony/css-selector",
         "version": "dev-master",
         "version_normalized": "9999999-dev",
         "source": {
             "type": "git",
-            "url": "https://github.com/guzzle/guzzle3.git",
-            "reference": "b3f5050cb6270c7a728a0b74ac2de50a262b3e02"
+            "url": "https://github.com/symfony/css-selector.git",
+            "reference": "388683e63e4d02be9c1ed7c520eb3a251147fdb6"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/guzzle/guzzle3/zipball/b3f5050cb6270c7a728a0b74ac2de50a262b3e02",
-            "reference": "b3f5050cb6270c7a728a0b74ac2de50a262b3e02",
+            "url": "https://api.github.com/repos/symfony/css-selector/zipball/388683e63e4d02be9c1ed7c520eb3a251147fdb6",
+            "reference": "388683e63e4d02be9c1ed7c520eb3a251147fdb6",
             "shasum": ""
         },
         "require": {
-            "ext-curl": "*",
-            "php": ">=5.3.3",
-            "symfony/event-dispatcher": "~2.1"
+            "php": ">=5.5.9"
         },
-        "replace": {
-            "guzzle/batch": "self.version",
-            "guzzle/cache": "self.version",
-            "guzzle/common": "self.version",
-            "guzzle/http": "self.version",
-            "guzzle/inflection": "self.version",
-            "guzzle/iterator": "self.version",
-            "guzzle/log": "self.version",
-            "guzzle/parser": "self.version",
-            "guzzle/plugin": "self.version",
-            "guzzle/plugin-async": "self.version",
-            "guzzle/plugin-backoff": "self.version",
-            "guzzle/plugin-cache": "self.version",
-            "guzzle/plugin-cookie": "self.version",
-            "guzzle/plugin-curlauth": "self.version",
-            "guzzle/plugin-error-response": "self.version",
-            "guzzle/plugin-history": "self.version",
-            "guzzle/plugin-log": "self.version",
-            "guzzle/plugin-md5": "self.version",
-            "guzzle/plugin-mock": "self.version",
-            "guzzle/plugin-oauth": "self.version",
-            "guzzle/service": "self.version",
-            "guzzle/stream": "self.version"
-        },
-        "require-dev": {
-            "doctrine/cache": "~1.3",
-            "monolog/monolog": "~1.0",
-            "phpunit/phpunit": "3.7.*",
-            "psr/log": "~1.0",
-            "symfony/class-loader": "~2.1",
-            "zendframework/zend-cache": "2.*,<2.3",
-            "zendframework/zend-log": "2.*,<2.3"
-        },
-        "suggest": {
-            "guzzlehttp/guzzle": "Guzzle 5 has moved to a new package name. The package you have installed, Guzzle 3, is deprecated."
-        },
-        "time": "2015-04-29 17:06:53",
+        "time": "2016-01-03 15:35:40",
         "type": "library",
         "extra": {
             "branch-alias": {
-                "dev-master": "3.9-dev"
+                "dev-master": "3.1-dev"
             }
         },
         "installation-source": "source",
         "autoload": {
-            "psr-0": {
-                "Guzzle": "src/",
-                "Guzzle\\Tests": "tests/"
+            "psr-4": {
+                "Symfony\\Component\\CssSelector\\": ""
+            },
+            "exclude-from-classmap": [
+                "/Tests/"
+            ]
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Jean-François Simon",
+                "email": "jeanfrancois.simon@sensiolabs.com"
+            },
+            {
+                "name": "Fabien Potencier",
+                "email": "fabien@symfony.com"
+            },
+            {
+                "name": "Symfony Community",
+                "homepage": "https://symfony.com/contributors"
+            }
+        ],
+        "description": "Symfony CssSelector Component",
+        "homepage": "https://symfony.com"
+    },
+    {
+        "name": "symfony/browser-kit",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/symfony/browser-kit.git",
+            "reference": "2d1d159096e974816bf80802ceb03c975c4f7f94"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/symfony/browser-kit/zipball/2d1d159096e974816bf80802ceb03c975c4f7f94",
+            "reference": "2d1d159096e974816bf80802ceb03c975c4f7f94",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.5.9",
+            "symfony/dom-crawler": "~2.8|~3.0"
+        },
+        "require-dev": {
+            "symfony/css-selector": "~2.8|~3.0",
+            "symfony/process": "~2.8|~3.0"
+        },
+        "suggest": {
+            "symfony/process": ""
+        },
+        "time": "2016-01-13 16:23:43",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "3.1-dev"
+            }
+        },
+        "installation-source": "source",
+        "autoload": {
+            "psr-4": {
+                "Symfony\\Component\\BrowserKit\\": ""
+            },
+            "exclude-from-classmap": [
+                "/Tests/"
+            ]
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Fabien Potencier",
+                "email": "fabien@symfony.com"
+            },
+            {
+                "name": "Symfony Community",
+                "homepage": "https://symfony.com/contributors"
+            }
+        ],
+        "description": "Symfony BrowserKit Component",
+        "homepage": "https://symfony.com"
+    },
+    {
+        "name": "symfony/console",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/symfony/console.git",
+            "reference": "1710486b6038c47b252630b0f4c220faf90e7f96"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/symfony/console/zipball/1710486b6038c47b252630b0f4c220faf90e7f96",
+            "reference": "1710486b6038c47b252630b0f4c220faf90e7f96",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.5.9",
+            "symfony/polyfill-mbstring": "~1.0"
+        },
+        "require-dev": {
+            "psr/log": "~1.0",
+            "symfony/event-dispatcher": "~2.8|~3.0",
+            "symfony/process": "~2.8|~3.0"
+        },
+        "suggest": {
+            "psr/log": "For using the console logger",
+            "symfony/event-dispatcher": "",
+            "symfony/process": ""
+        },
+        "time": "2016-01-21 10:01:50",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "3.1-dev"
+            }
+        },
+        "installation-source": "source",
+        "autoload": {
+            "psr-4": {
+                "Symfony\\Component\\Console\\": ""
+            },
+            "exclude-from-classmap": [
+                "/Tests/"
+            ]
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Fabien Potencier",
+                "email": "fabien@symfony.com"
+            },
+            {
+                "name": "Symfony Community",
+                "homepage": "https://symfony.com/contributors"
+            }
+        ],
+        "description": "Symfony Console Component",
+        "homepage": "https://symfony.com"
+    },
+    {
+        "name": "symfony/finder",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/symfony/finder.git",
+            "reference": "1217af478907b79279ed84a22354408b67e15e68"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/symfony/finder/zipball/1217af478907b79279ed84a22354408b67e15e68",
+            "reference": "1217af478907b79279ed84a22354408b67e15e68",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.5.9"
+        },
+        "time": "2016-01-21 10:01:50",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "3.1-dev"
+            }
+        },
+        "installation-source": "source",
+        "autoload": {
+            "psr-4": {
+                "Symfony\\Component\\Finder\\": ""
+            },
+            "exclude-from-classmap": [
+                "/Tests/"
+            ]
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Fabien Potencier",
+                "email": "fabien@symfony.com"
+            },
+            {
+                "name": "Symfony Community",
+                "homepage": "https://symfony.com/contributors"
+            }
+        ],
+        "description": "Symfony Finder Component",
+        "homepage": "https://symfony.com"
+    },
+    {
+        "name": "psr/http-message",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/php-fig/http-message.git",
+            "reference": "85d63699f0dbedb190bbd4b0d2b9dc707ea4c298"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/php-fig/http-message/zipball/85d63699f0dbedb190bbd4b0d2b9dc707ea4c298",
+            "reference": "85d63699f0dbedb190bbd4b0d2b9dc707ea4c298",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.3.0"
+        },
+        "time": "2015-05-04 20:22:00",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "1.0.x-dev"
+            }
+        },
+        "installation-source": "source",
+        "autoload": {
+            "psr-4": {
+                "Psr\\Http\\Message\\": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "PHP-FIG",
+                "homepage": "http://www.php-fig.org/"
+            }
+        ],
+        "description": "Common interface for HTTP messages",
+        "keywords": [
+            "http",
+            "http-message",
+            "psr",
+            "psr-7",
+            "request",
+            "response"
+        ]
+    },
+    {
+        "name": "guzzlehttp/psr7",
+        "version": "1.2.2",
+        "version_normalized": "1.2.2.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/guzzle/psr7.git",
+            "reference": "f5d04bdd2881ac89abde1fb78cc234bce24327bb"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/guzzle/psr7/zipball/f5d04bdd2881ac89abde1fb78cc234bce24327bb",
+            "reference": "f5d04bdd2881ac89abde1fb78cc234bce24327bb",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.4.0",
+            "psr/http-message": "~1.0"
+        },
+        "provide": {
+            "psr/http-message-implementation": "1.0"
+        },
+        "require-dev": {
+            "phpunit/phpunit": "~4.0"
+        },
+        "time": "2016-01-23 01:23:02",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "1.0-dev"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "GuzzleHttp\\Psr7\\": "src/"
+            },
+            "files": [
+                "src/functions_include.php"
+            ]
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Michael Dowling",
+                "email": "mtdowling@gmail.com",
+                "homepage": "https://github.com/mtdowling"
+            }
+        ],
+        "description": "PSR-7 message implementation",
+        "keywords": [
+            "http",
+            "message",
+            "stream",
+            "uri"
+        ]
+    },
+    {
+        "name": "guzzlehttp/promises",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/guzzle/promises.git",
+            "reference": "b1e1c0d55f8083c71eda2c28c12a228d708294ea"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/guzzle/promises/zipball/b1e1c0d55f8083c71eda2c28c12a228d708294ea",
+            "reference": "b1e1c0d55f8083c71eda2c28c12a228d708294ea",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.5.0"
+        },
+        "require-dev": {
+            "phpunit/phpunit": "~4.0"
+        },
+        "time": "2015-10-15 22:28:00",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "1.0-dev"
+            }
+        },
+        "installation-source": "source",
+        "autoload": {
+            "psr-4": {
+                "GuzzleHttp\\Promise\\": "src/"
+            },
+            "files": [
+                "src/functions_include.php"
+            ]
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Michael Dowling",
+                "email": "mtdowling@gmail.com",
+                "homepage": "https://github.com/mtdowling"
+            }
+        ],
+        "description": "Guzzle promises library",
+        "keywords": [
+            "promise"
+        ]
+    },
+    {
+        "name": "guzzlehttp/guzzle",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/guzzle/guzzle.git",
+            "reference": "5741733ee5a7f1ebe19c7c5449271a6705d3a433"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/guzzle/guzzle/zipball/5741733ee5a7f1ebe19c7c5449271a6705d3a433",
+            "reference": "5741733ee5a7f1ebe19c7c5449271a6705d3a433",
+            "shasum": ""
+        },
+        "require": {
+            "guzzlehttp/promises": "~1.0",
+            "guzzlehttp/psr7": "~1.1",
+            "php": ">=5.5.0"
+        },
+        "require-dev": {
+            "ext-curl": "*",
+            "phpunit/phpunit": "~4.0",
+            "psr/log": "~1.0"
+        },
+        "time": "2016-01-22 22:54:08",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "6.1-dev"
+            }
+        },
+        "installation-source": "source",
+        "autoload": {
+            "files": [
+                "src/functions_include.php"
+            ],
+            "psr-4": {
+                "GuzzleHttp\\": "src/"
             }
         },
         "notification-url": "https://packagist.org/downloads/",
@@ -1506,13 +2339,9 @@
                 "name": "Michael Dowling",
                 "email": "mtdowling@gmail.com",
                 "homepage": "https://github.com/mtdowling"
-            },
-            {
-                "name": "Guzzle Community",
-                "homepage": "https://github.com/guzzle/guzzle/contributors"
             }
         ],
-        "description": "PHP HTTP client. This library is deprecated in favor of https://packagist.org/packages/guzzlehttp/guzzle",
+        "description": "Guzzle is a PHP HTTP client library",
         "homepage": "http://guzzlephp.org/",
         "keywords": [
             "client",
@@ -1525,136 +2354,107 @@
         ]
     },
     {
-        "name": "omnipay/common",
-        "version": "2.4.0",
-        "version_normalized": "2.4.0.0",
+        "name": "facebook/webdriver",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
         "source": {
             "type": "git",
-            "url": "https://github.com/thephpleague/omnipay-common.git",
-            "reference": "8e396e9af39d2b0176e9a05a764a5afce8ad21ef"
+            "url": "https://github.com/facebook/php-webdriver.git",
+            "reference": "575600dfcfebad49fd0fc59d781b0696462a1f4e"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/thephpleague/omnipay-common/zipball/8e396e9af39d2b0176e9a05a764a5afce8ad21ef",
-            "reference": "8e396e9af39d2b0176e9a05a764a5afce8ad21ef",
+            "url": "https://api.github.com/repos/facebook/php-webdriver/zipball/575600dfcfebad49fd0fc59d781b0696462a1f4e",
+            "reference": "575600dfcfebad49fd0fc59d781b0696462a1f4e",
             "shasum": ""
         },
         "require": {
-            "guzzle/guzzle": "~3.9",
-            "php": ">=5.3.2",
-            "symfony/http-foundation": "~2.1"
+            "php": ">=5.3.19"
         },
         "require-dev": {
-            "omnipay/tests": "~2.0"
+            "phpdocumentor/phpdocumentor": "2.*",
+            "phpunit/phpunit": "3.7.*"
         },
-        "time": "2015-10-27 19:40:30",
+        "time": "2015-06-09 17:09:16",
         "type": "library",
-        "extra": {
-            "branch-alias": {
-                "dev-master": "2.0.x-dev"
-            },
-            "gateways": [
-                "AuthorizeNet_AIM",
-                "AuthorizeNet_SIM",
-                "Buckaroo",
-                "Buckaroo_Ideal",
-                "Buckaroo_PayPal",
-                "CardSave",
-                "Coinbase",
-                "Dummy",
-                "Eway_Rapid",
-                "FirstData_Connect",
-                "GoCardless",
-                "Manual",
-                "Migs_ThreeParty",
-                "Migs_TwoParty",
-                "Mollie",
-                "MultiSafepay",
-                "Netaxept",
-                "NetBanx",
-                "PayFast",
-                "Payflow_Pro",
-                "PaymentExpress_PxPay",
-                "PaymentExpress_PxPost",
-                "PayPal_Express",
-                "PayPal_Pro",
-                "Pin",
-                "SagePay_Direct",
-                "SagePay_Server",
-                "SecurePay_DirectPost",
-                "Stripe",
-                "TargetPay_Directebanking",
-                "TargetPay_Ideal",
-                "TargetPay_Mrcash",
-                "WorldPay"
-            ]
-        },
-        "installation-source": "dist",
+        "installation-source": "source",
         "autoload": {
-            "psr-0": {
-                "Omnipay\\Common\\": "src/"
-            },
             "classmap": [
-                "src/Omnipay/Omnipay.php"
+                "lib/"
             ]
         },
         "notification-url": "https://packagist.org/downloads/",
         "license": [
-            "MIT"
+            "Apache-2.0"
         ],
-        "authors": [
-            {
-                "name": "Adrian Macneil",
-                "email": "adrian@adrianmacneil.com"
-            },
-            {
-                "name": "Omnipay Contributors",
-                "homepage": "https://github.com/thephpleague/omnipay-common/contributors"
-            }
-        ],
-        "description": "Common components for Omnipay payment processing library",
-        "homepage": "https://github.com/thephpleague/omnipay-common",
+        "description": "A php client for WebDriver",
+        "homepage": "https://github.com/facebook/php-webdriver",
         "keywords": [
-            "gateway",
-            "merchant",
-            "omnipay",
-            "pay",
-            "payment",
-            "purchase"
+            "facebook",
+            "php",
+            "selenium",
+            "webdriver"
         ]
     },
     {
-        "name": "omnipay/paypal",
-        "version": "v2.5.1",
-        "version_normalized": "2.5.1.0",
+        "name": "codeception/codeception",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
         "source": {
             "type": "git",
-            "url": "https://github.com/thephpleague/omnipay-paypal.git",
-            "reference": "b546d24241725061d44e60516f0fbce202336963"
+            "url": "https://github.com/Codeception/Codeception.git",
+            "reference": "c656475d35a2d81f44fda036cfa2ffaa0a2d7ab0"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/thephpleague/omnipay-paypal/zipball/b546d24241725061d44e60516f0fbce202336963",
-            "reference": "b546d24241725061d44e60516f0fbce202336963",
+            "url": "https://api.github.com/repos/Codeception/Codeception/zipball/c656475d35a2d81f44fda036cfa2ffaa0a2d7ab0",
+            "reference": "c656475d35a2d81f44fda036cfa2ffaa0a2d7ab0",
             "shasum": ""
         },
         "require": {
-            "omnipay/common": "~2.0"
+            "ext-json": "*",
+            "ext-mbstring": "*",
+            "facebook/webdriver": ">=1.0.1",
+            "guzzlehttp/guzzle": ">=4.1.4 <7.0",
+            "guzzlehttp/psr7": "~1.0",
+            "php": ">=5.4.0",
+            "phpunit/phpunit": "~4.8.0",
+            "symfony/browser-kit": ">=2.4|<3.1",
+            "symfony/console": ">=2.4|<3.1",
+            "symfony/css-selector": ">=2.4|<3.1",
+            "symfony/dom-crawler": ">=2.4|<3.1",
+            "symfony/event-dispatcher": ">=2.4|<3.1",
+            "symfony/finder": ">=2.4|<3.1",
+            "symfony/yaml": ">=2.4|<3.1"
         },
         "require-dev": {
-            "omnipay/tests": "~2.0"
+            "codeception/specify": "~0.3",
+            "facebook/php-sdk-v4": "~4.0",
+            "flow/jsonpath": "~0.2",
+            "monolog/monolog": "~1.8",
+            "pda/pheanstalk": "~2.0",
+            "videlalvaro/php-amqplib": "~2.4"
         },
-        "time": "2016-01-13 07:03:27",
+        "suggest": {
+            "codeception/phpbuiltinserver": "Extension to start and stop PHP built-in web server for your tests",
+            "codeception/specify": "BDD-style code blocks",
+            "codeception/verify": "BDD-style assertions",
+            "monolog/monolog": "Log test steps",
+            "phpseclib/phpseclib": "Extension required to use the SFTP option in the FTP Module."
+        },
+        "time": "2016-01-10 17:15:01",
+        "bin": [
+            "codecept"
+        ],
         "type": "library",
         "extra": {
-            "branch-alias": {
-                "dev-master": "2.3.x-dev"
-            }
+            "branch-alias": []
         },
-        "installation-source": "dist",
+        "installation-source": "source",
         "autoload": {
             "psr-4": {
-                "Omnipay\\PayPal\\": "src/"
+                "Codeception\\": "src\\Codeception",
+                "Codeception\\Extension\\": "ext"
             }
         },
         "notification-url": "https://packagist.org/downloads/",
@@ -1663,24 +2463,147 @@
         ],
         "authors": [
             {
-                "name": "Adrian Macneil",
-                "email": "adrian@adrianmacneil.com"
-            },
-            {
-                "name": "Omnipay Contributors",
-                "homepage": "https://github.com/thephpleague/omnipay-paypal/contributors"
+                "name": "Michael Bodnarchuk",
+                "email": "davert@mail.ua",
+                "homepage": "http://codegyre.com"
             }
         ],
-        "description": "PayPal gateway for Omnipay payment processing library",
-        "homepage": "https://github.com/thephpleague/omnipay-paypal",
+        "description": "BDD-style testing framework",
+        "homepage": "http://codeception.com/",
         "keywords": [
-            "gateway",
-            "merchant",
-            "omnipay",
-            "pay",
-            "payment",
-            "paypal",
-            "purchase"
+            "BDD",
+            "TDD",
+            "acceptance testing",
+            "functional testing",
+            "unit testing"
+        ]
+    },
+    {
+        "name": "codeguy/upload",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/brandonsavage/Upload.git",
+            "reference": "e7cc1f87108c0a8a5a55cfdb6bc3d98887ec1b5c"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/brandonsavage/Upload/zipball/e7cc1f87108c0a8a5a55cfdb6bc3d98887ec1b5c",
+            "reference": "e7cc1f87108c0a8a5a55cfdb6bc3d98887ec1b5c",
+            "shasum": ""
+        },
+        "require": {
+            "ext-fileinfo": "*",
+            "php": ">=5.3.0"
+        },
+        "require-dev": {
+            "phpunit/phpunit": "3.7.*"
+        },
+        "time": "2015-08-14 15:11:42",
+        "type": "library",
+        "installation-source": "source",
+        "autoload": {
+            "psr-4": {
+                "Upload\\": "src/Upload"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Josh Lockhart",
+                "email": "info@joshlockhart.com",
+                "homepage": "https://github.com/codeguy/"
+            }
+        ],
+        "description": "Handle file uploads with extensible validation and storage strategies",
+        "homepage": "http://github.com/codeguy/Upload",
+        "keywords": [
+            "file",
+            "upload",
+            "validation"
+        ]
+    },
+    {
+        "name": "squizlabs/php_codesniffer",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/squizlabs/PHP_CodeSniffer.git",
+            "reference": "28c2bb708134b8f257f9f05071a5f3e983e01d57"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/squizlabs/PHP_CodeSniffer/zipball/28c2bb708134b8f257f9f05071a5f3e983e01d57",
+            "reference": "28c2bb708134b8f257f9f05071a5f3e983e01d57",
+            "shasum": ""
+        },
+        "require": {
+            "ext-tokenizer": "*",
+            "ext-xmlwriter": "*",
+            "php": ">=5.1.2"
+        },
+        "require-dev": {
+            "phpunit/phpunit": "~4.0"
+        },
+        "time": "2016-01-21 04:49:41",
+        "bin": [
+            "scripts/phpcs",
+            "scripts/phpcbf"
+        ],
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "2.x-dev"
+            }
+        },
+        "installation-source": "source",
+        "autoload": {
+            "classmap": [
+                "CodeSniffer.php",
+                "CodeSniffer/CLI.php",
+                "CodeSniffer/Exception.php",
+                "CodeSniffer/File.php",
+                "CodeSniffer/Fixer.php",
+                "CodeSniffer/Report.php",
+                "CodeSniffer/Reporting.php",
+                "CodeSniffer/Sniff.php",
+                "CodeSniffer/Tokens.php",
+                "CodeSniffer/Reports/",
+                "CodeSniffer/Tokenizers/",
+                "CodeSniffer/DocGenerators/",
+                "CodeSniffer/Standards/AbstractPatternSniff.php",
+                "CodeSniffer/Standards/AbstractScopeSniff.php",
+                "CodeSniffer/Standards/AbstractVariableSniff.php",
+                "CodeSniffer/Standards/IncorrectPatternException.php",
+                "CodeSniffer/Standards/Generic/Sniffs/",
+                "CodeSniffer/Standards/MySource/Sniffs/",
+                "CodeSniffer/Standards/PEAR/Sniffs/",
+                "CodeSniffer/Standards/PSR1/Sniffs/",
+                "CodeSniffer/Standards/PSR2/Sniffs/",
+                "CodeSniffer/Standards/Squiz/Sniffs/",
+                "CodeSniffer/Standards/Zend/Sniffs/"
+            ]
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "BSD-3-Clause"
+        ],
+        "authors": [
+            {
+                "name": "Greg Sherwood",
+                "role": "lead"
+            }
+        ],
+        "description": "PHP_CodeSniffer tokenizes PHP, JavaScript and CSS files and detects violations of a defined set of coding standards.",
+        "homepage": "http://www.squizlabs.com/php-codesniffer",
+        "keywords": [
+            "phpcs",
+            "standards"
         ]
     }
 ]

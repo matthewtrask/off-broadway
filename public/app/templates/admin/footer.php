@@ -8,6 +8,7 @@
 <script src="/bower_components/foundation/js/foundation/foundation.alert.js"></script>
 <script src="/bower_components/foundation/js/foundation/foundation.reveal.js"></script>
 <script src="/bower_components/foundation/js/foundation/foundation.abide.js"></script>
+<script src="/bower_components/foundation/js/foundation/foundation.offcanvas3.js"></script>
 <script src="/app/templates/admin/js/admin.js"></script>
 <!-- <script src='../bower_components/flowtype/flowtype.js'></script>
  -->

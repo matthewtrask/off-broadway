@@ -16,6 +16,7 @@ use helpers\url;
 
     <!-- Site meta -->
     <meta charset="utf-8">
+
     <title><?php echo $data['title'].' | '.SITETITLE; //SITETITLE defined in app/Core/Config.php ?></title>
 
     <!-- FAVICON -->

@@ -4,7 +4,7 @@
 **
 ** Documentation: http://raincaptcha.driversworld.us/pages/docs_php_wrapper
 ** http://raincaptcha.driversworld.us/
-** This code is in the public domain.
+** This code is in the client domain.
 */
 
 class RainCaptcha {

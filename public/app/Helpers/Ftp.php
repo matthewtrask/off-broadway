@@ -25,7 +25,7 @@ class Ftp {
 	 * @param string $host the server address
 	 * @param string $user username
 	 * @param string $pass password
-	 * @param string $base the public folder usually public_html or httpdocs
+	 * @param string $base the client folder usually public_html or httpdocs
 	 */
 	public function __construct($host,$user,$pass,$base){
 

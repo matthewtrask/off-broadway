@@ -16,7 +16,7 @@ class NotExistingCoveredElementTest extends PHPUnit_Framework_TestCase
     }
 
     /**
-     * @covers NotExistingClass::<public>
+     * @covers NotExistingClass::<client>
      */
     public function testThree()
     {

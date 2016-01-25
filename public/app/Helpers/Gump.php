@@ -91,7 +91,7 @@ class GUMP
 	 * Perform XSS clean to prevent cross site scripting
 	 *
 	 * @static
-	 * @access public
+	 * @access client
 	 * @param  array $data
 	 * @return array
 	 */
@@ -108,7 +108,7 @@ class GUMP
 	/**
 	 * Adds a custom validation rule using a callback function
 	 *
-	 * @access public
+	 * @access client
 	 * @param string $rule
 	 * @param callable $callback
 	 * @return bool
@@ -129,7 +129,7 @@ class GUMP
 	/**
 	 * Adds a custom filter using a callback function
 	 *
-	 * @access public
+	 * @access client
 	 * @param string $rule
 	 * @param callable $callback
 	 * @return bool
@@ -227,7 +227,7 @@ class GUMP
 	/**
 	 * Sanitize the input data
 	 *
-	 * @access public
+	 * @access client
 	 * @param  array $data
 	 * @return array
 	 */
@@ -296,7 +296,7 @@ class GUMP
 	/**
 	 * Perform data validation against the provided ruleset
 	 *
-	 * @access public
+	 * @access client
 	 * @param  mixed $input
 	 * @param  array $ruleset
 	 * @return mixed
@@ -509,7 +509,7 @@ class GUMP
 	/**
 	 * Filter the input data according to the specified filter set
 	 *
-	 * @access public
+	 * @access client
 	 * @param  mixed $input
 	 * @param  array $filterset
 	 * @return mixed

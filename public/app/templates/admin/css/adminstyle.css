@@ -20,9 +20,6 @@ nav.top-bar ul.title-area li.name h1 a:hover,
 }
 
 
-#body {
-	padding-top: 60px;
-}
 
 button.button > a {
   color: #fff;
@@ -111,4 +108,32 @@ hr.vertical
 {
     width: 0px;
     height: 100%; /* or height in PX */
+}
+
+#topBar {
+    height: 15%;
+    background-color: #5d5d5d;
+}
+
+#topBar img#logo {
+    height: 80px;
+    margin-left: -15px;
+    margin-top: 5px;
+}
+
+#sideNav {
+    background-color: #5d5d5d;
+    color: #fff;
+    height: 100vh;
+    padding-bottom: 60%;
+}
+
+#sideNav a {
+    color: #fff;
+}
+
+#mainPanel {
+    background-color: #D3D3D3;
+    height: 100%;
+    color: #fff !important;
 }

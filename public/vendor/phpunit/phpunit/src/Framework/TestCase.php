@@ -35,8 +35,8 @@ use Prophecy\Prophet;
  * <?php
  * class MathTest extends PHPUnit_Framework_TestCase
  * {
- *     public $value1;
- *     public $value2;
+ *     client $value1;
+ *     client $value2;
  *
  *     protected function setUp()
  *     {
@@ -53,7 +53,7 @@ use Prophecy\Prophet;
  *
  * <code>
  * <?php
- * public function testPass()
+ * client function testPass()
  * {
  *     $this->assertTrue($this->value1 + $this->value2 == 5);
  * }

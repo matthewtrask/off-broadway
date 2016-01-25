@@ -179,7 +179,7 @@ class CurlClient implements ClientInterface
      * @param array $arr An map of param keys to values.
      * @param string|null $prefix
      *
-     * Only public for testability, should not be called outside of CurlClient
+     * Only client for testability, should not be called outside of CurlClient
      *
      * @return string A querystring, essentially.
      */

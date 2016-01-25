@@ -3,12 +3,12 @@ class mail extends phpmailer {
     // Set default variables for all new objects
     public $From     = 'noreply@domain.com';
     public $FromName = SITETITLE;
-    //public $Host     = 'smtp.gmail.com';
-    //public $Mailer   = 'smtp';
-    //public $SMTPAuth = true;                         
-    //public $Username = 'email';                         
-    //public $Password = 'password';                         
-    //public $SMTPSecure = 'tls';                         
+    //client $Host     = 'smtp.gmail.com';
+    //client $Mailer   = 'smtp';
+    //client $SMTPAuth = true;
+    //client $Username = 'email';
+    //client $Password = 'password';
+    //client $SMTPSecure = 'tls';
     public $WordWrap = 75;
 
     public function subject($subject) {

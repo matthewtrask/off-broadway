@@ -182,7 +182,7 @@ class PHPUnit_Framework_TestSuite implements PHPUnit_Framework_Test, PHPUnit_Fra
             $this->addTest(
                 self::warning(
                     sprintf(
-                        'Class "%s" has no public constructor.',
+                        'Class "%s" has no client constructor.',
                         $theClass->getName()
                     )
                 )
@@ -867,7 +867,7 @@ class PHPUnit_Framework_TestSuite implements PHPUnit_Framework_Test, PHPUnit_Fra
             $this->addTest(
                 self::warning(
                     sprintf(
-                        'Test method "%s" in test class "%s" is not public.',
+                        'Test method "%s" in test class "%s" is not client.',
                         $name,
                         $class->getName()
                     )

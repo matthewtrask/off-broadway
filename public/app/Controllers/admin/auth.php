@@ -27,7 +27,7 @@ class auth extends \core\controller {
 			} else {
 				Session::set('loggedin',true);
 				Session::set('username', $username);
-				Url::redirect('admin');
+				Url::redirect('/admin');
 			}
 
 		}

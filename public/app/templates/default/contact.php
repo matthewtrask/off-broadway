@@ -1,9 +1,3 @@
-<?php
-use Dotenv\Dotenv;
-$dotenv = new Dotenv('/var/www/public/');
-$dotenv->load();
-?>
-
 <script async defer
 		src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC6SZ3Y0LGv6kecQTynpa1heqEYchzI1NE&callback=initMap">
 </script>
@@ -49,7 +43,7 @@ $dotenv->load();
 						</label>
 					</div>
 				</div>
-				<button class="button success" id="submitForm" value="submit" for="submit" style="width: 200px">Submit</button>
+				<button class="button success" id="submitForm" value="submit" for="submit" style="width: 200px">Submit <i class="fa fa-arrow-right"></i></button>
 			</form>
 		</div>
 

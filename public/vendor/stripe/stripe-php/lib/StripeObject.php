@@ -159,7 +159,7 @@ class StripeObject implements ArrayAccess, JsonSerializable
     }
 
     /**
-     * This unfortunately needs to be public to be used in Util\Util
+     * This unfortunately needs to be client to be used in Util\Util
      *
      * @param array $values
      * @param array $opts

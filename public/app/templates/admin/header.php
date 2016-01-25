@@ -8,6 +8,7 @@
 
 use Helpers\Assets;
 use Helpers\Url;
+use Helpers\Session;
 
 ?>
 <!DOCTYPE html>
@@ -61,11 +62,11 @@ use Helpers\Url;
   ?>
 
 </head>
-<div class="fixed">
+<div class="fixed" style="margin-bottom: 40px;">
   <nav class="top-bar" data-topbar role="navigation">
-    <ul class="title-area" style="margin-left: 2%;">
-      <li class="name">
-        <a href="admin"><h1>OBCT</h1></a>
+    <ul class="title-area">
+      <li class="name" style="margin-left: 2%">
+        <a href="/"><h1>OBCT</h1></a>
       </li>
       <!-- Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone -->
       <li class="toggle-topbar menu-icon"><a href="#"><span>Menu</span></a></li>
@@ -73,20 +74,9 @@ use Helpers\Url;
 
     <section class="top-bar-section">
       <!-- Right Nav Section -->
-      <ul class="right" style="margin-right: 5%">
-        <li><a href="">Admin</a></li>
-        <li><a href="admin/users">Users</a></li>
-        <li class="has-dropdown">
-          <a href="#">Pages</a>
-          <ul class="dropdown">
-            <li><a href="#">Home</a></li>
-            <li><a href='#'>About</a></li>
-            <li><a href="admin/classes">Classes</a></li>
-            <li><a href="admin/faq">FAQ</a></li>
-          </ul>
-        </li>
+      <ul class="right">
+
       </ul>
     </section>
   </nav>
 </div>
-<main id="body">

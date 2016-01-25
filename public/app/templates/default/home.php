@@ -35,7 +35,7 @@
             echo "<h4>".$show->show_title."</h4>";
             echo "<img src=data:image/jpg;base64,$show->image>";
 			if(isset($show->tickets)){
-				echo "<button class='button register'><a href=".$show->box_office_link.">Buy Tickets</a></button>";
+				echo "<a target='_blank' href=".$show->tickets."><button class='button register expand'>Buy Tickets</button></a>";
 			} else {
 				echo "<p>Tickets available soon!</p>";
 			}

@@ -18,5 +18,6 @@ sftp-config.json
 
 
 # files for project
+*.env
 .env
 public/.env

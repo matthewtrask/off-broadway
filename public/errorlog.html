@@ -1,72 +1,46 @@
 <h3>Exception information:</h3>
 
-		<p><strong>Date:</strong> Jan 30, 2016 19:03PM</p>
+		<p><strong>Date:</strong> Jan 30, 2016 23:21PM</p>
 
-		<p><strong>Message:</strong> SQLSTATE[HY000] [1045] Access denied for user ''@'localhost' (using password: NO)</p>
+		<p><strong>Message:</strong> SQLSTATE[42S02]: Base table or view not found: 1146 Table 'offbroadway.obct_members' doesn't exist</p>
 
-		<p><strong>Code:</strong> 1045</p>
+		<p><strong>Code:</strong> 42S02</p>
 
 		<p><strong>File:</strong> /var/www/public/app/helpers/database.php</p>
 
-		<p><strong>Line:</strong> 54</p>
+		<p><strong>Line:</strong> 86</p>
 
 		<h3>Stack trace:</h3>
 
-		<pre>#0 /var/www/public/app/helpers/database.php(54): PDO->__construct('mysql:host=;dbn...', '', '')
-#1 /var/www/public/app/core/model.php(25): helpers\Database::get()
-#2 /var/www/public/app/models/Obct.php(7): core\Model->__construct()
-#3 /var/www/public/app/controllers/offbroadway.php(33): models\Obct->__construct()
-#4 /var/www/public/app/core/router.php(80): controllers\offbroadway->__construct(NULL)
-#5 /var/www/public/app/core/router.php(177): core\Router::invokeObject('controllers\\off...')
-#6 /var/www/public/index.php(143): core\Router::dispatch()
-#7 {main}</pre>
+		<pre>#0 /var/www/public/app/helpers/database.php(86): PDOStatement->execute()
+#1 /var/www/public/app/models/admin/auth.php(6): helpers\Database->select('SELECT password...', Array)
+#2 /var/www/public/app/controllers/admin/auth.php(25): models\admin\Auth->getHash('demo')
+#3 /var/www/public/app/core/router.php(85): controllers\admin\auth->login()
+#4 /var/www/public/app/core/router.php(177): core\Router::invokeObject('\\controllers\\ad...')
+#5 /var/www/public/index.php(143): core\Router::dispatch()
+#6 {main}</pre>
 
 		<hr />
 <h3>Exception information:</h3>
 
-		<p><strong>Date:</strong> Jan 30, 2016 19:02PM</p>
+		<p><strong>Date:</strong> Jan 30, 2016 23:21PM</p>
 
-		<p><strong>Message:</strong> SQLSTATE[HY000] [1045] Access denied for user ''@'localhost' (using password: NO)</p>
+		<p><strong>Message:</strong> SQLSTATE[42S02]: Base table or view not found: 1146 Table 'offbroadway.obct_members' doesn't exist</p>
 
-		<p><strong>Code:</strong> 1045</p>
-
-		<p><strong>File:</strong> /var/www/public/app/helpers/database.php</p>
-
-		<p><strong>Line:</strong> 54</p>
-
-		<h3>Stack trace:</h3>
-
-		<pre>#0 /var/www/public/app/helpers/database.php(54): PDO->__construct('mysql:host=;dbn...', '', '')
-#1 /var/www/public/app/core/model.php(25): helpers\Database::get()
-#2 /var/www/public/app/models/obct.php(7): core\Model->__construct()
-#3 /var/www/public/app/controllers/admin/admin.php(15): models\Obct->__construct()
-#4 /var/www/public/app/core/router.php(80): controllers\admin\admin->__construct(NULL)
-#5 /var/www/public/app/core/router.php(177): core\Router::invokeObject('\\controllers\\ad...')
-#6 /var/www/public/index.php(143): core\Router::dispatch()
-#7 {main}</pre>
-
-		<hr />
-<h3>Exception information:</h3>
-
-		<p><strong>Date:</strong> Jan 30, 2016 19:02PM</p>
-
-		<p><strong>Message:</strong> SQLSTATE[HY000] [1045] Access denied for user ''@'localhost' (using password: NO)</p>
-
-		<p><strong>Code:</strong> 1045</p>
+		<p><strong>Code:</strong> 42S02</p>
 
 		<p><strong>File:</strong> /var/www/public/app/helpers/database.php</p>
 
-		<p><strong>Line:</strong> 54</p>
+		<p><strong>Line:</strong> 86</p>
 
 		<h3>Stack trace:</h3>
 
-		<pre>#0 /var/www/public/app/helpers/database.php(54): PDO->__construct('mysql:host=;dbn...', '', '')
-#1 /var/www/public/app/core/model.php(25): helpers\Database::get()
-#2 /var/www/public/app/models/obct.php(7): core\Model->__construct()
-#3 /var/www/public/app/controllers/admin/admin.php(15): models\Obct->__construct()
-#4 /var/www/public/app/core/router.php(80): controllers\admin\admin->__construct(NULL)
-#5 /var/www/public/app/core/router.php(177): core\Router::invokeObject('\\controllers\\ad...')
-#6 /var/www/public/index.php(143): core\Router::dispatch()
-#7 {main}</pre>
+		<pre>#0 /var/www/public/app/helpers/database.php(86): PDOStatement->execute()
+#1 /var/www/public/app/models/admin/auth.php(6): helpers\Database->select('SELECT password...', Array)
+#2 /var/www/public/app/controllers/admin/auth.php(25): models\admin\Auth->getHash('demo')
+#3 /var/www/public/app/core/router.php(85): controllers\admin\auth->login()
+#4 /var/www/public/app/core/router.php(177): core\Router::invokeObject('\\controllers\\ad...')
+#5 /var/www/public/index.php(143): core\Router::dispatch()
+#6 {main}</pre>
 
 		<hr />

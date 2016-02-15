@@ -37,7 +37,7 @@ foreach($data['summer'] as $summer){
             echo "<img style='height: 300px; width: 300px' src=data:image/jpg;base64,$summer->show_image>";
         echo "</div>";
     echo "</div>";
-    echo "<button class='button'><a href='mailto:offbroadway@msn.net'>Email Us</a></button>";
+    echo "<button class='button'><a href='https://app.jackrabbitclass.com/reg.asp?id=277946'>Register Now!</a></button>";
     echo "<a class='close-reveal-modal' aria-label='Close'>&#215;</a>";
     echo "</div>";
 }

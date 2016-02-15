@@ -4,9 +4,9 @@ use \helpers\session;
 use Carbon\Carbon;
 ?>
 
+<div class="small-3 columns">
 
-<div class="row">
-	<div class="small-12 columns" id="subNav">
-		
-	</div>
+</div>
+<div class="small=9 columns">
+
 </div>

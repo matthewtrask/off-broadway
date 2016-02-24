@@ -32,6 +32,7 @@ foreach($data['summer'] as $summer){
             echo "<p><b>Times</b>: ".$summer->time."</p>";
             echo "<p><b>Ages</b>: ".$summer->ages."</p>";
             echo "<p><b>Show Dates</b>: ".$summer->show_dates."</p>";
+            echo "<p><b>Price</b>: $".$summer->cost."</p>";
         echo "</div>";
         echo "<div class='small-7 columns'>";
             echo "<img style='height: 300px; width: 300px' src=data:image/jpg;base64,$summer->show_image>";

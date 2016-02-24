@@ -81,13 +81,23 @@ button.button > a {
 }
 
 .button.whatsnew {
-  background-color: #ff6047 !important;
-  color: #5d5d5d;
-}
+   background-color: #ff6047 !important;
+   color: #5d5d5d;
+ }
 
 .button.whatsnew:hover {
   background-color: #ff6047 !important;
   color: #5d5d5d;
+}
+
+.button.popup {
+  background-color: #5d5d5d !important;
+  color: #fff;
+}
+
+.button.popup:hover {
+  background-color: #5d5d5d !important;
+  color: #fff;
 }
 
 #alertBox h3, #alertBox h5 {

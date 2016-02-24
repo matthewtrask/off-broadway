@@ -6,6 +6,7 @@
  * Time: 7:21 PM
  */
 use \helpers\url;
+use Carbon\Carbon;
 ?>
 
 <div class="row" style="margin-top: 4%">
@@ -33,9 +34,14 @@ use \helpers\url;
                 echo "<div class='row'>";
                     echo "<div class='small-6 columns'>";
                         echo "<h5><b>Show Title: ".$upcomingShow->title."</b></h5>";
-                        echo "<p>Dates: ".$upcomingShow->dates."</p>";
-                        echo "<p>Auditions: ".$upcomingShow->auditions."</p>";
-                        echo "<p>Price: ".$upcomingShow->price."</p>";
+                        echo "<p><b>Show Dates</b>: ".$upcomingShow->dates."</p>";
+                        if (isset($upcomingShow->auditions)){
+                            echo "<p><b>Auditions</b>: ".$upcomingShow->auditions."</p>";
+                        }
+                        if (isset($upcomingShow->audition_prep)){
+                            echo "<p><b>Audition Info</b>: ".$upcomingShow->audition_prep."</p>";
+                        }
+                        echo "<p><b>Price</b>: ".$upcomingShow->price."</p>";
                     echo "</div>";
                     echo "<div class='small-6 columns'>";
                         echo "<img src=data:image/jpg;base64,$upcomingShow->image>";

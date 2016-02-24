@@ -103,6 +103,9 @@ class offbroadway extends \core\controller {
         $auditions = $this->_obct->getAuditions();
         $data['auditions'] = $auditions;
 
+        $troupeInfo = $this->_obct->getTroupeAddtInfo();
+        $data['jrtroupe'] = $troupeInfo;
+
         $faq = $this->_obct->getFaq();
         $data['faq'] = $faq;
 

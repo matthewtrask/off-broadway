@@ -9,8 +9,8 @@
         <?php foreach($data['jrTroupe'] as $jrtroupe){
           echo "<p>".$jrtroupe->content."</p>";
         } ?>
-        <a href='#' data-reveal-id='troupe'><button class="button contact">See the Junior Troupe</button></a>
-
+        <!--<a href='#' data-reveal-id='troupe'><button class="button contact">See the Junior Troupe</button></a>-->
+        <button class="button"><a href="troupe">Senior Troupe Information</a></button>
     </div>
     <div class="small-4 columns">
     </div>

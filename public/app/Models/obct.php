@@ -87,7 +87,7 @@ class Obct extends \core\model {
 
     public function getWhatsNew()
     {
-        return $this->_db->select('select id, title, content, button from '.PREFIX.'whats_new');
+        return $this->_db->select('select id, title, content, button from '.PREFIX.'whats_new order by id DESC limit 5');
     }
 
     public function getCurrentShow()
@@ -116,7 +116,7 @@ class Obct extends \core\model {
 
     public function getJrTroupeInfo()
     {
-        return $this->_db->select('select id, content from .'.PREFIX.'about_jr_troupe');
+        return $this->_db->select('select id, content from .'.PREFIX.'about_jr_troupe where id = 3');
     }
 
     public function getJrTroupeImages()
@@ -158,6 +158,8 @@ class Obct extends \core\model {
     {
         return $this->_db->select('SELECT id, alert, link from '.PREFIX.'alert WHERE active = 1');
     }
+
+
     // UPDATE METHODS
     public function updateClasses($updatedInfo, $where)
     {

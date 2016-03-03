@@ -105,6 +105,7 @@ use helpers\url;
             <a href='#'>Troupe</a>
             <ul class="dropdown">
               <li><a href="troupe">Senior Troupe</a></li>
+              <li><a href="juniortroupe">Junior Troupe</a></li>
             </ul>
           </li>
           <li><a href='contact'>Contact</a></li>

@@ -6,10 +6,11 @@
 <div class="row" style="margin-top: 4%">
     <div class="small-8 columns">
         <h2>OBCT Jr. Troupe</h2><hr>
-        <?php foreach($data['jrTroupe'] as $jrtroupe){
-          echo "<p>".$jrtroupe->content."</p>";
+        <?php foreach($data['jrTroupeAudition'] as $jrTroupeAudition){
+          echo "<h2>".$jrTroupeAudition->heading.":</h2> <p>".$jrTroupeAudition->body."</p>";
         } ?>
         <!--<a href='#' data-reveal-id='troupe'><button class="button contact">See the Junior Troupe</button></a>-->
+        <p><b>For more information, please check out our Senior Troupe Page</b></p>
         <button class="button"><a href="troupe">Senior Troupe Information</a></button>
     </div>
     <div class="small-4 columns">

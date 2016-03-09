@@ -124,6 +124,11 @@ class Obct extends \core\model {
         return $this->_db->select('select id, troupe_member, image from '.PREFIX.'junior_troupe');
     }
 
+    public function getJrTroupeAudition()
+    {
+        return $this->_db->select('select heading, body from '.PREFIX.'junior_troupe_auditions');
+    }
+
     public function getSchoolPoints()
     {
       return $this->_db->select('select id, point, answer from '.PREFIX.'school_points');

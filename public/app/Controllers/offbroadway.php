@@ -30,7 +30,7 @@ class offbroadway extends \core\controller {
     public function __construct(){
             parent::__construct();
 
-            $this->_obct = new \models\Obct();
+            $this->_obct = new \Models\Obct();
 
     }
 
@@ -175,9 +175,11 @@ class offbroadway extends \core\controller {
 
         $jrTroupe = $this->_obct->getJrTroupeInfo();
         $jrTroupeImg = $this->_obct->getJrTroupeImages();
+        $jrTroupeAuditionInfo = $this->_obct->getJrTroupeAudition();
 
         $data['jrTroupe'] = $jrTroupe;
         $data['jrTroupeImg'] = $jrTroupeImg;
+        $data['jrTroupeAudition'] = $jrTroupeAuditionInfo;
 
         $alert = $this->_obct->getAlerts();
         $data['alert'] = $alert;
